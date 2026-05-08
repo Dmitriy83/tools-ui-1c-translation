@@ -1,0 +1,7 @@
+#Translations for: interface
+
+Command.РедакторКонстант.Synonym=Constants editor [UI]
+Explanation=allows editing constant values in table mode
+ExtendedPresentation=Constants editor
+Form.Константы.Synonym=Constant
+Synonym=Constants editor [UI]

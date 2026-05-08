@@ -1,0 +1,23 @@
+#Translations for: model
+
+Attribute.Объект.Name=Object
+Attribute.СуффиксРеквизитаКонтейнера.Name=SuffixAttributeContainer
+Attribute.ТаблицаЗначений.Name=TableValues
+Attribute.ТаблицаЗначенийКолонкиКонтейнера.Name=TableValuesColumnContainer
+Attribute.ТаблицаЗначенийСоответствиеКолонок.Name=TableValuesMapColumns
+Command.КомандаЗаполнитьИзСтрокиВнутр.Name=CommandFillFromRowInternal
+Command.КомандаЗначениеВСтрокуВнутр.Name=CommandValueInStringInternal
+Command.КомандаЗначениеВФайл.Name=CommandValueInFile
+Command.КомандаЗначениеИзФайла.Name=CommandValueFromFile
+Command.КомандаОК.Name=CommandOK
+Command.КомандаОчистить.Name=CommandClear
+Item.ГруппаКоманднаяПанельНижняя.Name=GroupCommandPanelBottom
+Item.КнопкаОК.Name=ButtonOK
+Item.КомандаОтмена.Name=CommandCancel
+Item.ТаблицаКнопкаДобавить.Name=TableButtonAdd
+Item.ТаблицаКнопкаПереместитьВверх.Name=TableButtonMoveUp
+Item.ТаблицаКнопкаПереместитьВниз.Name=TableButtonMoveDown
+Item.ТаблицаКнопкаСкопировать.Name=TableButtonCopy
+Item.ТаблицаКнопкаУдалить.Name=TableButtonDelete
+Item.ФормаГруппаЗаполнить.Name=FormGroupFill
+Item.ФормаГруппаПередать.Name=FormGroupPass

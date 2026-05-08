@@ -1,0 +1,16 @@
+#Translations for: model
+
+Attribute._ДеревоПодсистем.Name=_TreeSubsystems
+Attribute._ДеревоПодсистем.ВключатьВОтбор.Name=IncludeInFilter
+Attribute._ДеревоПодсистем.Имя.Name=Name
+Attribute._ДеревоПодсистем.ПолноеИмя.Name=FullName
+Attribute._ДеревоПодсистем.Пометка.Name=Mark
+Attribute._ДеревоПодсистем.Синоним.Name=Synonym
+Attribute._ОтборПоПодсистемам.Name=_FilterBySubsystems
+Command._ИсключитьПодсистемуИзОтбора.Name=_ExcludeSubsystemFromFilter
+Command._ОтключитьОтбор.Name=_DisableFilter
+Command._УстановитьОтбор.Name=_SetFilter
+Item.ГруппаДерево.Name=GroupTree
+Item.ГруппаКоманды.Name=GroupCommand
+Item.ГруппаОсновная.Name=GroupPrimary
+Item.Декорация1.Name=Decoration1

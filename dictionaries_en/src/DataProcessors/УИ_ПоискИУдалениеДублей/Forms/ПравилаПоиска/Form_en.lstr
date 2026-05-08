@@ -1,0 +1,14 @@
+#Translations for: interface
+
+Attribute.ОписаниеПрикладныхПравил.Title=With restrictions applied
+Attribute.ПравилаПоиска.Title=Consider items duplicates if
+Attribute.ПравилаПоиска.Использовать.Title=Use
+Attribute.ПравилаПоиска.Правило.Title=Rule
+Attribute.ПравилаПоиска.ПредставлениеРеквизита.Title=Field
+Attribute.УчитыватьПрикладныеПравила.Title=Apply restrictions\:
+Command.ЗавершитьРедактирование.Title=OK
+Command.ЗавершитьРедактирование.ToolTip=Finish editing
+Item.ГруппаПрикладныхОграничений.Title=Applied restrictions
+Item.ПравилаПоиска.Title=Search rules
+Item.ПравилаПоискаГруппа1.Title=Search rules group 1
+Item.ФормаГруппаСправка.Title=Form help group

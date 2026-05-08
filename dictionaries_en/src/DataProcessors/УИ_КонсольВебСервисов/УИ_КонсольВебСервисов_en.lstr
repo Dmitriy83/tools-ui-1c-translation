@@ -1,0 +1,7 @@
+#Translations for: interface
+
+Explanation=Data processor for reading and executing web services on the 1C\:Enterprise 8.3 platform. Analog of soapUI. Allows executing a web service operation and displaying the result as XML or as a tree
+ExtendedPresentation=Web services console (WS)
+Form.Форма.Synonym=Form
+Form.ФормаВводаСтруктуры.Synonym=Structure input form
+Synonym=Web services console (WS) [UI]

@@ -1,0 +1,15 @@
+#Translations for: model
+
+Attribute.ВидГраницы.Name=KindBorder
+Attribute.ДатаМомента.Name=DateMoment
+Attribute.Значение.Name=Value
+Attribute.ЗначениеГраницы.Name=ValueBorder
+Attribute.Объект.Name=Object
+Attribute.СсылкаМомента.Name=RefMoment
+Command.КомандаОК.Name=CommandOK
+Item.ВидГраницы.ChoiceList.0.Value.Value=Including
+Item.ВидГраницы.ChoiceList.1.Value.Value=Excluding
+Item.ГруппаГраница.Name=GroupBorder
+Item.ГруппаКоманднаяПанельВнизу.Name=GroupCommandPanelBelow
+Item.ГруппаМоментВремени.Name=GroupMomentTime
+Item.КнопкаЗакрыть.Name=ButtonClose

@@ -1,0 +1,23 @@
+#Translations for: model
+
+Method.ЗагрузитьФайл.Name=LoadFile
+Method.ЗагрузитьФайл.Param.ВыполняемоеОповещение.Name=ExecutedNotification
+Method.ЗагрузитьФайл.Param.Интерактивно.Name=Interactively
+Method.ЗагрузитьФайл.Param.РасположениеФайла.Name=LocationFile
+Method.ЗагрузитьФайл.String.ВыполняемоеОповещение.Key=ExecutedNotification
+Method.ЗагрузитьФайл.Var.ДополнительныеПараметры.Name=AdditionalParameters
+Method.ЗагрузитьФайлЗавершение.Name=LoadFileCompletion
+Method.ЗагрузитьФайлЗавершение.Param.ДополнительныеПараметры.Name=AdditionalParameters
+Method.ЗагрузитьФайлЗавершение.Param.ОписаниеПомещенногоФайла.Name=DescriptionPlacedFile
+Method.СохранитьФайл.Name=SaveFile
+Method.СохранитьФайл.Param.АдресФайлаВХранилище.Name=AddressFileInStorage
+Method.СохранитьФайл.Param.Интерактивно.Name=Interactively
+Method.СохранитьФайл.Param.ОписаниеОповещения.Name=DescriptionNotification
+Method.СохранитьФайл.Param.РасположениеФайла.Name=LocationFile
+Method.СохранитьФайлЗавершение.Comment.Заглушка.Description=Stub
+Method.СохранитьФайлЗавершение.Description=@skip-warning
+Method.СохранитьФайлЗавершение.Name=SaveFileCompletion
+Method.СохранитьФайлЗавершение.Param.ДополнительныеПараметры.Name=AdditionalParameters
+Method.СохранитьФайлЗавершение.Param.ПолученныеФайлы.Name=ReceivedFiles
+Region.ПрограммныйИнтерфейс.Name=ProgramInterface
+Region.ПрограммныйИнтерфейс.СлужебныеПроцедурыИФункции.Name=ServiceProcedureAndFunction

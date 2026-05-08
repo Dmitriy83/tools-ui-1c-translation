@@ -1,0 +1,9 @@
+#Translations for: interface
+
+Attribute.АктивироватьТекущийЭлементВПрототипе.Title=Activate current item in prototype
+Attribute.ЗагружатьСвойстваИзФайла.Title=Load properties from file
+Attribute.РежимРедактированияСвойств.Title=Properties editing mode
+Command.ПрименитьНастройкиПроекта.Title=Apply
+Command.ПрименитьНастройкиПроекта.ToolTip=Apply project settings
+Item.АктивироватьТекущийЭлементВПрототипе.ToolTip=The control will be highlighted, and the prototype will come to the foreground when positioning in the tree of forms and controls.
+Title=Settings

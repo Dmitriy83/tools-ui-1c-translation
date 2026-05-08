@@ -1,0 +1,21 @@
+#Translations for: interface
+
+Method.ПредставлениеСсылки.Var.Результат.NStr.не\ задано.Lines=not set
+Method.ПроверитьКорректностьНастроек.Var.РасположениеФайла.NStr.на\ сервере.Lines=on server
+Method.ПроверитьКорректностьНастроек.Var.Текст.NStr.Обработка\ "%1"\ не\ найдена\ в\ составе\ конфигурации.Lines=Data processor "%1" not found in configuration
+Method.ПроверитьКорректностьНастроек.Var.Текст.NStr.Файл\ "%1"\ не\ доступен\ %2.Lines=File "%1" is not accessible %2
+Method.СведенияОВнешнейОбработке.Var.Инфо.NStr.Регистрация\ изменений\ для\ обмена\ данными.Lines=Change registration for data exchange
+Method.СведенияОВнешнейОбработке.Var.Команда.NStr.Редактирование\ регистрации\ изменений\ объекта.Lines=Object change registration editing
+Method.СформироватьСтруктуруМетаданных.NStr.Бизнес-процессы.Lines=BusinessProcesses
+Method.СформироватьСтруктуруМетаданных.NStr.Документы.Lines=Documents
+Method.СформироватьСтруктуруМетаданных.NStr.Задачи.Lines=Tasks
+Method.СформироватьСтруктуруМетаданных.NStr.Константы.Lines=Constants
+Method.СформироватьСтруктуруМетаданных.NStr.Планы\ видов\ расчета.Lines=ChartsOfCalculationTypes
+Method.СформироватьСтруктуруМетаданных.NStr.Планы\ видов\ характеристик.Lines=ChartsOfCharacteristicTypes
+Method.СформироватьСтруктуруМетаданных.NStr.Планы\ счетов.Lines=ChartsOfAccounts
+Method.СформироватьСтруктуруМетаданных.NStr.Последовательности.Lines=Sequences
+Method.СформироватьСтруктуруМетаданных.NStr.Регистры\ бухгалтерии.Lines=AccountingRegisters
+Method.СформироватьСтруктуруМетаданных.NStr.Регистры\ накопления.Lines=AccumulationRegisters
+Method.СформироватьСтруктуруМетаданных.NStr.Регистры\ расчета.Lines=CalculationRegisters
+Method.СформироватьСтруктуруМетаданных.NStr.Регистры\ сведений.Lines=InformationRegisters
+Method.СформироватьСтруктуруМетаданных.NStr.Справочники.Lines=Catalogs

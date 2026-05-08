@@ -1,0 +1,21 @@
+#Translations for: interface
+
+Attribute.БазаДанных.Title=Database
+Attribute.ДопПараметры.Title=Additional parameters
+Attribute.РежимЗапуска.Title=Run mode
+Attribute.Сервер.Title=1C Server
+Attribute.Стартер1С.Title=Starter1With
+Attribute.СтрокаКоманды.Title=Command line
+Command.Запустить1С.Title=Start1With
+Command.Запустить1С.ToolTip=Start1With
+Command.СформироватьСтрокуКоманды.Title=Build command line
+Command.СформироватьСтрокуКоманды.ToolTip=Build command line
+Item.ПараметрыЗапуска.Title=Startup parameters
+Item.ПараметрыЗапуска.ToolTip=Startup parameters
+Item.РежимЗапуска.ChoiceList.0.Presentation=Configurator
+Item.РежимЗапуска.ChoiceList.1.Presentation=Thick client (regular application)
+Item.РежимЗапуска.ChoiceList.2.Presentation=Thick client (managed application)
+Item.РежимЗапуска.ChoiceList.3.Presentation=Thin client (managed application)
+Item.Стартер1С.ToolTip=Full path to the 1cestart.exe file (can be entered manually)
+Item.СтрокаКоманды.ToolTip=Resulting 1C startup command line
+Title=1C session startup

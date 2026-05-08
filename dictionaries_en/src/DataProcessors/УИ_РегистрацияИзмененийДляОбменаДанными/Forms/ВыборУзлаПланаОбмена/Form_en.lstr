@@ -1,0 +1,23 @@
+#Translations for: interface
+
+Attribute.ДеревоУзловОбмена.Title=Exchange nodes tree
+Attribute.ДеревоУзловОбмена.ИндексКартинки.Title=Picture index
+Attribute.ДеревоУзловОбмена.Код.Title=Code
+Attribute.ДеревоУзловОбмена.Наименование.Title=Exchange node
+Attribute.ДеревоУзловОбмена.Ссылка.Title=Ref
+Attribute.МножественныйВыбор.Title=Multiple selection
+Command.ВыбратьУзел.Title=Select
+Command.ВыбратьУзел.ToolTip=Select node
+Command.ИзменитьУзел.Title=Change
+Command.ИзменитьУзел.ToolTip=Change node
+Command.РедактироватьОбъект.Title=Edit object
+Item.ДеревоУзловОбмена.Title=Exchange nodes
+Item.ДеревоУзловОбменаКод.Title=Code
+Item.ДеревоУзловОбменаКонтекстноеМенюВыбратьУзел.Title=Select node
+Item.ДеревоУзловОбменаКонтекстноеМенюИзменитьУзел.Title=Change node
+Item.ДеревоУзловОбменаНаименование.Title=Node
+Item.ДеревоУзловОбменаПометкаНаименование.Title=Node description
+Item.ДеревоУзловОбменаПометкаНаименование.ToolTip=Node description
+Item.ФормаВыбратьУзел.Title=Select
+Item.ФормаИзменитьУзел.Title=Change
+Title=Exchange plan node selection

@@ -1,0 +1,24 @@
+#Translations for: model
+
+Attribute.ВариантИспользованияКонсолиЗапросов.Name=VariantUseConsoleQueries
+Attribute.ИдентификаторКонсолиЗапросов.Name=IdentifierConsoleQueries
+Attribute.Объект.Name=Object
+Command.ПодтвердитьВыбор.Name=ConfirmChoice
+Item.АвторегистрацияДвижений.Name=AutoRegistrationRecords
+Item.АвторегистрацияПоследовательностей.Name=AutoRegistrationSequences
+Item.Группа1.Name=Group1
+Item.Группа2.Name=Group2
+Item.Группа3.Name=Group3
+Item.Группа4.Name=Group4
+Item.Группа5.Name=Group5
+Item.Группа6.Name=Group6
+Item.Группа7.Name=Group7
+Item.Группа8.Name=Group8
+Item.ГруппаБСП.Name=GroupSSL
+Item.Декорация1.Name=Decoration1
+Item.Декорация2.Name=Decoration2
+Item.НомераСообщенийРегистрации.Name=NumberMessagesRegistration
+Item.ОбработкаЗапросаВнешняя.Name=ProcessingQueryExternal
+Item.ОбработкаЗапросаПуть.Name=ProcessingQueryPath
+Item.ФормаОК.Name=FormOK
+Item.ФормаОтмена.Name=FormCancel

@@ -1,0 +1,9 @@
+#Translations for: interface
+
+Method.ИмпортироватьЗначениеИзФайла.Var.ДиалогВыбораФайла.NStr.Выберите\ файл.Lines=Select file
+Method.ИмпортироватьЗначениеИзФайла.Var.ДиалогВыбораФайла.NStr.Файлы\ (*\.txt)|*\.txt.Lines=Files (*.txt)|*.txt
+Method.КомандаЗаполнитьИзСтрокиВнутр.Var.Подсказка.NStr.Введите\ системное\ представление\ значения\ в\ строковом\ виде\..Lines=Enter system string representation of the value.
+Method.КомандаЗначениеВСтрокуВнутр.Var.Подсказка.NStr.Системное\ строковое\ представление\ переданного\ значения\..Lines=System string representation of the passed value.
+Method.ОбработатьСериализуемыеЗначения.Var.ТекстОшибки.NStr.Полученный\ тип\ %1\.\ Ожидается\ "ТаблицаЗначений".Lines=Received type %1. Expected "ValueTable"
+Method.ЭкспортироватьЗначениеВФайл.Var.ДиалогВыбораФайла.NStr.Укажите\ имя\ файла.Lines=Specify file name
+Method.ЭкспортироватьЗначениеВФайл.Var.ДиалогВыбораФайла.NStr.Файлы\ (*\.txt)|*\.txt.Lines=Files (*.txt)|*.txt

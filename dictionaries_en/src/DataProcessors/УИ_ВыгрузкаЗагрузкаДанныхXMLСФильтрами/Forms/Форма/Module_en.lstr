@@ -1,0 +1,13 @@
+#Translations for: interface
+
+Method.ВыгрузитьДанные.NStr.Выполняется\ выгрузка\ данных\.\ Пожалуйста,\ подождите\.\.\..Lines=Data export is in progress. Please wait...
+Method.ВыгрузитьДанные.Var.ИмяФайла.NStr.Файл\ выгрузки\.fi.Lines=Export file.fi
+Method.ВыгрузитьДанные.Var.ИмяФайла.NStr.Файл\ выгрузки\.xml.Lines=Export file.xml
+Method.ВыгрузитьДанные.Var.ТекстСообщения.NStr.Поле\ "Имя\ файла"\ не\ заполнено.Lines=Field "File name" is not filled
+Method.ЗагрузитьДанныеЗавершение.NStr.Выполняется\ загрузка\ данных\.\ Пожалуйста,\ подождите\.\.\..Lines=Data import is in progress. Please wait...
+Method.ОбработатьНачалоВыбораФайла.Var.ДиалогВыбораФайла.NStr.Задайте\ имя\ файла\ выгрузки.Lines=Specify export file name
+Method.ОткрытьВПриложенииЗавершение.NStr.Файл\ не\ найден.Lines=File not found
+Method.ПараметрыКонсолиЗапросов.NStr.Выбор\ данных\ для\ выгрузки.Lines=Select data for export
+Method.ПересчитатьВыгружаемыеПоСсылке.NStr.Выполняется\ поиск\ объектов\ метаданных,\ которые\ могут\ быть\ выгружены\ по\ ссылкам\.\.\..Lines=Searching for metadata objects that can be exported by references...
+Method.ПроверитьВерсиюИРежимСовместимостиПлатформы.NStr.Обработка\ предназначена\ для\ запуска\ на\ версии\ платформы\n1С\:Предприятие\ 8\.3\ с\ отключенным\ режимом\ совместимости\ или\ выше.Lines=The data processor is intended to run on platform version\n1C\:Enterprise 8.3 with compatibility mode disabled or higher
+Method.УдалитьПредопределенные.NStr.Внимание\!\ после\ удаления\ всех\ предопределенных\ элементов\ будет\ нарушена\ структура\ данных\ и\ \ \ \nВы,\ возможно,\ не\ сможете\ зайти\ в\ программу\ снова\ (\!)\ \nВы\ готовы\ сразу\ после\ выполнения\ загрузить\ новые\ предопределенные\ элементы\ из\ файла\ ?\nПродолжить\ выполнение\ операции?.Lines=Attention\! after deleting all predefined items, the data structure will be broken and    \nyou may not be able to log in to the program again (\!) \nAre you ready to import new predefined items from file immediately after execution?\nContinue operation?

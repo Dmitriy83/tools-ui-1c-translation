@@ -1,0 +1,23 @@
+#Translations for: model
+
+Method._АвторОткрытие.Var.СтрокаURL.Name=StringURL
+Method.ПриСозданииНаСервере.Comment.Скрытие\ информации\ о\ разработчике\ и\ рекламы.Description=Hide developer information and advertisements
+Method.ПриСозданииНаСервере.String.Word.https.Key=https
+Method.ПриСозданииНаСервере.String.Word.infostart.Key=infostart
+Method.ПриСозданииНаСервере.String.Word.profile.Key=profile
+Method.ПриСозданииНаСервере.String.Word.ru.Key=ru
+Method.ПриСозданииНаСервере.Var._Автор.String.Word.ROL32.Key=ROL32
+Method.ПриСозданииНаСервере.Var._Автор.String.Word.Олег.Key=Oleg
+Method.ПриСозданииНаСервере.Var._Автор.String.Word.Русов.Key=Rus
+Method.ПриСозданииНаСервере.Var._Версия.String.от.Key=from
+Method.ПриСозданииНаСервере.Var._Сайт.String.Word.fin.Key=fin
+Method.ПриСозданииНаСервере.Var._Сайт.String.Word.gf.Key=gf
+Method.ПриСозданииНаСервере.Var._Сайт.String.Word.http.Key=http
+Method.ПриСозданииНаСервере.Var._Сайт.String.Word.ru.Key=ru
+Method.ПриСозданииНаСервере.Var._Сайт.String.Word.www.Key=www
+Method.ПриСозданииНаСервере.Var.Элем.Name=Item
+Method.вВыполнитьПереходURL.Name=inExecuteTransitionURL
+Method.вВыполнитьПереходURL.Param.СтрокаURL.Name=StringURL
+Method.вПустойОбработчикОповещения.Name=inEmptyHandlerNotification
+Method.вПустойОбработчикОповещения.Param.ДопПарам.Name=AdditionalParam
+Method.вПустойОбработчикОповещения.Param.КодВозврата.Name=CodeReturn

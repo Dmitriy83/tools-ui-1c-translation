@@ -1,0 +1,30 @@
+#Translations for: model
+
+Comment.ВСПОМОГАТЕЛЬНЫЕ\ ПРОЦЕДУРЫ\ И\ ФУНКЦИИ.Description=AUXILIARY PROCEDURES AND FUNCTIONS
+Comment.ОПИСАНИЕ\ ИНТЕРФЕЙСОВ.Description=INTERFACE DESCRIPTION
+Method.ВыполнитьКоманду.Description=Interface for launching processing logic\nParameters\nDestinationObjects - array - references to information base objects for which\nprocessing should be invoked
+Method.ВыполнитьКоманду.Name=ExecuteCommand
+Method.ВыполнитьКоманду.Param.ИдентификаторКоманды.Name=IdentifierCommand
+Method.ДобавитьКоманду.Name=AddCommand
+Method.ДобавитьКоманду.Param.Идентификатор.Name=Identifier
+Method.ДобавитьКоманду.Param.Использование.Name=Use
+Method.ДобавитьКоманду.Param.Модификатор.Name=Modifier
+Method.ДобавитьКоманду.Param.ПоказыватьОповещение.Name=ShowNotification
+Method.ДобавитьКоманду.Param.Представление.Name=Presentation
+Method.ДобавитьКоманду.Param.ТаблицаКоманд.Name=TableCommands
+Method.ДобавитьКоманду.Var.НоваяКоманда.Name=NewCommand
+Method.ПолучитьМакетОбработки.Name=GetTemplateProcessing
+Method.ПолучитьМакетОбработки.Param.Имя.Name=Name
+Method.ПолучитьТаблицуКоманд.Name=GetTableCommands
+Method.ПолучитьТаблицуКоманд.String.Модификатор.Key=Modifier
+Method.ПолучитьТаблицуКоманд.String.ПоказыватьОповещение.Key=ShowNotification
+Method.ПолучитьТаблицуКоманд.Var.Команды.Name=Command
+Method.СведенияОВнешнейОбработке.Description=Interface for processing registration.\nCalled when the processing is added to the "ExternalProcessings" catalog
+Method.СведенияОВнешнейОбработке.Name=InfoOExternalProcessing
+Method.СведенияОВнешнейОбработке.Return.Description=and at the end of processing launch. Note. Makes sense only\nwhen launching processing without opening the form.
+Method.СведенияОВнешнейОбработке.String.ДополнительнаяОбработка.Key=AdditionalProcessing
+Method.СведенияОВнешнейОбработке.String.Информация.Key=Information
+Method.СведенияОВнешнейОбработке.String.Открытие_ЗагрузкаДанныхИзТабличногоДокумента_.Key=Opening_LoadDataFromTabularDocument_
+Method.СведенияОВнешнейОбработке.String.ОткрытиеФормы.Key=OpeningForm
+Method.СведенияОВнешнейОбработке.Var.ПараметрыРегистрации.Name=ParametersRegistration
+Method.СведенияОВнешнейОбработке.Var.ТаблицаКоманд.Name=TableCommands

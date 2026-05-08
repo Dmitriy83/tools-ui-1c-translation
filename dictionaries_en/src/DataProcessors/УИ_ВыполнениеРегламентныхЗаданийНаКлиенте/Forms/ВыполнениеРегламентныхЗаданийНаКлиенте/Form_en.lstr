@@ -1,0 +1,25 @@
+#Translations for: interface
+
+Attribute.ИнтервалВремениПроверкиВыполнения.Title=Job check and run interval
+Attribute.Объект.Title=Object
+Attribute.ОсталосьДоНачалаВыполнения.Title=Time in seconds until the next scheduled jobs run check.\n\t\t\t\t
+Attribute.ТаблицаРегламентныхЗаданий.Title=Scheduled jobs table
+Attribute.ТаблицаРегламентныхЗаданий.Выполнено.Title=Executed
+Attribute.ТаблицаРегламентныхЗаданий.Выполнять.Title=Execute
+Attribute.ТаблицаРегламентныхЗаданий.Идентификатор.Title=Identifier
+Attribute.ТаблицаРегламентныхЗаданий.Изменено.Title=Changed
+Attribute.ТаблицаРегламентныхЗаданий.Номер.Title=no
+Attribute.ТаблицаРегламентныхЗаданий.РегламентноеЗадание.Title=Scheduled job
+Attribute.ТаблицаРегламентныхЗаданий.Статус.Title=Status
+Command.ОчиститьКоличествоЗапусков.Title=Clear job run count
+Command.ПрекратитьВыполнение.Title=Stop execution and close
+Command.ПрекратитьВыполнение.ToolTip=Stop execution
+Item.ГруппаИнтервалВремениВыполнения.Title=Run time interval group
+Item.ГруппаПояснение.Title=Explanation group
+Item.ДекорацияСекунд.Title=seconds
+Item.КомандыСписка.Title=List commands
+Item.КомандыСписка.ToolTip=List commands
+Item.ПериодВыполнения.ToolTip=Set in the range from 5 to 600 seconds
+Item.РегламентныеЗаданияВыполнено.Title=Last run
+Item.РегламентныеЗаданияВыполнять.ToolTip=Run scheduled job
+Item.СтрокаСостояния.Title=Mark scheduled jobs to run on this\n\t\t\t\t\tclient computer...\n\t\t\t\t

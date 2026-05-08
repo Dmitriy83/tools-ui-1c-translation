@@ -1,0 +1,29 @@
+#Translations for: interface
+
+Attribute.НастройкиОбработки_АвтоматическиПроверяемыеРеквизиты.Title=Automatically checked attributes
+Attribute.НастройкиОбработки_ПоказыватьИсториюОткрытияФормы.Title=Show form open history
+Attribute.НастройкиОбработки_ПоказыватьМенеджерОкон.Title=Show manager form
+Attribute.НастройкиОбработки_РаботаСКонсольюКода.Title=Code console support
+Attribute.НастройкиОбработки_РаботаСНастройкамиФорм.Title=Form settings support
+Attribute.НастройкиОбработки_РаботаСПараметрамиФорм.Title=Form parameters support
+Attribute.НастройкиОбработки_РаботаСРеквизитамиФорм.Title=Form attributes support
+Attribute.НастройкиОбработки_РаботаСЭлементамиФорм.Title=Form items support
+Attribute.НастройкиОбработки_РаботаСоСвойствамиФорм.Title=Form properties support
+Attribute.НастройкиОбработки_СкрыватьКнопкиПодсказок.Title=Hide tooltip buttons
+Attribute.НастройкиОбработки_СортироватьПоЗаголовкуФормы.Title=Sort forms by title
+Command.Команда_Сохранить.Title=Save
+Command.Команда_Сохранить.ToolTip=Save command
+Item.НастройкиОбработки_АвтоматическиПроверяемыеРеквизиты.Title=Checked attributes
+Item.НастройкиОбработки_АвтоматическиПроверяемыеРеквизитыРасширеннаяПодсказка.Title=Attributes whose presence to check on every form for subsequent interactive editing
+Item.НастройкиОбработки_ПоказыватьИсториюОткрытияФормыРасширеннаяПодсказка.Title=Shows form open history
+Item.НастройкиОбработки_ПоказыватьМенеджерОконРасширеннаяПодсказка.Title=Whether to show the open forms manager form itself
+Item.НастройкиОбработки_РаботаСКонсольюКодаРасширеннаяПодсказка.Title=Adds the ability to use the code console
+Item.НастройкиОбработки_РаботаСПараметрамиФорм.Title=Show form parameters
+Item.НастройкиОбработки_РаботаСПараметрамиФормРасширеннаяПодсказка.Title=Shows the form's key parameters
+Item.НастройкиОбработки_РаботаСРеквизитамиФормРасширеннаяПодсказка.Title=Adds the ability to work with form attributes
+Item.НастройкиОбработки_РаботаСЭлементамиФормРасширеннаяПодсказка.Title=Allows working with form items
+Item.НастройкиОбработки_РаботаСоСвойствамиФормРасширеннаяПодсказка.Title=Allows working with form properties
+Item.НастройкиОбработки_СкрыватьКнопкиПодсказокРасширеннаяПодсказка.Title=Hides extended tooltip buttons on every item in the main form
+Item.НастройкиОбработки_СортироватьПоЗаголовкуФормыРасширеннаяПодсказка.Title=Whether to sort the open forms list by form name
+Item.РаботаСНастройкамиФормРасширеннаяПодсказка.Title=Adds the ability to work with form settings in the system settings storage
+Item.ФормаЗакрыть.Title=Cancel

@@ -1,0 +1,24 @@
+#Translations for: model
+
+Items.0.Filter.Items.0.Left.Value=TreeParameters.Level
+Items.0.Selection.Items.0.Field.Value=TreeParameters
+Items.1.Filter.Items.0.Left.Value=TreeParameters.Level
+Items.1.Selection.Items.0.Field.Value=TreeParameters
+Items.10.Filter.Items.0.Left.Value=ObjectParametersDelete
+Items.10.Selection.Items.0.Field.Value=Parameters
+Items.2.Filter.Items.0.Left.Value=TreeParameters.Level
+Items.2.Selection.Items.0.Field.Value=TreeParameters
+Items.3.Filter.Items.0.Left.Value=TreeParameters.Level
+Items.3.Selection.Items.0.Field.Value=TreeParameters
+Items.4.Filter.Items.0.Left.Value=TreeParameters.Level
+Items.4.Selection.Items.0.Field.Value=TreeParameters
+Items.5.Filter.Items.0.Left.Value=TreeParameters.Level
+Items.5.Selection.Items.0.Field.Value=TreeParameters
+Items.6.Filter.Items.0.Left.Value=TreeParameters.Level
+Items.6.Selection.Items.0.Field.Value=TreeParameters
+Items.7.Filter.Items.0.Left.Value=TreeParameters.Level
+Items.7.Selection.Items.0.Field.Value=TreeParameters
+Items.8.Filter.Items.0.Left.Value=TreeParameters.Level
+Items.8.Selection.Items.0.Field.Value=TreeParameters
+Items.9.Filter.Items.0.Left.Value=TreeParameters.Level
+Items.9.Selection.Items.0.Field.Value=TreeParameters

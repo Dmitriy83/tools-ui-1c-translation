@@ -1,0 +1,15 @@
+#Translations for: model
+
+Comment.ОБРАБОТЧИКИ\ КОМАНД\ ФОРМЫ.Description=FORM COMMAND HANDLERS
+Comment.СЛУЖЕБНЫЕ\ ПРОЦЕДУРЫ\ И\ ФУНКЦИИ.Description=PRIVATE PROCEDURES AND FUNCTIONS
+Description=FORM EVENT HANDLERS
+Method.ЗаписатьИзмененияУзла.Description=Writes changed data and closes the form.
+Method.ЗаписатьИзмененияУзла.String.ИзменениеДанныхУзлаОбмена.Key=ChangeDataNodeExchange
+Method.ЗаписатьНомераСообщений.Name=WriteNumberMessages
+Method.ЗаписатьНомераСообщений.Var.Данные.Name=Data
+Method.ПриСозданииНаСервере.Comment.Возврат\ при\ получении\ формы\ для\ анализа\..Description=Return when getting form for analysis.
+Method.ПриСозданииНаСервере.String.АвтоТест.Key=AutoTest
+Method.ПрочитатьНомераСообщений.Name=ReadNumberMessages
+Method.ПрочитатьНомераСообщений.Var.Данные.Name=Data
+Method.ЭтотОбъектОбработки.Name=ThisObjectProcessing
+Method.ЭтотОбъектОбработки.Param.ТекущийОбъект.Name=CurrentObject

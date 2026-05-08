@@ -1,0 +1,9 @@
+#Translations for: model
+
+Attribute.ВариантОтображения.Name=VariantDisplay
+Attribute.ИмяПользователя.Name=NameUser
+Attribute.Объект.Name=Object
+Command.УстановитьМасштабОтображения.Name=SetScaleDisplay
+Item.ВариантОтображения.ChoiceList.0.Value.Value=Auto
+Item.ВариантОтображения.ChoiceList.1.Value.Value=Compact
+Item.ВариантОтображения.ChoiceList.2.Value.Value=Regular

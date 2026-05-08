@@ -1,0 +1,7 @@
+#Translations for: model
+
+Command.РедакторСКД.Name=EditorDCS
+Form.Форма.Name=Form
+Form.ФормаРедактированияВыражения.Name=FormEditingExpression
+Form.ФормаРедактированияРолиПоляНабораДанных.Name=FormEditingRoleFieldSetData
+Name=UI_EditorDCS

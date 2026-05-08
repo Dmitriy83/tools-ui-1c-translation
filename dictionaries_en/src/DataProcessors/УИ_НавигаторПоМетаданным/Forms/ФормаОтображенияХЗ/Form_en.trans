@@ -1,0 +1,11 @@
+#Translations for: model
+
+Attribute._АдресаХранилищ.Name=_AddressStorages
+Attribute._ДанныеДляОтображения.Name=_DataForDisplay
+Attribute._ДеревоЗначений.Name=_TreeValues
+Attribute._ТаблицаЗначений.Name=_TableValues
+Attribute.Объект.Name=Object
+Attribute.ПутьКФормам.Name=PathToForms
+Command.ОткрытьОбъект.Name=OpenObject
+Item._ДеревоЗначенийКонтекстноеМенюГруппа1.Name=_TreeValuesContextMenuGroup1
+Item._ТаблицаЗначенийКонтекстноеМенюГруппа1.Name=_TableValuesContextMenuGroup1

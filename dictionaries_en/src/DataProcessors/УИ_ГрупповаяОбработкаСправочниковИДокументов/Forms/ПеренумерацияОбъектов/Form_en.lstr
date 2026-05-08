@@ -1,0 +1,33 @@
+#Translations for: interface
+
+Attribute.ДлинаНомера.Title=Number length
+Attribute.ЗаменяемаяПодстрока.Title=Substring to replace
+Attribute.ИмяТипаОбъектов.Title=Objects type name
+Attribute.НайденныеОбъекты.Title=Found objects
+Attribute.НачальныйНомер.Title=Starting number
+Attribute.НеИзменятьЧисловуюНумерацию.Title=Do not change numeric numbering
+Attribute.ОбъектОбработки.Title=Processing object
+Attribute.ОбъектПоиска.Title=Search object
+Attribute.Родитель.Title=Parent
+Attribute.СпособОбработкиПрефиксов.Title=Prefix processing method
+Attribute.СтрокаПрефикса.Title=Prefix string
+Attribute.ТекущаяНастройка.Title=Current setting
+Attribute.ТекущаяНастройкаПредставление.Title=Current setting presentation
+Attribute.ТекущаяСтрока.Title=Current row
+Attribute.ТипНомера.Title=Number type
+Command.ВыполнитьКоманду.Title=Execute
+Command.ВыполнитьКоманду.ToolTip=Execute command
+Command.СохранитьНастройки.Title=Save settings
+Command.СохранитьНастройки.ToolTip=Save settings
+Item.ГруппаКнопки.Title=Buttons group
+Item.ГруппаКнопки.ToolTip=Buttons group
+Item.ЗаменяемаяПодстрока.Title=\ in existing prefixes with the entered string
+Item.ПрефиксыНомеров.Title=Number prefixes
+Item.ПрефиксыНомеров.ToolTip=Number prefixes
+Item.СпособОбработкиПрефиксов.ChoiceList.0.Presentation=Do not change existing prefixes
+Item.СпособОбработкиПрефиксов.ChoiceList.1.Presentation=Replace existing prefixes with entered string
+Item.СпособОбработкиПрефиксов.ChoiceList.2.Presentation=Add entered string to start of existing prefixes
+Item.СпособОбработкиПрефиксов.ChoiceList.3.Presentation=Add entered string to end of existing prefixes
+Item.СпособОбработкиПрефиксов.ChoiceList.4.Presentation=Replace substring
+Item.ТекущаяНастройка.Title=Current setting
+Title=Object renumbering

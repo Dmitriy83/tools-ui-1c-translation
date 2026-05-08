@@ -1,0 +1,9 @@
+#Translations for: model
+
+Description=@strict-types
+Method.ВспомогательныеЗначения.Description=Auxiliary values.
+Method.ВспомогательныеЗначения.Name=AuxiliaryValue
+Method.ПолныйПутьКФормеОбработки.Name=FullPathToFormProcessing
+Method.ПолныйПутьКФормеОбработки.Param.ИмяФормыОбработки.Name=NameFormProcessing
+Region.ОбработчикиСобытийФормы.Name=FormEventHandlers
+Region.ОбработчикиСобытийФормы.СлужебныеПроцедурыИФункции.Name=Private

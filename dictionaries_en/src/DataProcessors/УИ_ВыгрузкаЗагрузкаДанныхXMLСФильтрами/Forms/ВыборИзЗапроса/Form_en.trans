@@ -1,0 +1,18 @@
+#Translations for: model
+
+Attribute.ДокументТекстЗапроса.Name=DocumentTextQuery
+Attribute.Объект.Name=Object
+Attribute.ПараметрыЗапроса.Name=ParametersQuery
+Attribute.ПараметрыЗапроса.ЗначениеПараметра.Name=ValueParameter
+Attribute.ПараметрыЗапроса.ИмяПараметра.Name=NameParameter
+Attribute.ПараметрыЗапроса.ТипПараметра.Name=TypeParameter
+Attribute.ПараметрыЗапроса.ЭтоВыражение.Name=ThisExpression
+Command.ВыполнитьЗапрос.Name=ExecuteQuery
+Command.ДобавитьВРезультатВыгрузки.Name=AddInResultExport
+Command.ЗаполнитьПараметры.Name=FillParameters
+Item.ГруппаЗапросНеВыполнен.Name=GroupQueryNotExecuted
+Item.ГруппаРезультатЗапроса.Name=GroupResultQuery
+Item.ГруппаРезультатаЗапроса.Name=GroupResultQuery
+Item.ДекорацияЗапросНеВыполнен.Name=DecorationQueryNotExecuted
+Item.ТекстЗапроса.Name=TextQuery
+Item.ФормаВыполнить.Name=FormExecute

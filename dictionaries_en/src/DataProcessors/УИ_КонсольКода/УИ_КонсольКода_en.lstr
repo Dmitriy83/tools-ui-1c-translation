@@ -1,0 +1,7 @@
+#Translations for: interface
+
+Command.КонсольКода.Synonym=Code console [UI]
+Explanation=Allows executing code from Enterprise mode without creating external data processors. Includes syntax highlighting and minimal context hints.
+ExtendedPresentation=Code console
+Form.Форма.Synonym=Form
+Synonym=Code console [UI]

@@ -1,0 +1,17 @@
+#Translations for: interface
+
+Method.ЗаписатьПредупреждение.NStr.Удаление\ помеченных.Lines=Deletion of marked objects
+Method.ЗаписатьПричинуВРезультат.Var.Причина.NStr.Обнаружены\ неразрешимые\ ссылки\ (%1).Lines=Unresolvable references found (%1)
+Method.ОтметитьПрогрессОбходаКоллекции.Var.Текст.NStr.Анализ\ объектов,\ препятствующих\ удалению\:\ %1\ из\ %2\..Lines=Analyzing objects preventing deletion\: %1 of %2.
+Method.ОтметитьПрогрессОбходаКоллекции.Var.Текст.NStr.Анализ\ помеченных\ на\ удаление\..Lines=Analyzing objects marked for deletion.
+Method.ОтметитьПрогрессОбходаКоллекции.Var.Текст.NStr.Выполняется\ удаление\ объектов\..Lines=Deleting objects.
+Method.ОтметитьПрогрессОбходаКоллекции.Var.Текст.NStr.Обработано\:\ %1\ из\ %2\ объектов,\ из\ них\ не\ удалено\:\ %3\..Lines=Processed\: %1 of %2 objects, of which not deleted\: %3.
+Method.ОтметитьПрогрессОбходаКоллекции.Var.Текст.NStr.Повторная\ проверка\ не\ удаленных\ объектов\:\ %1\ из\ %2\..Lines=Rechecking objects not deleted\: %1 of %2.
+Method.ОтметитьПрогрессОбходаКоллекции.Var.Текст.NStr.Подготовка\ к\ поиску\ объектов,\ помеченных\ на\ удаление\..Lines=Preparing to search for objects marked for deletion.
+Method.ОтметитьПрогрессОбходаКоллекции.Var.Текст.NStr.Подготовка\ к\ удалению\..Lines=Preparing for deletion.
+Method.ОтметитьПрогрессОбходаКоллекции.Var.Текст.NStr.Поиск\ объектов,\ помеченных\ на\ удаление\..Lines=Searching for objects marked for deletion.
+Method.ОтметитьПрогрессОбходаКоллекции.Var.Текст.NStr.Удалено\:\ %1\ из\ %2\ объектов\..Lines=Deleted\: %1 of %2 objects.
+Method.ПопробоватьУдалитьСсылку.Param.Результат.NStr.Объект\ используется\ в\ других\ объектах\ программы\..Lines=The object is in use by other objects in the application.
+Method.ПопробоватьУдалитьСсылку.Param.Результат.NStr.Объект\ не\ помечен\ на\ удаление\..Lines=The object is not marked for deletion.
+Method.УдалитьПомеченныеОбъекты.NStr.Недостаточно\ прав\ для\ выполнения\ операции\..Lines=Insufficient rights to perform the operation.
+Method.УдалитьПомеченныеОбъектыМонопольно.NStr.Не\ удалось\ выполнить\ удаление\ объектов\..Lines=Failed to delete the objects.

@@ -1,0 +1,13 @@
+#Translations for: model
+
+Items.0.Filter.Items.0.Items.0.Left.Value=TreeNodesExchange.Ref
+Items.0.Filter.Items.0.Items.1.Left.Value=TreeNodesExchange.Mark
+Items.0.Selection.Items.0.Field.Value=TreeNodesExchangeNumberMessage
+Items.1.Appearance.Items.1.Values.0.Value=Not unloaded
+Items.1.Filter.Items.0.Left.Value=TreeNodesExchange.NotUnloaded
+Items.1.Filter.Items.1.Left.Value=TreeNodesExchange.Mark
+Items.1.Selection.Items.0.Field.Value=TreeNodesExchangeNumberMessage
+Items.2.Filter.Items.0.Left.Value=TreeNodesExchange.Ref
+Items.2.Selection.Items.0.Field.Value=TreeNodesExchangeCode
+Items.2.Selection.Items.1.Field.Value=TreeNodesExchangeAutoRegistration
+Items.2.Selection.Items.2.Field.Value=TreeNodesExchangeNumberMessage

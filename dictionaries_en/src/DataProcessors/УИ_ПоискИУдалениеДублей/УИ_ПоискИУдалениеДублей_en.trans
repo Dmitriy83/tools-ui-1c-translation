@@ -1,0 +1,8 @@
+#Translations for: model
+
+Command.ПоискИУдалениеДублей.Name=SearchAndDeletionDuplicates
+Form.ОбластьПоискаДублей.Name=AreaSearchDuplicates
+Form.ПоискДублей.Name=SearchDuplicates
+Form.ПравилаОтбора.Name=RuleFilter
+Form.ПравилаПоиска.Name=RuleSearch
+Name=UI_SearchAndDeletionDuplicates

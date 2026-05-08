@@ -1,0 +1,6 @@
+#Translations for: model
+
+Command.РедакторJSON.Name=EditorJSON
+Form.Форма.Name=Form
+Name=UI_EditorJSON
+Template.jsoneditor.Name=jsoneditor

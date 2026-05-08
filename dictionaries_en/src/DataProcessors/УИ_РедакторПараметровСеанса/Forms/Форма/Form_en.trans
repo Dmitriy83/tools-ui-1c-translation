@@ -1,0 +1,16 @@
+#Translations for: model
+
+Attribute.Объект.Name=Object
+Attribute.СтрокаПоиска.Name=StringSearch
+Attribute.ТаблицаПараметровСеанса.Name=TableParametersSession
+Attribute.ТаблицаПараметровСеанса.Значение.Name=Value
+Attribute.ТаблицаПараметровСеанса.ЗначениеКонтейнер.Name=ValueContainer
+Attribute.ТаблицаПараметровСеанса.ЗначениеТипЗначения.Name=ValueTypeValue
+Attribute.ТаблицаПараметровСеанса.ЗначениеТипЗначенияПредставление.Name=ValueTypeValuePresentation
+Attribute.ТаблицаПараметровСеанса.Изменено.Name=Changed
+Attribute.ТаблицаПараметровСеанса.Имя.Name=Name
+Attribute.ТаблицаПараметровСеанса.Найдено.Name=Found
+Attribute.ТаблицаПараметровСеанса.Синоним.Name=Synonym
+Attribute.ТаблицаПараметровСеанса.ТипЗначения.Name=TypeValue
+Command.Записать.Name=Write
+Command.Перечитать.Name=Reread

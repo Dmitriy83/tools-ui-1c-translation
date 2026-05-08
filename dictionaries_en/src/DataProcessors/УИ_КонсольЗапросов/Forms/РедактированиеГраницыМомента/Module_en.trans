@@ -1,0 +1,15 @@
+#Translations for: model
+
+Method.КомандаОК.Var.ВозвращаемоеЗначение.Name=ReturnedValue
+Method.ПолучитьДатуСсылки.Comment.@skip-warning.Description=@skip-warning
+Method.ПолучитьДатуСсылки.Name=GetDateRef
+Method.ПолучитьДатуСсылки.Param.Ссылка.Name=Ref
+Method.ПолучитьДатуСсылки.Var.Выборка.Name=Selection
+Method.ПолучитьДатуСсылки.Var.ТаблицаБазы.Name=TableDatabase
+Method.ПолучитьПредставлениеГраницы.Comment.Дублирование\ кода,\ конечно,\ но\ избежим\ обращение\ на\ сервер\.\ В\ модуле\ объекта\ есть\ Контейнер_ПолучитьПредставление\..Description=Code duplication, of course, but we avoid a server call. The object module has Container_GetPresentation.
+Method.ПолучитьПредставлениеГраницы.Name=GetPresentationBorder
+Method.ПолучитьПредставлениеМомента.Comment.Дублирование\ кода,\ конечно,\ но\ избежим\ обращение\ на\ сервер\.\ В\ модуле\ объекта\ есть\ Контейнер_ПолучитьПредставление\..Description=Code duplication, of course, but we avoid a server call. The object module has Container_GetPresentation.
+Method.ПолучитьПредставлениеМомента.Name=GetPresentationMoment
+Method.ПриСозданииНаСервере.Var.Заголовок.String.Word.Момент.Key=Moment
+Method.ПриСозданииНаСервере.Var.Заголовок.String.Word.времени.Key=time
+Method.СсылкаМоментаПриИзменении.Var.ДатаСсылки.Name=DateRef

@@ -1,0 +1,11 @@
+#Translations for: model
+
+Attribute.КомпоновщикНастроек.Name=ComposerSettings
+Command.ПрименитьНастройки.Name=ApplySettings
+Item.КомпоновщикНастроекПользовательскиеНастройки.Name=ComposerSettingsCustomSettings
+Item.НастройкиОтбор.Name=SettingsFilter
+Item.ОбычныеНастройки.Name=RegularSettings
+Item.ПользовательскиеНастройки.Name=CustomSettings
+Item.Страницы.Name=Page
+Item.ФиксированныеНастройки.Name=FixedSettings
+Item.ФиксированныеНастройкиОтбор.Name=FixedSettingsFilter

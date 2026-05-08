@@ -1,0 +1,27 @@
+#Translations for: model
+
+Named.Ключ1.Key=Key1
+Named.Ключ2.Key=Key2
+Named.Ключ3.Key=Key3
+Named.Реквизиты.Key=Attributes
+Named.СтрокаБезОшибок.Key=StringWithoutErrors
+Named.СтрокаСОшибками.Key=StringWithErrors
+Named.Шапка.Key=Header
+Row.2.Cell.0.Parameter=Key1
+Row.2.Cell.1.Parameter=Key2
+Row.2.Cell.2.Parameter=Key3
+Row.2.Cell.3.Parameter=NumberRows
+Row.2.Cell.4.Parameter=Attribute1
+Row.2.Cell.5.Parameter=Attribute2
+Row.2.Cell.6.Parameter=Attribute3
+Row.2.Cell.7.Parameter=Attribute4
+Row.2.Cell.8.Parameter=Attribute5
+Row.4.Cell.0.Parameter=Key1
+Row.4.Cell.1.Parameter=Key2
+Row.4.Cell.2.Parameter=Key3
+Row.4.Cell.3.Parameter=NumberRows
+Row.4.Cell.4.Parameter=Attribute1
+Row.4.Cell.5.Parameter=Attribute2
+Row.4.Cell.6.Parameter=Attribute3
+Row.4.Cell.7.Parameter=Attribute4
+Row.4.Cell.8.Parameter=Attribute5

@@ -1,0 +1,18 @@
+#Translations for: interface
+
+Method.ВыгрузитьКодОбработчиков.NStr.Выгрузить\ повторно.Lines=Export again
+Method.ВыгрузитьКодОбработчиков.NStr.Модуль\ отладки\ с\ кодом\ обработчиков\ уже\ выгружен\..Lines=Debug module with handlers code is already exported.
+Method.ВыгрузитьКодОбработчиков.NStr.Открыть\ модуль.Lines=Open module
+Method.Готово.NStr.Укажите\ имя\ файла\ внешней\ обработки\..Lines=Specify the external data processor file name.
+Method.ИмяФайлаВнешнейОбработкиОбработчиковСобытийНачалоВыбора.Var.ДиалогВыбораФайла.NStr.Выберите\ файл.Lines=Select file
+Method.ИмяФайлаВнешнейОбработкиОбработчиковСобытийНачалоВыбора.Var.ДиалогВыбораФайла.NStr.Файл\ внешней\ обработки\ обработчиков\ событий\ (*\.epf)|*\.epf.Lines=Event handlers external data processor file (*.epf)|*.epf
+Method.ПоказатьОбработчикиСобытийВОкне.NStr.Модуль\ отладки\ обработчиков.Lines=Handlers debug module
+Method.ПоказатьОбработчикиСобытийВОкне.NStr.Ошибки\ выгрузки\ модуля\ обработчиков.Lines=Handlers module export errors
+Method.ПриСозданииНаСервере.NStr.Использование\ обработки\ в\ интерактивном\ режиме\ доступно\ только\ администратору\..Lines=Using the data processor in interactive mode is available only to the administrator.
+Method.ПриСозданииНаСервере.Var.ЗаголовокКнопки.NStr.Сформировать\ модуль\ отладки\ %Событие%.Lines=Build %Событие% debug module
+Method.ПриСозданииНаСервере.Var.ЗаголовокФормы.NStr.Настройка\ отладки\ обработчиков\ при\ %Событие%\ данных.Lines=Handlers debug settings on data %Событие%
+Method.ПриСозданииНаСервере.Var.Событие.NStr.выгрузке.Lines=export
+Method.ПриСозданииНаСервере.Var.Событие.NStr.выгрузки.Lines=export
+Method.ПриСозданииНаСервере.Var.Событие.NStr.загрузке.Lines=load
+Method.ПриСозданииНаСервере.Var.Событие.NStr.загрузки.Lines=load
+Method.ПроверкаСуществованияФайлаВнешнейОбработкиОбработчиковСобытийЗавершение.NStr.Указанный\ файл\ внешней\ обработки\ не\ существует\..Lines=The specified external data processor file does not exist.

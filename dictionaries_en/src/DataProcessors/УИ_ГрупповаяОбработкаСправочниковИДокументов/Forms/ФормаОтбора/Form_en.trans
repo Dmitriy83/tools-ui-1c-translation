@@ -1,0 +1,25 @@
+#Translations for: model
+
+Attribute.АдресСхемы.Name=AddressSchema
+Attribute.Объект.Name=Object
+Attribute.ОтборДанных.Name=FilterData
+Attribute.ПараметрыЗапроса.Name=ParametersQuery
+Attribute.ПараметрыЗапроса.ЗначениеПараметра.Name=ValueParameter
+Attribute.ПараметрыЗапроса.ИмяПараметра.Name=NameParameter
+Attribute.ПараметрыЗапроса.ЭтоВыражение.Name=ThisExpression
+Attribute.РежимПоиска.Name=ModeSearch
+Attribute.СписокПредставлений.Name=ListPresentations
+Attribute.СтрокаПоиска.Name=StringSearch
+Attribute.ТекстЗапроса.Name=TextQuery
+Attribute.ТекстПроизвольногоЗапроса.Name=TextArbitraryQuery
+Command.КонструкторЗапроса.Name=ConstructorQuery
+Command.ОбновитьПараметры.Name=UpdateParameters
+Command.ПолучитьОтбор.Name=GetFilter
+Item.ГруппаКнопки.Name=GroupButton
+Item.ГруппаСтраницы.Name=GroupPage
+Item.КонтекстноеМенюТекстЗапросаКонструкторЗапроса.Name=ContextMenuTextQueryConstructorQuery
+Item.НайтиСсылки.Name=FindRef
+Item.ОтборДанныхНастройки.Name=FilterDataSettings
+Item.ОтборПоЗначениямРеквизитов.Name=FilterByValuesAttributes
+Item.ПроизвольныйЗапрос.Name=ArbitraryQuery
+Item.ТекстЗапроса.Name=TextQuery

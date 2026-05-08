@@ -1,0 +1,5 @@
+#Translations for: interface
+
+Items.0.Presentation.Content=Highlight required parameters
+Items.1.Presentation.Content=Hide comparison kind in parameters for non-filter
+Items.2.Presentation.Content=Do not show Filter checkbox where unavailable

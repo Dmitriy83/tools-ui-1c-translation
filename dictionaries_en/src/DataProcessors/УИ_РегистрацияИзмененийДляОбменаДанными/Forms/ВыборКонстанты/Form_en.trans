@@ -1,0 +1,18 @@
+#Translations for: model
+
+Attribute.Объект.Name=Object
+Attribute.СписокКонстант.Name=ListConstants
+Attribute.СписокКонстант.ИндексКартинки.Name=IndexPicture
+Attribute.СписокКонстант.ИндексКартинкиАвторегистрация.Name=IndexPictureAutoRegistration
+Attribute.СписокКонстант.МетаПолноеИмя.Name=MetaFullName
+Attribute.СписокКонстант.Наименование.Name=Description
+Command.ВыбратьКонстанту.Name=SelectConstant
+Item.Группа1.Name=Group1
+Item.Декорация1.Name=Decoration1
+Item.ДекорацияАвторегистрация.Name=DecorationAutoRegistration
+Item.СписокКонстантКонтекстноеМенюГруппа1.Name=ListConstantsContextMenuGroup1
+Parameter.МассивАвторегистрации.Name=ArrayAutoRegistration
+Parameter.МассивИменМетаданных.Name=ArrayNamesMetadata
+Parameter.МассивПредставлений.Name=ArrayPresentations
+Parameter.НачальноеЗначениеВыбора.Name=InitialValueChoice
+Parameter.УзелОбмена.Name=NodeExchange

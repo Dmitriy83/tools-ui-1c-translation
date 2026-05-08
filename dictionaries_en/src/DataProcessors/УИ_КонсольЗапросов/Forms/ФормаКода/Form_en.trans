@@ -1,0 +1,14 @@
+#Translations for: model
+
+Attribute.ИмяЗапроса.Name=NameQuery
+Attribute.Объект.Name=Object
+Attribute.ПараметрыЗапроса.Name=ParametersQuery
+Attribute.Текст.Name=Text
+Attribute.ТекстЗапроса.Name=TextQuery
+Attribute.УИ_МетодИсполненияКода.Name=UI_MethodExecutionCode
+Attribute.УИ_ТекстАлгоритма.Name=UI_TextAlgorithm
+Attribute.УстановитьЗначенияПараметров.Name=SetValueParameters
+Command.Обновить.Handler.Name=Command_Update
+Command.Обновить.Name=Update
+Item.ГруппаВерхняя.Name=GroupTop
+Item.ГруппаКоманднаяПанельВнизу.Name=GroupCommandPanelBelow

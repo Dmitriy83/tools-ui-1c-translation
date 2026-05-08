@@ -1,0 +1,10 @@
+#Translations for: model
+
+Attribute.КодРазрешения.Name=CodePermissions
+Attribute.Конец.Name=End
+Attribute.Начало.Name=Start
+Attribute.Объект.Name=Object
+Attribute.Сообщение.Name=Message
+Attribute.Установлена.Name=Set
+Command.кУстановитьБлокировкуСеансов.Name=kSetLockSessions
+Item.ПараметрыБлокировки.Name=ParametersLock

@@ -1,0 +1,23 @@
+#Translations for: model
+
+Attribute.НадписьТекстВыражения.Name=LabelTextExpression
+Attribute.Объект.Name=Object
+Attribute.ПередЗаписьюОбъекта.Name=BeforeRecordObject
+Attribute.ПолеПередЗаписьюОбъекта.Name=FieldBeforeRecordObject
+Attribute.ПолеПослеДобавленияСтроки.Name=FieldAfterAdditionRow
+Attribute.ПолеПриЗаписиОбъекта.Name=FieldOnRecordObject
+Attribute.ПослеДобавленияСтроки.Name=AfterAdditionRow
+Attribute.ПриЗаписиОбъекта.Name=OnRecordObject
+Attribute.РежимЗагрузки.Name=ModeLoad
+Attribute.ТипОбъекта.Name=TypeObject
+Command.ОК.Handler.Name=MainActionFormOK
+Command.ОК.Name=OK
+Item.ГруппаПанель.Event.OnCurrentPageChange.Name=PanelOnChangePage
+Item.ГруппаПанель.Name=GroupPanel
+Item.ГруппаПанельКоманд.Name=GroupPanelCommands
+Item.ГруппаПередЗаписьюОбъекта.Name=GroupBeforeRecordObject
+Item.ГруппаПослеДобавленияСтроки.Name=GroupAfterAdditionRow
+Item.ГруппаПриЗаписиОбъекта.Name=GroupOnRecordObject
+Item.ПередЗаписьюОбъекта.Name=BeforeRecordObject
+Item.ПослеДобавленияСтроки.Name=AfterAdditionRow
+Item.ПриЗаписиОбъекта.Name=OnRecordObject

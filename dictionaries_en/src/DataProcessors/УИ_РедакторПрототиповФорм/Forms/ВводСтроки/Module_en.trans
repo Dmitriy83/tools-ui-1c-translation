@@ -1,0 +1,6 @@
+#Translations for: model
+
+Method.ВыделитьВесьТекстПоляЗначение.Name=SelectAllTextFieldValue
+Region.ОбработчикиСобытийФормы.Name=HandlersEventsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.Name=HandlersCommandsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Name=ServiceProcedureAndFunction

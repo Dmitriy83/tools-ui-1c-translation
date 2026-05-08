@@ -1,0 +1,30 @@
+#Translations for: interface
+
+Attribute.АдресСхемы.Title=Schema address
+Attribute.ОтборДанных.Title=Data filter
+Attribute.ПараметрыЗапроса.Title=Query parameters
+Attribute.ПараметрыЗапроса.ЗначениеПараметра.Title=Value
+Attribute.ПараметрыЗапроса.ИмяПараметра.Title=Parameter
+Attribute.ПараметрыЗапроса.ЭтоВыражение.Title=Is expression
+Attribute.РежимПоиска.Title=Search mode
+Attribute.СписокПредставлений.Title=Presentation list
+Attribute.СтрокаПоиска.Title=Search string
+Attribute.ТекстЗапроса.Title=Query text
+Attribute.ТекстПроизвольногоЗапроса.Title=Custom query text
+Command.КонструкторЗапроса.Title=Query designer
+Command.КонструкторЗапроса.ToolTip=Query designer
+Command.ОбновитьПараметры.Title=Update parameters
+Command.ОбновитьПараметры.ToolTip=Update parameters
+Command.ПолучитьОтбор.Title=Apply
+Command.ПолучитьОтбор.ToolTip=Get filter
+Item.ГруппаКнопки.Title=Buttons group
+Item.ГруппаКнопки.ToolTip=Buttons group
+Item.ГруппаСтраницы.Title=Pages group
+Item.ГруппаСтраницы.ToolTip=Pages group
+Item.ОтборПоЗначениямРеквизитов.Title=Filter by attribute values
+Item.ОтборПоЗначениямРеквизитов.ToolTip=Filter by attribute values
+Item.ПараметрыЗапросаОбновитьПараметры.Title=Update
+Item.ПроизвольныйЗапрос.Title=Query
+Item.ПроизвольныйЗапрос.ToolTip=Custom query
+Item.РежимПоиска.Title=Filter mode
+Title=Filter setup

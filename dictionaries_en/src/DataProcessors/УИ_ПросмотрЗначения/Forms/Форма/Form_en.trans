@@ -1,0 +1,21 @@
+#Translations for: model
+
+Attribute.ВидыКонтейнера.Name=KindsContainer
+Attribute.ВходящееЗначениеКонтейнер.Name=IncomingValueContainer
+Attribute.Выражение.Name=Expression
+Attribute.ДеревоЗначения.Name=TreeValue
+Attribute.ДеревоЗначения.ВидКонтейнера.Name=KindContainer
+Attribute.ДеревоЗначения.ЗаполненыПотомки.Name=FilledDescendants
+Attribute.ДеревоЗначения.ЗначениеЕстьОшибка.Name=ValueHasError
+Attribute.ДеревоЗначения.ЗначениеКонтейнер.Name=ValueContainer
+Attribute.ДеревоЗначения.ЗначениеОписаниеОшибки.Name=ValueDescriptionError
+Attribute.ДеревоЗначения.ЗначениеПредставление.Name=ValuePresentation
+Attribute.ДеревоЗначения.ЗначениеТипЗначения.Name=ValueTypeValue
+Attribute.ДеревоЗначения.ЗначениеТипЗначенияПредставление.Name=ValueTypeValuePresentation
+Attribute.ДеревоЗначения.Имя.Name=Name
+Attribute.ДеревоЗначения.ИмяОбъектаМетаданных.Name=NameObjectMetadata
+Attribute.КонтекстКлиента.Name=ContextClient
+Attribute.НаКлиенте.Name=OnClient
+Attribute.Объект.Name=Object
+Command.ПоказатьВОтдельномОкне.Name=ShowInSeparateWindow
+Item.ГруппаВыражение.Name=GroupExpression

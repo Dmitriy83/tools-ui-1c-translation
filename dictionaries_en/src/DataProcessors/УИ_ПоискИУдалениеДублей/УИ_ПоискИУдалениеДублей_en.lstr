@@ -1,0 +1,10 @@
+#Translations for: interface
+
+Command.ПоискИУдалениеДублей.Synonym=Search and delete duplicates [UI]
+Explanation=Fork of the standard SSL data processor with additional replacement execution parameters
+ExtendedPresentation=Search and delete duplicates
+Form.ОбластьПоискаДублей.Synonym=Duplicate search area
+Form.ПоискДублей.Synonym=Search duplicates
+Form.ПравилаОтбора.Synonym=Filter rules
+Form.ПравилаПоиска.Synonym=Search rules
+Synonym=Search and delete duplicates [UI]

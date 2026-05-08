@@ -1,0 +1,11 @@
+#Translations for: model
+
+Attribute.ДанныеВыбора.Name=DataChoice
+Attribute.Объект.Name=Object
+Command.ОтменитьИЗакрыть.Name=CancelAndClose
+Command.ПрименитьДанныеВыбора.Name=ApplyDataChoice
+Item.Группа1.Name=Group1
+Item.Группа2.Name=Group2
+Item.Группа3.Name=Group3
+Item.ДанныеВыборкаЗначение.Name=DataSelectionValue
+Item.ДанныеВыборкаПредставление.Name=DataSelectionPresentation

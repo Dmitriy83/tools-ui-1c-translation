@@ -1,0 +1,19 @@
+#Translations for: interface
+
+Attribute.КартинкиИзБиблиотеки.Title=Pictures from library
+Attribute.КартинкиИзКаталогаПроекта.Title=Pictures from project catalog
+Attribute.КартинкиИзКонфигурации.Title=Pictures from configuration
+Command.ОтменитьИЗакрыть.Title=Cancel
+Command.ОтменитьИЗакрыть.ToolTip=Cancel and close
+Command.ПрименитьКартинку.Title=Apply
+Command.ПрименитьКартинку.ToolTip=Apply picture
+Item.ГруппаИзБиблиотеки.Title=From platform
+Item.ГруппаИзБиблиотеки.ToolTip=From library group
+Item.ГруппаИзКаталога.Title=From catalog
+Item.ГруппаИзКаталога.ToolTip=From catalog group
+Item.ГруппаИзКонфигурации.Title=From configuration
+Item.ГруппаИзКонфигурации.ToolTip=From configuration group
+Item.ГруппаИсточникиКартинок.Title=Picture sources group
+Item.ГруппаИсточникиКартинок.ToolTip=Picture sources group
+Item.ГруппаКоманды.Title=Commands group
+Item.ГруппаКоманды.ToolTip=Commands group

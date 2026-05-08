@@ -1,0 +1,9 @@
+#Translations for: model
+
+Attribute._Автор.Name=_Author
+Attribute._Версия.Name=_Version
+Attribute._ДатаВерсии.Name=_DateVersion
+Attribute._Наименование.Name=_Description
+Attribute._НомерВерсии.Name=_NumberVersion
+Attribute._Описание.Name=_Description
+Attribute._Сайт.Name=_Site

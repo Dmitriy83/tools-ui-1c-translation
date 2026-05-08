@@ -1,0 +1,10 @@
+#Translations for: model
+
+Command.РедакторРеквизитовОбъекта.Name=EditorAttributesObject
+Form.ФормаВыгрузкаОбъектаXML.Name=FormExportObjectXML
+Form.ФормаЗагрузкаXML.Name=FormLoadXML
+Form.ФормаОбъекта.Name=FormObject
+Form.ФормаРедакторДвижений.Name=FormEditorRecords
+Form.ФормаРедакторДвиженийДоп.Name=FormEditorRecordsAdditional
+Form.ФормаСпискаЗависимых.Name=FormListDependent
+Name=UI_EditorAttributesObject

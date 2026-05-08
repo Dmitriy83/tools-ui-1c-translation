@@ -1,0 +1,21 @@
+#Translations for: interface
+
+Method.ВопросСкопироватьНастройкиЗавершение.NStr.Копирование\ настроек\ выполнено.Lines=Settings copy completed
+Method.ОбновитьНастройкиВладельцаНаСервере.Var.СтрокаДереваКонфигурация.NStr.\ (Все\ настройки).Lines=(All settings)
+Method.ОбновитьНастройкиВладельцаНаСервере.Var.СтрокаДереваПрочее.NStr.Прочее.Lines=Other
+Method.ОбновитьОтображениеЭлементов.NStr.Показать\ всех.Lines=Show all
+Method.ОбновитьОтображениеЭлементов.NStr.Показать\ выбранные\ настройки.Lines=Show selected settings
+Method.ОбновитьОтображениеЭлементов.NStr.Показать\ выбранных.Lines=Show selected
+Method.ОбновитьОтображениеЭлементов.NStr.Скрыть\ выбранные\ настройки.Lines=Hide selected settings
+Method.ПриСозданииНаСервере.NStr.Хранилище\ настроек\ данных\ форм.Lines=Form data settings storage
+Method.ПриСозданииНаСервере.NStr.Хранилище\ общих\ настроек.Lines=Common settings storage
+Method.ПриСозданииНаСервере.NStr.Хранилище\ пользовательских\ настроек\ динамических\ списков.Lines=Dynamic list user settings storage
+Method.ПриСозданииНаСервере.NStr.Хранилище\ пользовательских\ настроек\ отчетов.Lines=Report user settings storage
+Method.ПриСозданииНаСервере.NStr.Хранилище\ системных\ настроек.Lines=System settings storage
+Method.СкопироватьВыбранныеНастройки.NStr.Внимание\!.Lines=Attention\!
+Method.СкопироватьВыбранныеНастройки.NStr.Не\ выбраны\ настройки\ для\ копирования.Lines=No settings selected for copying
+Method.СкопироватьВыбранныеНастройки.NStr.Не\ указаны\ пользователи\ (кому\ копировать).Lines=No users specified (recipients of the copy)
+Method.СкопироватьВыбранныеНастройки.NStr.Скопировать\ выбранные\ настройки\ выбранным\ пользователям?.Lines=Copy the selected settings to the selected users?
+Method.УдалитьВыбранныеНастройки.NStr.Внимание\!.Lines=Attention\!
+Method.УдалитьВыбранныеНастройки.NStr.Не\ выбраны\ настройки\ для\ удаления.Lines=No settings selected for deletion
+Method.УдалитьВыбранныеНастройки.NStr.Удалить\ выбранные\ настройки\ у\ пользователя\ %1?.Lines=Delete the selected settings of user %1?

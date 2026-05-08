@@ -1,0 +1,11 @@
+#Translations for: model
+
+Description=CONTROL ITEM EVENT HANDLERS
+Method.ОКНажатие.Comment.Закрыть();.Description=Close();
+Method.ОКНажатие.Description=Procedure - "Click" event handler in\: Button "OK"
+Method.ОтменаНажатие.Description=Procedure - "Click" event handler in\: Button "Cancel"
+Method.ПриСозданииНаСервере.Var.ТекущиеДанные.Name=CurrentData
+Method.СписокНастроекПометкаПриИзменении.Var.ТекущиеДанные.Name=CurrentData
+Method.СписокНастроекПометкаПриИзменении.Var.ЭлементСписка.Name=ItemList
+Method.УдалитьНажатие.Description=Procedure - "Click" event handler in\: Button "Delete"
+Method.УдалитьНажатие.Var.ТекущиеДанные.Name=CurrentData

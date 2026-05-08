@@ -1,0 +1,9 @@
+#Translations for: model
+
+Command.ВопросРазработчику.Name=QuestionDeveloper
+Command.ИнформацияДляТехподдержки.Name=InformationForSupport
+Command.ПроверитьНеобходимостьОбновления.Name=CheckNecessityUpdate
+Command.СтраницаРазработки.Name=PageDevelopment
+Form.ОбновлениеИнструментов.Name=UpdateTools
+Form.СписокЗадач.Name=ListTasks
+Name=UI_TechSupport

@@ -1,0 +1,7 @@
+#Translations for: interface
+
+Attribute.ДанныеВыбора.Title=Choice data
+Command.ОтменитьИЗакрыть.Title=Cancel
+Command.ОтменитьИЗакрыть.ToolTip=Cancel and close
+Command.ПрименитьДанныеВыбора.Title=Apply
+Command.ПрименитьДанныеВыбора.ToolTip=Apply choice data

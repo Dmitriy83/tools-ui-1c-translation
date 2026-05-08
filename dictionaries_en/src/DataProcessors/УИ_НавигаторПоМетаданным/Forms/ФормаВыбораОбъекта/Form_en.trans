@@ -1,0 +1,13 @@
+#Translations for: model
+
+Attribute._ПереченьРазделов.Name=_ListSections
+Attribute._ПоказыватьПеречисления.Name=_ShowEnum
+Attribute._ПоказыватьПростыеТипы.Name=_ShowSimpleTypes
+Attribute._ТипыДляКонсолиЗапросов.Name=_TypesForConsoleQueries
+Attribute.ДеревоОбъектов.Name=TreeObjects
+Attribute.ДеревоОбъектов.Имя.Name=Name
+Attribute.ДеревоОбъектов.ПолноеИмя.Name=FullName
+Attribute.ДеревоОбъектов.Расширение.Name=Extension
+Attribute.ДеревоОбъектов.Синоним.Name=Synonym
+Attribute.Объект.Name=Object
+Command.ВыбратьОбъект.Name=SelectObject

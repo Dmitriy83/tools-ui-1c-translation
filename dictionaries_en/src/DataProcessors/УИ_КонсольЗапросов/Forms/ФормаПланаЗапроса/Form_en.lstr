@@ -1,0 +1,91 @@
+#Translations for: interface
+
+Attribute.АдресРезультатаЗапроса.Title=Query result address
+Attribute.ДоляОтображенияТяжелых.Title=Heavy operations display ratio, %
+Attribute.ИндексРезультата.Title=Result index
+Attribute.ОтображатьВТерминах1С.Title=Show in 1C terms
+Attribute.ПараметрыЗапроса.Title=Query parameters
+Attribute.План.Title=Plan
+Attribute.План.Выделено.Title=Selected
+Attribute.План.ВызовыПлан.Title=Calls plan
+Attribute.План.ВызовыФакт.Title=Calls fact
+Attribute.План.ЗатратыВВ.Title=I/O cost
+Attribute.План.ЗатратыЦП.Title=CPU cost
+Attribute.План.ИсходныйОператор.Title=Operator
+Attribute.План.Оператор.Title=Operator
+Attribute.План.СреднийРазмерСтроки.Title=Average row size
+Attribute.План.СтоимостьОператора.Title=Operator cost
+Attribute.План.СтоимостьОператораПроцент.Title=Operator cost, %
+Attribute.План.СтоимостьУзла.Title=Node cost
+Attribute.План.СтоимостьУзлаПроцент.Title=Node cost percent
+Attribute.План.СтрокПлан.Title=Rows plan
+Attribute.План.СтрокФакт.Title=Rows fact
+Attribute.ПланПрочитан.Title=Plan read
+Attribute.ПланТекстовый.Title=Plan text
+Attribute.ПланТекстовый1С.Title=Plan text in 1C terms
+Attribute.Событие.Title=Event
+Attribute.ТекстЗапроса.Title=Query text
+Attribute.ТекстЗапросаВТерминах1С.Title=Query text in 1C terms
+Attribute.ТекстСобытияЖурнала.Title=Log event
+Attribute.ТекущийОператор.Title=Current operator
+Command.Обновить.Title=Update
+Command.Обновить.ToolTip=Update
+Command.РазвернутьВсе.Title=Expand all
+Command.РазвернутьВсе.ToolTip=Expand all
+Command.СвернутьВсе.Title=Collapse all
+Command.СвернутьВсе.ToolTip=Collapse all
+Item.ГруппаКоманднаяПанельВнизу.Title=Command panel group bottom
+Item.ГруппаКоманднаяПанельВнизу.ToolTip=Command panel group bottom
+Item.ГруппаПараметрыДерева.Title=Tree parameters group
+Item.ГруппаПараметрыДерева.ToolTip=Tree parameters group
+Item.ГруппаПараметрыДереваКоманды.Title=Tree parameters commands group
+Item.ГруппаПараметрыДереваКоманды.ToolTip=Tree parameters commands group
+Item.ГруппаПараметрыДереваПраво.Title=Tree parameters right group
+Item.ГруппаПараметрыДереваПраво.ToolTip=Tree parameters right group
+Item.ГруппаПланЗапроса.Title=Query plan
+Item.ГруппаПланЗапроса.ToolTip=Query plan group
+Item.ГруппаСобытиеЖурнала.Title=Technological log (fragment)
+Item.ГруппаСобытиеЖурнала.ToolTip=Log event group
+Item.ГруппаСтраницыЗапроса.Title=Query pages group
+Item.ГруппаСтраницыЗапроса.ToolTip=Query pages group
+Item.ГруппаСтраницыПланЗапроса.Title=Query plan pages group
+Item.ГруппаСтраницыПланЗапроса.ToolTip=Query plan pages group
+Item.ГруппаТекстЗапроса.Title=Query text
+Item.ГруппаТекстЗапроса.ToolTip=Query text group
+Item.ПланВызовыПлан.EditFormat=NZ\=
+Item.ПланВызовыПлан.Format=NZ\=
+Item.ПланВызовыФакт.EditFormat=NZ\=
+Item.ПланВызовыФакт.Format=NZ\=
+Item.ПланГруппаВызовы.Title=Calls (plan/fact)
+Item.ПланГруппаВызовы.ToolTip=Plan group calls
+Item.ПланГруппаЗатраты.Title=Cost (I/O/CPU)
+Item.ПланГруппаЗатраты.ToolTip=Plan group cost
+Item.ПланГруппаСтоимостьОператора.Title=Operator cost
+Item.ПланГруппаСтоимостьОператора.ToolTip=Operator cost units/percent
+Item.ПланГруппаСтоимостьУзлаРазмерСтроки.Title=Node cost
+Item.ПланГруппаСтоимостьУзлаРазмерСтроки.ToolTip=Node cost units/percent
+Item.ПланГруппаСтрок.Title=Rows (plan/fact)
+Item.ПланГруппаСтрок.ToolTip=Rows (plan/fact)
+Item.ПланСреднийРазмерСтроки.ToolTip=Average data row size.
+Item.ПланСтоимостьОператора.EditFormat=NZ\=
+Item.ПланСтоимостьОператора.Format=NZ\=
+Item.ПланСтоимостьОператора.ToolTip=Operator cost in conventional units.
+Item.ПланСтоимостьОператораПроцент.ToolTip=Operator cost, as percent of all query operator costs.
+Item.ПланСтоимостьУзла.ToolTip=Full node cost in conventional units. Includes child cost.
+Item.ПланСтрокПлан.EditFormat=NZ\=
+Item.ПланСтрокПлан.Format=NZ\=
+Item.ПланСтрокФакт.EditFormat=NZ\=
+Item.ПланСтрокФакт.Format=NZ\=
+Item.СтраницаПараметрыЗапроса.Title=Additional parameters
+Item.СтраницаПараметрыЗапроса.ToolTip=Query parameters page
+Item.СтраницаПланДерево.Title=Tree
+Item.СтраницаПланДерево.ToolTip=Plan tree page
+Item.СтраницаПланТекст.Title=Text
+Item.СтраницаПланТекст.ToolTip=Plan text page
+Item.СтраницаПланТекст1С.Title=Text in 1C terms
+Item.СтраницаПланТекст1С.ToolTip=Plan text page
+Item.СтраницаТекст.Title=Query
+Item.СтраницаТекст.ToolTip=Text page
+Item.СтраницаТекстВТерминах1С.Title=Query in 1C terms
+Item.СтраницаТекстВТерминах1С.ToolTip=Text in 1C terms page
+Title=Query plan

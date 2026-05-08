@@ -1,0 +1,10 @@
+#Translations for: interface
+
+Attribute.ПорядокСортировкиТаблицыРасхождений.Title=Discrepancies table sort order
+Attribute.ТЗПорядокСортировкиТаблицыРасхождений.Title=Discrepancies table sort order
+Attribute.ТЗПорядокСортировкиТаблицыРасхождений.ИмяСтолбца.Title=Column
+Attribute.ТЗПорядокСортировкиТаблицыРасхождений.ПорядокСортировки.Title=Sort order
+Command.КомандаНастройкаЗавершена.Title=Setup completed
+Command.КомандаНастройкаЗавершена.ToolTip=Setup completed command
+Item.ТЗПорядокСортировкиТаблицыРасхожденийПорядокСортировки.ChoiceList.0.Presentation=Ascending
+Item.ТЗПорядокСортировкиТаблицыРасхожденийПорядокСортировки.ChoiceList.1.Presentation=Descending

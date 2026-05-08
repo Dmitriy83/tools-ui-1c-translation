@@ -1,0 +1,5 @@
+#Translations for: model
+
+Method.ОК.Var.ИнтервалСекунд.Name=IntervalSeconds
+Method.ОК.Var.Результат.Name=Result
+Method.ПриСозданииНаСервере.Var.ИнтервалСекунд.Name=IntervalSeconds

@@ -1,0 +1,15 @@
+#Translations for: interface
+
+Attribute.ИмяЗапроса.Title=Query name
+Attribute.ПараметрыЗапроса.Title=Query parameters
+Attribute.Текст.Title=Text
+Attribute.ТекстЗапроса.Title=Query text
+Attribute.УИ_МетодИсполненияКода.Title=UI code execution method
+Attribute.УИ_ТекстАлгоритма.Title=UI algorithm text
+Attribute.УстановитьЗначенияПараметров.Title=Parameter values
+Command.Обновить.Title=Update
+Command.Обновить.ToolTip=Update
+Item.ГруппаВерхняя.Title=Top group
+Item.ГруппаВерхняя.ToolTip=Top group
+Item.ГруппаКоманднаяПанельВнизу.Title=Command panel group bottom
+Item.ГруппаКоманднаяПанельВнизу.ToolTip=Command panel group bottom

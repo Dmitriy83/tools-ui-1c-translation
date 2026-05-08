@@ -1,0 +1,8 @@
+#Translations for: interface
+
+Command.КонсольHTTPЗапросов.Synonym=HTTP requests console [UI]
+Explanation=Allows making HTTP requests from 1C
+ExtendedPresentation=HTTP requests console
+Form.Форма.Synonym=Form
+Form.ФормаПодробнойИнформацииОЗапросе.Synonym=Detailed request information form
+Synonym=HTTP requests console [UI]

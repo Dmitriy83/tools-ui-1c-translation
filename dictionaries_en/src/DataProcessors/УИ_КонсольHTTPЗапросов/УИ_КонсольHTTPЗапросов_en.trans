@@ -1,0 +1,6 @@
+#Translations for: model
+
+Command.КонсольHTTPЗапросов.Name=ConsoleHTTPQueries
+Form.Форма.Name=Form
+Form.ФормаПодробнойИнформацииОЗапросе.Name=FormDetailedInformationOQuery
+Name=UI_ConsoleHTTPQueries

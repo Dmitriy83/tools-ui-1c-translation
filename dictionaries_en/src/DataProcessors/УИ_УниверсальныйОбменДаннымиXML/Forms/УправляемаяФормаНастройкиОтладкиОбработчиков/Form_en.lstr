@@ -1,0 +1,33 @@
+#Translations for: interface
+
+Command.ВыгрузитьКодОбработчиков.Title=Export handlers code
+Command.ВыгрузитьКодОбработчиков.ToolTip=Export handlers code
+Command.Готово.Title=Done
+Command.Готово.ToolTip=Done
+Command.ОткрытьФайл.Title=Open file
+Command.ОткрытьФайл.ToolTip=Open file
+Item.ВыгрузитьКодОбработчиков.Title=Generate debug export module
+Item.Группа_0.Title=0
+Item.Группа_1.Title=1
+Item.Группа_2.Title=2
+Item.Группа_Шаг_1.Title=1. Select algorithm code debugging mode
+Item.Группа_Шаг_2.Title=2. Export the handlers code
+Item.Группа_Шаг_3.Title=3. Notes on creating the external data processor file
+Item.Группа_Шаг_4.Title=4. Create (update) the external data processor file
+Item.ГруппаВыгрузкиОбработчиков.Title=Handlers exports
+Item.ГруппаОтладкиАлгоритмов.Title=Algorithm debugging
+Item.Декорация1.Title=External data processor file name with debug module on the server
+Item.Декорация2.Title=External data processor file name with debug module on the server
+Item.ДекорацияБезОтладки.Title=Algorithms are not exported. The mode is convenient when algorithm debugging is not required. Algorithms will be executed, but their code is not available for debugging.
+Item.ДекорацияКакПроцедуры.Title=Algorithms are exported as separate procedures. When an algorithm is called, the corresponding processing procedure is invoked. See help for mode usage limitations.
+Item.ДекорацияПоМестуВызова.Title=Algorithms are exported as integrated code in handlers, i.e. instead of the algorithm call line, the full algorithm code is inserted including nested algorithms. See help for mode usage limitations.
+Item.ИмяФайлаВнешнейОбработкиОбработчиковСобытий.Title=External data processor file name with debug module on the server
+Item.НижняяКоманднаяПанель.Title=Bottom command bar
+Item.ОтладкаАлгоритмов.ChoiceList.0.Presentation=Without algorithm debugging
+Item.ОтладкаАлгоритмов.ChoiceList.1.Presentation=Call algorithms as procedures
+Item.ОтладкаАлгоритмов.ChoiceList.2.Presentation=Substitute algorithm code at call site
+Item.ПодсказкаОтладкаАлгоритмов.Title=Algorithm debugging hint
+Item.ПояснениеДекорация.Title=1. After generating the debug module, copy the resulting handlers code to the clipboard.\n2. Open Designer and create a new external data processor. Paste the clipboard contents into the data processor module. Save the data processor.\n3. On the final fourth step, specify the newly created data processor as the data processor with exported handler procedures.\n
+Item.СтраницаЗеленый.Title=Green page
+Item.СтраницаКрасный.Title=Red page
+Item.СтраницыШаг4.Title=Step 4 pages

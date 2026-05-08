@@ -1,0 +1,12 @@
+#Translations for: interface
+
+Command.РедакторРеквизитовОбъекта.Synonym=Database object attributes editor [UI]
+Explanation=Allows low-level editing of reference objects. Supports editing of document records.
+ExtendedPresentation=Database object attributes editor
+Form.ФормаВыгрузкаОбъектаXML.Synonym=Object XML export form
+Form.ФормаЗагрузкаXML.Synonym=XML data import
+Form.ФормаОбъекта.Synonym=Object form
+Form.ФормаРедакторДвижений.Synonym=Records editor
+Form.ФормаРедакторДвиженийДоп.Synonym=Additional records editor
+Form.ФормаСпискаЗависимых.Synonym=Dependents list form
+Synonym=Database object attributes editor [UI]

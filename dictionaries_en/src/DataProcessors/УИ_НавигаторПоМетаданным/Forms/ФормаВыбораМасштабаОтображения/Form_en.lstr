@@ -1,0 +1,7 @@
+#Translations for: interface
+
+Attribute.ВариантОтображения.Title=Display option
+Attribute.ИмяПользователя.Title=User name
+Command.УстановитьМасштабОтображения.Title=Set display scale...
+Command.УстановитьМасштабОтображения.ToolTip=Set display scale
+Title=Form display scale selection

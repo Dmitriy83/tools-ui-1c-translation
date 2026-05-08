@@ -1,0 +1,11 @@
+#Translations for: interface
+
+Attribute._АдресаХранилищ.Title=Storage addresses
+Attribute.ПутьКФормам.Title=Path to forms
+Attribute.Список.Title=List
+Command._ВыбратьОбъект.Title=Select object
+Command._ВыбратьОбъект.ToolTip=Select object
+Command._ОткрытьОбъект.Title=Open object...
+Command._ОткрытьОбъект.ToolTip=Open current object in special form
+Command._УдалитьОбъекты.Title=Delete objects...
+Command._УдалитьОбъекты.ToolTip=Delete objects...

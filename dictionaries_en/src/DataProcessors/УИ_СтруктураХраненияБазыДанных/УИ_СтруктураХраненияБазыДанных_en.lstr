@@ -1,0 +1,7 @@
+#Translations for: interface
+
+Command.СтруктураХраненияБазыДанных.Synonym=Database storage structure [UI]
+Explanation=Viewing table names and their relationships with metadata objects.
+ExtendedPresentation=Database storage structure
+Form.ФормаУправляемая.Synonym=Managed form
+Synonym=Database storage structure [UI]

@@ -1,0 +1,8 @@
+#Translations for: interface
+
+Command.РедакторJSON.Synonym=JSON editor [UI]
+Explanation=Allows convenient editing of JSON strings. Provides JSON syntax highlighting, tree-view editing, and some autocompletion
+ExtendedPresentation=JSON editor
+Form.Форма.Synonym=Form
+Synonym=JSON editor [UI]
+Template.jsoneditor.Synonym=Jsoneditor

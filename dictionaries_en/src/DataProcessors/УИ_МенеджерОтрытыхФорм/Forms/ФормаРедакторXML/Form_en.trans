@@ -1,0 +1,5 @@
+#Translations for: model
+
+Attribute.ЗначениеСтрокой.Name=ValueString
+Command.ПрименитьЗначение.Name=ApplyValue
+Parameter.Значение.Name=Value

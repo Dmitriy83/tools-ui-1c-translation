@@ -1,0 +1,7 @@
+#Translations for: model
+
+Attribute._ВерсияПлатформы.Name=_VersionPlatform
+Attribute._Сообщение.Name=_Message
+Attribute.Объект.Name=Object
+Attribute.ПутьКФормам.Name=PathToForms
+Command._ПродолжитьРаботу.Name=_ContinueWork

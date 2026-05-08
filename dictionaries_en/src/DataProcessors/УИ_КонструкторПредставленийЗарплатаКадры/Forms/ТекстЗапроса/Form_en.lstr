@@ -1,0 +1,13 @@
+#Translations for: interface
+
+Attribute.ОбновитьИсполняемыйТекстЗапроса.Title=Update executable query text
+Attribute.Объект.Title=Object
+Attribute.ТекстЗапросаИсполняемый.Title=Executable query text
+Attribute.ТекстЗапросаПредставления.Title=Presentation query text
+Command.ПреобразоватьДляВставкиВКод.Title=Query text for code insertion
+Command.СкопироватьВБуферОбмена.Title=Copy to clipboard
+Item.ГруппаШапкаТекстЗапросаИсполняемый.Title=Executable query text header group
+Item.ГруппаШапкаТекстЗапросаПредставления.Title=Presentation query text header group
+Item.СтраницаТекстЗапросаИсполняемый.Title=Executable query
+Item.СтраницаТекстЗапросаПредставления.Title=Presentation
+Item.Страницы.Title=Page

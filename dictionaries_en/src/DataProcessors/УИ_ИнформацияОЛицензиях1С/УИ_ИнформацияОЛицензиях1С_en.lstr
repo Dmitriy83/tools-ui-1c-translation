@@ -1,0 +1,34 @@
+#Translations for: interface
+
+Command.ИнформацияОЛицензиях1С.Synonym=1C licenses information [UI]
+Explanation=Wrapper around 1C Licensing Utility (ring) functions in a form understandable to ordinary users. Essentially, this is a GUI for the RING utility
+ExtendedPresentation=1C licenses information
+Form.Форма.Synonym=Form
+Form.ФормаАктивацииЛицензии.Synonym=License activation form
+Synonym=1C licenses information [UI]
+TabularSection.СписокЛицензий.Attribute.EMail.Synonym=E mail
+TabularSection.СписокЛицензий.Attribute.Активна.Synonym=Active
+TabularSection.СписокЛицензий.Attribute.Город.Synonym=City
+TabularSection.СписокЛицензий.Attribute.ДатаАктивации.Synonym=Activation date
+TabularSection.СписокЛицензий.Attribute.Дом.Synonym=Home
+TabularSection.СписокЛицензий.Attribute.Имя.Synonym=Name
+TabularSection.СписокЛицензий.Attribute.ИмяФайлаЛицензии.Synonym=License file name
+TabularSection.СписокЛицензий.Attribute.Индекс.Synonym=Index
+TabularSection.СписокЛицензий.Attribute.Квартира.Synonym=Apartment
+TabularSection.СписокЛицензий.Attribute.КодПродукта.Synonym=Product code
+TabularSection.СписокЛицензий.Attribute.КоличествоЛицензий.Synonym=Number of licenses
+TabularSection.СписокЛицензий.Attribute.Компания.Synonym=Company
+TabularSection.СписокЛицензий.Attribute.НомерЛицензии.Synonym=License number
+TabularSection.СписокЛицензий.Attribute.Описание.Synonym=Description
+TabularSection.СписокЛицензий.Attribute.Отчество.Synonym=MiddleName
+TabularSection.СписокЛицензий.Attribute.ПинКод.Synonym=Pin code
+TabularSection.СписокЛицензий.Attribute.Район.Synonym=District
+TabularSection.СписокЛицензий.Attribute.Регион.Synonym=Region
+TabularSection.СписокЛицензий.Attribute.РегистрационныйНомер.Synonym=Registration number
+TabularSection.СписокЛицензий.Attribute.РучнойВвод.Synonym=Manual input
+TabularSection.СписокЛицензий.Attribute.Страна.Synonym=Country
+TabularSection.СписокЛицензий.Attribute.Строение.Synonym=Structure
+TabularSection.СписокЛицензий.Attribute.ТекстоваяИнформация.Synonym=Text information
+TabularSection.СписокЛицензий.Attribute.Улица.Synonym=Street
+TabularSection.СписокЛицензий.Attribute.Фамилия.Synonym=LastName
+TabularSection.СписокЛицензий.Synonym=License list

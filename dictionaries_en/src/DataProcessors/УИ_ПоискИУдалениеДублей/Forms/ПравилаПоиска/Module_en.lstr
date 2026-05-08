@@ -1,0 +1,6 @@
+#Translations for: interface
+
+Method.ОшибкиВыбора.NStr.Необходимо\ указать\ хотя\ бы\ одно\ правило\ поиска\ дублей\..Lines=At least one duplicate-search rule must be specified.
+Method.ПриСозданииНаСервере.Var.Заголовок.NStr.Правила\ поиска\ дублей\ "%1".Lines=Duplicate-search rules "%1"
+Method.УчитыватьПрикладныеПравилаПриИзменении.Var.ТекстВопроса.NStr.Внимание\:\ поиск\ и\ удаление\ дублей\ элементов\ без\ учета\ поставляемых\ ограничений\nможет\ привести\ к\ рассогласованию\ данных\ в\ программе\.\n\nОтключить\ использование\ поставляемых\ ограничений?.Lines=Warning\: searching and deleting item duplicates without considering shipped restrictions\nmay lead to data inconsistency in the application.\n\nDisable use of shipped restrictions?
+Method.УчитыватьПрикладныеПравилаПриИзменении.Var.ТекстЗаголовка.NStr.Предупреждение.Lines=Warning

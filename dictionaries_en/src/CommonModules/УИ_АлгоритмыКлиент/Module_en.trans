@@ -1,0 +1,17 @@
+#Translations for: model
+
+Method.РедактироватьАлгоритм.Name=EditAlgorithm
+Method.РедактироватьАлгоритм.Param.Идентификатор.Name=Identifier
+Method.РедактироватьАлгоритм.Param.ОписаниеОповещенияОЗавершении.Name=DescriptionNotificationOCompletion
+Method.РедактироватьАлгоритм.Var.ПараметрыФормы.Name=ParametersForm
+Method.СоздатьАлгоритм.Name=CreateAlgorithm
+Method.СоздатьАлгоритм.Param.ИдентификаторАлгоритмаКопирования.Name=IdentifierAlgorithmCopy
+Method.СоздатьАлгоритм.Param.ОписаниеОповещенияОЗавершении.Name=DescriptionNotificationOCompletion
+Method.СоздатьАлгоритм.String.ЗначениеКопирования.Key=ValueCopy
+Method.СоздатьАлгоритм.Var.ПараметрыФормы.Name=ParametersForm
+Region.ПрограммныйИнтерфейс.Name=ProgramInterface
+Region.ПрограммныйИнтерфейс.РедактированиеАлгоритмов.Name=EditingAlgorithms
+Region.ПрограммныйИнтерфейс.СлужебныйПрограммныйИнтерфейс.Comment.Код\ процедур\ и\ функций.Description=Code of procedures and functions
+Region.ПрограммныйИнтерфейс.СлужебныйПрограммныйИнтерфейс.Name=ServiceProgramInterface
+Region.ПрограммныйИнтерфейс.СлужебныйПрограммныйИнтерфейс.СлужебныеПроцедурыИФункции.Comment.Код\ процедур\ и\ функций.Description=Code of procedures and functions
+Region.ПрограммныйИнтерфейс.СлужебныйПрограммныйИнтерфейс.СлужебныеПроцедурыИФункции.Name=ServiceProcedureAndFunction

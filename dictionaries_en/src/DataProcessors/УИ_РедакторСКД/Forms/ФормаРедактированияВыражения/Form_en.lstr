@@ -1,0 +1,13 @@
+#Translations for: interface
+
+Attribute.ПолеРедактированияВыражения.Title=Expression editor field
+Attribute.ПоляСКД.Title=DCS fields
+Attribute.ПоляСКД.Картинка.Title=Picture
+Attribute.ПоляСКД.Поле.Title=Field
+Attribute.ПоляСКД.ПутьКДанным.Title=Data path
+Attribute.ПоляСКД.ТипЗначения.Title=Value type
+Attribute.ТекстВыражения.Title=Expression text
+Command.Применить.Title=Apply
+Command.Применить.ToolTip=OK
+Item.ГруппаДосутныеПоляИМетоды.Title=Available fields and methods group
+Item.ПоляСКДГруппаПоле.Title=DCS fields field group

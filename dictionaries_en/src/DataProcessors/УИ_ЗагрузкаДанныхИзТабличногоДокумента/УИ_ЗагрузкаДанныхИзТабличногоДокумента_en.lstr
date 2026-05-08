@@ -1,0 +1,26 @@
+#Translations for: interface
+
+Attribute.ДополнительныеСвойства.Synonym=Additional properties
+Attribute.ЗамещатьСуществующиеЗаписи.Synonym=Replace existing records
+Attribute.ИмяВидаРегистра.Synonym=Register kind name
+Attribute.НеСоздаватьНовыхЭлементов.Synonym=Do not create new items
+Attribute.ПерваяСтрокаДанныхТабличногоДокумента.Synonym=First data row of the spreadsheet document
+Attribute.ПередЗаписьюОбъекта.Synonym=Before object write
+Attribute.ПослеДобавленияСтроки.Synonym=After row addition
+Attribute.ПриЗаписиОбъекта.Synonym=On object write
+Attribute.РежимЗагрузки.Synonym=Import mode
+Attribute.РучнаяНумерацияКолонокТабличногоДокумента.Synonym=Manual column numbering of the spreadsheet document
+Attribute.СсылкаИсточника.Synonym=Source reference
+Attribute.ТабличнаяЧастьИсточника.Synonym=Source tabular section
+Attribute.ТипОбъектаСправочника.Synonym=Catalog object type
+Command.ЗагрузкаДанныхИзТабличногоДокумента.Synonym=Import data from spreadsheet document [UI]
+Explanation=The data processor imports data into catalogs and tabular sections of various objects from a spreadsheet document
+ExtendedPresentation=Import data from spreadsheet document
+Form.Форма.Synonym=Form
+Form.ФормаВыбораНастройки.Synonym=Setting selection form
+Form.ФормаРедактированияВыражения.Synonym=Expression editing form
+Form.ФормаРедактированияСвязи.Synonym=Link editing form
+Form.ФормаРедактированияСобытий.Synonym=Events editing form
+Form.ФормаСохраненияНастройки.Synonym=Setting save form
+Synonym=Import data from spreadsheet document [UI]
+Template.МакетСохраненияНастроек.Synonym=Settings save template

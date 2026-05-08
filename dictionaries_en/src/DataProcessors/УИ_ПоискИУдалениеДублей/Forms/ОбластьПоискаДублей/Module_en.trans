@@ -1,0 +1,18 @@
+#Translations for: model
+
+Description=Copyright (c) 2019, 1C-Soft LLC\nAll rights reserved. This program and the accompanying materials are made available\nunder the terms of the Attribution 4.0 International license (CC BY 4.0).\nLicense text is available at\:\nhttps\://creativecommons.org/licenses/by/4.0/legalcode\n
+Method.ИнициализироватьСписокОбластейПоискаДублей.Name=InitializeListAreasSearchDuplicates
+Method.ИнициализироватьСписокОбластейПоискаДублей.Var.СтрокаТаблицы.Name=StringTable
+Method.ИнициализироватьСписокОбластейПоискаДублей.Var.ТаблицаНастроек.Name=TableSettings
+Method.ИнициализироватьСписокОбластейПоискаДублей.Var.Элемент.Name=Item
+Method.ПриСозданииНаСервере.String.АдресНастроек.Key=AddressSettings
+Method.ПриСозданииНаСервере.String.ОбластьПоискаДублей.Key=AreaSearchDuplicates
+Method.ПроизвестиВыбор.Comment.Не\ было\ изменений.Description=No changes were made
+Method.ПроизвестиВыбор.Name=PerformChoice
+Method.ПроизвестиВыбор.Param.ИдентификаторСтроки.Name=IdentifierRow
+Method.ПроизвестиВыбор.Var.Элемент.Name=Item
+Region.ОбработчикиСобытийФормы.Description=Expected parameters\:\nDuplicatesSearchArea - String - Full metadata name of the table of the previously selected search area.\nReturned as the selection result\:\nUndefined - Editing canceled.\nString    - Address in temporary storage of the new composer settings.
+Region.ОбработчикиСобытийФормы.Name=HandlersEventsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.Name=HandlersEventsItemsHeaderForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.ОбработчикиКомандФормы.Name=HandlersCommandsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Name=ServiceProcedureAndFunction

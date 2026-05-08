@@ -1,0 +1,11 @@
+#Translations for: interface
+
+Attribute._РазделМД.Title=Metadata section
+Attribute._Список.Title=List
+Attribute._Список.Имя.Title=Name
+Attribute._Список.Представление.Title=Presentation
+Attribute._Список.РасширениеКонфигурации.Title=Extension
+Command._Выбрать.Title=Select
+Command._Выбрать.ToolTip=Select
+Item._СписокРасширениеКонфигурации.Title=Extension
+Item._СписокРасширениеКонфигурации.ToolTip=Configuration extension

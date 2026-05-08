@@ -1,0 +1,36 @@
+#Translations for: model
+
+Method.ЗаполнитьНастройки.Name=FillSettings
+Method.ЗаполнитьНастройки.Var.ИсточникНастроек.Name=SettingsSource
+Method.ЗаполнитьНастройки.Var.СхемаКомпоновки.Name=DataCompositionSchema
+Method.ЗаполнитьПараметрыЗапроса.Name=FillQueryParameters
+Method.ЗаполнитьПараметрыЗапроса.String.Word.Отсутствует.Key=Missing
+Method.ЗаполнитьПараметрыЗапроса.String.Word.запроса.Key=query
+Method.ЗаполнитьПараметрыЗапроса.Var.ИмяПараметра.Name=ParameterName
+Method.ЗаполнитьПараметрыЗапроса.Var.ПараметрЗапроса.Name=QueryParameter
+Method.ЗаполнитьПараметрыЗапроса.Var.ПараметрыВЗапросе.Name=ParametersInQuery
+Method.ЗаполнитьПараметрыЗапроса.Var.СтрокаПараметров.Name=ParametersString
+Method.КонструкторЗапросаЗавершение.Name=QueryDesignerCompletion
+Method.КонструкторЗапросаЗавершение.Param.ДополнительныеПараметры.Name=AdditionalParameters
+Method.КонструкторЗапросаЗавершение.Param.Текст.Name=Text
+Method.ОбновитьПараметры.Var.Результат.Name=Result
+Method.ПолучитьРезультат.Name=GetResult
+Method.ПолучитьРезультат.String.РежимПоиска.Key=SearchMode
+Method.ПолучитьРезультат.String.ТекстПроизвольногоЗапроса.Key=ArbitraryQueryText
+Method.ПолучитьРезультат.Var.СтруктураРезультата.Name=ResultStructure
+Method.ПолучитьСхемуКомпоновки.Name=GetDataCompositionSchema
+Method.ПолучитьСхемуКомпоновки.Var.Источник.Name=Source
+Method.ПолучитьСхемуКомпоновки.Var.Источник.String.local.Key=local
+Method.ПолучитьСхемуКомпоновки.Var.Источник.String.Источник1.Key=Source1
+Method.ПолучитьСхемуКомпоновки.Var.НаборДанных.Name=DataSet
+Method.ПолучитьСхемуКомпоновки.Var.НаборДанных.String.Источник1.Key=Source1
+Method.ПолучитьСхемуКомпоновки.Var.Поле.Name=Field
+Method.ПолучитьСхемуКомпоновки.Var.СхемаКомпоновки.Name=DataCompositionSchema
+Method.ПолучитьСхемуКомпоновки.Var.Элемент.Name=Item
+Method.ПриСозданииНаСервере.Comment.Заголовок\ \=\ Заголовок\ +\ "\ ["\ +\ Параметры\.ОбъектПоиска\.Представление\ +\ "]";.Description=Title \= Title + " [" + Parameters.SearchObject.Presentation + "]";
+Method.ПриСозданииНаСервере.String.Word.Произвольный.Key=Arbitrary
+Method.ПриСозданииНаСервере.String.Word.по.Key=by
+Method.ПриСозданииНаСервере.String.Word.реквизитам.Key=attributes
+Method.ПриСозданииНаСервере.Var.Настройки.Name=Settings
+Method.ПриСозданииНаСервере.Var.Элемент.Name=Item
+Method.УстановитьВидимостьДоступность.Name=SetVisibilityAvailability

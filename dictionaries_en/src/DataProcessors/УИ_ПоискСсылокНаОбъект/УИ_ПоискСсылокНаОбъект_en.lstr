@@ -1,0 +1,9 @@
+#Translations for: interface
+
+Attribute.ИсходныйОбъект.Synonym=Source object
+Attribute.КоличествоНайденных.Synonym=Found count
+Command.ПоискСсылокНаОбъект.Synonym=Search references to object [UI]
+Explanation=\ analog of the standard data processor from the "All functions" menu.
+ExtendedPresentation=Search references to object
+Form.Форма.Synonym=Form
+Synonym=Search references to object [UI]

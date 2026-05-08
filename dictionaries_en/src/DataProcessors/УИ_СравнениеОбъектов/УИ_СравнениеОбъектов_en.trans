@@ -1,0 +1,6 @@
+#Translations for: model
+
+Command.СравнениеОбъектов.Name=CompareObjects
+Form.Форма.Name=Form
+Name=UI_CompareObjects
+Template.ПФ_MXL_СравнениеОбъектов.Name=PF_MXL_CompareObjects

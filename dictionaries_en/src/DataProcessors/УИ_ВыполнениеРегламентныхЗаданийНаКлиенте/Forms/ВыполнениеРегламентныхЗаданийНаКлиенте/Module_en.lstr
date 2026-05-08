@@ -1,0 +1,9 @@
+#Translations for: interface
+
+Method.ВыполнитьРегламентноеЗадание.Var.НаименованиеФоновогоЗадания.NStr.Автозапуск\:\ %1.Lines=Autostart\: %1
+Method.ВыполнитьРегламентноеЗадание.Var.НаименованиеФоновогоЗадания.NStr.Запуск\ вручную\:\ %1.Lines=Manual start\: %1
+Method.ПредставлениеРегламентногоЗадания.Var.Представление.NStr.<не\ определено>.Lines=<undefined>
+Method.ПриСозданииНаСервере.NStr.Отмеченные\ регламентные\ задания\ выполняются\ на\ этом\ клиентском\ компьютере\ (%1)\.\.\..Lines=Marked scheduled jobs run on this client computer (%1)...
+Method.РегламентныеЗаданияВыполнятьПриИзменении.NStr.Отметьте\ регламентные\ задания\ для\ выполнения\ на\ клиентском\ компьютере\.\.\..Lines=Mark scheduled jobs to run on the client computer...
+Method.РегламентныеЗаданияВыполнятьПриИзменении.NStr.Отмеченные\ регламентные\ задания\ выполняются\ на\ этом\ клиентском\ компьютере\ (%1)\.\.\..Lines=Marked scheduled jobs run on this client computer (%1)...
+Method.СвойствФоновыхЗаданий.Var.Свойства.NStr.Не\ найден\ сеанс,\ выполняющий\ процедуру\ регламентного\ задания\..Lines=Session executing the scheduled job procedure not found.

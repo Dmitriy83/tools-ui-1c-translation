@@ -1,0 +1,7 @@
+#Translations for: model
+
+Attribute.ИсходныйОбъект.Name=SourceObject
+Attribute.КоличествоНайденных.Name=CountFound
+Command.ПоискСсылокНаОбъект.Name=SearchRefsOnObject
+Form.Форма.Name=Form
+Name=UI_SearchRefsOnObject

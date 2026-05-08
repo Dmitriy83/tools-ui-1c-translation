@@ -1,0 +1,30 @@
+#Translations for: interface
+
+Attribute._АдресаХранилищ.Title=Storage addresses
+Attribute._ГдеНайдено.Title=Where found
+Attribute._ДеревоОбъектов.Title=Objects tree
+Attribute._ДеревоОбъектов.Поле.Title=Field
+Attribute._ДеревоОбъектов.Ссылка.Title=Object
+Attribute._КлючЗаписи.Title=Record key
+Attribute._ОграничениеНаСписокЗависимых.Title=Dependents list size limit
+Attribute._ПолноеИмя.Title=Full name
+Attribute._СписокЗаписей.Title=Records list
+Attribute._ТекстЗапроса.Title=Query text
+Attribute._ЧислоЗаписей.Title=Number of records
+Attribute.АдресОбщихРеквизитов.Title=Common attributes address
+Attribute.Объект.Title=Object
+Attribute.ПутьКФормам.Title=Path to forms
+Attribute.мОбъектСсылка.Title=DB object
+Command._Обновить.Title=Update
+Command._Обновить.ToolTip=Update
+Command._ОткрытьЗаписьРегистра.Title=Open register record
+Command._ОткрытьЗаписьРегистра.ToolTip=Open register record
+Command._ОткрытьОбъект.Title=Open object...
+Command._ОткрытьОбъект.ToolTip=Open current object in special form
+Command._ОткрытьОбъектСтандартно.Title=Open object standard...
+Command._ОткрытьОбъектСтандартно.ToolTip=Open current object in standard form
+Command._ПоказатьТекстЗапроса.Title=Query text...
+Command._ПоказатьТекстЗапроса.ToolTip=Show query text...
+Item.ГруппаДеревоОбъектов.Title=Dependent objects tree
+Item.ГруппаСписокЗаписей.Title=Dependent records list
+Title=Dependent objects list

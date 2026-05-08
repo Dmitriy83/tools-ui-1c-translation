@@ -1,0 +1,74 @@
+#Translations for: model
+
+Method.ВывестиВетку.Name=OutputBranch
+Method.ВывестиВетку.Param.Выборка.Name=Selection
+Method.ВывестиВетку.Param.Документ.Name=Document
+Method.ВывестиВетку.Param.Обработка.Name=Processing
+Method.ВывестиВетку.Param.СтрокаВывода.Name=StringOutput
+Method.ВывестиВетку.Param.СтрокаВыводаГруппировка1.Name=StringOutputGrouping1
+Method.ВывестиВетку.Param.СтрокаВыводаГруппировка2.Name=StringOutputGrouping2
+Method.ВывестиВетку.Param.стМакроколонки.Name=stMacroColumns
+Method.ВывестиВетку.Param.тзРазмерыПолей.Name=vtSizesFields
+Method.ВывестиВетку.Param.фЕстьМакроколонки.Name=fHasMacroColumns
+Method.ВывестиВетку.Var.ВыборкаПодчиненные.Name=SelectionSubordinate
+Method.ВывестиВетку.Var.Колонка.Name=Column
+Method.ВывестиВетку.Var.СтрокаДлин.Name=StringLengths
+Method.ВывестиВетку.Var.фГруппировка.Name=fGrouping
+Method.ОбновитьДокументНаСервере.Name=UpdateDocumentOnServer
+Method.ОбновитьДокументНаСервере.Param.Параметры.Name=Parameters
+Method.ОбновитьДокументНаСервере.String.дерево.Key=tree
+Method.ПолучитьРазмерыКолонок.Name=GetSizesColumns
+Method.ПолучитьРазмерыКолонок.Param.тзРазмерыДанных.Name=vtSizesData
+Method.ПолучитьРазмерыКолонок.Var.Колонка.Name=Column
+Method.ПолучитьРазмерыКолонок.Var.маРазмерыКолонок.Name=maSizesColumns
+Method.ПолучитьРазмерыКолонок.Var.тз1к.Name=vt1k
+Method.ПолучитьРазмерыКолонок.Var.чМинимальныйРазмерКолонки.Name=chMinimumSizeColumn
+Method.ПолучитьРазмерыКолонок.Var.чОтброс.Name=chDiscard
+Method.СформироватьДокумент.Comment.ОбластьЗаполнения\.АвтоОтступ\ \=\ 4;.Description=ОбластьЗаполнения.АвтоОтступ \= 4;
+Method.СформироватьДокумент.Comment.ОбластьЗаполнения\.ГоризонтальноеПоложение\ \=\ ГоризонтальноеПоложение\.Центр;.Description=ОбластьЗаполнения.ГоризонтальноеПоложение \= ГоризонтальноеПоложение.Центр;
+Method.СформироватьДокумент.Comment.ОбластьЗаполнения\.Шрифт\ \=\ ШрифтШапки;.Description=ОбластьЗаполнения.Шрифт \= ШрифтШапки;
+Method.СформироватьДокумент.Comment.ЦветЛинииШапки\ \=\ ЦветаСтиля\.ЦветЛинииОтчета;.Description=ЦветЛинииШапки \= ЦветаСтиля.ЦветЛинииОтчета;
+Method.СформироватьДокумент.Comment.ШрифтШапки\ \=\ ШрифтыСтиля\.шрифтшНовый\ Шрифт(,\ 8,\ Ложь);.Description=ШрифтШапки \= ШрифтыСтиля.шрифтшНовый Шрифт(, 8, Ложь);
+Method.СформироватьДокумент.Comment.заголовок\ группировки\ 1.Description=заголовок группировки 1
+Method.СформироватьДокумент.Comment.заголовок\ группировки\ 2.Description=заголовок группировки 2
+Method.СформироватьДокумент.Comment.строка\ данных.Description=строка данных
+Method.СформироватьДокумент.Comment.чСчетчик\ \=\ 0;.Description=чСчетчик \= 0;
+Method.СформироватьДокумент.Comment.шапка.Description=header
+Method.СформироватьДокумент.Name=BuildDocument
+Method.СформироватьДокумент.Param.Параметры.Name=Parameters
+Method.СформироватьДокумент.String.дерево.Key=tree
+Method.СформироватьДокумент.String.фОтображатьИтоги.Key=fDisplayTotals
+Method.СформироватьДокумент.Var.ЕстьМакроколонки.Name=HasMacroColumns
+Method.СформироватьДокумент.Var.ИмяКолонки.Name=NameColumn
+Method.СформироватьДокумент.Var.ИмяРезультата.Name=NameResult
+Method.СформироватьДокумент.Var.Колонка.Name=Column
+Method.СформироватьДокумент.Var.ЛинияОтчета.Name=LineReport
+Method.СформироватьДокумент.Var.ОбластьЗаголовка.Name=AreaHeader
+Method.СформироватьДокумент.Var.ОбластьЗаполнения.Name=AreaFill
+Method.СформироватьДокумент.Var.Обработка.Name=Processing
+Method.СформироватьДокумент.Var.СписокКолонокСтрокой.Name=ListColumnsString
+Method.СформироватьДокумент.Var.СтрокаВывода.Name=StringOutput
+Method.СформироватьДокумент.Var.СтрокаВыводаГруппировка1.Name=StringOutputGrouping1
+Method.СформироватьДокумент.Var.СтрокаВыводаГруппировка2.Name=StringOutputGrouping2
+Method.СформироватьДокумент.Var.СтрокаДлин.Name=StringLengths
+Method.СформироватьДокумент.Var.СтрокаЗаголовка.Name=StringHeader
+Method.СформироватьДокумент.Var.СтрокаПустая.Name=StringEmpty
+Method.СформироватьДокумент.Var.СтрокаШапки.Name=StringHeader
+Method.СформироватьДокумент.Var.ТЗИтоги.Name=VTTotals
+Method.СформироватьДокумент.Var.ЦветШапки.Name=ColorHeader
+Method.СформироватьДокумент.Var.ШрифтЗаголовка.Name=FontHeader
+Method.СформироватьДокумент.Var.ШрифтЗаголовка.String.Arial.Key=Arial
+Method.СформироватьДокумент.Var.ШрифтПодзаголовка.Name=FontSubtitle
+Method.СформироватьДокумент.Var.ШрифтПодзаголовка.String.Arial.Key=Arial
+Method.СформироватьДокумент.Var.выбВыборка.Name=selSelection
+Method.СформироватьДокумент.Var.й.Name=j
+Method.СформироватьДокумент.Var.кз.Name=kz
+Method.СформироватьДокумент.Var.маРазмерыКолонок.Name=maSizesColumns
+Method.СформироватьДокумент.Var.маРезультатЗапроса.Name=maResultQuery
+Method.СформироватьДокумент.Var.маСписокКолонок.Name=maListColumns
+Method.СформироватьДокумент.Var.рзВыборка.Name=rzSelection
+Method.СформироватьДокумент.Var.стМакроколонки.Name=stMacroColumns
+Method.СформироватьДокумент.Var.стРезультатЗапроса.Name=stResultQuery
+Method.СформироватьДокумент.Var.стРезультатПакета.Name=stResultPackage
+Method.СформироватьДокумент.Var.тзРазмерыДанных.Name=vtSizesData
+Method.СформироватьДокумент.Var.чЗаголовкиКолонок.Name=chHeadersColumns

@@ -1,0 +1,17 @@
+#Translations for: model
+
+Comment.ОБРАБОТЧИКИ\ СОБЫТИЙ\ ФОРМЫ.Description=FORM EVENT HANDLERS
+Description=CONTROL ELEMENT EVENT HANDLERS
+Method.ИспользоватьПриОткрытииПриИзменении.Var.ТекущиеДанные.Name=CurrentData
+Method.ИспользоватьПриОткрытииПриИзменении.Var.ЭлементСписка.Name=ItemList
+Method.НаименованиеНастройкиОкончаниеВводаТекста.Var.Нашли.Name=Found
+Method.НаименованиеНастройкиОкончаниеВводаТекста.Var.ТекущиеДанные.Name=CurrentData
+Method.ОКНажатие.Description=Procedure - handler of the "Click" event of\: the "OK" button
+Method.ОтменаНажатие.Description=Procedure - handler of the "Click" event of\: the "Cancel" button
+Method.ПриСозданииНаСервере.Var.ТекущиеДанные.Name=CurrentData
+Method.ПриСозданииНаСервере.Var.ТекущиеДанные.String.Новая.Key=New
+Method.ПриСозданииНаСервере.Var.ТекущиеДанные.String.Основная.Key=Primary
+Method.СписокНастроекПометкаПриИзменении.Var.ТекущиеДанные.Name=CurrentData
+Method.СписокНастроекПометкаПриИзменении.Var.ЭлементСписка.Name=ItemList
+Method.УдалитьНажатие.Description=Procedure - handler of the "Click" event of\: the "Delete" button
+Method.УдалитьНажатие.Var.ТекущиеДанные.Name=CurrentData

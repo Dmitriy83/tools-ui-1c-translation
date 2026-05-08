@@ -1,0 +1,18 @@
+#Translations for: model
+
+Attribute.ИсточникФорм.Name=SourceForms
+Attribute.ОткрытыеФормы.Name=OpenForm
+Attribute.ОткрытыеФормы.Заголовок.Name=Header
+Attribute.ОткрытыеФормы.ИдентификаторФормы.Name=IdentifierForm
+Attribute.ФормыКонфигурации.Name=FormConfiguration
+Attribute.ФормыКонфигурации.Имя.Name=Name
+Attribute.ФормыКонфигурации.Представление.Name=Presentation
+Attribute.ФормыКонфигурации.Путь.Name=Path
+Attribute.ФормыКонфигурации.ЭтоФорма.Name=ThisForm
+Command.Отменить.Name=Cancel
+Command.Применить.Name=Apply
+Item.ГруппаКоманды.Name=GroupCommand
+Item.ИсточникиФорм.Name=SourcesForms
+Item.ОткрытыеФормыРеквизит1.Name=OpenFormAttribute1
+Item.ФормыИзКонфигуратора.Name=FormFromConfigurator
+Item.ФормыИзПредприятия.Name=FormFromEnterprise

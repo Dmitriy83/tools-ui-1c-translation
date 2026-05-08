@@ -1,0 +1,14 @@
+#Translations for: interface
+
+Command.МенеджерОтрытыхФорм.Synonym=Open forms manager [UI]
+Form.НастройкиОбработки.Synonym=Data processor settings
+Form.ОбщегоНазначения.Synonym=Common purpose
+Form.ОткрытиеФормы.Synonym=Form opening
+Form.РедактированиеНастройкиИзХранилища.Synonym=Edit setting from storage
+Form.РедакторПроизвольныхЗначений.Synonym=Arbitrary values editor
+Form.РедакторСтруктурыСоответствия.Synonym=Map structure editor
+Form.Форма.Synonym=Form
+Form.ФормаНастроекДинамическогоСписка.Synonym=Dynamic list settings form
+Form.ФормаНастроекКомпоновки.Synonym=Composition settings form
+Form.ФормаРедакторXML.Synonym=XML editor form
+Synonym=Open forms manager [UI]

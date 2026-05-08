@@ -1,0 +1,16 @@
+#Translations for: interface
+
+Method._ВставитьСсылкуНаОбъект.NStr.Введите\ ссылку\ на\ объект.Lines=Enter reference to the object
+Method._ВставитьУникальныйИдентификатор.NStr.Введите\ уникальный\ идентификатор.Lines=Enter unique identifier
+Method._Записать.NStr.Не\ отмечены\ регистры\ для\ записи\..Lines=No registers marked for writing.
+Method._Записать.Var.ТекстВопроса.NStr.Отмеченные\ регистры\ (%1\ шт)\ будут\ записаны\ в\ базу\.\ Продолжить?.Lines=The marked registers (%1 pcs) will be written to the database. Continue?
+Method._ЗаписатьНабор.NStr.Набор\ записей\ будет\ записан\ в\ базу\.\ Продолжить?.Lines=The record set will be written to the database. Continue?
+Method._ЗаписатьНабор.NStr.Не\ задан\ набор\ записей\ для\ сохранения.Lines=Record set for saving is not specified
+Method._ОчиститьДвижения.NStr.Не\ отмечены\ регистры\ для\ очистки\..Lines=No registers marked for clearing.
+Method._ОчиститьДвижения.Var.ТекстВопроса.NStr.Выбранные\ регистры\ (%1\ шт\.)\ будут\ очищены\.\ Продолжить?.Lines=The selected registers (%1 pcs.) will be cleared. Continue?
+Method.ОбновитьДанные.NStr.Движения\ документа\ (%1).Lines=Document records (%1)
+Method.ОбработкаВыбора.NStr.Документ\ для\ загрузки\ движений.Lines=Document for loading records
+Method.ПередЗакрытием.NStr.Редактор\ движений\ будет\ закрыт\.\ Продолжить?.Lines=Records editor will be closed. Continue?
+Method.вОбработатьВводURL.NStr.Не\ правильное\ значение\ для\ подстановки\!.Lines=Invalid value for substitution\!
+Method.вОбработатьВвод_UUID.NStr.Значение\ не\ может\ быть\ преобразовано\ в\ Уникальный\ идентификатор\!.Lines=Value cannot be converted to a Unique identifier\!
+Method.вПроверитьРегистратора.NStr.Не\ задан\ объект\ для\ записи\ движений\!.Lines=Object for writing records is not specified\!

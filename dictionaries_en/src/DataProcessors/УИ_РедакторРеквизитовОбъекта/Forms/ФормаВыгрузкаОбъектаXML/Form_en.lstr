@@ -1,0 +1,12 @@
+#Translations for: interface
+
+Attribute._ВыгружатьДанныеБезИспользованияФайла.Title=Export data without using a file (to XML string)
+Attribute._ИмяФайла.Title=File name
+Attribute._ПутьКФайлуXML.Title=Path to XML file
+Attribute._Режим.Title=Mode
+Command._ВыгрузитьДанные.Title=Export data
+Command._ВыгрузитьДанные.ToolTip=Export data
+Item._ПутьКФайлуXML.Title=XML data file
+Item.КоманднаяПанельФормы.Title=Form command bar
+Item.КоманднаяПанельФормы.ToolTip=Form command bar
+Title=XML data export

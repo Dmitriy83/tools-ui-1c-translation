@@ -1,0 +1,6 @@
+#Translations for: model
+
+Items.0.Filter.Items.0.Left.Value=TreeConfigurationIdentifierFilter
+Items.0.Selection.Items.0.Field.Value=TreeConfiguration
+Items.1.Filter.Items.0.Left.Value=TreeConfigurationMissingInConfiguration
+Items.1.Selection.Items.0.Field.Value=TreeConfiguration

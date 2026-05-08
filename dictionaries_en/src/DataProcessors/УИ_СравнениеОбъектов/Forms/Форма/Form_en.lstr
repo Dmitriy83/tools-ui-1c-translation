@@ -1,0 +1,18 @@
+#Translations for: interface
+
+Attribute.Объекты.Title=Objects
+Attribute.ТабличныйДокумент.Title=Spreadsheet document
+Command.ДобавитьРанееДобавленныеКСравнению.Title=Add previously added to comparison
+Command.ДобавитьРанееДобавленныеКСравнению.ToolTip=Add previously added to comparison
+Command.ОчиститьРанееДобавленныеКСравнению.Title=Clear previously added to comparison
+Command.ОчиститьРанееДобавленныеКСравнению.ToolTip=Clear previously added to comparison
+Command.Параметры.Title=Parameters
+Command.Параметры.ToolTip=Parameters
+Command.Сформировать.Title=Build
+Command.Сформировать.ToolTip=Build
+Item.ГруппаПараметры.Title=Parameters group
+Item.ГруппаПараметры.ToolTip=Parameters group
+Item.ОбъектыГруппаОбъектыКСравнению.Title=Objects added to comparison
+Item.ОбъектыГруппаОбъектыКСравнению.ToolTip=Objects group objects to comparison
+Item.ОбъектыДобавитьРанееДобавленныеКСравнению.Title=Add to list
+Item.ОбъектыОчиститьРанееДобавленныеКСравнению.Title=Clear

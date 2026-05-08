@@ -1,0 +1,19 @@
+#Translations for: model
+
+Attribute.Объект.Name=Object
+Attribute.СписокЭлементов.Name=ListItems
+Attribute.ТипКонтейнера.Name=TypeContainer
+Command.КомандаЗаполнитьИзБуфера.Name=CommandFillFromBuffer
+Command.КомандаЗаполнитьИзСтрокиВнутр.Name=CommandFillFromRowInternal
+Command.КомандаЗаполнитьИзФайлов.Name=CommandFillFromFiles
+Command.КомандаОК.Name=CommandOK
+Command.КомандаОткрытьСправку.Name=CommandOpenHelp
+Command.КомандаОчистить.Name=CommandClear
+Command.КомандаПередатьВБуферОбмена.Name=CommandPassInBufferExchange
+Command.КомандаПередатьВСтрокуXML.Name=CommandPassInStringXML
+Item.ГруппаКоманднаяПанельНижняя.Name=GroupCommandPanelBottom
+Item.КнопкаОК.Name=ButtonOK
+Item.КомандаОтмена.Name=CommandCancel
+Item.СписокЭлементовГруппаЗаполнить.Name=ListItemsGroupFill
+Item.СписокЭлементовГруппаПередать.Name=ListItemsGroupPass
+Item.СписокЭлементовЗначение.Name=ListItemsValue

@@ -1,0 +1,23 @@
+#Translations for: interface
+
+Command.НавигаторПоМетаданным.Synonym=Metadata navigator [UI]
+Explanation=View configuration metadata properties
+ExtendedPresentation=Metadata navigator
+Form.Форма.Synonym=Metadata navigator (All functions)
+Form.ФормаБлокировкиСеансов.Synonym=Sessions lock form
+Form.ФормаВнешнийИсточникДанных.Synonym=External data source form
+Form.ФормаВыбораМасштабаОтображения.Synonym=Display scale selection form
+Form.ФормаВыбораОбъекта.Synonym=Object selection form
+Form.ФормаВыбораТипаОбъекта.Synonym=Object type selection form
+Form.ФормаВыполнитьКод1С.Synonym=Execute 1C code
+Form.ФормаЗапуска1С.Synonym=1C launch form
+Form.ФормаОРазработке.Synonym=About form
+Form.ФормаОтбораПоПодсистемам.Synonym=Filter by subsystems form
+Form.ФормаОтображенияХЗ.Synonym=Value storage display form
+Form.ФормаПользовательИБ.Synonym=Infobase user
+Form.ФормаСвойств.Synonym=Properties form
+Form.ФормаСпецТаблицыСХ.Synonym=Special storage structure table form
+Form.ФормаСпискаОбъектов.Synonym=Objects list form
+Form.ФормаСтарта.Synonym=Start form
+Synonym=Metadata navigator [UI]
+Template.МакетСервис.Synonym=Service template

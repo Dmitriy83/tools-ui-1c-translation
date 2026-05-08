@@ -1,0 +1,12 @@
+#Translations for: model
+
+Attribute.Информация.Name=Information
+Attribute.ИнформацияФорматированная.Name=InformationFormatted
+Attribute.КодДляКопирования.Name=CodeForCopy
+Attribute.Объект.Name=Object
+Item.ГруппаКартинки.Name=GroupPicture
+Item.ГруппаНижняяПанель.Name=GroupBottomPanel
+Item.ГруппаОсновная.Name=GroupPrimary
+Item.Информация.Name=Information
+Item.Картинка_Копировать.Name=Picture_Copy
+Item.КомандаОтмена.Name=CommandCancel

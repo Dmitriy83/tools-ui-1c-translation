@@ -1,0 +1,17 @@
+#Translations for: model
+
+Attribute.ДеревоУзловОбмена.Name=TreeNodesExchange
+Attribute.ДеревоУзловОбмена.ИндексКартинки.Name=IndexPicture
+Attribute.ДеревоУзловОбмена.Код.Name=Code
+Attribute.ДеревоУзловОбмена.Наименование.Name=Description
+Attribute.ДеревоУзловОбмена.Пометка.Name=Mark
+Attribute.ДеревоУзловОбмена.Ссылка.Name=Ref
+Attribute.МножественныйВыбор.Name=MultipleChoice
+Attribute.Объект.Name=Object
+Command.ВыбратьУзел.Name=SelectNode
+Command.ИзменитьУзел.Name=ChangeNode
+Command.РедактироватьОбъект.Name=EditObject
+Item.ДеревоУзловОбменаКонтекстноеМенюГруппа1.Name=TreeNodesExchangeContextMenuGroup1
+Item.ДеревоУзловОбменаПометкаНаименование.Name=TreeNodesExchangeMarkDescription
+Parameter.МножественныйВыбор.Name=MultipleChoice
+Parameter.НачальноеЗначениеВыбора.Name=InitialValueChoice

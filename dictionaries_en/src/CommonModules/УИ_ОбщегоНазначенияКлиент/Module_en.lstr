@@ -1,0 +1,6 @@
+#Translations for: interface
+
+Method.ЗапуститьСеанс1С.Var.ТекстСообщения.NStr.Не\ удалось\ определить\ строку\ соединения\ с\ текущей\ базой\:\ %1.Lines=Failed to determine the connection string of the current database\: %1
+Method.ОткрытьНавигационнуюСсылку.Var.ОписаниеОшибки.NStr.Не\ удалось\ перейти\ по\ ссылке\ "%1"\ по\ причине\:\ \nНеверно\ задана\ навигационная\ ссылка\..Lines=Failed to follow the link "%1" because\: \nIncorrectly specified navigation link.
+Method.ПоказатьПодробнуюИнформацию.NStr.Закрыть.Lines=Close
+Method.ПоказатьПодробнуюИнформацию.Var.НастройкиДиалога.NStr.Подробнее.Lines=More

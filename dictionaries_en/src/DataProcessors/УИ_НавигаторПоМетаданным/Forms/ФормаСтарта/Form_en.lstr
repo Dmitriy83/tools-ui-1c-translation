@@ -1,0 +1,8 @@
+#Translations for: interface
+
+Attribute._ВерсияПлатформы.Title=Platform version
+Attribute._Сообщение.Title=Message
+Attribute.ПутьКФормам.Title=Path to forms
+Command._ПродолжитьРаботу.Title=Continue
+Command._ПродолжитьРаботу.ToolTip=Continue (errors are possible)
+Title=Compatibility check

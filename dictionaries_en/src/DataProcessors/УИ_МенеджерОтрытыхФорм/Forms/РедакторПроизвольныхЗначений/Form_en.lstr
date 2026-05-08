@@ -1,0 +1,7 @@
+#Translations for: interface
+
+Attribute.ВспомогательныеДанныеИнструмента.Title=Tool auxiliary data
+Attribute.ПараметрыРаботыИнструмента.Title=Tool operation parameters
+Command.Команда_Применить.Title=Ok
+Command.Команда_Применить.ToolTip=Apply
+Item.ФормаЗакрыть.Title=Cancel

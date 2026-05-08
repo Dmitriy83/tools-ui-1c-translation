@@ -1,0 +1,7 @@
+#Translations for: model
+
+Items.0.Filter.Items.0.Left.Value=PackageQueriesDifferenceBetweenQuantityReturnedRowsAndQuantityRowsResult
+Items.0.Selection.Items.0.Field.Value=PackageQueriesQty
+Items.1.Filter.Items.0.Left.Value=PackageResultQueryCurrentDisplayed
+Items.1.Selection.Items.0.Field.Value=PackageResultQueryName
+Items.1.Selection.Items.1.Field.Value=PackageResultQueryInfo

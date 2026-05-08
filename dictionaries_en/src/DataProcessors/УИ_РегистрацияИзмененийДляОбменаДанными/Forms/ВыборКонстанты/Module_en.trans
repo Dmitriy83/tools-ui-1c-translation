@@ -1,0 +1,26 @@
+#Translations for: model
+
+Comment.ОБРАБОТЧИКИ\ КОМАНД\ ФОРМЫ.Description=FORM COMMAND HANDLERS
+Comment.ОБРАБОТЧИКИ\ СОБЫТИЙ\ ТАБЛИЦЫ\ ФОРМЫ\ СписокКонстант.Description=FORM TABLE EVENT HANDLERS ConstantsList
+Comment.СЛУЖЕБНЫЕ\ ПРОЦЕДУРЫ\ И\ ФУНКЦИИ.Description=SERVICE PROCEDURES AND FUNCTIONS
+Description=FORM EVENT HANDLERS
+Method.ВыбратьКонстанту.Description=Selects a constant.
+Method.ИдентификаторСтрокиПоМетаИмени.Name=IdentifierRowByMetaName
+Method.ИдентификаторСтрокиПоМетаИмени.Param.ПолноеИмяМетаданных.Name=FullNameMetadata
+Method.ИдентификаторСтрокиПоМетаИмени.Var.Данные.Name=Data
+Method.ИдентификаторСтрокиПоМетаИмени.Var.ТекСтрока.Name=CurString
+Method.ИдентификаторСтрокиПоМетаИмени.Var.ТекСтрока.String.МетаПолноеИмя.Key=MetaFullName
+Method.ПриОткрытии.Var.ТекПараметры.Name=CurParameters
+Method.ПриПовторномОткрытии.Var.ТекПараметры.Name=CurParameters
+Method.ПриСозданииНаСервере.Comment.Возврат\ при\ получении\ формы\ для\ анализа\..Description=Return when getting form for analysis.
+Method.ПриСозданииНаСервере.String.АвтоТест.Key=AutoTest
+Method.ПриСозданииНаСервере.Var.ЗаголовокАвторегистрации.Name=HeaderAutoRegistration
+Method.ПриСозданииНаСервере.Var.Строка.Name=String
+Method.ПриСозданииНаСервере.Var.ТекИнд.Name=CurInd
+Method.ПроизвестиВыборКонстанты.Description=Performs selection and notifies about it.
+Method.ПроизвестиВыборКонстанты.Name=PerformChoiceConstant
+Method.ПроизвестиВыборКонстанты.Var.Данные.Name=Data
+Method.ПроизвестиВыборКонстанты.Var.ТекСтрока.Name=CurString
+Method.ПроизвестиВыборКонстанты.Var.ТекЭл.Name=CurEl
+Method.УстановитьПараметрыФормы.Name=SetParametersForm
+Method.УстановитьПараметрыФормы.Var.Результат.Name=Result

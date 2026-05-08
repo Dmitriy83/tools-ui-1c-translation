@@ -1,0 +1,16 @@
+#Translations for: model
+
+Attribute.Объект.Name=Object
+Attribute.СтрокаДляСравнения.Name=StringForComparison
+Attribute.ТаблицаПараметров.Name=TableParameters
+Attribute.ТаблицаПараметров.Действие.Name=Action
+Attribute.ТаблицаПараметров.Замещать.Name=Replace
+Attribute.ТаблицаПараметров.Извлечь.Name=Extract
+Attribute.ТаблицаПараметров.Наименование.Name=Description
+Attribute.ТаблицаПараметров.НовоеЗначениеПараметра.Name=NewValueParameter
+Attribute.ТаблицаПараметров.НовыйПараметр.Name=NewParameter
+Attribute.ТаблицаПараметров.ПрежнееЗначениеПараметра.Name=PreviousValueParameter
+Command.Отменить.Name=Cancel
+Command.Сохранить.Name=Save
+Item.ТаблицаПараметровГруппа1.Name=TableParametersGroup1
+Parameter.СписокПараметров.Name=ListParameters

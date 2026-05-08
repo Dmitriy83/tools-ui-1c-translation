@@ -1,0 +1,5 @@
+#Translations for: model
+
+Attribute.НастройкиСтрокойВнутр.Name=SettingsStringInternal
+Command.Команда_Сохранить.Name=Command_Save
+Parameter.НастройкиСтрокойВнутр.Name=SettingsStringInternal

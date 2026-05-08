@@ -1,0 +1,23 @@
+#Translations for: model
+
+Method.ВыполнитьАлгоритм.Name=ExecuteAlgorithm
+Method.ВыполнитьАлгоритм.Param.Алгоритм.Name=Algorithm
+Method.ПолучитьПараметры.Name=GetParameters
+Method.ПолучитьПараметры.Param.Алгоритм.Name=Algorithm
+Method.СозданиеАлгоритма.Description=Description
+Method.СозданиеАлгоритма.Name=CreationAlgorithm
+Method.СозданиеАлгоритма.Param.МассивИменПараметров.Name=ArrayNamesParameters
+Method.СозданиеАлгоритма.Param.НаименованиеАлгоритма.Description=Description of the Algorithms catalog item; search is performed by description
+Method.СозданиеАлгоритма.Param.НаименованиеАлгоритма.Name=DescriptionAlgorithm
+Method.СозданиеАлгоритма.Param.Параметр1.Name=Parameter1
+Method.СозданиеАлгоритма.Param.Параметр2.Name=Parameter2
+Method.СозданиеАлгоритма.Param.Параметр3.Name=Parameter3
+Method.СозданиеАлгоритма.Param.Параметр4.Name=Parameter4
+Method.СозданиеАлгоритма.Param.Параметр5.Name=Parameter5
+Method.СозданиеАлгоритма.Param.Параметр6.Name=Parameter6
+Method.СозданиеАлгоритма.Param.Параметр7.Name=Parameter7
+Method.СозданиеАлгоритма.Param.Параметр8.Name=Parameter8
+Method.СозданиеАлгоритма.Param.Параметр9.Name=Parameter9
+Method.СозданиеАлгоритма.Param.ТекстАлгоритма.Description=Value of the "AlgorithmText" attribute\nParameterN - Arbitrary value
+Method.СозданиеАлгоритма.Param.ТекстАлгоритма.Name=TextAlgorithm
+Method.СозданиеАлгоритма.Return.Description=String Result of executing the algorithm save

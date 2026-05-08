@@ -1,0 +1,7 @@
+#Translations for: model
+
+Attribute.АктивироватьТекущийЭлементВПрототипе.Name=ActivateCurrentItemInPrototype
+Attribute.ЗагружатьСвойстваИзФайла.Name=LoadPropertyFromFile
+Attribute.Объект.Name=Object
+Attribute.РежимРедактированияСвойств.Name=ModeEditingProperties
+Command.ПрименитьНастройкиПроекта.Name=ApplySettingsProject

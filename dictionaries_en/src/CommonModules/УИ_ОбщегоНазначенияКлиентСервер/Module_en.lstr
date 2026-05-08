@@ -1,0 +1,19 @@
+#Translations for: interface
+
+Method.ДополнитьСтруктуру.NStr.Пересечение\ ключей\ источника\ и\ приемника\:\ "%1"\..Lines=Source and destination key intersection\: "%1".
+Method.ПредставлениеТипа.NStr.(всего\ %1\ типов).Lines=(total %1 types)
+Method.ПредставлениеТипов.Var.Результат.NStr.(всего\ %1\ типов).Lines=(total %1 types)
+Method.Проверить.Var.ТекстИсключения.NStr.Недопустимая\ операция.Lines=Invalid operation
+Method.Проверить.Var.ТекстИсключения.NStr.в\ %1.Lines=in %1
+Method.ПроверитьПараметр.NStr.Недопустимо\ значение\ параметра\ ИмяПараметра.Lines=Invalid value of parameter ParameterName
+Method.ПроверитьПараметр.NStr.Недопустимо\ значение\ параметра\ ИмяПроцедурыИлиФункции.Lines=Invalid value of parameter ProcedureOrFunctionName
+Method.ПроверитьПараметр.NStr.Недопустимо\ значение\ параметра\ ОжидаемыеТипы.Lines=Invalid value of parameter ExpectedTypes
+Method.ПроверитьПараметр.NStr.Неопределено.Lines=Undefined
+Method.ПроверитьПараметр.Var.НедопустимоеСвойство.NStr.Недопустимое\ значение\ свойства\ %1\ в\ параметре\ %2\ (Структура)\ в\ %3\.\ \nОжидалось\:\ %4;\ передано\ значение\:\ %5\ (тип\ %6)\..Lines=Invalid value of property %1 in parameter %2 (Structure) in %3. \nExpected\: %4; passed value\: %5 (type %6).
+Method.ПроверитьПараметр.Var.НедопустимыйПараметр.NStr.Недопустимое\ значение\ параметра\ %1\ в\ %2\.\ \nОжидалось\:\ %3;\ передано\ значение\:\ %4\ (тип\ %5)\..Lines=Invalid value of parameter %1 in %2. \nExpected\: %3; passed value\: %4 (type %5).
+Method.ПроверитьПараметр.Var.НетСвойства.NStr.Недопустимое\ значение\ параметра\ %1\ (Структура)\ в\ %2\.\ \nВ\ структуре\ ожидалось\ свойство\ %3\ (тип\ %4)\..Lines=Invalid value of parameter %1 (Structure) in %2. \nProperty %3 (type %4) was expected in the structure.
+Method.СравнитьВерсии.NStr.Неправильный\ формат\ параметра\ СтрокаВерсии1\:\ %1.Lines=Invalid format of parameter VersionString1\: %1
+Method.СравнитьВерсии.NStr.Неправильный\ формат\ параметра\ СтрокаВерсии2\:\ %1.Lines=Invalid format of parameter VersionString2\: %1
+Method.СравнитьВерсииБезНомераСборки.NStr.Неправильный\ формат\ параметра\ СтрокаВерсии1\:\ %1.Lines=Invalid format of parameter VersionString1\: %1
+Method.СравнитьВерсииБезНомераСборки.NStr.Неправильный\ формат\ параметра\ СтрокаВерсии2\:\ %1.Lines=Invalid format of parameter VersionString2\: %1
+Method.ТекстОшибкиПредопределенноеЗначениеНеНайдено.NStr.Предопределенное\ значение\ "%1"\ не\ найдено\..Lines=Predefined value "%1" not found.

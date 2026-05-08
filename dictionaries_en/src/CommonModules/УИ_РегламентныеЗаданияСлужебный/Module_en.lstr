@@ -1,0 +1,7 @@
+#Translations for: interface
+
+Method.ВызватьИсключениеЕслиНетПраваАдминистрирования.NStr.Нарушение\ прав\ доступа\..Lines=Access rights violation.
+Method.ВыполнитьРегламентноеЗаданиеВручную.Var.НаименованиеФоновогоЗадания.NStr.Запуск\ вручную\:\ %1.Lines=Manual start\: %1
+Method.ОтменитьФоновоеЗадание.NStr.Задание\ не\ выполняется,\ его\ нельзя\ отменить\..Lines=The job is not running, it cannot be cancelled.
+Method.ОтменитьФоновоеЗадание.NStr.Фоновое\ задание\ не\ найдено\ на\ сервере\..Lines=Background job not found on the server.
+Method.ТекстНеОпределено.NStr.<не\ определено>.Lines=<not defined>

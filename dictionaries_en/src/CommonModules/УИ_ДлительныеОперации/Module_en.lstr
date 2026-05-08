@@ -1,0 +1,16 @@
+#Translations for: interface
+
+Method.ВыполнитьВФоне.NStr.Ошибка\ выполнения.Lines=Execution error
+Method.ВыполнитьВФоне.NStr.Параметры\ "ВсегдаНеВФоне"\ и\ "ВсегдаВФоне"\nне\ могут\ одновременно\ принимать\ значение\ Истина\ в\ УИ_ДлительныеОперации\.ВыполнитьВФоне\..Lines=Parameters "AlwaysNotInBackground" and "AlwaysInBackground"\ncannot both be set to True at the same time in UI_TimeConsumingOperations.ExecuteInBackground.
+Method.ВыполнитьПроцедуру.NStr.Неверный\ формат\ параметра\ ИмяПроцедуры\ (переданное\ значение\:\ %1).Lines=Invalid format of parameter ProcedureName (passed value\: %1)
+Method.ВыполнитьФоновоеЗадание.NStr.В\ файловой\ информационной\ базе\ можно\ запустить\ фоновое\ задание\ только\ из\ клиентского\ приложения.Lines=A background job can be started in a file infobase only from a client application
+Method.ВыполнитьФоновоеЗадание.NStr.В\ файловой\ информационной\ базе\ невозможно\ одновременно\ выполнять\ более\ одного\ фонового\ задания.Lines=More than one background job cannot be executed simultaneously in a file infobase
+Method.ЗаданиеВыполнено.NStr.Длительные\ операции\.Фоновое\ задание\ не\ найдено.Lines=Time-consuming operations.Background job not found
+Method.ЗаданиеВыполнено.NStr.Длительные\ операции\.Фоновое\ задание\ отменено\ администратором.Lines=Time-consuming operations.Background job cancelled by administrator
+Method.ЗаданиеВыполнено.NStr.Задание\ завершилось\ с\ неизвестной\ ошибкой\..Lines=The job has completed with an unknown error.
+Method.ЗаданиеВыполнено.NStr.Не\ удалось\ выполнить\ данную\ операцию\.\ \nПодробности\ см\.\ в\ Журнале\ регистрации\..Lines=Cannot perform this operation. \nFor details, see the Event log.
+Method.ОперацияВыполнена.NStr.Длительные\ операции.Lines=Time-consuming operations
+Method.ОперацияВыполнена.NStr.Не\ удалось\ выполнить\ данную\ операцию\..Lines=Cannot perform this operation.
+Method.ОперацияВыполнена.NStr.Фоновое\ задание\ не\ найдено\:.Lines=Background job not found\:
+Method.ОперацияВыполнена.Var.ТекстСообщения.NStr.Не\ удалось\ выполнить\ данную\ операцию\..Lines=Cannot perform this operation.
+Method.ОтменитьВыполнениеЗадания.NStr.Длительные\ операции\.Отмена\ выполнения\ фонового\ задания.Lines=Time-consuming operations.Cancelling background job execution

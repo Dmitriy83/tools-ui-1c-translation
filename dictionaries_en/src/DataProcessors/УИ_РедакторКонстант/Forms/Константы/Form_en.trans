@@ -1,0 +1,27 @@
+#Translations for: model
+
+Attribute.Объект.Name=Object
+Attribute.ПоказыватьСиноним.Name=ShowSynonym
+Attribute.СтрокаПоиска.Name=StringSearch
+Attribute.ТаблицаКонстант.Name=TableConstants
+Attribute.ТаблицаКонстант.ЗначениеКонстанты.Name=ValueConstant
+Attribute.ТаблицаКонстант.Изменено.Name=Changed
+Attribute.ТаблицаКонстант.ИмяКонстанты.Name=NameConstant
+Attribute.ТаблицаКонстант.Найдено.Name=Found
+Attribute.ТаблицаКонстант.ОписаниеТипов.Name=DescriptionTypes
+Attribute.ТаблицаКонстант.ПривилегированныйРежимПриПолучении.Name=PrivilegedModeOnReceiving
+Attribute.ТаблицаКонстант.СинонимКонстанты.Name=SynonymConstant
+Attribute.ТаблицаКонстант.ФОпция.Name=FOption
+Command.Записать.Handler.Name=WriteConstant
+Command.Записать.Name=Write
+Command.Перечитать.Name=Reread
+Item.Группа1РасширеннаяПодсказка1.Name=Group1ExtendedTooltip1
+Item.Группа1РасширеннаяПодсказка2.Name=Group1ExtendedTooltip2
+Item.ГруппаДополнительнаяИнформацияТекущейКонстанты.Name=GroupAdditionalInformationCurrentConstant
+Item.ГруппаНастройки.Name=GroupSettings
+Item.ГруппаПараметрыЗаписи.Name=GroupParametersRecord
+Item.ПолеКонтекстноеМеню.Name=FieldContextMenu
+Item.ПолеРасширеннаяПодсказка.Name=FieldExtendedTooltip
+Item.ТаблицаКонстантПривилегированныйРежимПриПолучении.Name=TableConstantsPrivilegedModeOnReceiving
+Item.ТаблицаКонстантФОпция.Name=TableConstantsFOption
+Parameter.ПараметрыСеансаОбработки.Name=ParametersSessionProcessing

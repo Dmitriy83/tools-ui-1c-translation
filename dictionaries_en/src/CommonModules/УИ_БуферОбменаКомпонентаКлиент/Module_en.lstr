@@ -1,0 +1,5 @@
+#Translations for: interface
+
+Method.КомпонентаРаботыСБуферомОбмена.Var.ТекстОшибки.NStr.Не\ удалось\ подключить\ внешнюю\ компоненту\ для\ работы\ с\ буфером\ обмена\.\ Подробности\ в\ журнале\ регистрации\..Lines=Failed to attach the external clipboard add-in. See the event log for details.
+Method.СравнитьВерсииБезНомераСборки.NStr.Неправильный\ формат\ параметра\ СтрокаВерсии1\:\ %1.Lines=Invalid format of parameter VersionString1\: %1
+Method.СравнитьВерсииБезНомераСборки.NStr.Неправильный\ формат\ параметра\ СтрокаВерсии2\:\ %1.Lines=Invalid format of parameter VersionString2\: %1

@@ -1,0 +1,5 @@
+#Translations for: model
+
+Form.ВыполнениеРегламентныхЗаданийНаКлиенте.Name=ExecutionScheduledJobsOnClient
+Name=UI_ExecutionScheduledJobsOnClient
+Template.Макет.Name=Template

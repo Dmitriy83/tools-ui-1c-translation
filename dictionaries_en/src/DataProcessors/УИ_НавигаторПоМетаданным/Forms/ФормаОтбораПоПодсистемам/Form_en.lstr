@@ -1,0 +1,18 @@
+#Translations for: interface
+
+Attribute._ДеревоПодсистем.Title=Subsystems tree
+Attribute._ДеревоПодсистем.ВключатьВОтбор.Title=Include in filter
+Attribute._ДеревоПодсистем.Имя.Title=Name
+Attribute._ДеревоПодсистем.ПолноеИмя.Title=Full name
+Attribute._ДеревоПодсистем.Пометка.Title=Mark
+Attribute._ДеревоПодсистем.Синоним.Title=Presentation
+Attribute._ОтборПоПодсистемам.Title=Filter by subsystems
+Command._ИсключитьПодсистемуИзОтбора.Title=Exclude subsystem from filter
+Command._ИсключитьПодсистемуИзОтбора.ToolTip=Exclude subsystem from filter
+Command._ОтключитьОтбор.Title=Disable
+Command._ОтключитьОтбор.ToolTip=Disable filter
+Command._УстановитьОтбор.Title=Set
+Command._УстановитьОтбор.ToolTip=Set filter
+Item.Декорация1.Title=For fine tuning use the context menu
+Item.Закрыть.Title=Cancel
+Title=Filter by subsystems

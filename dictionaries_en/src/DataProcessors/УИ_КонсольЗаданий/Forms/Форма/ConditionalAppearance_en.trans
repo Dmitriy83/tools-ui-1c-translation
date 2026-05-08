@@ -1,0 +1,11 @@
+#Translations for: model
+
+Items.0.Filter.Items.0.Left.Value=ListScheduledJobsUse
+Items.0.Filter.Items.0.Right.0.Value=No
+Items.0.Selection.Items.0.Field.Value=ListScheduledJobs
+Items.1.Filter.Items.0.Left.Value=ListScheduledJobsState
+Items.1.Filter.Items.0.Right.0.Value=error
+Items.1.Selection.Items.0.Field.Value=ListScheduledJobs
+Items.2.Filter.Items.0.Left.Value=ListBackgroundJobsState
+Items.2.Filter.Items.0.Right.0.Value=error
+Items.2.Selection.Items.0.Field.Value=ListBackgroundJobs

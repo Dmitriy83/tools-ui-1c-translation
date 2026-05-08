@@ -1,0 +1,10 @@
+#Translations for: model
+
+Attribute.Значение.Name=Value
+Attribute.Объект.Name=Object
+Command.ОтменитьИЗакрыть.Name=CancelAndClose
+Command.ПрименитьСписокВыбора.Name=ApplyListChoice
+Item.Группа1.Name=Group1
+Item.Группа2.Name=Group2
+Item.Группа3.Name=Group3
+Item.СписокВыбораЗначение.Name=ListChoiceValue

@@ -1,0 +1,5 @@
+#Translations for: model
+
+Method._Выбрать.Var.ТекДанные.Name=CurData
+Method.ПриСозданииНаСервере.Var.НС.Name=NN
+Method.ПриСозданииНаСервере.Var.Элем.Name=Item

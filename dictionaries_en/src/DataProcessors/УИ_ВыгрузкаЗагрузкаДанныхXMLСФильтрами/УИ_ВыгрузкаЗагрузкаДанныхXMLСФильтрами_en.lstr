@@ -1,0 +1,29 @@
+#Translations for: interface
+
+Attribute.ВключитьВозможностьРедактированияИспользованияИтогов.Synonym=Enable totals usage editing
+Attribute.ВыгружатьСДокументомЕгоДвижения.Synonym=Export document together with its records
+Attribute.ДатаНачала.Synonym=Start date
+Attribute.ДатаОкончания.Synonym=End date
+Attribute.ДеревоМетаданных.Synonym=Metadata tree
+Attribute.ИмяФайлаВыгрузки.Synonym=Export file name
+Attribute.ИспользоватьОтборПоДатеДляВсехОбъектов.Synonym=Use date filter for all objects
+Attribute.ИспользоватьФорматFastInfoSet.Synonym=Use FastInfoSet format
+Attribute.Компоновщик.Synonym=Composer
+Attribute.ОкноИсполненияОбработано.Synonym=Execution window processed
+Attribute.ОкноИсполненияОбщееКоличество.Synonym=Execution window total count
+Attribute.ПодзаголовокОкнаИсполнения.Synonym=Execution window subtitle
+Attribute.ПриЗагрузкеИспользоватьРежимОбменаДанными.Synonym=Use data exchange mode on import
+Attribute.ПродолжитьЗагрузкуВСлучаеВозникновенияОшибки.Synonym=Continue import on error
+Attribute.РежимЗагрузкиПредопределенных.Synonym=Predefined items load mode
+Attribute.СохраненныеНастройки.Synonym=Saved settings
+Attribute.ТипВыгрузкиПериодическихРегистров.Synonym=Periodic registers export type
+Command.ВыгрузкаЗагрузкаДанныхXMLСФильтрами.Synonym=Export and import XML data with filters [UI]
+Explanation=Transfer of information between homogeneous databases
+ExtendedPresentation=Export and import XML data with filters
+Form.ВыборИзЗапроса.Synonym=Selection from query
+Form.НастройкиКонсолиЗапросов.Synonym=Query console settings
+Form.Форма.Synonym=Form
+Synonym=Export and import XML data with filters [UI]
+TabularSection.ДополнительныеОбъектыДляВыгрузки.Attribute.ИмяОбъектаДляЗапроса.Synonym=Object name for query
+TabularSection.ДополнительныеОбъектыДляВыгрузки.Attribute.Объект.Synonym=Object
+TabularSection.ДополнительныеОбъектыДляВыгрузки.Synonym=Additional objects for export

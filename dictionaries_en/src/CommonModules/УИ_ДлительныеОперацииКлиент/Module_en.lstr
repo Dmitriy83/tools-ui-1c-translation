@@ -1,0 +1,5 @@
+#Translations for: interface
+
+Method.ПоказатьОповещение.NStr.Действие\ выполнено.Lines=Action completed
+Method.ПроверитьПараметрыОжидатьЗавершение.NStr.Если\ параметр\ ПараметрыОжидания\.ВыводитьОкноОжидания\ установлен\ в\ Истина,\ то\ параметр\ ПараметрыОжидания\.ОповещениеОПрогрессеВыполнения\ не\ поддерживается.Lines=If the WaitParameters.OutputWaitWindow parameter is set to True, the WaitParameters.NotificationOnExecutionProgress parameter is not supported
+Method.ПроверитьПараметрыОжидатьЗавершение.NStr.Параметр\ ПараметрыОжидания\.Интервал\ должен\ быть\ больше\ или\ равен\ 1.Lines=The WaitParameters.Interval parameter must be greater than or equal to 1

@@ -1,0 +1,30 @@
+#Translations for: interface
+
+Attribute._ДанныеXML.Title=XML data
+Attribute._ДополнительныеСвойства.Title=Additional properties (set before writing the object)
+Attribute._ДополнительныеСвойства.Значение.Title=Value
+Attribute._ДополнительныеСвойства.Ключ.Title=Key
+Attribute._ЗагружатьВРежимеОбменДанными.Title=Load in data exchange mode
+Attribute._ЗагружатьВТранзакции.Title=Load data in transaction
+Attribute._ЗагружатьДанныеБезИспользованияФайла.Title=Load data from XML string (data file is not used)
+Attribute._ИспользоватьДополнительныеСвойстваПриЗаписи.Title=Set additional properties before writing the object
+Attribute._ИспользоватьПроцедуруПередЗаписью.Title=Execute procedure before writing the object
+Attribute._ПродолжатьЗагрузкуПриОшибке.Title=Continue loading on error
+Attribute._ПроцедураПередЗаписью.Title=1C language algorithm executed before writing the Object after setting AdditionalProperties (access attributes via variable pObject)
+Attribute._ПутьКФайлуXML.Title=Path to XML file
+Command._ЗагрузитьДанные.Title=Load data
+Command._ЗагрузитьДанные.ToolTip=Load data
+Item._ПутьКФайлуXML.Title=XML data file
+Item.Группа1.Title=Load data from string
+Item.ГруппаДополнительныеСвойства.Title=List of properties to be set into Object.AdditionalProperties before writing the object
+Item.ГруппаОсновное.Title=IMPORTANT\: data file format must match the one obtained when exporting data from this data processor
+Item.ГруппаПроцедура.Title=1C language algorithm executed before writing the Object after setting AdditionalProperties (access attributes via variable pObject)
+Item.ДанныеДляЗагрузки.Title=Data to load
+Item.ДанныеДляЗагрузки.ToolTip=Data to load
+Item.КоманднаяПанельФормы.Title=Form command bar
+Item.КоманднаяПанельФормы.ToolTip=Form command bar
+Item.ПараметрыЗагрузки.Title=Load parameters
+Item.ПараметрыЗагрузки.ToolTip=Load parameters
+Item.Страницы.Title=Page
+Item.Страницы.ToolTip=Page
+Title=Load XML data

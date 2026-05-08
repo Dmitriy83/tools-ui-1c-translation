@@ -1,0 +1,25 @@
+#Translations for: interface
+
+Attribute.НадписьТекстВыражения.Title=Expression text label
+Attribute.ПередЗаписьюОбъекта.Title=Before object write
+Attribute.ПолеПередЗаписьюОбъекта.Title=Before object write
+Attribute.ПолеПослеДобавленияСтроки.Title=After row added
+Attribute.ПолеПриЗаписиОбъекта.Title=On object write
+Attribute.ПослеДобавленияСтроки.Title=After row added
+Attribute.ПриЗаписиОбъекта.Title=On object write
+Attribute.РежимЗагрузки.Title=Load mode
+Attribute.ТипОбъекта.Title=Object type
+Command.ОК.Title=OK
+Command.ОК.ToolTip=OK
+Item.ГруппаПанель.Title=Panel group
+Item.ГруппаПанель.ToolTip=Panel group
+Item.ГруппаПанельКоманд.Title=Command panel group
+Item.ГруппаПанельКоманд.ToolTip=Command panel group
+Item.ГруппаПередЗаписьюОбъекта.Title=Before object write
+Item.ГруппаПередЗаписьюОбъекта.ToolTip=Before object write group
+Item.ГруппаПослеДобавленияСтроки.Title=After row added
+Item.ГруппаПослеДобавленияСтроки.ToolTip=After row added group
+Item.ГруппаПриЗаписиОбъекта.Title=On object write
+Item.ГруппаПриЗаписиОбъекта.ToolTip=On object write group
+Item.Закрыть.Title=Cancel
+Title=Expression editor form

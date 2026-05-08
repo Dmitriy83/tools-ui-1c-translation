@@ -1,0 +1,8 @@
+#Translations for: model
+
+Attribute.ИдентификаторОсновнойФормы.Name=IdentifierPrimaryForm
+Attribute.КомпоновщикПредварительногоОтбора.Name=ComposerPreliminaryFilter
+Attribute.Объект.Name=Object
+Command.Выбрать.Name=Select
+Item.КомпоновщикПредварительногоОтбораНастройкиОтбор.Name=ComposerPreliminaryFilterSettingsFilter
+Item.ФормаГруппаСправки.Name=FormGroupHelp

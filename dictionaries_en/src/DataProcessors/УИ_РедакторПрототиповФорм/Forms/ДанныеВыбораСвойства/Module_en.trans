@@ -1,0 +1,5 @@
+#Translations for: model
+
+Method.ПриСозданииНаСервере.Var.Строка.Name=String
+Region.ОбработчикиСобытийФормы.Name=HandlersEventsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.Name=HandlersCommandsForm

@@ -1,0 +1,8 @@
+#Translations for: model
+
+Attribute.АдресНастроек.Name=AddressSettings
+Attribute.ОбластиПоискаДублей.Name=AreaSearchDuplicates
+Attribute.ОбластьПоУмолчанию.Name=AreaByDefault
+Attribute.Объект.Name=Object
+Command.Выбрать.Name=Select
+Item.ОбластиПоискаДублейПредставление.Name=AreaSearchDuplicatesPresentation

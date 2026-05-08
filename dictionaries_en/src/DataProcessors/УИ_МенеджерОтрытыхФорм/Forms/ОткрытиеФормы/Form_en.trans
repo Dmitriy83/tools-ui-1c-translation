@@ -1,0 +1,24 @@
+#Translations for: model
+
+Attribute.ВспомогательныеЗначения.Name=AuxiliaryValue
+Attribute.ДоступныеФормы.Name=AvailableForm
+Attribute.ДоступныеФормы.Имя.Name=Name
+Attribute.ДоступныеФормы.Картинка.Name=Picture
+Attribute.ДоступныеФормы.Комментарий.Name=Comment
+Attribute.ДоступныеФормы.НавигационнаяСсылка.Name=NavigationRef
+Attribute.ДоступныеФормы.ПолноеИмя.Name=FullName
+Attribute.ДоступныеФормы.Синоним.Name=Synonym
+Attribute.ДоступныеФормы.ЭтоФорма.Name=ThisForm
+Attribute.Объект.Name=Object
+Command.ОткрытьВыбраннуюФорму.Handler.Name=Command_OpenSelectedForm
+Command.ОткрытьВыбраннуюФорму.Name=OpenSelectedForm
+Item.ГруппаВерх.Name=GroupTop
+Item.ГруппаЛево.Name=GroupLeft
+Item.ГруппаПраво.Name=GroupRight
+Item.Декорация1.Name=Decoration1
+Item.ДоступныеФормыИмя1.Name=AvailableFormName1
+Item.ДоступныеФормыКомментарий1.Name=AvailableFormComment1
+Item.ДоступныеФормыНавигационнаяСсылка.Name=AvailableFormNavigationRef
+Item.ДоступныеФормыПолноеИмя1.Name=AvailableFormFullName1
+Item.ДоступныеФормыСиноним1.Name=AvailableFormSynonym1
+Parameter.ВспомогательныеЗначения.Name=AuxiliaryValue

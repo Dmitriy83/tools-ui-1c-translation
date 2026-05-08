@@ -1,0 +1,24 @@
+#Translations for: model
+
+Attribute._ДанныеXML.Name=_DataXML
+Attribute._ДополнительныеСвойства.Name=_AdditionalProperty
+Attribute._ДополнительныеСвойства.Значение.Name=Value
+Attribute._ДополнительныеСвойства.Ключ.Name=Key
+Attribute._ЗагружатьВРежимеОбменДанными.Name=_LoadInModeExchangeData
+Attribute._ЗагружатьВТранзакции.Name=_LoadInTransaction
+Attribute._ЗагружатьДанныеБезИспользованияФайла.Name=_LoadDataWithoutUseFile
+Attribute._ИспользоватьДополнительныеСвойстваПриЗаписи.Name=_UseAdditionalPropertyOnRecord
+Attribute._ИспользоватьПроцедуруПередЗаписью.Name=_UseProcedureBeforeRecord
+Attribute._ПродолжатьЗагрузкуПриОшибке.Name=_ContinueLoadOnError
+Attribute._ПроцедураПередЗаписью.Name=_ProcedureBeforeRecord
+Attribute._ПутьКФайлуXML.Name=_PathToFileXML
+Attribute.Объект.Name=Object
+Command._ЗагрузитьДанные.Name=_LoadData
+Item.Группа1.Name=Group1
+Item.ГруппаДополнительныеСвойства.Name=GroupAdditionalProperty
+Item.ГруппаОсновное.Name=GroupMain
+Item.ГруппаПроцедура.Name=GroupProcedure
+Item.ДанныеДляЗагрузки.Name=DataForLoad
+Item.КоманднаяПанельФормы.Name=CommandPanelForm
+Item.ПараметрыЗагрузки.Name=ParametersLoad
+Item.Страницы.Name=Page

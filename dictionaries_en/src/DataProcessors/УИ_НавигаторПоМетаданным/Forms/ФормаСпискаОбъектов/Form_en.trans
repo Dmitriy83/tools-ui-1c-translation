@@ -1,0 +1,10 @@
+#Translations for: model
+
+Attribute._АдресаХранилищ.Name=_AddressStorages
+Attribute.ПутьКФормам.Name=PathToForms
+Attribute.Список.Name=List
+Attribute.Список.QueryText.Expr.ПолеА.Alias=FieldA
+Command._ВыбратьОбъект.Name=_SelectObject
+Command._ОткрытьОбъект.Name=_OpenObject
+Command._УдалитьОбъекты.Name=_DeleteObjects
+Parameter.ПолноеИмя.Name=FullName

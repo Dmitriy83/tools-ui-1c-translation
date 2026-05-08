@@ -1,0 +1,6 @@
+#Translations for: model
+
+Method.ОсновныеДействияФормыОК.String.ИскатьПо.Key=SearchBy
+Method.ОсновныеДействияФормыОК.String.СвязьПоВладельцу.Key=LinkByOwner
+Method.ОсновныеДействияФормыОК.String.ФормаРедактированияСвязи.Key=FormEditingLink
+Method.УправлениеВидимостью.Name=ManagementVisibility

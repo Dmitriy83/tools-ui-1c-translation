@@ -1,0 +1,13 @@
+#Translations for: model
+
+Attribute.ПолеРедактированияВыражения.Name=FieldEditingExpression
+Attribute.ПоляСКД.Name=FieldDCS
+Attribute.ПоляСКД.Картинка.Name=Picture
+Attribute.ПоляСКД.Поле.Name=Field
+Attribute.ПоляСКД.ПутьКДанным.Name=PathToData
+Attribute.ПоляСКД.ТипЗначения.Name=TypeValue
+Attribute.ТекстВыражения.Name=TextExpression
+Command.Применить.Name=Apply
+Item.ГруппаДосутныеПоляИМетоды.Name=GroupAvailableFieldAndMethods
+Item.ПоляСКДГруппаПоле.Name=FieldDCSGroupField
+Item.ФормаОК.Name=FormOK

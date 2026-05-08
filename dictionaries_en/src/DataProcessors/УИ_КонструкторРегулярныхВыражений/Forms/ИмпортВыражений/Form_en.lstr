@@ -1,0 +1,16 @@
+#Translations for: interface
+
+Attribute.СтрокаДляСравнения.Title=Comparison string
+Attribute.ТаблицаПараметров.Title=Parameters table
+Attribute.ТаблицаПараметров.Действие.Title=Action
+Attribute.ТаблицаПараметров.Замещать.Title=Replace
+Attribute.ТаблицаПараметров.Извлечь.Title=Extract
+Attribute.ТаблицаПараметров.Наименование.Title=Description
+Attribute.ТаблицаПараметров.НовоеЗначениеПараметра.Title=New value
+Attribute.ТаблицаПараметров.НовыйПараметр.Title=New
+Attribute.ТаблицаПараметров.ПрежнееЗначениеПараметра.Title=Previous value
+Command.Отменить.Title=Cancel
+Command.Отменить.ToolTip=Cancel
+Command.Сохранить.Title=Save
+Command.Сохранить.ToolTip=Save
+Title=Import parameters

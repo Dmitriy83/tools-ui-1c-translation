@@ -1,0 +1,4 @@
+#Translations for: interface
+
+Method.ВызватьИсключениеЕслиНетПраваАдминистрирования.NStr.Нарушение\ прав\ доступа\..Lines=Access rights violation.
+Method.ПолучитьРегламентноеЗадание.NStr.Регламентное\ задание\ не\ найдено\.\nВозможно,\ оно\ удалено\ другим\ пользователем\..Lines=Scheduled job not found.\nIt may have been deleted by another user.

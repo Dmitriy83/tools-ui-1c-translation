@@ -1,0 +1,10 @@
+#Translations for: interface
+
+Attribute._Автор.Title=Author
+Attribute._Версия.Title=Version
+Attribute._ДатаВерсии.Title=Version date
+Attribute._Наименование.Title=Description
+Attribute._НомерВерсии.Title=Version number
+Attribute._Описание.Title=Description
+Attribute._Сайт.Title=Company
+Title=About the development

@@ -1,0 +1,20 @@
+#Translations for: model
+
+Description=@strict-types
+Method.ПриОткрытии.Comment.@skip-check\ new-font.Description=@skip-check new-font
+Method.ПриОткрытии.String.Word.Функционал.Key=Functionality
+Method.ПриОткрытии.String.Word.в.Key=in
+Method.ПриОткрытии.String.Word.веб.Key=web
+Method.ПриОткрытии.String.Word.клиенте.Key=client
+Method.ПриОткрытии.String.РаботаСПараметрамиФорм.Key=WorkWithParametersForms
+Method.ПриОткрытии.Var.НедоступныеНастройки.Name=UnavailableSettings
+Method.ПриОткрытии.Var.ТекущаяНастройка.Name=CurrentSetting
+Method.ПриОткрытии.Var.ЭлементФормы.Name=ItemForm
+Method.ПриОткрытии.Var.ЭлементФормы.String.НастройкиОбработки_.Key=SettingsProcessing_
+Method.ПриСозданииНаСервере.Var.СтруктураСЗначениямиРеквизитовФормы.Name=StructureWithValuesAttributesForm
+Method.СтруктураСЗначениямиРеквизитовФормы.Name=StructureWithValuesAttributesForm
+Method.СтруктураСЗначениямиРеквизитовФормы.Var.РеквизитФормы.Name=AttributeForm
+Method.СтруктураСЗначениямиРеквизитовФормы.Var.СтруктураСЗначениямиРеквизитовФормы.Name=StructureWithValuesAttributesForm
+Region.ОбработчикиСобытийФормы.Name=HandlersEventsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.Name=HandlersCommandsForm
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Name=ServiceProcedureAndFunction

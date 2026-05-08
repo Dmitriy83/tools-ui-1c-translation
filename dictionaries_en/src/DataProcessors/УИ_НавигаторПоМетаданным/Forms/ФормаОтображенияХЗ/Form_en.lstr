@@ -1,0 +1,10 @@
+#Translations for: interface
+
+Attribute._АдресаХранилищ.Title=Storage addresses
+Attribute._ДанныеДляОтображения.Title=Data for display
+Attribute._ДеревоЗначений.Title=Value tree
+Attribute._ТаблицаЗначений.Title=Value table
+Attribute.ПутьКФормам.Title=Path to forms
+Command.ОткрытьОбъект.Title=Open object...
+Command.ОткрытьОбъект.ToolTip=Open current object in special form
+Title=Value storage data

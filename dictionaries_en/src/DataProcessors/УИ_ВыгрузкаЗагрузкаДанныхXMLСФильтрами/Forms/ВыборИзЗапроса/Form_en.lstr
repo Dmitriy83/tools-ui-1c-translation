@@ -1,0 +1,21 @@
+#Translations for: interface
+
+Attribute.ДокументТекстЗапроса.Title=Query text document
+Attribute.ПараметрыЗапроса.Title=Query parameters
+Attribute.ПараметрыЗапроса.ЗначениеПараметра.Title=Parameter value
+Attribute.ПараметрыЗапроса.ИмяПараметра.Title=Parameter name
+Attribute.ПараметрыЗапроса.ТипПараметра.Title=Parameter type
+Attribute.ПараметрыЗапроса.ЭтоВыражение.Title=In
+Command.ВыполнитьЗапрос.Title=Execute query
+Command.ВыполнитьЗапрос.ToolTip=Execute query
+Command.ДобавитьВРезультатВыгрузки.Title=Add to export result
+Command.ДобавитьВРезультатВыгрузки.ToolTip=Add to export result
+Command.ЗаполнитьПараметры.Title=Fill parameters
+Command.ЗаполнитьПараметры.ToolTip=Fill parameters
+Item.ГруппаРезультатЗапроса.Title=Query result group
+Item.ГруппаРезультатЗапроса.ToolTip=Query result group
+Item.ДекорацияЗапросНеВыполнен.Title=Query is not executed
+Item.ПараметрыЗапросаЭтоВыражение.ToolTip=The flag must be set for parameters whose values will be specified by expressions in the built-in language.
+Item.ТекстЗапроса.Title=Query text
+Item.ФормаВыполнить.Title=Execute
+Item.ФормаДобавитьВРезультатВыгрузки.Title=Select result

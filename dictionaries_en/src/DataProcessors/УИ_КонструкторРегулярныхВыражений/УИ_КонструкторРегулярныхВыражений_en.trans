@@ -1,0 +1,37 @@
+#Translations for: model
+
+Attribute.Global.Name=Global
+Attribute.IgnoreCase.Name=IgnoreCase
+Attribute.Multiline.Name=Multiline
+Attribute.SubMatches.Name=SubMatches
+Attribute.SubMatchesIndex.Name=SubMatchesIndex
+Attribute.Варианты.Name=Variants
+Attribute.КонецТекста.Name=EndText
+Attribute.ЛеваяСкобкаПараметра.Name=LeftBracketParameter
+Attribute.Маска.Name=Mask
+Attribute.МаскаРезультата.Name=MaskResult
+Attribute.ПраваяСкобкаПараметра.Name=RightBracketParameter
+Attribute.Результат.Name=Result
+Attribute.СписокВыбораМаски.Name=ListChoiceMasks
+Attribute.Текст.Name=Text
+Attribute.ТекстПодстановки.Name=TextSubstitution
+Attribute.Форматирование.Name=Formatting
+Attribute.ШаблонИмениПараметра.Name=TemplateNameParameter
+Command.КонструкторРегулярныхВыражений.Name=ConstructorRegularExpressions
+Form.ИмпортВыражений.Name=ImportExpressions
+Form.РедакторВыражения.Name=EditorExpression
+Form.Форма.Name=Form
+Name=UI_ConstructorRegularExpressions
+TabularSection.Параметры.Attribute.Варианты.Name=Variants
+TabularSection.Параметры.Attribute.Замещать.Name=Replace
+TabularSection.Параметры.Attribute.ЗамещатьСписок.Name=ReplaceList
+TabularSection.Параметры.Attribute.Значение.Name=Value
+TabularSection.Параметры.Attribute.Извлечь.Name=Extract
+TabularSection.Параметры.Attribute.ИзвлечьСписок.Name=ExtractList
+TabularSection.Параметры.Attribute.Наименование.Name=Description
+TabularSection.Параметры.Attribute.Ссылка.Name=Ref
+TabularSection.Параметры.Attribute.Тест.Comment=Debug test text
+TabularSection.Параметры.Attribute.Тест.Name=Test
+TabularSection.Параметры.Attribute.Удалить.Name=Delete
+TabularSection.Параметры.Attribute.Форматирование.Name=Formatting
+TabularSection.Параметры.Name=Parameters

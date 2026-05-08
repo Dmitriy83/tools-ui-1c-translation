@@ -1,0 +1,34 @@
+#Translations for: interface
+
+Attribute.НайденныеОбъекты.Title=Found objects
+Attribute.НайденныеОбъекты.Выбрать.Title=Select
+Attribute.НайденныеОбъекты.Объект.Title=Object
+Attribute.НайденныеОбъекты.Т_НомерСтроки.Title=T row number
+Attribute.НайденныеОбъекты.Т_ТЧ.Title=T TS
+Attribute.ОбрабатыватьТабличныеЧасти.Title=Process tabular sections
+Attribute.ОбъектОбработки.Title=Processing object
+Attribute.ОбъектПоиска.Title=Search object
+Attribute.Реквизиты.Title=Attributes
+Attribute.Реквизиты.Выбрать.Title=Select
+Attribute.Реквизиты.Значение.Title=Value
+Attribute.Реквизиты.Идентификатор.Title=Identifier
+Attribute.Реквизиты.Реквизит.Title=Attribute
+Attribute.Реквизиты.РеквизитТЧ.Title=Attribute TS
+Attribute.Реквизиты.Тип.Title=Type
+Attribute.Родитель.Title=Parent
+Attribute.ТекущаяНастройка.Title=Current setting
+Attribute.ТекущаяНастройкаПредставление.Title=Current setting presentation
+Attribute.ТекущаяСтрока.Title=Current row
+Command.ВыбратьВсе.Title=Select all
+Command.ВыбратьВсе.ToolTip=Select all
+Command.ВыполнитьКоманду.Title=Execute
+Command.ВыполнитьКоманду.ToolTip=Run command
+Command.ОтменитьВыбор.Title=Deselect
+Command.ОтменитьВыбор.ToolTip=Deselect
+Command.СохранитьНастройки.Title=Save settings
+Command.СохранитьНастройки.ToolTip=Save settings
+Item.ГруппаКнопки.Title=Buttons group
+Item.ГруппаКнопки.ToolTip=Buttons group
+Item.РеквизитыРеквизитТЧ.Title=TS
+Item.ТекущаяНастройка.Title=Current setting
+Title=Set attributes

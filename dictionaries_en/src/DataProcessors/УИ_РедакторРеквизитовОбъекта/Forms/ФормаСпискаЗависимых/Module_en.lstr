@@ -1,0 +1,4 @@
+#Translations for: interface
+
+Method._ПоказатьТекстЗапроса.NStr.Текст\ запроса\ для\ зависимых.Lines=Query text for dependents
+Method.ПриСозданииНаСервере.Var.Заголовок.NStr.Зависимые\:\ %1.Lines=Dependents\: %1

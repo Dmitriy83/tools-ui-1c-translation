@@ -1,0 +1,30 @@
+#Translations for: model
+
+Method.ДобавитьЗапрос.Lines.Таблица.Content=Table
+Method.ДобавитьЗапрос.Name=AddQuery
+Method.ДобавитьЗапрос.Param.ЗапросПоиска.Name=QuerySearch
+Method.ДобавитьЗапрос.Param.КлассСсылки.Name=ClassRef
+Method.ДобавитьЗапрос.Param.Менеджер.Name=Manager
+Method.ДобавитьЗапрос.Param.СтрокаУникальныйИдентификатор.Name=StringUniqueIdentifier
+Method.ДобавитьЗапрос.Param.маЗапросПоиска.Name=maQuerySearch
+Method.ДобавитьЗапрос.String.Таблица.Key=Table
+Method.ДобавитьЗапрос.Var.ИмяМетаданных.Name=NameMetadata
+Method.ДобавитьЗапрос.Var.ИмяПараметра.Name=NameParameter
+Method.ДобавитьЗапрос.Var.Ссылка.Name=Ref
+Method.ДобавитьЗапрос.Var.ТаблицаБазы.Name=TableDatabase
+Method.КомандаНайтиНаСервере.Name=CommandFindOnServer
+Method.КомандаНайтиНаСервере.Param.СтрокаУникальныйИдентификатор.Name=StringUniqueIdentifier
+Method.КомандаНайтиНаСервере.Var.Выборка.Name=Selection
+Method.КомандаНайтиНаСервере.Var.ЗапросПоиска.Name=QuerySearch
+Method.КомандаНайтиНаСервере.Var.Менеджер.Name=Manager
+Method.КомандаНайтиНаСервере.Var.ТекстЗапроса.Name=TextQuery
+Method.КомандаНайтиНаСервере.Var.маЗапросПоиска.Name=maQuerySearch
+Method.КомандаОК.Var.ВозвращаемоеЗначение.Name=ReturnedValue
+Method.КомандаОК.Var.Значение.Name=Value
+Method.СсылкаПриИзменении.Comment.@skip-warning.Description=@skip-warning
+Method.УникальныйИдентификаторОкончаниеВводаТекста.Comment.@skip-warning.Description=@skip-warning
+Method.УникальныйИдентификаторОкончаниеВводаТекста.Comment.СтандартнаяОбработка\ \=\ Ложь;.Description=StandardProcessing \= False;
+Method.УникальныйИдентификаторОкончаниеВводаТекста.String.Word.Некорректный.Key=Incorrect
+Method.УникальныйИдентификаторОкончаниеВводаТекста.String.Word.уникальный.Key=unique
+Method.УникальныйИдентификаторОкончаниеВводаТекста.Var.ъ.Name=j
+Method.УникальныйИдентификаторПриИзменении.Comment.@skip-warning.Description=@skip-warning

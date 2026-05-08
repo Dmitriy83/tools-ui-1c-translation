@@ -1,0 +1,20 @@
+#Translations for: interface
+
+Attribute.СуффиксРеквизитаКонтейнера.Title=Container attribute suffix
+Attribute.ТаблицаЗначений.Title=Value table
+Attribute.ТаблицаЗначенийКолонкиКонтейнера.Title=Value table container columns
+Attribute.ТаблицаЗначенийСоответствиеКолонок.Title=Value table column mapping
+Command.КомандаЗаполнитьИзСтрокиВнутр.Title=From internal string
+Command.КомандаЗначениеВСтрокуВнутр.Title=To internal string
+Command.КомандаЗначениеВФайл.Title=Value to file
+Command.КомандаЗначениеИзФайла.Title=Value from file
+Command.КомандаОК.Title=OK command
+Command.КомандаОК.ToolTip=OK command
+Command.КомандаОчистить.Title=Clear
+Command.КомандаОчистить.ToolTip=Clear command
+Item.ГруппаКоманднаяПанельНижняя.Title=Bottom command bar group
+Item.ГруппаКоманднаяПанельНижняя.ToolTip=Bottom command bar group
+Item.КнопкаОК.Title=OK
+Item.КомандаОтмена.Title=Cancel
+Item.ФормаГруппаЗаполнить.Title=Form fill group\n
+Item.ФормаГруппаПередать.Title=Form pass group

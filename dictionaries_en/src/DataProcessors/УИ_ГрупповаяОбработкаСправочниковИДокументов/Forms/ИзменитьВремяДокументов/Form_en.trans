@@ -1,0 +1,21 @@
+#Translations for: model
+
+Attribute.ВведенноеВремя.Name=EnteredTime
+Attribute.ВидИзмененияВремени.Name=KindChangeTime
+Attribute.НайденныеОбъекты.Name=FoundObjects
+Attribute.ОбъектОбработки.Name=ObjectProcessing
+Attribute.ОбъектПоиска.Name=ObjectSearch
+Attribute.Родитель.Name=Parent
+Attribute.ТекущаяНастройка.Name=CurrentSetting
+Attribute.ТекущаяНастройкаПредставление.Name=CurrentSettingPresentation
+Attribute.ТекущаяСтрока.Name=CurrentString
+Command.ВыполнитьКоманду.Handler.Name=ExecuteProcessingCommand
+Command.ВыполнитьКоманду.Name=ExecuteCommand
+Command.СохранитьНастройки.Handler.Name=SaveSettingsCommand
+Command.СохранитьНастройки.Name=SaveSettings
+Item.ВидИзмененияВремени.ChoiceList.0.Value.Value=InStartDay
+Item.ВидИзмененияВремени.ChoiceList.1.Value.Value=InEndDay
+Item.ВидИзмененияВремени.ChoiceList.2.Value.Value=EnterManually
+Item.ВыполнитьОбработку.Name=ExecuteProcessing
+Item.ГруппаКнопки.Name=GroupButton
+Item.ТекущаяНастройка.Name=CurrentSetting

@@ -1,0 +1,7 @@
+#Translations for: interface
+
+Command.ФайловыйМенеджер.Synonym=File manager [UI]
+Explanation=Data processor for convenient file handling between client and server. Transfer, viewing, deletion. Currently contains synchronous calls.
+ExtendedPresentation=File manager
+Form.Форма.Synonym=Form
+Synonym=File manager [UI]

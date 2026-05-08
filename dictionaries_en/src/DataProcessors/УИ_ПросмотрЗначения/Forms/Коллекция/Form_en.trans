@@ -1,0 +1,21 @@
+#Translations for: model
+
+Attribute.ВозможенДоступКЭлементуКоллекцииПоИндексу.Name=PossibleAccessToItemCollectionByIndex
+Attribute.ВходящееЗначениеКонтейнер.Name=IncomingValueContainer
+Attribute.Выражение.Name=Expression
+Attribute.ИменаСвойствКоллекции.Name=NamesPropertiesCollection
+Attribute.КоличествоЭлементов.Name=CountItems
+Attribute.КонтекстКлиента.Name=ContextClient
+Attribute.ПредставлениеТипа.Name=PresentationType
+Attribute.ТаблицаКоллекции.Name=TableCollection
+Attribute.ТаблицаКоллекции.ВидКонтейнера.Name=KindContainer
+Attribute.ТаблицаКоллекции.ЗначениеЕстьОшибка.Name=ValueHasError
+Attribute.ТаблицаКоллекции.ЗначениеКонтейнер.Name=ValueContainer
+Attribute.ТаблицаКоллекции.ЗначениеОписаниеОшибки.Name=ValueDescriptionError
+Attribute.ТаблицаКоллекции.ЗначениеПредставление.Name=ValuePresentation
+Attribute.ТаблицаКоллекции.ЗначениеТипЗначения.Name=ValueTypeValue
+Attribute.ТаблицаКоллекции.ЗначениеТипЗначенияПредставление.Name=ValueTypeValuePresentation
+Attribute.ТаблицаКоллекции.ИмяОбъектаМетаданных.Name=NameObjectMetadata
+Attribute.ТаблицаКоллекции.Индекс.Name=Index
+Command.ПоказатьВОтдельномОкне.Name=ShowInSeparateWindow
+Item.ГруппаШапкаТаблицы.Name=GroupHeaderTable
