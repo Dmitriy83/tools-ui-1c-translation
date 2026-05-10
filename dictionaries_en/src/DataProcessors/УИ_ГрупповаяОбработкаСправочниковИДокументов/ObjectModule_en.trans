@@ -43,10 +43,10 @@ Method.ИнициализацияМенеджеров.Var.Менеджеры.Nam
 Method.ИнициализацияМенеджеров.Var.ОбъектМД.Name=ObjectMD
 Method.ИнициализацияМенеджеров.Var.Структура.String.Менеджер.Key=Manager
 Method.ИнициализацияМенеджеров.Var.Структура.String.ОбъектМД.Key=ObjectMD
-Method.ИнициализацияМенеджеров.Var.Структура.String.ТипСсылки.Key=TypeRef
-Method.ИнициализацияМенеджеров.Var.Структура.String.ТипСсылкиСтрокой.Key=TypeRefString
-Method.ИнициализацияМенеджеров.Var.ТипСсылки.Name=TypeRef
-Method.ИнициализацияМенеджеров.Var.ТипСсылкиСтрокой.Name=TypeRefString
+Method.ИнициализацияМенеджеров.Var.Структура.String.ТипСсылки.Key=RefType
+Method.ИнициализацияМенеджеров.Var.Структура.String.ТипСсылкиСтрокой.Key=RefTypeString
+Method.ИнициализацияМенеджеров.Var.ТипСсылки.Name=RefType
+Method.ИнициализацияМенеджеров.Var.ТипСсылкиСтрокой.Name=RefTypeString
 Method.ИнициализацияМенеджеров.Var.ТипСсылкиСтрокой.String.Word.ДокументСсылка.Key=DocumentRef
 Method.ИнициализацияМенеджеров.Var.ТипСсылкиСтрокой.String.Word.СправочникСсылка.Key=CatalogRef
 Method.ПолучитьВидСравнения.Comment.issues470\ удалено\ условие.Description=issues470 удалено условие

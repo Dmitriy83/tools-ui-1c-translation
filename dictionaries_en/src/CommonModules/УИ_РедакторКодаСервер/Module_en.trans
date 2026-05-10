@@ -209,7 +209,7 @@ Method.СоздатьЭлементыРедактораКода.Var.Параме
 Method.СоздатьЭлементыРедактораКода.Var.ПараметрыФормированияРедакторов.Name=EditorsBuildParameters
 Method.СоздатьЭлементыРедактораКода.Var.Подменю.Name=Submenu
 Method.СоответствиеСсылочныхТипов.Name=ReferenceTypesMap
-Method.СписокМетаданныхПоВиду.Name=ListMetadataByKind
+Method.СписокМетаданныхПоВиду.Name=MetadataListByKind
 Method.СписокМетаданныхПоВиду.Param.ВидМетаданных.Name=MetadataKind
 Method.СписокМетаданныхПоВиду.Var.КоллекцияМетаданных.Name=MetadataCollection
 Method.СписокМетаданныхПоВиду.Var.МассивИмен.Name=NamesArray

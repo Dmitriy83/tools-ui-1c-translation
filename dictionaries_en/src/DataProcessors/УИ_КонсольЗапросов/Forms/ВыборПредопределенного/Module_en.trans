@@ -35,7 +35,7 @@ Method.ПриСозданииНаСервере.Var.КоллекцияПарам
 Method.ПриСозданииНаСервере.Var.КонечнаяСтрока.Name=FinalString
 Method.ПриСозданииНаСервере.Var.НачальнаяСтрока.Name=InitialString
 Method.ПриСозданииНаСервере.Var.СтрокаФиктивногоПараметра.Name=StringDummyParameter
-Method.ПриСозданииНаСервере.Var.ТекстЗапроса.Name=TextQuery
+Method.ПриСозданииНаСервере.Var.ТекстЗапроса.Name=QueryText
 Method.ПриСозданииНаСервере.Var.Тип.Name=Type
 Method.ПриСозданииНаСервере.Var.ТипЗначения.Name=ValueType
 Method.ПриСозданииНаСервере.Var.й.Name=j

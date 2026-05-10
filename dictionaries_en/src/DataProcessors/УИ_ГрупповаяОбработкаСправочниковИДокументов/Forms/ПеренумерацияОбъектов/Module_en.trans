@@ -75,9 +75,9 @@ Method.ОбработатьИндикатор.Var.Осталось.Name=Remainin
 Method.ОбработатьИндикатор.Var.ОсталосьВремени.Name=RemainingTime
 Method.ОбработатьИндикатор.Var.ПрошлоВремени.Name=PassedTime
 Method.ОбработатьИндикатор.Var.Секунд.Name=Seconds
-Method.ОбработатьИндикатор.Var.ТекстОсталось.Name=TextRemaining
+Method.ОбработатьИндикатор.Var.ТекстОсталось.Name=RemainingText
 Method.ОбработатьИндикатор.Var.ТекстОсталось.String.Word.Осталось.Key=Remaining
-Method.ОбработатьИндикатор.Var.ТекстСостояния.Name=TextState
+Method.ОбработатьИндикатор.Var.ТекстСостояния.Name=StateText
 Method.ОбработатьИндикатор.Var.Часов.Name=Hours
 Method.ОбработатьОбъект.Comment.Объект\.Записать();.Description=Object.Write();
 Method.ОбработатьОбъект.Comment.Попытка\nОбъект\.Записать();\nИсключение\nЕсли\ ИмяТипаОбъектов\ \=\ "Документ"\ Тогда\nОбъект\.Номер\ \=\ МаксимальныйНомер\ -\ Сч;\nИначе\nОбъект\.Код\ \=\ МаксимальныйНомер\ -\ Сч;\nКонецЕсли;\nОбъект\.Записать();\nНеУникальныеНомера\.Вставить(ЧисловаяЧастьНомера,\ Объект\.Ссылка);\nКонецПопытки;.Description=Try\nObject.Write();\nExcept\nIf ObjectTypeName \= "Document" Then\nObject.Number \= MaximumNumber - Acc;\nElse\nObject.Code \= MaximumNumber - Acc;\nEndIf;\nObject.Write();\nNonUniqueNumbers.Insert(NumericPartNumber, Object.Ref);\nEndTry;

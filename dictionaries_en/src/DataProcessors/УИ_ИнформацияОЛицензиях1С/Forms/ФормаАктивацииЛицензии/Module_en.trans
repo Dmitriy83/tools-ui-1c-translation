@@ -30,5 +30,5 @@ Method.АктивироватьНаСервере.Var.ИмяВременного
 Method.АктивироватьНаСервере.Var.ИмяВременногоФайлаCMD.Name=TemporaryFileNameCMD
 Method.АктивироватьНаСервере.Var.ИмяВременногоФайлаCMD.String.cmd.Key=cmd
 Method.АктивироватьНаСервере.Var.Текст.Name=Text
-Method.АктивироватьНаСервере.Var.ТекстCMD.Name=TextCMD
+Method.АктивироватьНаСервере.Var.ТекстCMD.Name=CMDText
 Method.АктивироватьНаСервере.Var.стр.Name=str
