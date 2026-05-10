@@ -50,7 +50,7 @@ Method.вПоказатьДеревоЗначений.Var.РеквизитыКУ
 Method.вПоказатьДеревоЗначений.Var.Элем.Name=Item
 Method.вПоказатьЗначениеХЗ.Name=inShowValueKhZ
 Method.вПоказатьЗначениеХЗ.Param.Значение.Name=Value
-Method.вПоказатьЗначениеХЗ.String.ФормаОтображенияХЗ.Key=FormDisplayKhZ
+Method.вПоказатьЗначениеХЗ.String.ФормаОтображенияХЗ.Key=FormValueStorageDisplay
 Method.вПоказатьЗначениеХЗ.Var.СтрукПарам.Name=StrucParam
 Method.вПоказатьЗначениеХЗ.Var.СтрукПарам.String.АдресаХранилищ.Key=StorageAddresses
 Method.вПоказатьЗначениеХЗ.Var.СтрукПарам.String.ДанныеХЗ.Key=DataKhZ
@@ -109,7 +109,7 @@ Method.вПоказатьТаблицуЗначений.Var.РеквизитыК
 Method.вПоказатьТаблицуЗначений.Var.РеквизитыКУдалению.Name=AttributesToDelete
 Method.вПоказатьТаблицуЗначений.Var.Элем.Name=Item
 Method.вПолучитьОбработку.Name=inGetProcessing
-Method.вПолучитьПутьКДаннымТекущегоЭлемента.Name=inGetPathToDataCurrentItem
+Method.вПолучитьПутьКДаннымТекущегоЭлемента.Name=inGetCurrentItemDataPath
 Method.вПолучитьПутьКДаннымТекущегоЭлемента.Var.Значение.Name=Value
 Method.вПолучитьПутьКДаннымТекущегоЭлемента.Var.Поз.Name=Pos
 Method.вПолучитьПутьКДаннымТекущегоЭлемента.Var.ТекПоле.Name=CurField
@@ -119,7 +119,7 @@ Method.вПроверитьАдресНаСервере.Name=inCheckAddressOnSer
 Method.вПроверитьАдресНаСервере.Param.пАдрес.Name=pAddress
 Method.вПроверитьАдресНаСервере.Param.пВерноеЗначение.Name=pCorrectValue
 Method.вПроверитьАдресНаСервере.Var.пЗначение.Name=pValue
-Method.вПроверитьАдресаХранилищ.Name=inCheckAddressStorages
+Method.вПроверитьАдресаХранилищ.Name=inCheckStorageAddresses
 Method.вСкопироватьСтруктуру.Name=inCopyStructure
 Method.вСкопироватьСтруктуру.Param.Источник.Name=Source
 Method.вСкопироватьСтруктуру.Var.Струк.Name=Struc

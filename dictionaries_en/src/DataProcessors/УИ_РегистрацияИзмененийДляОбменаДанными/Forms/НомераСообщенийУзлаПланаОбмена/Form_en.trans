@@ -1,11 +1,11 @@
 #Translations for: model
 
-Attribute.ВерсияДанных.Name=VersionData
+Attribute.ВерсияДанных.Name=DataVersion
 Attribute.НомерОтправленного.Name=NumberSent
 Attribute.НомерПринятого.Name=NumberAccepted
 Attribute.Объект.Name=Object
-Attribute.УзелОбменаСсылка.Name=NodeExchangeRef
-Command.ЗаписатьИзмененияУзла.Name=WriteChangeNode
+Attribute.УзелОбменаСсылка.Name=ExchangeNodeRef
+Command.ЗаписатьИзмененияУзла.Name=WriteNodeChanges
 Item.Группа3.Name=Group3
 Item.Группа4.Name=Group4
-Parameter.УзелОбменаСсылка.Name=NodeExchangeRef
+Parameter.УзелОбменаСсылка.Name=ExchangeNodeRef

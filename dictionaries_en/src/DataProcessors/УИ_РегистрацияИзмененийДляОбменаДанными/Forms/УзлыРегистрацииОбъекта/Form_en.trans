@@ -1,23 +1,23 @@
 #Translations for: model
 
 Attribute.ДеревоУзловОбмена.Name=TreeNodesExchange
-Attribute.ДеревоУзловОбмена.ИндексКартинки.Name=IndexPicture
-Attribute.ДеревоУзловОбмена.ИндексКартинкиАвторегистрация.Name=IndexPictureAutoRegistration
+Attribute.ДеревоУзловОбмена.ИндексКартинки.Name=PictureIndex
+Attribute.ДеревоУзловОбмена.ИндексКартинкиАвторегистрация.Name=PictureIndexAutoRegistration
 Attribute.ДеревоУзловОбмена.ИсходнаяПометка.Name=SourceMark
 Attribute.ДеревоУзловОбмена.Код.Name=Code
 Attribute.ДеревоУзловОбмена.Наименование.Name=Description
 Attribute.ДеревоУзловОбмена.НеВыгружалось.Name=NotUnloaded
-Attribute.ДеревоУзловОбмена.НомерСообщения.Name=NumberMessage
+Attribute.ДеревоУзловОбмена.НомерСообщения.Name=MessageNumber
 Attribute.ДеревоУзловОбмена.Пометка.Name=Mark
 Attribute.ДеревоУзловОбмена.Ссылка.Name=Ref
 Attribute.Объект.Name=Object
-Attribute.ОбъектРегистрации.Name=ObjectRegistration
-Attribute.ТаблицаРегистрации.Name=TableRegistration
+Attribute.ОбъектРегистрации.Name=RegistrationObject
+Attribute.ТаблицаРегистрации.Name=RegistrationTable
 Command.ИзменитьРегистрацию.Name=ChangeRegistration
 Command.ИнвертироватьПометкуВсемУзлам.Name=InvertMarkAllNodes
-Command.ОткрытьФормуНастроек.Name=OpenFormSettings
-Command.ОткрытьФормуРедактированияОтУзла.Name=OpenFormEditingFromNode
-Command.ПеречитатьДеревоУзлов.Name=RereadTreeNodes
+Command.ОткрытьФормуНастроек.Name=OpenSettingsForm
+Command.ОткрытьФормуРедактированияОтУзла.Name=OpenEditingFormFromNode
+Command.ПеречитатьДеревоУзлов.Name=RereadNodesTree
 Command.ПометитьВсеУзлы.Name=MarkAllNodes
 Command.СнятьПометкуВсемУзлам.Name=RemoveMarkAllNodes
 Item.Группа1.Name=Group1
