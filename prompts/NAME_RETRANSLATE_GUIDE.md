@@ -112,12 +112,24 @@ The KEY contains a single Russian word; the VALUE is its English equivalent. The
 
 For these, just produce the natural English equivalent of the single Russian word, preserving rough case (lowercase Russian → lowercase English unless it's a proper noun or platform name).
 
+## .String.<rusidentifier>.Key — compound identifier translation
+
+The KEY contains a (potentially compound) Russian identifier WITHOUT the `Word.` prefix; the VALUE is its English equivalent compound identifier. These ARE positional-prone like `.Name=` values and need the SAME compound order rules:
+- `String.КаталогБазы.Key=DatabaseDirectory` (NOT `DirectoryDatabase`)
+- `String.ДанныеАлгоритмов.Key=AlgorithmData` (NOT `DataAlgorithms`) — note Russian genitive plural maps to English singular here since it's a noun-modifier
+- `String.УИ_УниверсальныеИнструменты_ХранилищеАлгоритмов.Key=UI_UniversalTools_AlgorithmsStorage`
+- `String.ОписаниеОповещенияОЗавершении.Key=CompletionNotificationDescription`
+
+Apply the same compound-genitive reversal rules as `.Name=`. These are runtime lookup strings (used in BSL code as keys for structures/maps), so they MUST translate consistently with the corresponding `.Name=` translation in the same project.
+
+**Identity-translatable values stay as-is**: short ALL-CAPS abbreviations (`String.ALGO.Key=ALGO`, `String.CDX.Key=CDX`, `String.CASHED.Key=CASHED`), already-Latin tokens — leave unchanged.
+
 ## Method
 
 1. Read the trans file.
-2. For every `key=value` line where the key ends with `.Name` OR matches `.String.Word.<X>.Key`:
-   - Extract the Russian identifier from the key
-   - Determine correct English (apply rules above)
+2. For every `key=value` line where the key ends with `.Name` OR has `.String.` somewhere AND ends with `.Key` (covers both `.String.Word.X.Key` and `.String.X.Key` formats):
+   - Extract the Russian identifier from the key segment between `.String.` (or end of `Word.`) and `.Key`, OR from the segment before `.Name`
+   - Determine correct English (apply compound order rules above)
    - Replace the value (use Edit tool with old_string=current line, new_string=corrected line)
 3. Leave all other lines unchanged.
 4. Do NOT modify `.Description=`, `.NStr.X.Lines=`, `.Comment.X.Description=` lines (those are prose, already translated).

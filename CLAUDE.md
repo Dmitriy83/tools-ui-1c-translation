@@ -46,11 +46,13 @@
 
 **TODO** (в порядке приоритета):
 
-1. **Opus retranslate `.Name=` в 35 CommonModules** (кроме 10 уже сделанных) — фикс позиционных compound ordering ошибок
-2. **Opus retranslate `.Name=` в 42 DataProcessors** — фикс того же
+1. **Sonnet retranslate `.Name=` в 17 оставшихся CommonModules** (23 уже сделаны: 5 пилотов + 5 Opus + 13 Sonnet через 2 волны)
+2. **Sonnet retranslate `.Name=` в 42 DataProcessors** — фикс позиционных compound ordering
 3. **Дотранслировать prose в DP** (2426 строк остались после rate-limit'а)
 4. **Перевести Reports/Catalogs/CommonForms/Commands/HTTPServices** — почти не тронуты, нужны и `.Name=` и prose
-5. После всего — `translate_configuration` в EDT, `cleanup_orphan_modules.py`, `check_translated.py`
+5. **Follow-up pass для `.String.<X>.Key=` без Word** в уже-обработанных модулях — ранние волны переводили только `.Name=` и `.String.Word.<X>.Key=`, а compound-style `.String.КаталогБазы.Key=` остались позиционными. Гайд обновлён (теперь scope включает обе формы), но старые модули нужно перепрогнать. Затронутые модули — все из waves 1-2 (5 + 8 = 13 модулей)
+6. **Cross-module consistency review** — обнаружен дрейф между агентами (например `NotificationOnCompletion` vs `CompletionNotification` — оба валидны, но не согласованы по проекту). Один проход с фиксированным глоссарием
+7. После всего — `translate_configuration` в EDT, `cleanup_orphan_modules.py`, `check_translated.py`
 
 ## Активный workflow: Opus retranslate per module
 
