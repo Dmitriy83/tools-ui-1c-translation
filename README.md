@@ -1,120 +1,118 @@
 # tools-ui-1c-translation
 
-Pipeline для английского перевода расширения конфигурации **«Универсальные инструменты»** ([tools_ui_1c](https://github.com/tools-ui-1c/tools_ui_1c)) с использованием EDT LanguageTool («зависимый проект перевода») плюс набор скриптов, закрывающих пробелы автогенерации.
+Английский перевод расширения конфигурации **«Универсальные инструменты»** ([tools_ui_1c](https://github.com/tools-ui-1c/tools_ui_1c)) через зависимый проект перевода EDT (`dictionaries_en/`) — заполняется LLM-агентами (Claude/Opus) по чёткому workflow.
 
-> Подробная техническая документация по форматам файлов, правилам перевода, EDT quirks и pipeline — в [CLAUDE.md](CLAUDE.md).
-> Глубокое описание post-build шага — в [POSTBUILD_PATCHER.md](POSTBUILD_PATCHER.md).
+> **Полный контекст и workflow для агентов** — в [CLAUDE.md](CLAUDE.md).
+> **Style guides** — [`prompts/NAME_RETRANSLATE_GUIDE.md`](prompts/NAME_RETRANSLATE_GUIDE.md), [`prompts/MODULE_STYLE_GUIDE.md`](prompts/MODULE_STYLE_GUIDE.md).
 
 ## О проекте
 
-«Универсальные инструменты» (`УИ_`) — расширение конфигурации с набором инструментов разработчика и администратора 1С: консоли запросов/кода/HTTP-запросов, навигатор по метаданным, редактор алгоритмов, групповая обработка справочников и документов и пр. Расширение исторически развивается на русском, английская версия отсутствует.
+«Универсальные инструменты» (`УИ_`) — расширение конфигурации с инструментарием для разработчика и администратора 1С: консоли запросов/кода/HTTP-запросов, навигатор по метаданным, редактор алгоритмов, групповая обработка справочников и документов, парсер встроенного языка и пр. Расширение исторически развивается на русском, английская версия отсутствует.
 
-Этот репозиторий — словарь зависимого перевода + инфраструктура, которая позволяет:
+Этот репозиторий — словарь зависимого перевода EDT (`dictionaries_en/`) + workflow + style guides + утилиты. Перевод формируется итерациями:
 
-- автоматически переводить изменения RU → EN через EDT LanguageTool,
-- править остаточные ошибки автогенерации (post-build patcher),
-- проверять, что в переведённом проекте не осталось кириллицы (`check_translated`),
-- наполнять словари токенов и переводить файлы пакетно (`apply_*` + `translations_*`).
+1. EDT генерирует пустые словари с русскими placeholder-значениями
+2. LLM-агенты (Opus) заполняют значения английскими по правилам style guide
+3. EDT через `translate_configuration` собирает translated_project с английскими BSL-модулями
+
+## Текущее состояние
+
+Подробный аудит — `python scripts/analysis/audit_status.py`. Кратко:
+
+| Категория | Файлов | `.Name=` (cyr) | `prose` (cyr) |
+|---|---:|---:|---:|
+| CommonModules | 128 | 13 256 (0) | 3 364 (1) |
+| DataProcessors | 620 | 28 013 (0) | 6 050 (~2 400) |
+| Reports | 26 | 1 332 (1 332) | 526 (517) |
+| Catalogs | 19 | 406 (404) | 19 (16) |
+| CommonForms | 151 | 1 551 (1 550) | 115 (86) |
+
+- **5 пилотных CommonModules с Opus-ревизией** (правильный английский compound order): `УИ_ОбщегоНазначения`, `УИ_РедакторКодаКлиент`, `УИ_СтроковыеФункцииКлиентСервер`, `УИ_АлгоритмыСервер`, `УИ_РаботаСФормами`. Плюс 5 модулей переведённых вручную в первой волне.
+- **35 CommonModules** ждут Opus-ревизии `.Name=` (значения там есть, но позиционные — `NameTable` вместо `TableName`)
+- **42 DataProcessors** — то же самое + ~2400 prose-строк недопереведено
+- **Reports / Catalogs / CommonForms / Commands / HTTPServices** — почти не тронуты
+
+Подробности в [CLAUDE.md → Текущее состояние](CLAUDE.md#текущее-состояние-перевода) и [TODO](CLAUDE.md#todo).
+
+## Конфигурация EDT
+
+В EDT-настройках проекта `Инструменты` оставлены **только контекстные словари** (per-module `.lstr` / `.trans`).
+
+- Глобальный токен-словарь `common-camelcase_en.dict` **не используется** — удалён.
+- Все переводы идентификаторов BSL — в `Module_en.trans` каждого модуля как explicit `.Name=` записи.
 
 ## Структура
 
 ```
 tools-ui-1c-translation/
-├── dictionaries_en/                  # зависимый проект перевода EDT
-│   ├── DT-INF/DEPENDENT.PMF          # Parent-Project: Инструменты
-│   ├── .project                      # dependentProjectNature
+├── dictionaries_en/                   # зависимый проект перевода EDT
+│   ├── DT-INF/DEPENDENT.PMF           # Parent-Project: Инструменты
+│   ├── .project                       # dependentProjectNature
 │   └── src/
-│       ├── common_en.dict            # пословный shared-словарь
-│       ├── common-camelcase_en.dict  # CamelCase-составные идентификаторы
-│       └── Languages/English/        # объект целевого языка
-├── scripts/                          # pipeline и диагностические скрипты
-│   ├── pipeline/                     #   запускаются на каждой пересборке
-│   ├── analysis/                     #   диагностика / одноразовый анализ
-│   └── migration/                    #   гигиена словарей + применение TR-таблиц
-├── CLAUDE.md                         # техническая документация (форматы, правила, quirks)
-└── POSTBUILD_PATCHER.md              # описание post-build шага
+│       ├── CommonModules/<Имя>/       # Module_en.trans + Module_en.lstr + module-level _en.lstr/_en.trans
+│       ├── DataProcessors/<Имя>/...   # тот же паттерн + ObjectModule + Forms + Templates
+│       ├── Reports/<Имя>/...
+│       ├── Catalogs/<Имя>/...
+│       ├── CommonForms/<Имя>/...
+│       ├── HTTPServices/<Имя>/...
+│       ├── Languages/English/         # объект целевого языка
+│       └── common_en.dict             # display strings (Авто, Включая, ...)
+├── prompts/                           # style guides для агентов
+│   ├── NAME_RETRANSLATE_GUIDE.md      # правила compound order для .Name= идентификаторов
+│   └── MODULE_STYLE_GUIDE.md          # общие правила перевода значений в .lstr/.trans
+├── scripts/
+│   ├── analysis/                      # audit_status, extract_untranslated, ...
+│   ├── pipeline/                      # cleanup_orphan_modules, check_translated, postbuild_patch
+│   └── migration/                     # точечные fix_* (regions, str_builtins, platform_fields)
+├── CLAUDE.md                          # ⭐ полный контекст и workflow для агентов
+├── POSTBUILD_PATCHER.md               # описание post-build шага (для HTTP-специфичных багов)
+└── README.md                          # этот файл
 ```
 
-## Как это работает
+## Активный workflow (для одного модуля)
 
-EDT не справляется с переводом 100% символов из-за особенностей токенизатора и неполноты внутренних словарей. Pipeline закрывает разрыв в три захода:
+1. `git pull`
+2. В Claude Code дать агенту команду: «переведи `dictionaries_en/src/<Category>/<Module>/Module_en.trans` через Opus subagent (`subagent_type: general-purpose`, `model: "opus"`), используя `prompts/NAME_RETRANSLATE_GUIDE.md`. Референс стиля — `dictionaries_en/src/CommonModules/УИ_ОбщегоНазначения/Module_en.trans`.»
+3. Если файл >800 строк — chunk на 2-3 части, по агенту на чанк, склеить
+4. `python scripts/analysis/audit_status.py` — убедиться что cyr-valued = 0 в модуле
+5. `git commit -am "Opus retranslate <module>"` + `git push`
+6. Периодически — `mcp__edt-mcp__translate_configuration` в EDT, потом `cleanup_orphan_modules.py`, спот-чек BSL в translated_project
 
-1. **EDT LanguageTool** делает базовый перевод используя `dictionaries_en/`.
-2. **postbuild_patch** правит фиксированный набор остаточных багов перевода (неверные алиасы платформенных функций, поля платформенных объектов с обратным порядком слов, изредка — литералы в тестовых данных).
-3. **check_translated** валидирует, что в коде переведённого проекта не осталось кириллицы.
-
-Результат — английский исходник в `Инструменты_translated_project/` (под EDT) и далее экспортируемый в XML для возможного PR в основную репу.
-
-## Pipeline (типовой проход после изменения словарей)
-
-```
-1. translate_configuration                # EDT LanguageTool: словарь -> EN артефакты
-2. cleanup_orphan_modules.py              # удаление папок без .mdo
-3. check_module_header_drift.py           # дрейф year/version в module-header
-4. postbuild_patch.py                     # фиксы: StrStartWith, StatusCode, ...
-5. clean translated_project (EDT)         # EDT перечитывает после postbuild
-6. check_translated.py                    # ищет остаточную кириллицу (CODE+DOC)
-```
-
-Pipeline идемпотентный: повторный прогон даёт то же состояние.
-
-Шаги 1, 5 — действия в EDT (через [EDT-MCP сервер](https://github.com/DitriXNew/EDT-MCP) с тулами `translate_configuration` / `export_configuration_to_xml` / `cleanup_orphan_modules`). Шаги 2–4, 6 — Python-скрипты этого репозитория.
+Полный workflow и правила — в [CLAUDE.md → Активный workflow](CLAUDE.md#активный-workflow-opus-retranslate-per-module).
 
 ## Требования
 
-- **EDT 2026.1+** — основная целевая версия для автоматизации (на 2025.x словарь работает, но MCP-тулы не поддерживаются).
-- **LanguageTool** — устанавливается отдельно через **Help → Install New Software**.
-- **Java 17** (поставляется с EDT — Azul Zulu 17).
-- **Python 3.10+** для pipeline-скриптов.
-- **Git** для работы с upstream `tools_ui_1c`.
+- **Claude Code** или совместимый агент с поддержкой Opus subagents
+- **Python 3.10+** для скриптов аудита и pipeline
+- **Git** для координации
+- **EDT 2026.1+** + LanguageTool — нужен только для финальной сборки `Инструменты_Перевод/` через `translate_configuration` (не каждому участнику)
+- Опционально: [EDT-MCP плагин](https://github.com/DitriXNew/EDT-MCP) с тулами `translate_configuration` / `clean_project` / `cleanup_orphan_modules`
 
-Опционально: [EDT-MCP плагин](https://github.com/DitriXNew/EDT-MCP) с тулами `translate_configuration` / `export_configuration_to_xml` / `generate_translation_strings` / `cleanup_orphan_modules` — для запуска pipeline через AI-ассистент.
+## Координация работы между несколькими разработчиками
 
-## Быстрый старт
+См. [CLAUDE.md → Координация](CLAUDE.md#координация-работы-между-несколькими-агентами--разработчиками). Кратко:
 
-1. **Импортировать в EDT**:
-   - исходное расширение: `C:/git/tools_ui_1c/src/Инструменты` (имя проекта в EDT — `Инструменты`)
-   - базовая конфигурация: `ТестоваяДляРазработкиУИ` (нужна как родитель для расширения)
-   - зависимый проект перевода: `dictionaries_en` (этот репозиторий)
-2. Имя проекта-родителя в [DEPENDENT.PMF](dictionaries_en/DT-INF/DEPENDENT.PMF) должно совпадать с именем импортированного источника. По умолчанию — `Инструменты`.
-3. Настроить пути в скриптах под свою машину: отредактировать константы `PROJ` / пути в начале каждого `scripts/<group>/*.py` (по умолчанию указывают на `C:/Users/<user>/AppData/Local/1C/1cedtstart/projects/Tools UI 1C/...`).
-4. Прогнать процесс по [CLAUDE.md → Применение к новому модулю/файлу](CLAUDE.md#применение-к-новому-модулюфайлу).
+- Каждый берёт **непересекающийся набор модулей** (категория или конкретный список)
+- Работа на ветке: `git checkout -b retranslate/<scope>`
+- Пушите регулярно (после каждого модуля или пары)
+- `translate_configuration` в EDT запускает **только один человек** (тот, у кого EDT) — он же финальный rebuild + проверка
 
-## Скрипты
+## Ключевые скрипты
 
-Полный обзор и параметры — в [CLAUDE.md → Тулинг](CLAUDE.md). Краткий перечень:
+- [`scripts/analysis/audit_status.py`](scripts/analysis/audit_status.py) — статус по всем категориям (.Name / .Word / prose, % cyr-valued)
+- [`scripts/analysis/extract_untranslated.py`](scripts/analysis/extract_untranslated.py) — список untranslated по одному файлу
+- [`scripts/pipeline/cleanup_orphan_modules.py`](scripts/pipeline/cleanup_orphan_modules.py) — удалить orphan-папки в translated_project после переименований
+- [`scripts/pipeline/check_translated.py`](scripts/pipeline/check_translated.py) — финальный сканер кириллицы (CODE/DOC) в translated_project
+- [`scripts/pipeline/postbuild_patch.py`](scripts/pipeline/postbuild_patch.py) — фиксы остаточных багов EDT (StrStartWith, поля платформы)
 
-**Pipeline (запускаются после каждой пересборки EDT):**
-- `cleanup_orphan_modules.py` — удаление мусорных папок модулей после переименований словаря
-- `check_module_header_drift.py` — детектор дрейфа литералов (год/версия) в module-header
-- `postbuild_patch.py` — фиксы остаточных багов перевода
-- `check_translated.py` — детектор остаточной кириллицы по всему переведённому проекту (CODE / DOC)
-
-**Анализ:**
-- `extract_untranslated.py <файл>` — таблицы glossary + untranslated по одному файлу
-- `extract_all_untranslated.py` — рекурсивно по всему `dictionaries_en/src/`
-- `camelcase_tokens.py` — уникальные кириллические токены из camelcase-словаря
-- `find_missing_dict_keys.py` — Cyrillic-идентификаторы из RU-исходника, которых нет в `common-camelcase_en.dict`
-- `find_str_ids.py` — список `Стр*`-идентификаторов в RU-исходнике (аудит платформенных встроенных)
-
-**Миграция / гигиена словарей:**
-- `apply_translations.py <target> <translations.py>` — точечное применение TR-таблицы к одному файлу
-- `apply_camelcase.py` — токенный перевод `common-camelcase_en.dict` через `camelcase_token_tr.py`
-- `apply_small.py` — пакетная обработка нескольких файлов через `translations_small.py`
-- `sort_dict.py` — алфавитная сортировка
-- `proper_split.py` — переносить однословные идентификаторы в `common_en.dict`
-- `fix_regions.py` — каноничные английские имена SSL-областей
-- `fix_case.py` — нормализация PascalCase=lowercase легаси-записей
-- `fix_camelcase.py` — case-нормализация + добавление недостающих идентификаторов
-- `fix_str_builtins.py` — оверрайд `СтрНачинаетсяС=StrStartWith`
-- `fix_platform_fields.py` — оверрайды платформенных полей (`КодСостояния=StatusCode` и т.д.)
+Legacy-скрипты от ранней токен-словарной методологии (`apply_camelcase.py`, `camelcase_token_tr.py`, `proper_split.py`, и т.п.) **не используются в текущем подходе** — оставлены в репе для истории.
 
 ## Связанные проекты
 
 - [tools-ui-1c/tools_ui_1c](https://github.com/tools-ui-1c/tools_ui_1c) — исходник расширения (RU)
 - [DitriXNew/EDT-MCP](https://github.com/DitriXNew/EDT-MCP) — MCP-сервер для EDT
-- [Dmitriy83/EDT-MCP](https://github.com/Dmitriy83/EDT-MCP) — fork с тулами LanguageTool / Workspace export-import (PR'ы открыты в upstream)
-- [vbondarevsky/Connector → httpconnector-translations](https://github.com/Dmitriy83/httpconnector-translations) — предшественник этого pipeline для библиотеки HTTPConnector
+- [Dmitriy83/EDT-MCP](https://github.com/Dmitriy83/EDT-MCP) — fork с тулами LanguageTool / Workspace export-import
+- [vbondarevsky/Connector → Dmitriy83/httpconnector-translations](https://github.com/Dmitriy83/httpconnector-translations) — предшественник этого pipeline для библиотеки HTTPConnector (использовалась старая токен-словарная методология)
 
 ## Лицензия
 
