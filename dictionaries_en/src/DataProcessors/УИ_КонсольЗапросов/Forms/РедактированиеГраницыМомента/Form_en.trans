@@ -1,11 +1,11 @@
 #Translations for: model
 
 Attribute.ВидГраницы.Name=KindBorder
-Attribute.ДатаМомента.Name=DateMoment
+Attribute.ДатаМомента.Name=MomentDate
 Attribute.Значение.Name=Value
-Attribute.ЗначениеГраницы.Name=ValueBorder
+Attribute.ЗначениеГраницы.Name=BorderValue
 Attribute.Объект.Name=Object
-Attribute.СсылкаМомента.Name=RefMoment
+Attribute.СсылкаМомента.Name=MomentRef
 Command.КомандаОК.Name=CommandOK
 Item.ВидГраницы.ChoiceList.0.Value.Value=Including
 Item.ВидГраницы.ChoiceList.1.Value.Value=Excluding

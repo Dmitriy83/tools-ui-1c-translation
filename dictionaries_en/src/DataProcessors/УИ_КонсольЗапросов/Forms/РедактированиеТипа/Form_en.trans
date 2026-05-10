@@ -1,9 +1,9 @@
 #Translations for: model
 
-Attribute.АдресТаблицы.Name=AddressTable
+Attribute.АдресТаблицы.Name=TableAddress
 Attribute.ВЗапросРазрешено.Name=InQueryAllowed
 Attribute.ДеревоТипов.Name=TreeTypes
-Attribute.ИмяПараметра.Name=NameParameter
+Attribute.ИмяПараметра.Name=ParameterName
 Attribute.КвалификаторыДатыСостав.Name=QualifiersDateContent
 Attribute.КвалификаторыСтрокиДлина.Name=QualifiersRowLength
 Attribute.КвалификаторыСтрокиКомментарий.Name=QualifiersRowComment
@@ -13,7 +13,7 @@ Attribute.КвалификаторыЧислаНеОтрицательный.Nam
 Attribute.КвалификаторыЧислаТочность.Name=QualifiersNumberPrecision
 Attribute.Объект.Name=Object
 Attribute.РежимВПараметр.Name=ModeInParameter
-Attribute.СоставТипа.Name=ContentType
+Attribute.СоставТипа.Name=TypeContent
 Attribute.СоставТипа.Выбран.Name=Selected
 Attribute.СоставТипа.ВыбранПодч.Name=SelectedSub
 Attribute.СоставТипа.Имя.Name=Name
@@ -21,14 +21,14 @@ Attribute.СоставТипа.Картинка.Name=Picture
 Attribute.СоставТипа.Представление.Name=Presentation
 Attribute.СоставТипа.ЭтоГруппа.Name=ThisGroup
 Attribute.СоставнойТип.Name=CompositeType
-Attribute.СписокРазрешенных.Name=ListAllowed
+Attribute.СписокРазрешенных.Name=AllowedList
 Attribute.СтрокаПоиска.Name=StringSearch
 Attribute.СтруктураТаблицы.Name=StructureTable
 Attribute.СтруктураТаблицы.Имя.Name=Name
-Attribute.СтруктураТаблицы.ИмяСтарое.Name=NameOld
+Attribute.СтруктураТаблицы.ИмяСтарое.Name=OldName
 Attribute.СтруктураТаблицы.Квалификаторы.Name=Qualifiers
-Attribute.СтруктураТаблицы.ТипЗначения.Name=TypeValue
-Attribute.ТипКонтейнера.Name=TypeContainer
+Attribute.СтруктураТаблицы.ТипЗначения.Name=ValueType
+Attribute.ТипКонтейнера.Name=ContainerType
 Attribute.ФлагСброшеныВсе.Name=FlagResetAll
 Attribute.фМоментГраница.Name=fMomentBorder
 Attribute.фПростойВид.Name=fSimpleKind
