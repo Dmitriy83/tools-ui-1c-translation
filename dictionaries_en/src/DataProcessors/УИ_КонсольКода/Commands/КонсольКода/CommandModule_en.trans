@@ -1,7 +1,7 @@
 #Translations for: model
 
 Method.ОбработкаКоманды.Comment.TODO\:\ Вставить\ содержимое\ обработчика\..Description=TODO\: Insert handler contents.
-Method.ОбработкаКоманды.Var.ПараметрыФормы.Name=ParametersForm
+Method.ОбработкаКоманды.Var.ПараметрыФормы.Name=FormParameters
 Region.ОбработчикиСобытий.Comment.Код\ процедур\ и\ функций.Description=Procedures and functions code
 Region.ОбработчикиСобытий.Name=EventHandlers
 Region.ОбработчикиСобытий.СлужебныеПроцедурыИФункции.Comment.Код\ процедур\ и\ функций.Description=Procedures and functions code
