@@ -15,7 +15,7 @@ Attribute.ПараметрыПредставлений.Используется.
 Attribute.ПараметрыПредставлений.Обязательный.Name=Required
 Attribute.ПараметрыПредставлений.Описание.Name=Description
 Attribute.ПараметрыПредставлений.Отбор.Name=Filter
-Attribute.ПараметрыПредставлений.СписокВыбора.Name=ListChoice
+Attribute.ПараметрыПредставлений.СписокВыбора.Name=ChoiceList
 Attribute.ПолноеИмяОбработки.Name=FullNameProcessing
 Attribute.ПоляПредставлений.Name=FieldPresentations
 Attribute.ПоляПредставлений.Выражение.Name=Expression
@@ -59,4 +59,4 @@ Item.СтраницаПоля.Name=PageField
 Item.Страницы.Name=Page
 Parameter.РежимВставки.Name=ModeInsertion
 Parameter.РежимИзменения.Name=ModeChange
-Parameter.ТекстЗапроса.Name=TextQuery
+Parameter.ТекстЗапроса.Name=QueryText

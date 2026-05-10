@@ -209,7 +209,7 @@ Method.ПрисвоитьИмяЗначениюЗавершение.Var.Полн
 Method.ПрисвоитьИмяЗначениюЗавершение.Var.Представление.Name=Presentation
 Method.Разобрать.Name=Parse
 Method.Разобрать.Param.Значение.Name=Value
-Method.Разобрать.Param.ИмяТэга.Name=NameTag
+Method.Разобрать.Param.ИмяТэга.Name=TagName
 Method.Разобрать.Param.Полное.Name=Full
 Method.Разобрать.Param.Представление.Name=Presentation
 Method.Разобрать.Var.Результат.Name=Result

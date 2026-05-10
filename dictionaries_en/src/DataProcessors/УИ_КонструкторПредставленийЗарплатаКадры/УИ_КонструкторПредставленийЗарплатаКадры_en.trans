@@ -3,5 +3,5 @@
 Command.КонструкторПредставлениеЗарплатаИКадры.Name=ConstructorPresentationPayrollAndHR
 Comment=1.1.1
 Form.КонструкторПредставлений.Name=ConstructorPresentations
-Form.ТекстЗапроса.Name=TextQuery
+Form.ТекстЗапроса.Name=QueryText
 Name=UI_ConstructorPresentationsPayrollHR

@@ -1,11 +1,11 @@
 #Translations for: model
 
-Attribute.АдресРезультатаЗапроса.Name=AddressResultQuery
+Attribute.АдресРезультатаЗапроса.Name=QueryResultAddress
 Attribute.ДоляОтображенияТяжелых.Name=ShareDisplayHeavy
-Attribute.ИндексРезультата.Name=IndexResult
+Attribute.ИндексРезультата.Name=ResultIndex
 Attribute.Объект.Name=Object
 Attribute.ОтображатьВТерминах1С.Name=DisplayInTerms1With
-Attribute.ПараметрыЗапроса.Name=ParametersQuery
+Attribute.ПараметрыЗапроса.Name=QueryParameters
 Attribute.План.Name=Plan
 Attribute.План.Выделено.Name=Selected
 Attribute.План.ВызовыПлан.Name=CallsPlan
@@ -14,7 +14,7 @@ Attribute.План.ЗатратыВВ.Name=ExpensesVV
 Attribute.План.ЗатратыЦП.Name=ExpensesTsP
 Attribute.План.ИсходныйОператор.Name=SourceOperator
 Attribute.План.Оператор.Name=Operator
-Attribute.План.СреднийРазмерСтроки.Name=AverageSizeRow
+Attribute.План.СреднийРазмерСтроки.Name=AverageRowSize
 Attribute.План.СтоимостьОператора.Name=CostOperator
 Attribute.План.СтоимостьОператораПроцент.Name=CostOperatorPercent
 Attribute.План.СтоимостьУзла.Name=CostNode
@@ -25,9 +25,9 @@ Attribute.ПланПрочитан.Name=PlanRead
 Attribute.ПланТекстовый.Name=PlanText
 Attribute.ПланТекстовый1С.Name=PlanText1With
 Attribute.Событие.Name=Event
-Attribute.ТекстЗапроса.Name=TextQuery
+Attribute.ТекстЗапроса.Name=QueryText
 Attribute.ТекстЗапросаВТерминах1С.Name=TextQueryInTerms1With
-Attribute.ТекстСобытияЖурнала.Name=TextEventLog
+Attribute.ТекстСобытияЖурнала.Name=EventLogText
 Attribute.ТекущийОператор.Name=CurrentOperator
 Command.Обновить.Handler.Name=Command_Update
 Command.Обновить.Name=Update
