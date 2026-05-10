@@ -1,22 +1,23 @@
 #Translations for: model
 
 Method.PingGET.String.OK.Key=OK
+Method.ВыполнениеАлгоритмовРезультатВыполнения.Name=AlgorithmsExecutionResult
 Method.ВыполнениеАлгоритмовРезультатВыполнения.Var.WebID.Name=WebID
 Method.ВыполнениеАлгоритмовРезультатВыполнения.Var.WebID.String.AlgWebID.Key=AlgWebID
-Method.ВыполнениеАлгоритмовРезультатВыполнения.Var.Параметр.Name=Параметр
-Method.ВыполнениеАлгоритмовРезультатВыполнения.Var.СтруктураВходящиеПараметры.Name=СтруктураВходящиеПараметры
-Method.ВыполнениеАлгоритмовРезультатВыполнения.Var.СтруктураОтвет.Name=СтруктураОтвет
+Method.ВыполнениеАлгоритмовРезультатВыполнения.Var.Параметр.Name=Parameter
+Method.ВыполнениеАлгоритмовРезультатВыполнения.Var.СтруктураВходящиеПараметры.Name=IncomingParametersStructure
+Method.ВыполнениеАлгоритмовРезультатВыполнения.Var.СтруктураОтвет.Name=ResponseStructure
 Method.ВыполнениеАлгоритмовРезультатВыполнения.Var.СтруктураОтвет.String.Word.GET.Key=GET
-Method.ВыполнениеАлгоритмовРезультатВыполнения.Var.СтруктураОтвет.String.Word.метода.Key=метода
-Method.ВыполнениеАлгоритмовРезультатВыполнения.Var.СтруктураОтвет.String.ТелоОтвета.Key=ТелоОтвета
-Method.ОбработатьЗапрос.Name=ОбработатьЗапрос
+Method.ВыполнениеАлгоритмовРезультатВыполнения.Var.СтруктураОтвет.String.Word.метода.Key=method
+Method.ВыполнениеАлгоритмовРезультатВыполнения.Var.СтруктураОтвет.String.ТелоОтвета.Key=ResponseBody
+Method.ОбработатьЗапрос.Name=ProcessRequest
 Method.ОбработатьЗапрос.Param.WebID.Name=WebID
-Method.ОбработатьЗапрос.Param.ВходящиеПараметры.Name=ВходящиеПараметры
-Method.ОбработатьЗапрос.Param.Ответ.Name=Ответ
-Method.ОбработатьЗапрос.Param.Ответ.String.Word.Путой.Key=Путой
-Method.ОбработатьЗапрос.Param.Ответ.String.Word.алгоритм.Key=алгоритм
-Method.ОбработатьЗапрос.Param.Ответ.String.Word.найден.Key=найден
-Method.ОбработатьЗапрос.Param.Ответ.String.Word.не.Key=не
+Method.ОбработатьЗапрос.Param.ВходящиеПараметры.Name=IncomingParameters
+Method.ОбработатьЗапрос.Param.Ответ.Name=Response
+Method.ОбработатьЗапрос.Param.Ответ.String.Word.Путой.Key=Empty
+Method.ОбработатьЗапрос.Param.Ответ.String.Word.алгоритм.Key=algorithm
+Method.ОбработатьЗапрос.Param.Ответ.String.Word.найден.Key=found
+Method.ОбработатьЗапрос.Param.Ответ.String.Word.не.Key=not
 Method.ОбработатьЗапрос.String.Word.WebID.Key=WebID
 Method.ОбработатьЗапрос.Var.ВыборкаДетальныеЗаписи.Name=ВыборкаДетальныеЗаписи
 Method.ОбработатьЗапрос.Var.Запрос.Lines.Expr.Алгоритм.Alias=Алгоритм

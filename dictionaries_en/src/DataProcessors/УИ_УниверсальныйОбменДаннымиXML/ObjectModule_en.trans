@@ -3338,7 +3338,7 @@ Method.УдалитьНедопустимыеСимволыXML.Param.Текст.
 Method.УдалитьОбъектыТипа.Description=Выполняет удаление объектов заданного типа по правилам очистки данных\n(физическое удаление или пометка на удаление).
 Method.УдалитьОбъектыТипа.Name=DeleteObjectsType
 Method.УдалитьОбъектыТипа.Param.ИмяТипаДляУдаления.Description=имя типа в строковом представлении.
-Method.УдалитьОбъектыТипа.Param.ИмяТипаДляУдаления.Name=TypeForDeletionName
+Method.УдалитьОбъектыТипа.Param.ИмяТипаДляУдаления.Name=TypeNameForDeletion
 Method.УдалитьОбъектыТипа.Var.Выборка.Name=Selection
 Method.УдалитьОбъектыТипа.Var.ИмяТипа.Name=TypeName
 Method.УдалитьОбъектыТипа.Var.Менеджер.Name=Manager

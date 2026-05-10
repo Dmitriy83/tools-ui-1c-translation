@@ -1,4 +1,4 @@
 #Translations for: model
 
-Command.УИ_НастройкиОтладки.Name=УИ_НастройкиОтладки
-Name=ДополнительныеОтчетыИОбработки
+Command.УИ_НастройкиОтладки.Name=UI_DebugSettings
+Name=AdditionalReportsAndDataProcessors
