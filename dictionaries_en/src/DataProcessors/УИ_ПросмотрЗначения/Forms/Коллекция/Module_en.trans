@@ -19,7 +19,7 @@ Method.ЗаполнитьКолонкиКоллекции.Var.ОписаниеЭ
 Method.ЗаполнитьКолонкиКоллекции.Var.ОписаниеЭлемента.String.Свойство_.Key=Property_
 Method.ЗаполнитьКолонкиКоллекции.Var.ОписаниеЭлемента.String.ТаблицаКоллекции.Key=TableCollection
 Method.ЗаполнитьКолонкиКоллекции.Var.ТекЭл.Name=CurEl
-Method.ЗаполнитьКолонкиКоллекции.Var.ТипЭл.Name=TypeEl
+Method.ЗаполнитьКолонкиКоллекции.Var.ТипЭл.Name=ElType
 Method.ЗаполнитьКолонкиКоллекции.Var.ТипыЭлементов.Name=TypesItems
 Method.ЗаполнитьТаблицуКоллекии.Comment.НС["Свойство_"\ +\ ЭлСписка\.Значение]\ \=\ ОписаниеОшибки();.Description=NN["Property_" + ElList.Value] \= ErrorDescription();
 Method.ЗаполнитьТаблицуКоллекии.Name=FillCollectionTable

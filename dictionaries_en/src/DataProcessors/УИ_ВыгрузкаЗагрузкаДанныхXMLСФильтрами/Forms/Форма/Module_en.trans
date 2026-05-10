@@ -12,8 +12,8 @@ Method.ВосстановитьОтображениеДерева.Var.Идент
 Method.ВосстановитьОтображениеДерева.Var.Строка.Name=String
 Method.ВыгрузитьДанные.String.ИмяФайлаВыгрузки.Key=ExportFileName
 Method.ВыгрузитьДанные.Var.АдресФайлаВоВременномХранилище.Name=TemporaryStorageFileAddress
-Method.ВыгрузитьДанные.Var.ИмяФайла.Name=NameFile
-Method.ВыгрузитьДанные.Var.ТекстСообщения.Name=TextMessage
+Method.ВыгрузитьДанные.Var.ИмяФайла.Name=FileName
+Method.ВыгрузитьДанные.Var.ТекстСообщения.Name=MessageText
 Method.ВыгрузитьДанныеНаСервере.Name=ExportDataOnServer
 Method.ВыгрузитьДанныеНаСервере.Param.АдресФайлаВоВременномХранилище.Name=TemporaryStorageFileAddress
 Method.ВыгрузитьДанныеНаСервере.Var.ИмяВременногоФайла.Name=TemporaryFileName
@@ -44,7 +44,7 @@ Method.ЗагрузитьДанные.Var.ДиалогОткрытияФайла
 Method.ЗагрузитьДанные.Var.Режим.Name=Mode
 Method.ЗагрузитьДанныеЗавершение.Name=LoadDataCompletion
 Method.ЗагрузитьДанныеЗавершение.Param.Адрес.Name=Address
-Method.ЗагрузитьДанныеЗавершение.Param.ВыбранноеИмяФайла.Name=SelectedNameFile
+Method.ЗагрузитьДанныеЗавершение.Param.ВыбранноеИмяФайла.Name=SelectedFileName
 Method.ЗагрузитьДанныеЗавершение.Param.ДополнительныеПараметры.Name=AdditionalParameters
 Method.ЗагрузитьДанныеЗавершение.Param.Результат.Name=Result
 Method.ЗагрузитьДанныеНаСервере.Name=LoadDataOnServer
@@ -98,7 +98,7 @@ Method.ИнициализироватьСКД.String.Column.Количество
 Method.ИнициализироватьСКД.String.ИмяТЧ.Key=TSName
 Method.ИнициализироватьСКД.String.КоличествоРеквизитов.Key=CountAttributes
 Method.ИнициализироватьСКД.String.ОбъектМетаданных.Key=MetadataObject
-Method.ИнициализироватьСКД.Var.АдресСКД.Name=AddressDCS
+Method.ИнициализироватьСКД.Var.АдресСКД.Name=DCSAddress
 Method.ИнициализироватьСКД.Var.ВыбранноеПоле.Name=SelectedField
 Method.ИнициализироватьСКД.Var.ИсточникНастроек.Name=SourceSettings
 Method.ИнициализироватьСКД.Var.КоличествоРеквизитов.Name=CountAttributes
@@ -137,7 +137,7 @@ Method.ИнициализироватьСКД.Var.ТаблицаОбщихРек
 Method.ИнициализироватьСКД.Var.ЭлементРеквизит.Name=ItemAttribute
 Method.ИнициализироватьСКД.Var.Элементобъектов.Name=ItemObjects
 Method.ИсключитьНедопустимыеТипы.Name=ExcludeDisallowedTypes
-Method.ИсключитьНедопустимыеТипы.Param.ТипРеквизита.Name=TypeAttribute
+Method.ИсключитьНедопустимыеТипы.Param.ТипРеквизита.Name=AttributeType
 Method.ИсключитьНедопустимыеТипы.Var.МассивИсключаемыхТипов.Name=ArrayExcludedTypes
 Method.ИсключитьНедопустимыеТипы.Var.МассивНедопустимых.Name=ArrayInvalid
 Method.ИсключитьНедопустимыеТипы.Var.ОписаниеРеквизита.Name=DescriptionAttribute
@@ -252,11 +252,11 @@ Method.ПодготовитьСписокВыбранных.Comment.КонецЕ
 Method.ПодготовитьСписокВыбранных.Comment.РеквизитФормыВЗначение("ДеревоМетаданных");.Description=РеквизитФормыВЗначение("ДеревоМетаданных");
 Method.ПодготовитьСписокВыбранных.Name=PrepareListSelected
 Method.ПодготовитьСписокВыбранных.Param.ИмяОбъектаМетаданных.Name=MetadataObjectName
-Method.ПодготовитьСписокВыбранных.Param.СписокВыбора.Name=ListChoice
+Method.ПодготовитьСписокВыбранных.Param.СписокВыбора.Name=ChoiceList
 Method.ПодготовитьСписокВыбранных.Param.ТекущиеДанныеИмя.Name=CurrentDataName
 Method.ПодготовитьСписокВыбранных.Var.ДеревоМетаданных1.Name=TreeMetadata1
 Method.ПодготовитьСписокВыбранных.Var.ОбъектНаСервере.Name=ObjectOnServer
-Method.ПодготовитьСписокВыбранных.Var.СписокГруппЭлементов.Name=ListGroupsItems
+Method.ПодготовитьСписокВыбранных.Var.СписокГруппЭлементов.Name=GroupsItemsList
 Method.ПодготовитьСписокВыбранных.Var.ЭлементМетаданных.Name=ItemMetadata
 Method.ПодготовитьСписокВыбранных.Var.ЭлементСтрока.Name=ItemString
 Method.ПодготовитьСписокВыбранныхОбъектов.Name=PrepareListSelectedObjects

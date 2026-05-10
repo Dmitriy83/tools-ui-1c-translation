@@ -100,18 +100,18 @@ Method.Прочитать.Var.ДиалогОткрытияФайла.String.Word
 Method.ПрочитатьЗавершение.Name=ReadCompletion
 Method.ПрочитатьЗавершение.Param.ВыбранныеФайлы.Name=SelectedFiles
 Method.ПрочитатьЗавершение.Param.ДополнительныеПараметры.Name=AdditionalParameters
-Method.ПрочитатьЗавершение.String.ТекстДок.Key=TextDoc
+Method.ПрочитатьЗавершение.String.ТекстДок.Key=DocText
 Method.ПрочитатьЗавершение.Var.ДиалогОткрытияФайла.Name=FileOpeningDialog
 Method.ПрочитатьЗавершение.Var.ПолноеИмяФайла.Name=FullFileName
-Method.ПрочитатьЗавершение.Var.ТекстДок.Name=TextDoc
+Method.ПрочитатьЗавершение.Var.ТекстДок.Name=DocText
 Method.ПрочитатьЗавершениеЗавершение.Name=ReadCompletionCompletion
 Method.ПрочитатьЗавершениеЗавершение.Param.ДополнительныеПараметры1.Name=AdditionalParameters1
-Method.ПрочитатьЗавершениеЗавершение.Var.ТекстXML.Name=TextXML
-Method.ПрочитатьЗавершениеЗавершение.Var.ТекстДок.Name=TextDoc
+Method.ПрочитатьЗавершениеЗавершение.Var.ТекстXML.Name=XMLText
+Method.ПрочитатьЗавершениеЗавершение.Var.ТекстДок.Name=DocText
 Method.ПрочитатьСервер.Comment.ЗначениеВРеквизитФормы(ОбработкаОбъект,\ "Объект");.Description=ValueToFormAttribute(ProcessingObject, "Object");
 Method.ПрочитатьСервер.Comment.ОбработкаОбъект\ \=\ РеквизитФормыВЗначение("Объект");.Description=ProcessingObject \= FormAttributeToValue("Object");
 Method.ПрочитатьСервер.Name=ReadServer
-Method.ПрочитатьСервер.Param.ТекстXML.Name=TextXML
+Method.ПрочитатьСервер.Param.ТекстXML.Name=XMLText
 Method.ПрочитатьСервер.Var.Сериализатор.Name=Serializer
 Method.ПрочитатьСервер.Var.Чтение.Name=Reading
 Method.СохранениеСтруктуры.Name=SaveStructure
@@ -126,8 +126,8 @@ Method.СохранитьЗавершение.Param.ВыбранныеФайлы
 Method.СохранитьЗавершение.Param.ДополнительныеПараметры.Name=AdditionalParameters
 Method.СохранитьЗавершение.Var.ДиалогОткрытияФайла.Name=FileOpeningDialog
 Method.СохранитьЗавершение.Var.ПолноеИмяФайла.Name=FullFileName
-Method.СохранитьЗавершение.Var.ТекстXML.Name=TextXML
-Method.СохранитьЗавершение.Var.ТекстДок.Name=TextDoc
+Method.СохранитьЗавершение.Var.ТекстXML.Name=XMLText
+Method.СохранитьЗавершение.Var.ТекстДок.Name=DocText
 Method.СохранитьСервер.Comment.ОбработкаОбъект\ \=\ РеквизитФормыВЗначение("Объект");.Description=ProcessingObject \= FormAttributeToValue("Object");
 Method.СохранитьСервер.Name=SaveServer
 Method.СохранитьСервер.Var.Запись.Name=Record
