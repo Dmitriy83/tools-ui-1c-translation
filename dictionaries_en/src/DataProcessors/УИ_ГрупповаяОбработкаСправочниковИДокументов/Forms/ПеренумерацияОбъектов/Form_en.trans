@@ -2,7 +2,7 @@
 
 Attribute.ДлинаНомера.Name=LengthNumber
 Attribute.ЗаменяемаяПодстрока.Name=ReplaceableSubstring
-Attribute.ИмяТипаОбъектов.Name=NameTypeObjects
+Attribute.ИмяТипаОбъектов.Name=ObjectTypeName
 Attribute.НайденныеОбъекты.Name=FoundObjects
 Attribute.НачальныйНомер.Name=InitialNumber
 Attribute.НеИзменятьЧисловуюНумерацию.Name=NotChangeNumericNumbering
@@ -14,7 +14,7 @@ Attribute.СтрокаПрефикса.Name=StringPrefix
 Attribute.ТекущаяНастройка.Name=CurrentSetting
 Attribute.ТекущаяНастройкаПредставление.Name=CurrentSettingPresentation
 Attribute.ТекущаяСтрока.Name=CurrentString
-Attribute.ТипНомера.Name=TypeNumber
+Attribute.ТипНомера.Name=NumberType
 Command.ВыполнитьКоманду.Handler.Name=ExecuteProcessingCommand
 Command.ВыполнитьКоманду.Name=ExecuteCommand
 Command.СохранитьНастройки.Handler.Name=SaveSettingsCommand
