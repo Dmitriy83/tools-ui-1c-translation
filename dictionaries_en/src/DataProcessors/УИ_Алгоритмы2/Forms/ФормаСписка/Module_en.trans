@@ -1,18 +1,18 @@
 #Translations for: model
 
-Method.ЗаполнитьТаблицуАлгоритмов.Name=FillTableAlgorithms
+Method.ЗаполнитьТаблицуАлгоритмов.Name=FillAlgorithmsTable
 Method.ЗаполнитьТаблицуАлгоритмов.Var.НС.Name=NN
-Method.ЗаполнитьТаблицуАлгоритмов.Var.СписокАлгоритмов.Name=ListAlgorithms
+Method.ЗаполнитьТаблицуАлгоритмов.Var.СписокАлгоритмов.Name=AlgorithmsList
 Method.ЗаполнитьТаблицуАлгоритмов.Var.Стр.Name=Str
 Method.ПеречитатьНаСервере.Name=RereadOnServer
-Method.ПослеЗавершенияИзмененияАлгоритма.Name=AfterCompletionChangeAlgorithm
+Method.ПослеЗавершенияИзмененияАлгоритма.Name=AfterAlgorithmChangeCompletion
 Method.ПослеЗавершенияИзмененияАлгоритма.Param.ДополнительныеПараметры.Name=AdditionalParameters
 Method.ПослеЗавершенияИзмененияАлгоритма.Param.Результат.Name=Result
 Method.СписокВыбор.Var.ТекДанные.Name=CurData
 Method.СписокПередНачаломДобавления.Var.КопируемыйАлгоритм.Name=CopiedAlgorithm
 Method.СписокПередНачаломДобавления.Var.ТекДанные.Name=CurData
 Method.СписокПередНачаломИзменения.Var.ТекДанные.Name=CurData
-Region.ОписаниеПеременных.Name=DescriptionVariables
+Region.ОписаниеПеременных.Name=VariablesDescription
 Region.ОписаниеПеременных.ОбработчикиСобытийФормы.Comment.Код\ процедур\ и\ функций.Description=Code of procedures and functions
 Region.ОписаниеПеременных.ОбработчикиСобытийФормы.Name=FormEventHandlers
 Region.ОписаниеПеременных.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.Comment.Код\ процедур\ и\ функций.Description=Code of procedures and functions

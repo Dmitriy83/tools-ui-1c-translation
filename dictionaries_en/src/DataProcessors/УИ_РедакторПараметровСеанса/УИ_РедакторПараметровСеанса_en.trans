@@ -1,5 +1,5 @@
 #Translations for: model
 
-Command.РедакторПараметровСеанса.Name=EditorParametersSession
+Command.РедакторПараметровСеанса.Name=SessionParametersEditor
 Form.Форма.Name=Form
-Name=UI_EditorParametersSession
+Name=UI_SessionParametersEditor

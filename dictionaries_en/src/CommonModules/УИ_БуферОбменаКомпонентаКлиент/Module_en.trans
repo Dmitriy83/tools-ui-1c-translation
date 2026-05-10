@@ -70,7 +70,7 @@ Method.КопироватьСтрокуВБуфер.Var.ОчищатьКомпо
 Method.НачатьИнициализациюКомпоненты.Name=StartComponentInitialization
 Method.НачатьИнициализациюКомпоненты.Param.ОписаниеОповещения.Name=DescriptionNotification
 Method.НачатьИнициализациюКомпоненты.Param.ПопытатьсяУстановитьКомпоненту.Name=AttemptSetComponent
-Method.НачатьИнициализациюКомпоненты.String.ОповещениеОЗавершении.Key=NotificationOnCompletion
+Method.НачатьИнициализациюКомпоненты.String.ОповещениеОЗавершении.Key=CompletionNotification
 Method.НачатьИнициализациюКомпоненты.String.ПопытатьсяУстановитьКомпоненту.Key=AttemptSetComponent
 Method.НачатьИнициализациюКомпоненты.Var.ДополнительныеПараметрыОповещения.Name=NotificationAdditionalParameters
 Method.НачатьКопированиеКартинкиВБуфер.Description=Starts placing the picture into the clipboard
@@ -80,7 +80,7 @@ Method.НачатьКопированиеКартинкиВБуфер.Param.Об
 Method.НачатьКопированиеКартинкиВБуфер.Param.ОбъектКомпоненты.Name=ComponentObject
 Method.НачатьКопированиеКартинкиВБуфер.Param.ОписаниеОповещения.Description=Contains the description of the procedure that will be called after completion with the following parameters\n<Result> – Result of setting the picture in the clipboard, Type\: Boolean. Undefined- if the add-in could not be attached\n<CallParameters> - Array of parameters of the add-in method call\n<AdditionalParameters> - value that was specified when creating the NotifyDescription object.
 Method.НачатьКопированиеКартинкиВБуфер.Param.ОписаниеОповещения.Name=DescriptionNotification
-Method.НачатьКопированиеКартинкиВБуфер.String.ОписаниеОповещенияОЗавершении.Key=DescriptionNotificationOnCompletion
+Method.НачатьКопированиеКартинкиВБуфер.String.ОписаниеОповещенияОЗавершении.Key=CompletionNotificationDescription
 Method.НачатьКопированиеКартинкиВБуфер.Var.ДопПараметры.Name=AdditionalParameters
 Method.НачатьКопированиеКартинкиВБуфер.Var.ОписаниеОповещенияВызоваМетодаКомпоненты.Name=ComponentMethodCallNotificationDescription
 Method.НачатьКопированиеКартинкиВБуфер.Var.ОписаниеОповещенияВызоваМетодаКомпоненты.String.ОписаниеОповещения.Key=DescriptionNotification
@@ -100,7 +100,7 @@ Method.НачатьКопированиеСтрокиВБуфер.Param.Опис
 Method.НачатьКопированиеСтрокиВБуфер.Param.ОписаниеОповещения.Name=DescriptionNotification
 Method.НачатьКопированиеСтрокиВБуфер.Param.СтрокаКопирования.Description=String to place into the clipboard
 Method.НачатьКопированиеСтрокиВБуфер.Param.СтрокаКопирования.Name=CopyString
-Method.НачатьКопированиеСтрокиВБуфер.String.ОписаниеОповещенияОЗавершении.Key=DescriptionNotificationOnCompletion
+Method.НачатьКопированиеСтрокиВБуфер.String.ОписаниеОповещенияОЗавершении.Key=CompletionNotificationDescription
 Method.НачатьКопированиеСтрокиВБуфер.String.СтрокаКопирования.Key=CopyString
 Method.НачатьКопированиеСтрокиВБуфер.Var.ДопПараметры.Name=AdditionalParameters
 Method.НачатьКопированиеСтрокиВБуферЗавершениеВызоваМетодаКомпоненты.Name=StartCopyingStringToClipboardCompletionComponentMethodCall
@@ -116,7 +116,7 @@ Method.НачатьОчисткуБуфераОбмена.Param.ОбъектКо
 Method.НачатьОчисткуБуфераОбмена.Param.ОбъектКомпоненты.Name=ComponentObject
 Method.НачатьОчисткуБуфераОбмена.Param.ОписаниеОповещения.Description=Contains the description of the procedure that will be called after completion with the following parameters\n<ClearResult> – Clearing result, Type\: Boolean. Undefined- if the add-in could not be attached\n<CallParameters> - Empty array\n<AdditionalParameters> - value that was specified when creating the NotifyDescription object.
 Method.НачатьОчисткуБуфераОбмена.Param.ОписаниеОповещения.Name=DescriptionNotification
-Method.НачатьОчисткуБуфераОбмена.String.ОписаниеОповещенияОЗавершении.Key=DescriptionNotificationOnCompletion
+Method.НачатьОчисткуБуфераОбмена.String.ОписаниеОповещенияОЗавершении.Key=CompletionNotificationDescription
 Method.НачатьОчисткуБуфераОбмена.Var.ДопПараметры.Name=AdditionalParameters
 Method.НачатьОчисткуБуфераОбменаЗавершениеВызоваМетодаКомпонента.Name=StartClearingClipboardCompletionComponentMethodCall
 Method.НачатьОчисткуБуфераОбменаЗавершениеВызоваМетодаКомпонента.Param.ДополнительныеПараметры.Name=AdditionalParameters
@@ -131,7 +131,7 @@ Method.НачатьПолучениеВерсииКомпоненты.Param.Об
 Method.НачатьПолучениеВерсииКомпоненты.Param.ОбъектКомпоненты.Name=ComponentObject
 Method.НачатьПолучениеВерсииКомпоненты.Param.ОписаниеОповещения.Description=Contains the description of the procedure that will be called after completion with the following parameters\n<AddInVersion> – Version of the add-in used, Type\: String. Undefined- if the add-in could not be attached\n<AdditionalParameters> - value that was specified when creating the NotifyDescription object.
 Method.НачатьПолучениеВерсииКомпоненты.Param.ОписаниеОповещения.Name=DescriptionNotification
-Method.НачатьПолучениеВерсииКомпоненты.String.ОписаниеОповещенияОЗавершении.Key=DescriptionNotificationOnCompletion
+Method.НачатьПолучениеВерсииКомпоненты.String.ОписаниеОповещенияОЗавершении.Key=CompletionNotificationDescription
 Method.НачатьПолучениеВерсииКомпоненты.Var.ДопПараметры.Name=AdditionalParameters
 Method.НачатьПолучениеВерсииКомпонентыЗавершениеПолученияКомпоненты.Name=StartGettingComponentVersionCompletionGettingComponent
 Method.НачатьПолучениеВерсииКомпонентыЗавершениеПолученияКомпоненты.Param.ДополнительныеПараметры.Name=AdditionalParameters
@@ -145,7 +145,7 @@ Method.НачатьПолучениеКартинкиИзБуфера.Param.Об
 Method.НачатьПолучениеКартинкиИзБуфера.Param.ОписаниеОповещения.Description=Contains the description of the procedure that will be called after completion with the following parameters\n<PictureData> – Picture data in the requested format, Type\: String, BinaryData, Picture. Undefined- if the add-in could not be attached or there is no picture in the clipboard\n<AdditionalParameters> - value that was specified when creating the NotifyDescription object.
 Method.НачатьПолучениеКартинкиИзБуфера.Param.ОписаниеОповещения.Name=DescriptionNotification
 Method.НачатьПолучениеКартинкиИзБуфера.String.ВариантПолучения.Key=RetrievalOption
-Method.НачатьПолучениеКартинкиИзБуфера.String.ОписаниеОповещенияОЗавершении.Key=DescriptionNotificationOnCompletion
+Method.НачатьПолучениеКартинкиИзБуфера.String.ОписаниеОповещенияОЗавершении.Key=CompletionNotificationDescription
 Method.НачатьПолучениеКартинкиИзБуфера.Var.ДопПараметры.Name=AdditionalParameters
 Method.НачатьПолучениеКартинкиИзБуфераЗавершение.Name=StartGettingPictureFromClipboardCompletion
 Method.НачатьПолучениеКартинкиИзБуфераЗавершение.Param.ДополнительныеПараметры.Name=AdditionalParameters
@@ -169,7 +169,7 @@ Method.НачатьПолучениеСтрокиИзБуфера.Param.Объе
 Method.НачатьПолучениеСтрокиИзБуфера.Param.ОбъектКомпоненты.Name=ComponentObject
 Method.НачатьПолучениеСтрокиИзБуфера.Param.ОписаниеОповещения.Description=Contains the description of the procedure that will be called after completion with the following parameters\n<Result> – Text from the clipboard, Type\: String. Undefined- if the add-in could not be attached\n<AdditionalParameters> - value that was specified when creating the NotifyDescription object.
 Method.НачатьПолучениеСтрокиИзБуфера.Param.ОписаниеОповещения.Name=DescriptionNotification
-Method.НачатьПолучениеСтрокиИзБуфера.String.ОписаниеОповещенияОЗавершении.Key=DescriptionNotificationOnCompletion
+Method.НачатьПолучениеСтрокиИзБуфера.String.ОписаниеОповещенияОЗавершении.Key=CompletionNotificationDescription
 Method.НачатьПолучениеСтрокиИзБуфера.Var.ДопПараметры.Name=AdditionalParameters
 Method.НачатьПолучениеСтрокиИзБуфераЗавершениеВызоваМетодаКомпоненты.Name=StartGettingStringFromClipboardCompletionComponentMethodCall
 Method.НачатьПолучениеСтрокиИзБуфераЗавершениеВызоваМетодаКомпоненты.Param.ДополнительныеПараметры.Name=AdditionalParameters
@@ -183,7 +183,7 @@ Method.НачатьПолучениеФорматаБуфераОбмена.Para
 Method.НачатьПолучениеФорматаБуфераОбмена.Param.ОбъектКомпоненты.Name=ComponentObject
 Method.НачатьПолучениеФорматаБуфераОбмена.Param.ОписаниеОповещения.Description=Contains the description of the procedure that will be called after completion with the following parameters\n<Result> – String in JSON format containing the description of the clipboard content format, Type\: String. Undefined- if the add-in could not be attached\n<AdditionalParameters> - value that was specified when creating the NotifyDescription object.
 Method.НачатьПолучениеФорматаБуфераОбмена.Param.ОписаниеОповещения.Name=DescriptionNotification
-Method.НачатьПолучениеФорматаБуфераОбмена.String.ОписаниеОповещенияОЗавершении.Key=DescriptionNotificationOnCompletion
+Method.НачатьПолучениеФорматаБуфераОбмена.String.ОписаниеОповещенияОЗавершении.Key=CompletionNotificationDescription
 Method.НачатьПолучениеФорматаБуфераОбмена.Var.ДопПараметры.Name=AdditionalParameters
 Method.НачатьПолучениеФорматаБуфераОбменаЗавершениеВызоваМетодаКомпоненты.Name=StartGettingClipboardFormatCompletionComponentMethodCall
 Method.НачатьПолучениеФорматаБуфераОбменаЗавершениеВызоваМетодаКомпоненты.Param.ДополнительныеПараметры.Name=AdditionalParameters

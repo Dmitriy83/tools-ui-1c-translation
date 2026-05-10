@@ -1,26 +1,26 @@
 #Translations for: model
 
-Method.ВосстановитьДанныеПользователяПослеЗапускаСеансаПодПользователем.Name=RestoreDataUserAfterLaunchSessionUnderUser
-Method.ВосстановитьДанныеПользователяПослеЗапускаСеансаПодПользователем.Param.ДанныеСохраненногоПароляПользователяИБ.Name=DataSavedPasswordUserIB
-Method.ВосстановитьДанныеПользователяПослеЗапускаСеансаПодПользователем.Param.ИмяПользователя.Name=NameUser
-Method.ВосстановитьДанныеПользователяПослеЗапускаСеансаПодПользователем.Var.ПользовательИБ.Name=UserIB
-Method.ДанныеСохраненногоПароляПользователяИБ.Name=DataSavedPasswordUserIB
-Method.ДанныеСохраненногоПароляПользователяИБ.Param.ИмяПользователя.Name=NameUser
+Method.ВосстановитьДанныеПользователяПослеЗапускаСеансаПодПользователем.Name=RestoreUserDataAfterSessionLaunchUnderUser
+Method.ВосстановитьДанныеПользователяПослеЗапускаСеансаПодПользователем.Param.ДанныеСохраненногоПароляПользователяИБ.Name=IBUserSavedPasswordData
+Method.ВосстановитьДанныеПользователяПослеЗапускаСеансаПодПользователем.Param.ИмяПользователя.Name=UserName
+Method.ВосстановитьДанныеПользователяПослеЗапускаСеансаПодПользователем.Var.ПользовательИБ.Name=IBUser
+Method.ДанныеСохраненногоПароляПользователяИБ.Name=IBUserSavedPasswordData
+Method.ДанныеСохраненногоПароляПользователяИБ.Param.ИмяПользователя.Name=UserName
 Method.ДанныеСохраненногоПароляПользователяИБ.Var.Данные.Name=Data
-Method.ДанныеСохраненногоПароляПользователяИБ.Var.ПользовательИБ.Name=UserIB
-Method.УстановитьПарольПользователюИБ.Name=SetPasswordUserIB
-Method.УстановитьПарольПользователюИБ.Param.ИмяПользователя.Name=NameUser
+Method.ДанныеСохраненногоПароляПользователяИБ.Var.ПользовательИБ.Name=IBUser
+Method.УстановитьПарольПользователюИБ.Name=SetIBUserPassword
+Method.УстановитьПарольПользователюИБ.Param.ИмяПользователя.Name=UserName
 Method.УстановитьПарольПользователюИБ.Param.Пароль.Name=Password
-Method.УстановитьПарольПользователюИБ.Var.ПользовательИБ.Name=UserIB
+Method.УстановитьПарольПользователюИБ.Var.ПользовательИБ.Name=IBUser
 Method.ЭтоПолноправныйПользователь.Description=Checks whether the current or specified user is a full-access user.\nA full-access user is one who\na) with a non-empty infobase user list,\nhas the FullAccess role and a system administration role (if CheckSystemAdministrationRights \= True)\nb) with an empty infobase user list,\nthe configuration main role is not specified or is FullAccess.
-Method.ЭтоПолноправныйПользователь.Name=ThisFullRightsUser
+Method.ЭтоПолноправныйПользователь.Name=IsFullRightsUser
 Method.ЭтоПолноправныйПользователь.Param.Пользователь.Name=User
 Method.ЭтоПолноправныйПользователь.Param.Пользователь.Type.0.Description=the current infobase user is checked.
 Method.ЭтоПолноправныйПользователь.Param.Пользователь.Type.1.Description=the infobase user is\nsearched by the unique identifier specified in the attribute\nIBUserID. If the infobase user is not found, False is returned.
 Method.ЭтоПолноправныйПользователь.Param.Пользователь.Type.2.Description=the specified infobase user is checked.
 Method.ЭтоПолноправныйПользователь.Param.ПроверятьПраваАдминистрированияСистемы.Description=if set to True, the presence of the\nsystem administration role is checked.
-Method.ЭтоПолноправныйПользователь.Param.ПроверятьПраваАдминистрированияСистемы.Name=CheckRightAdministrationSystem
+Method.ЭтоПолноправныйПользователь.Param.ПроверятьПраваАдминистрированияСистемы.Name=CheckSystemAdministrationRights
 Method.ЭтоПолноправныйПользователь.Param.УчитыватьПривилегированныйРежим.Description=if set to True, then for the current user\nthe function returns True when privileged mode is set.
 Method.ЭтоПолноправныйПользователь.Param.УчитыватьПривилегированныйРежим.Name=ConsiderPrivilegedMode
 Method.ЭтоПолноправныйПользователь.Return.Description=if True, the user is a full-access user.
-Region.ПрограммныйИнтерфейс.Name=ProgramInterface
+Region.ПрограммныйИнтерфейс.Name=Public

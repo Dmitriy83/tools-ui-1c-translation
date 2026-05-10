@@ -44,12 +44,12 @@ Region.ОписаниеПеременных.ПрограммныйИнтерфе
 Var.Аннотации.Name=Annotations
 Var.Директивы.Name=Directives
 Var.Исходник.Name=Source
-Var.СимволыПрепроцессора.Name=SymbolsPreprocessor
+Var.СимволыПрепроцессора.Name=PreprocessorSymbols
 Var.Стек.Name=Stack
-Var.СтруктураМодуля.Name=StructureModule
+Var.СтруктураМодуля.Name=ModuleStructure
 Var.Счетчики.Name=Counters
-Var.ТаблицаЗамен.Name=TableReplacements
-Var.ТаблицаОшибок.Name=TableErrors
-Var.ТаблицаТокенов.Name=TableTokens
+Var.ТаблицаЗамен.Name=ReplacementsTable
+Var.ТаблицаОшибок.Name=ErrorsTable
+Var.ТаблицаТокенов.Name=TokensTable
 Var.Типы.Name=Types
 Var.Токены.Name=Tokens

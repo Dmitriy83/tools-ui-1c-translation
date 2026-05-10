@@ -1,17 +1,17 @@
 #Translations for: model
 
 Attribute.Объект.Name=Object
-Attribute.РезультатПоиска.Name=ResultSearch
+Attribute.РезультатПоиска.Name=SearchResult
 Attribute.РезультатПоиска.Картинка.Name=Picture
 Attribute.РезультатПоиска.МожноОткрыть.Name=CanOpen
 Attribute.РезультатПоиска.НайденныйОбъект.Name=FoundObject
-Attribute.РезультатПоиска.ПредставлениеОбъекта.Name=PresentationObject
+Attribute.РезультатПоиска.ПредставлениеОбъекта.Name=ObjectPresentation
 Attribute.РезультатПоиска.Ссылка.Name=Ref
 Attribute.РезультатПоиска.СсылочныйТип.Name=ReferenceType
 Attribute.РезультатПоиска.УникальныйИдентификатор.Name=UniqueIdentifier
-Attribute.УникальныйИдентификаторИсточника.Name=UniqueIdentifierSource
+Attribute.УникальныйИдентификаторИсточника.Name=SourceUniqueIdentifier
 Command.ИсходныйОбъектПоСсылке.Name=SourceObjectByRef
-Command.НайтиСсылки.Name=FindRef
+Command.НайтиСсылки.Name=FindRefs
 Command.ОткрытьОбъект.Name=OpenObject
 Command.ПоискДляОбъекта.Name=SearchForObject
 Command.РедактироватьИсходныйОбъект.Name=EditSourceObject
@@ -25,10 +25,10 @@ Item.ПолеКонтекстноеМеню1.Name=FieldContextMenu1
 Item.ПолеКонтекстноеМеню4.Name=FieldContextMenu4
 Item.ПолеРасширеннаяПодсказка1.Name=FieldExtendedTooltip1
 Item.ПолеРасширеннаяПодсказка4.Name=FieldExtendedTooltip4
-Item.РезультатПоискаНайденныеСсылки.Name=ResultSearchFoundRef
+Item.РезультатПоискаНайденныеСсылки.Name=SearchResultFoundRefs
 Item.ТаблицаКонтекстноеМеню.Name=TableContextMenu
 Item.ТаблицаРасширеннаяПодсказка.Name=TableExtendedTooltip
-Item.ТаблицаСтрокаПоиска.Name=TableStringSearch
-Item.ТаблицаУправлениеПоиском.Name=TableManagementSearch
+Item.ТаблицаСтрокаПоиска.Name=TableSearchString
+Item.ТаблицаУправлениеПоиском.Name=TableSearchManagement
 Item.УИДКонтекстноеМеню.Name=UIDContextMenu
 Item.УИДРасширеннаяПодсказка.Name=UIDExtendedTooltip
