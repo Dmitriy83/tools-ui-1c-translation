@@ -77,10 +77,11 @@
 ### Workflow для одного модуля
 
 1. **Получить worklist**: `python scripts/analysis/extract_untranslated.py <путь к module_en.trans или .lstr>` — выдаст `untranslated.txt` и `glossary.txt`. ИЛИ запустить аудит: `python scripts/analysis/audit_status.py`.
-2. **Запустить Opus-агент** на модуле:
+2. **Запустить агент** на модуле:
    - Subagent_type: `general-purpose`
-   - Model: `opus`
-   - В промпте дать: путь к `prompts/NAME_RETRANSLATE_GUIDE.md`, путь к `Module_en.trans` модуля, ссылку на референс уже-переведённого модуля (например `dictionaries_en/src/CommonModules/УИ_ОбщегоНазначенияКлиентСервер/Module_en.trans` — pilot первой волны, качественный)
+   - **Model: `sonnet`** (по умолчанию — на этой задаче по качеству сравнимо с Opus, но в ~5× дешевле). Эксперимент на 5 модулях (УИ_АлгоритмыКлиент, УИ_БуферОбменаКлиент, УИ_ДлительныеОперацииКлиент, УИ_ПарсерXML, УИ_ОбщегоНазначенияПовтИсп) показал 0 residual suspicious patterns и тот же fix density (~66%). Sonnet корректно применяет compound order, ловит SSL-canonical regions, узнаёт 1C platform names (XMLReader/XMLWriter/TimeConsumingOperation), self-reports сомнительные решения.
+   - **Fallback: `opus`** — для очень больших модулей (>1000 строк), модулей с тяжёлой доменной семантикой (СКД, динамические запросы) или если Sonnet-вывод не устраивает на ревью.
+   - В промпте дать: путь к `prompts/NAME_RETRANSLATE_GUIDE.md`, путь к `Module_en.trans` модуля, ссылку на референс уже-переведённого модуля (например `dictionaries_en/src/CommonModules/УИ_ОбщегоНазначения/Module_en.trans` — pilot retranslate, качественный).
 3. **Если файл большой (>800 строк)** — chunk на 2-3 части (по 400-700 строк), один агент на чанк, потом склеить
 4. **Агент работает in-place** (Edit) или пишет в `_done.txt` для чанков
 5. **Верификация**: после агента — `grep -E "=Name[A-Z]|=Type[A-Z]|=Code[A-Z]|=Text[A-Z]|=Date[A-Z]" <file>` — должно вернуть 0 (или только legitimate compounds типа `TypeDescription` ← `ОписаниеТипа`)
