@@ -1,17 +1,17 @@
 #Translations for: model
 
-Attribute.КонтекстВарианта.Name=КонтекстВарианта
-Attribute.НастройкиОтчета.Name=НастройкиОтчета
-Attribute.Отчет.Name=Отчет
-Attribute.ОтчетДанныеРасшифровки.Name=ОтчетДанныеРасшифровки
-Attribute.ОтчетТабличныйДокумент.Name=ОтчетТабличныйДокумент
-Item.КомпоновщикНастроекПользовательскиеНастройки.Name=КомпоновщикНастроекПользовательскиеНастройки
-Item.ОтчетТабличныйДокумент.Event.DetailProcessing.Name=РезультатОбработкаРасшифровки
-Parameter.КлючВарианта.Name=КлючВарианта
-Parameter.КонтекстВарианта.Name=КонтекстВарианта
-Parameter.Неконтекстный.Name=Неконтекстный
-Parameter.Отчет.Name=Отчет
-Parameter.ПредставлениеВарианта.Name=ПредставлениеВарианта
-Parameter.Расшифровка.Name=Расшифровка
-Parameter.Ссылка.Name=Ссылка
-Parameter.СформироватьПриОткрытии.Name=СформироватьПриОткрытии
+Attribute.КонтекстВарианта.Name=VariantContext
+Attribute.НастройкиОтчета.Name=ReportSettings
+Attribute.Отчет.Name=Report
+Attribute.ОтчетДанныеРасшифровки.Name=ReportDrillDownData
+Attribute.ОтчетТабличныйДокумент.Name=ReportSpreadsheet
+Item.КомпоновщикНастроекПользовательскиеНастройки.Name=SettingsComposerUserSettings
+Item.ОтчетТабличныйДокумент.Event.DetailProcessing.Name=ResultDrillDownProcessing
+Parameter.КлючВарианта.Name=VariantKey
+Parameter.КонтекстВарианта.Name=VariantContext
+Parameter.Неконтекстный.Name=NonContextual
+Parameter.Отчет.Name=Report
+Parameter.ПредставлениеВарианта.Name=VariantPresentation
+Parameter.Расшифровка.Name=DrillDown
+Parameter.Ссылка.Name=Reference
+Parameter.СформироватьПриОткрытии.Name=GenerateOnOpen

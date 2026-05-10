@@ -236,7 +236,7 @@ Method._РассчитатьКоличествоОбъектов.Var.СтрДЗ.
 Method._РассчитатьКоличествоОбъектов.Var.СтрокиДЗ.Name=RowAR
 Method._РассчитатьКоличествоОбъектов.Var.Струк.Name=Struc
 Method._РассчитатьКоличествоОбъектов.Var.ТекДанные.Name=CurData
-Method._РассчитатьКоличествоОбъектов.Var.ТипМД.Name=TypeMD
+Method._РассчитатьКоличествоОбъектов.Var.ТипМД.Name=MDType
 Method._СвернутьВсеУзлы.String.ГруппаРазделовМД.Key=MDSectionGroup
 Method._СвернутьВсеУзлы.String.РазделМД.Key=SectionMD
 Method._СвернутьВсеУзлы.Var.УзелДЗ.Name=NodeAR
@@ -813,7 +813,7 @@ Method.вОтобразитьПраваНаОбъект.Var.НайденныеС
 Method.вОтобразитьПраваНаОбъект.Var.Стр.Name=Str
 Method.вОтобразитьПраваНаОбъект.Var.Струк.Name=Struc
 Method.вОтобразитьПраваНаОбъект.Var.ТекДанные.Name=CurData
-Method.вОтобразитьПраваНаОбъект.Var.ТипМД.Name=TypeMD
+Method.вОтобразитьПраваНаОбъект.Var.ТипМД.Name=MDType
 Method.вОтобразитьПраваНаОбъект.Var.ТипМД.String.ОбщаяКоманда.Key=CommonCommand
 Method.вОтобразитьПраваНаОбъект.Var.Элем.Name=Item
 Method.вОчиститьИзбранное.Name=inClearFavorites
@@ -1002,7 +1002,7 @@ Method.вПолучитьПраваДоступаКОбъекту.Var.Струк
 Method.вПолучитьПраваДоступаКОбъекту.Var.СтрукРезультат.String.Пользователи.Key=Users
 Method.вПолучитьПраваДоступаКОбъекту.Var.ТабПользователи.Name=TabUsers
 Method.вПолучитьПраваДоступаКОбъекту.Var.ТабРоли.Name=TabRole
-Method.вПолучитьПраваДоступаКОбъекту.Var.ТипМД.Name=TypeMD
+Method.вПолучитьПраваДоступаКОбъекту.Var.ТипМД.Name=MDType
 Method.вПолучитьПраваДоступаКОбъекту.Var.ТипМД.String.ОбщаяКоманда.Key=CommonCommand
 Method.вПолучитьПраваДоступаКОбъекту.Var.Элем.Name=Item
 Method.вПолучитьПраваДоступаКОбъекту.Var.ЭтоОбычныйРежим.Name=ThisRegularMode

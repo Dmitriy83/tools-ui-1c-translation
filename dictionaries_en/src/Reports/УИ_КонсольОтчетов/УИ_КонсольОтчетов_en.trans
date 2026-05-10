@@ -1,8 +1,8 @@
 #Translations for: model
 
-Command.КонсольОтчетов.Name=КонсольОтчетов
-Form.Форма.Name=Форма
-Form.ФормаВарианта.Name=ФормаВарианта
-Form.ФормаРасшифровки.Name=ФормаРасшифровки
-Name=УИ_КонсольОтчетов
-Template.ОсновнаяСхемаКомпоновкиДанных.Name=ОсновнаяСхемаКомпоновкиДанных
+Command.КонсольОтчетов.Name=ReportsConsole
+Form.Форма.Name=Form
+Form.ФормаВарианта.Name=VariantForm
+Form.ФормаРасшифровки.Name=DrillDownForm
+Name=UI_ReportsConsole
+Template.ОсновнаяСхемаКомпоновкиДанных.Name=MainDataCompositionSchema

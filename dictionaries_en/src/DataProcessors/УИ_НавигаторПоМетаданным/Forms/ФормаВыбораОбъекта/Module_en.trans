@@ -13,11 +13,11 @@ Method.ВыбратьОбъект.Var.ТекДанные.Name=CurData
 Method.ДеревоОбъектовВыбор.Var.ТекДанные.Name=CurData
 Method.ДеревоОбъектовПередРазворачиванием.Var.СтрокиДЗ.Name=RowAR
 Method.ДеревоОбъектовПередРазворачиванием.Var.УзелДЗ.Name=NodeAR
-Method.ПриОткрытии.Comment.ПереченьРазделов\ \=\ "ПланыОбмена,\ Справочники,\ Документы,\ ПланыВидовХарактеристик,\ ПланыВидовРасчета,\ ПланыСчетов,\ БизнесПроцессы,\ Задачи";\n\!\!\!\ ПланыОбмена\ надо\ дорабатывать\ (отключил)\ \!\!\!.Description=ListSections \= "ExchangePlans, Catalogs, Documents, ChartsOfCharacteristicTypes, ChartsOfCalculationTypes, ChartsOfAccounts, BusinessProcesses, Tasks";\n\!\!\! ExchangePlans need refinement (disabled) \!\!\!
+Method.ПриОткрытии.Comment.ПереченьРазделов\ \=\ "ПланыОбмена,\ Справочники,\ Документы,\ ПланыВидовХарактеристик,\ ПланыВидовРасчета,\ ПланыСчетов,\ БизнесПроцессы,\ Задачи";\n\!\!\!\ ПланыОбмена\ надо\ дорабатывать\ (отключил)\ \!\!\!.Description=SectionsList \= "ExchangePlans, Catalogs, Documents, ChartsOfCharacteristicTypes, ChartsOfCalculationTypes, ChartsOfAccounts, BusinessProcesses, Tasks";\n\!\!\! ExchangePlans need refinement (disabled) \!\!\!
 Method.ПриОткрытии.Var.КореньДЗ.Name=RootAR
 Method.ПриОткрытии.Var.КореньДЗ.String.Конфигурация.Key=Configuration
 Method.ПриОткрытии.Var.КореньДЗ.String.ПростыеТипы.Key=SimpleTypes
-Method.ПриОткрытии.Var.ПереченьРазделов.Name=ListSections
+Method.ПриОткрытии.Var.ПереченьРазделов.Name=SectionsList
 Method.ПриОткрытии.Var.СтрДЗ.Name=StrAR
 Method.ПриОткрытии.Var.СтрокиДЗ.Name=RowAR
 Method.ПриОткрытии.Var.Струк.Name=Struc
@@ -29,7 +29,7 @@ Method.ПриОткрытии.Var.Струк.String.ВидСчета.Key=KindAcc
 Method.ПриОткрытии.Var.Струк.String.Число.Key=Number
 Method.ПриОткрытии.Var.СтрукРазделы.Name=StrucSections
 Method.ПриОткрытии.Var.Элем.Name=Item
-Method.ПриСозданииНаСервере.String.ПереченьРазделов.Key=ListSections
+Method.ПриСозданииНаСервере.String.ПереченьРазделов.Key=SectionsList
 Method.ПриСозданииНаСервере.String.ПоказыватьПеречисления.Key=ShowEnum
 Method.ПриСозданииНаСервере.String.ПоказыватьПростыеТипы.Key=ShowSimpleTypes
 Method.ПриСозданииНаСервере.String.ТипыДляЗаполненияЗначений.Key=TypesForFillValues

@@ -158,7 +158,7 @@ Method.СоздатьВеткуКонфигурации.Param.Уровень.Nam
 Method.СоздатьВеткуКонфигурации.String.ОбщаяФорма.Key=CommonForm
 Method.СоздатьВеткуКонфигурации.String.Общие.Key=Common
 Method.СоздатьВеткуКонфигурации.String.Подсистема.Key=Subsystem
-Method.СоздатьВеткуКонфигурации.String.ПредставлениеИмя.Key=NamePresentation
+Method.СоздатьВеткуКонфигурации.String.ПредставлениеИмя.Key=PresentationName
 Method.СоздатьВеткуКонфигурации.String.ПредставлениеСиноним.Key=SynonymPresentation
 Method.СоздатьВеткуКонфигурации.Var.ПутьПоиска.Name=PathSearch
 Method.СоздатьВеткуКонфигурации.Var.СтрокаДерева.Name=StringTree

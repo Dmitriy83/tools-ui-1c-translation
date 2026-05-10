@@ -29,5 +29,5 @@ Method.ПриСозданииНаСервере.Var.Струк.Name=Struc
 Method.ПриСозданииНаСервере.Var.Элем.Name=Item
 Method.вЗначениеСвойств.Name=inValueProperties
 Method.вЗначениеСвойств.Param.Объект.Name=Object
-Method.вЗначениеСвойств.Param.ПереченьСвойств.Name=ListProperties
+Method.вЗначениеСвойств.Param.ПереченьСвойств.Name=PropertiesList
 Method.вЗначениеСвойств.Var.Струк.Name=Struc

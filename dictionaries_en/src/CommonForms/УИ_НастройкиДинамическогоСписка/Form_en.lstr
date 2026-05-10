@@ -1,8 +1,8 @@
 #Translations for: interface
 
-Item.Группа3.Title=Пользовательские
-Item.КомпоновщикНастроекПользовательскиеНастройки.Title=Пользовательские настройки
-Item.ОбычныеНастройки.Title=Обычные
-Item.ОбычныеНастройки.ToolTip=Обычные настройки
-Item.ФиксированныеНастройки.Title=Фиксированные
-Item.ФиксированныеНастройки.ToolTip=Фиксированные настройки
+Item.Группа3.Title=User
+Item.КомпоновщикНастроекПользовательскиеНастройки.Title=User settings
+Item.ОбычныеНастройки.Title=Normal
+Item.ОбычныеНастройки.ToolTip=Normal settings
+Item.ФиксированныеНастройки.Title=Fixed
+Item.ФиксированныеНастройки.ToolTip=Fixed settings
