@@ -1,8 +1,8 @@
 #Translations for: model
 
 Attribute.ВерсияДанных.Name=DataVersion
-Attribute.НомерОтправленного.Name=NumberSent
-Attribute.НомерПринятого.Name=NumberAccepted
+Attribute.НомерОтправленного.Name=SentNumber
+Attribute.НомерПринятого.Name=AcceptedNumber
 Attribute.Объект.Name=Object
 Attribute.УзелОбменаСсылка.Name=ExchangeNodeRef
 Command.ЗаписатьИзмененияУзла.Name=WriteNodeChanges
