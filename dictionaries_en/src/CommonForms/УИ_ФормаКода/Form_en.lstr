@@ -1,7 +1,7 @@
 #Translations for: interface
 
-Attribute.ИмяМетодаДляПереходаКОпределению.Title=Имя метода для перехода к определению
-Attribute.Код.Title=Код
-Attribute.ПолеКода.Title=Поле кода
-Command.Поделиться.Title=Поделиться
-Command.СкопироватьВБуфер.Title=Скопировать в буфер
+Attribute.ИмяМетодаДляПереходаКОпределению.Title=Method name for go to definition
+Attribute.Код.Title=Code
+Attribute.ПолеКода.Title=Code field
+Command.Поделиться.Title=Share
+Command.СкопироватьВБуфер.Title=Copy to clipboard

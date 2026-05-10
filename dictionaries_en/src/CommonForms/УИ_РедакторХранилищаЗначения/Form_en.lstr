@@ -1,9 +1,9 @@
 #Translations for: interface
 
-Attribute.ВозвратХранилищаДляКонтейнераЗначения.Title=Возврат хранилища для контейнера значения
-Attribute.Значение.Title=Значение
-Attribute.ЗначениеКонтейнер.Title=Значение контейнер
-Attribute.ЗначениеТипЗначения.Title=Значение тип значения
-Attribute.ЗначениеТипЗначенияПредставление.Title=Значение тип значения представление
-Command.Применить.Title=Применить
-Item.ЗначениеТипЗначенияПредставление.Title=Тип
+Attribute.ВозвратХранилищаДляКонтейнераЗначения.Title=Return storage for value container
+Attribute.Значение.Title=Value
+Attribute.ЗначениеКонтейнер.Title=Value container
+Attribute.ЗначениеТипЗначения.Title=Value type of value
+Attribute.ЗначениеТипЗначенияПредставление.Title=Value type of value presentation
+Command.Применить.Title=Apply
+Item.ЗначениеТипЗначенияПредставление.Title=Type

@@ -1,6 +1,6 @@
 #Translations for: model
 
-Attribute.ВозвращатьТолькоВыбранныеЗначения.Name=ВозвращатьТолькоВыбранныеЗначения
-Attribute.СписокЗначений.Name=СписокЗначений
-Command.Применить.Name=Применить
-Item.СписокЗначенийЗначение.Name=СписокЗначенийЗначение
+Attribute.ВозвращатьТолькоВыбранныеЗначения.Name=ReturnOnlySelectedValues
+Attribute.СписокЗначений.Name=ValueList
+Command.Применить.Name=Apply
+Item.СписокЗначенийЗначение.Name=ValueListValue

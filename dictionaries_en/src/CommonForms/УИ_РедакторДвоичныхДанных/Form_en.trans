@@ -1,9 +1,9 @@
 #Translations for: model
 
-Attribute.АдресДвоичныхДанных.Name=АдресДвоичныхДанных
-Attribute.ВозвратХранилищаДляКонтейнераЗначения.Name=ВозвратХранилищаДляКонтейнераЗначения
-Attribute.Представление.Name=Представление
-Attribute.Размер.Name=Размер
-Command.ЗагрузитьИзФайла.Name=ЗагрузитьИзФайла
-Command.Применить.Name=Применить
-Command.СохранитьВФайл.Name=СохранитьВФайл
+Attribute.АдресДвоичныхДанных.Name=BinaryDataAddress
+Attribute.ВозвратХранилищаДляКонтейнераЗначения.Name=ReturnStorageForValueContainer
+Attribute.Представление.Name=Presentation
+Attribute.Размер.Name=Size
+Command.ЗагрузитьИзФайла.Name=LoadFromFile
+Command.Применить.Name=Apply
+Command.СохранитьВФайл.Name=SaveToFile

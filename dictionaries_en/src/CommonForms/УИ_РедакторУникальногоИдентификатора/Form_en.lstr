@@ -1,17 +1,17 @@
 #Translations for: interface
 
-Attribute.Ссылка.Title=Ссылка
-Attribute.СтрокаУникальныйИдентификатор.Title=Уникальный идентификатор
-Command.КомандаНайти.Title=Команда найти
-Command.КомандаНайти.ToolTip=Команда найти
-Command.КомандаОК.Title=Команда ОК
-Command.КомандаОК.ToolTip=Команда ОК
-Command.Сгенерировать.Title=Сгенерировать
-Item.ГруппаИДИСсылка.Title=Группа ИДИСсылка
-Item.ГруппаИДИСсылка.ToolTip=Группа ИДИСсылка
-Item.ГруппаОсновная.Title=Группа основная
-Item.ГруппаОсновная.ToolTip=Группа основная
-Item.ГруппаУникальныйИдентификатор.Title=Группа уникальный идентификатор
-Item.ГруппаУникальныйИдентификатор.ToolTip=Группа уникальный идентификатор
-Item.КомандаОК.Title=Применить
-Title=Уникальный идентификатор
+Attribute.Ссылка.Title=Reference
+Attribute.СтрокаУникальныйИдентификатор.Title=Unique identifier
+Command.КомандаНайти.Title=Find command
+Command.КомандаНайти.ToolTip=Find command
+Command.КомандаОК.Title=OK command
+Command.КомандаОК.ToolTip=OK command
+Command.Сгенерировать.Title=Generate
+Item.ГруппаИДИСсылка.Title=Group ID and reference
+Item.ГруппаИДИСсылка.ToolTip=Group ID and reference
+Item.ГруппаОсновная.Title=Main group
+Item.ГруппаОсновная.ToolTip=Main group
+Item.ГруппаУникальныйИдентификатор.Title=Unique identifier group
+Item.ГруппаУникальныйИдентификатор.ToolTip=Unique identifier group
+Item.КомандаОК.Title=Apply
+Title=Unique identifier

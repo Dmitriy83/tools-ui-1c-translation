@@ -1,9 +1,9 @@
 #Translations for: interface
 
-Attribute.РежимВставки.Title=Режим вставки
-Attribute.Ссылка.Title=Ссылка
-Command.ВставитьИзБуфераОбмена.Title=Вставить из буфера обмена
-Command.ПерейтиПоСсылке.Title=Перейти по ссылке
-Command.СкопироватьВБуфер.Title=Скопировать в буфер
-Item.ГруппаКоманднаяПанельСсылкиСправа.Title=Группа1
-Item.КопированиеСсылки.Title=Группа1
+Attribute.РежимВставки.Title=Insert mode
+Attribute.Ссылка.Title=Link
+Command.ВставитьИзБуфераОбмена.Title=Paste from clipboard
+Command.ПерейтиПоСсылке.Title=Go to link
+Command.СкопироватьВБуфер.Title=Copy to clipboard
+Item.ГруппаКоманднаяПанельСсылкиСправа.Title=Group1
+Item.КопированиеСсылки.Title=Group1
