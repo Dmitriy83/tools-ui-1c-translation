@@ -50,4 +50,4 @@ Method.вСформироватьСтрокуКоманды.Var.СтрокаЗа
 Method.вСформироватьСтрокуКоманды.Var.СтрокаЗапуска.String.Word.RunModeOrdinaryApplication.Key=RunModeOrdinaryApplication
 Method.вСформироватьСтрокуКоманды.Var.СтрокаЗапуска.String.Word.S.Key=S
 Region.ПоддержкаСтарыхВерсийПлатформы.Comment.Метод\ закомментирован\ для\ корректной\ сборки\ УИ\ инструментов\n&НаКлиентеНаСервереБезКонтекста\nФункция\ вСтрНайти(Строка,\ Подстрока,\ НаправлениеПоиска\ \=\ 1,\ Знач\ НачальнаяПозиция\ \=\ Неопределено,\ НомерВхождения\ \=\ 1)\nВозврат\ Найти(Строка,\ Подстрока);\nКонецФункции.Description=Method commented out for correct build of UI tools\n&AtClientAtServerNoContext\nFunction inStrFind(String, Substring, SearchDirection \= 1, Val StartPosition \= Undefined, OccurrenceNumber \= 1)\nReturn Find(String, Substring);\nEndFunction
-Region.ПоддержкаСтарыхВерсийПлатформы.Name=SupportPlatformOldVersions
+Region.ПоддержкаСтарыхВерсийПлатформы.Name=SupportOldPlatformVersions

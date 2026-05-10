@@ -2,4 +2,4 @@
 
 ConditionalAppearance.Items.0.Appearance.Items.1.Values.0.Value=Not unloaded
 ConditionalAppearance.Items.0.Filter.Items.0.Left.Value=NotUnloaded
-ConditionalAppearance.Items.0.Selection.Items.0.Field.Value=NumberMessage
+ConditionalAppearance.Items.0.Selection.Items.0.Field.Value=MessageNumber

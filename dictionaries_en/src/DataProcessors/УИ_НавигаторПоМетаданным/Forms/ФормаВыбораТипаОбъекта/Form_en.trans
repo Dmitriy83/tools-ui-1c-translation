@@ -4,5 +4,5 @@ Attribute._РазделМД.Name=_SectionMD
 Attribute._Список.Name=_List
 Attribute._Список.Имя.Name=Name
 Attribute._Список.Представление.Name=Presentation
-Attribute._Список.РасширениеКонфигурации.Name=ExtensionConfiguration
+Attribute._Список.РасширениеКонфигурации.Name=ConfigurationExtension
 Command._Выбрать.Name=_Select

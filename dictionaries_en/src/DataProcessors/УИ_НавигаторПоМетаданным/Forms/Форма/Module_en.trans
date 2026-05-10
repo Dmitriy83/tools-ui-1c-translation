@@ -178,7 +178,7 @@ Method._ПерейтиКТаблицеОтИндекса.Var.ТекСтрока.
 Method._ПоказатьСведения.String.ФормаОРазработке.Key=FormAboutDevelopment
 Method._ПоказатьСведения.Var.СтрукПарам.Name=StrucParam
 Method._ПоказатьСведения.Var.СтрукПарам.String.ОписаниеРазработки.Key=DevelopmentDescription
-Method._ПоказатьСвойстваОбъекта.Comment.ОткрытьФорму(ПутьКФормам\ +\ "ФормаВнешнийИсточникДанных",\ СтрукПараметры,,пПолноеИмя,,,,РежимОткрытияОкнаФормы\.Независимый);.Description=ОткрытьФорму(ПутьКФормам + "ФормаВнешнийИсточникДанных", СтрукПараметры,,пПолноеИмя,,,,РежимОткрытияОкнаФормы.Независимый);
+Method._ПоказатьСвойстваОбъекта.Comment.ОткрытьФорму(ПутьКФормам\ +\ "ФормаВнешнийИсточникДанных",\ СтрукПараметры,,пПолноеИмя,,,,РежимОткрытияОкнаФормы\.Независимый);.Description=OpenForm(PathToForms + "FormExternalDataSource", StrucParameters,,pFullName,,,,FormWindowOpeningMode.Independent);
 Method._ПоказатьСвойстваОбъекта.String.Word.задано.Key=set
 Method._ПоказатьСвойстваОбъекта.String.Word.не.Key=not
 Method._ПоказатьСвойстваОбъекта.String.Конфигурация.Key=Configuration
@@ -293,7 +293,7 @@ Method._УдалитьПользователяИБ.Var.пТекст.String.Word.
 Method._УдалитьПользователяИБ.Var.пТекст.String.Word.из.Key=from
 Method._УдалитьПользователяИБ.Var.пТекст.String.Word.информационной.Key=information
 Method._УдалитьПользователяИБ.Var.пТекст.String.Word.удален.Key=deleted
-Method._УпорядочитьИзбранное.Comment.плохой\ способ.Description=плохой способ
+Method._УпорядочитьИзбранное.Comment.плохой\ способ.Description=bad approach
 Method._УпорядочитьИзбранное.String.Избранное.Key=Favorites
 Method._УпорядочитьИзбранное.Var.СтрДЗ.Name=StrAR
 Method._УстановитьБлокуировкуСеансов.Description=work with sessions
@@ -354,13 +354,13 @@ Method.ПриОткрытии.Var.пТекст.String.Word.платформы.Ke
 Method.ПриОткрытии.Var.пТекст.String.Word.предназначения.Key=purpose
 Method.ПриОткрытии.Var.пТекст.String.Word.работы.Key=work
 Method.ПриОткрытии.Var.пТекст.String.Word.с.Key=with
-Method.ПриСозданииНаСервере.Comment.Скрытие\ информации\ о\ разработчике\ и\ рекламы.Description=Скрытие информации о разработчике и рекламы
-Method.ПриСозданииНаСервере.Comment.Элементы\.СтрНастройки\.Видимость\ \=\ ложь;.Description=Элементы.СтрНастройки.Видимость \= ложь;
-Method.ПриСозданииНаСервере.Comment.Элементы\.СтрРасширенияКонфигурации\.Видимость\ \=\ вПроверитьНаличиеТипа("РасширениеКонфигурации");.Description=Элементы.СтрРасширенияКонфигурации.Видимость \= вПроверитьНаличиеТипа("РасширениеКонфигурации");
+Method.ПриСозданииНаСервере.Comment.Скрытие\ информации\ о\ разработчике\ и\ рекламы.Description=Hide developer information and advertisements
+Method.ПриСозданииНаСервере.Comment.Элементы\.СтрНастройки\.Видимость\ \=\ ложь;.Description=Items.StrSettings.Visible \= false;
+Method.ПриСозданииНаСервере.Comment.Элементы\.СтрРасширенияКонфигурации\.Видимость\ \=\ вПроверитьНаличиеТипа("РасширениеКонфигурации");.Description=Items.StrConfigurationExtension.Visible \= inCheckPresenceType("ConfigurationExtension");
 Method.ПриСозданииНаСервере.String.АдресаХранилищ.Key=StorageAddresses
 Method.ПриСозданииНаСервере.Var._ОтборПоПодсистемам.String.ЕстьОтбор.Key=HasFilter
 Method.ПриСозданииНаСервере.Var.пЕстьПраваАдминистратора.Name=pHasAdministratorRight
-Method.ПриСохраненииДанныхВНастройкахНаСервере.Comment.сформируем\ избранное.Description=сформируем избранное
+Method.ПриСохраненииДанныхВНастройкахНаСервере.Comment.сформируем\ избранное.Description=build favorites
 Method.ПриСохраненииДанныхВНастройкахНаСервере.String._СодержимоеИзбранного.Key=_FavoritesContents
 Method.ПриСохраненииДанныхВНастройкахНаСервере.String.Избранное.Key=Favorites
 Method.ПриСохраненииДанныхВНастройкахНаСервере.Var.ПереченьПолейУзлаДЗ.Name=NodeARFieldList
@@ -828,7 +828,7 @@ Method.вОчиститьИзбранноеСервер.Var.Избранное.S
 Method.вПерейтиКСтандартнымФункциям.Name=inGoToStandardFunctions
 Method.вПереченьПолейУзлаДЗ.Name=inNodeARFieldList
 Method.вПереченьПолейУзлаДЗ.String.ВидУзла.Key=KindNode
-Method.вПерключитьМонопольныйРежим.Comment.Переработка\ метода\ для\ корректной\ работы.Description=Переработка метода для корректной работы
+Method.вПерключитьМонопольныйРежим.Comment.Переработка\ метода\ для\ корректной\ работы.Description=Method refactoring for correct operation
 Method.вПерключитьМонопольныйРежим.Name=inSwitchExclusiveMode
 Method.вПерключитьМонопольныйРежим.Param.СтрукКонтекст.Name=StrucContext
 Method.вПерключитьМонопольныйРежим.Var.ТекстОшибки.Name=ErrorText
@@ -1068,9 +1068,9 @@ Method.вПолучитьСоставПодсистемы.Var.Таблица.Nam
 Method.вПолучитьСоставПодсистемы.Var.ТипСтрока.Name=TypeString
 Method.вПолучитьСоставПодсистемы.Var.Элем.Name=Item
 Method.вПолучитьСоставПодсистемы.Var.пПолноеИмя.Name=pFullName
-Method.вПолучитьСоставРазделаМД.Comment.Стр\.ПредставлениеОбъекта\ \=\ Элем\.УникальныйИдентификатор;.Description=Стр.ПредставлениеОбъекта \= Элем.УникальныйИдентификатор;
-Method.вПолучитьСоставРазделаМД.Comment.для\ упорядочивания\ по\ именам\ объектов.Description=для упорядочивания по именам объектов
-Method.вПолучитьСоставРазделаМД.Comment.пЕстьЗначенияПеречисления\ \=\ (Таблица\.Колонки\.Найти("ЗначенияПеречисления")\ <>\ Неопределено);.Description=пЕстьЗначенияПеречисления \= (Таблица.Колонки.Найти("ЗначенияПеречисления") <> Неопределено);
+Method.вПолучитьСоставРазделаМД.Comment.Стр\.ПредставлениеОбъекта\ \=\ Элем\.УникальныйИдентификатор;.Description=Str.ObjectPresentation \= Item.UniqueIdentifier;
+Method.вПолучитьСоставРазделаМД.Comment.для\ упорядочивания\ по\ именам\ объектов.Description=for sorting by object names
+Method.вПолучитьСоставРазделаМД.Comment.пЕстьЗначенияПеречисления\ \=\ (Таблица\.Колонки\.Найти("ЗначенияПеречисления")\ <>\ Неопределено);.Description=pHasEnumValues \= (Table.Columns.Find("EnumValues") <> Undefined);
 Method.вПолучитьСоставРазделаМД.Name=inGetContentSectionMD
 Method.вПолучитьСоставРазделаМД.Param.ИмяРаздела.Name=SectionName
 Method.вПолучитьСоставРазделаМД.Param.ОтборПоПодсистемам.Name=FilterBySubsystems
@@ -1186,11 +1186,11 @@ Method.вПослеЗаписиДвоичныхДанных.Param.пДопПар
 Method.вПослеЗаписиДвоичныхДанных.String.Word.в.Key=in
 Method.вПослеЗаписиДвоичныхДанных.String.Word.записаны.Key=written
 Method.вПослеЗаписиДвоичныхДанных.String.Word.файл.Key=file
-Method.вПослеЗапуска1СподПользователем.Comment.фиктивная\ процедура\ для\ совместимости\ разных\ версий\ платыормы.Description=фиктивная процедура для совместимости разных версий платыормы
+Method.вПослеЗапуска1СподПользователем.Comment.фиктивная\ процедура\ для\ совместимости\ разных\ версий\ платыормы.Description=dummy procedure for compatibility with different platform versions
 Method.вПослеЗапуска1СподПользователем.Name=inAfterLaunch1CUnderUser
 Method.вПослеЗапуска1СподПользователем.Param.ДопПарам.Name=AdditionalParam
 Method.вПослеЗапуска1СподПользователем.Param.КодВозврата.Name=ReturnCode
-Method.вПослеЗапускаПриложения.Comment.фиктивная\ процедура\ для\ совместимости\ разных\ версий\ платыормы.Description=фиктивная процедура для совместимости разных версий платыормы
+Method.вПослеЗапускаПриложения.Comment.фиктивная\ процедура\ для\ совместимости\ разных\ версий\ платыормы.Description=dummy procedure for compatibility with different platform versions
 Method.вПослеЗапускаПриложения.Name=inAfterLaunchApplication
 Method.вПослеЗапускаПриложения.Param.ДопПарам.Name=AdditionalParam
 Method.вПослеЗапускаПриложения.Param.КодВозврата.Name=ReturnCode
@@ -1232,7 +1232,7 @@ Method.вРассчитатьКоличествоОбъектов.Var.Запро
 Method.вРассчитатьКоличествоОбъектов.Var.Запрос.String.ТаблицаБД.Key=TableDB
 Method.вРассчитатьКоличествоОбъектов.Var.Элем.Name=Item
 Method.вРассчитатьКоличествоОбъектов.Var.пИспользоватьПопытку.Name=pUseAttempt
-Method.вРассчитатьКоличествоОбъектовМД.Comment.вПолучитьКоличествоПодсистем();.Description=вПолучитьКоличествоПодсистем();
+Method.вРассчитатьКоличествоОбъектовМД.Comment.вПолучитьКоличествоПодсистем();.Description=inGetSubsystemsCount();
 Method.вРассчитатьКоличествоОбъектовМД.Name=inCalculateObjectCountMD
 Method.вРассчитатьКоличествоОбъектовМД.Param.СтрукРазделы.Name=StrucSections
 Method.вРассчитатьКоличествоОбъектовМД.String.Пользователи.Key=Users

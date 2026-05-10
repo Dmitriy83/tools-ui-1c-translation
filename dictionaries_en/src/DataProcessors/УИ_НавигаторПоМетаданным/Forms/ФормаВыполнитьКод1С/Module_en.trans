@@ -102,7 +102,7 @@ Method.вПараметрНачалоВыбора.Param.ДанныеВыбора
 Method.вПараметрНачалоВыбора.Param.СтандартнаяОбработка.Name=StandardProcessing
 Method.вПараметрНачалоВыбора.Param.Элемент.Name=Item
 Method.вПараметрНачалоВыбора.String.РазделМД.Key=SectionMD
-Method.вПараметрНачалоВыбора.String.ФормаВыбораТипаОбъекта.Key=FormChoiceTypeObject
+Method.вПараметрНачалоВыбора.String.ФормаВыбораТипаОбъекта.Key=FormObjectTypeChoice
 Method.вПараметрНачалоВыбора.Var.пЗначение.Name=pValue
 Method.вПараметрНачалоВыбора.Var.пРазделМД.Name=pSectionMD
 Method.вПараметрНачалоВыбора.Var.пСтрук.Name=pStruc
