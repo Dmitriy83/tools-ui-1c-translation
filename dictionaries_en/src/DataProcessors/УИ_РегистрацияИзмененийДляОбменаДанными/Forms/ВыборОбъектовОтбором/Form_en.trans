@@ -1,8 +1,8 @@
 #Translations for: model
 
-Attribute.КлючФормыДанных.Name=KeyFormData
+Attribute.КлючФормыДанных.Name=FormDataKey
 Attribute.Объект.Name=Object
-Attribute.СписокДанных.Name=ListData
+Attribute.СписокДанных.Name=DataList
 Attribute.СписокДанных.QueryText.Expr.Ссылка.Alias=Ref
 Attribute.СтруктураДанных.Name=StructureData
 Command.ВыбратьОтобранныеЗначения.Name=SelectSelectedValue

@@ -1,11 +1,11 @@
 #Translations for: model
 
-Command.КонсольЗаданий.Name=ConsoleJobs
+Command.КонсольЗаданий.Name=JobsConsole
 Comment=https\://github.com/kuzyara/JobsConsole2019.epf (c)Dushelov'2009
-Form.ДиалогНастроекСписка.Name=DialogSettingsList
+Form.ДиалогНастроекСписка.Name=ListSettingsDialog
 Form.ДиалогОтбораРегламентногоЗадания.Name=DialogFilterScheduledJob
 Form.ДиалогОтбораФоновогоЗадания.Name=DialogFilterBackgroundJob
 Form.ДиалогРегламентногоЗадания.Name=DialogScheduledJob
 Form.ДиалогФоновогоЗадания.Name=DialogBackgroundJob
 Form.Форма.Name=Form
-Name=UI_ConsoleJobs
+Name=UI_JobsConsole

@@ -1,18 +1,18 @@
 #Translations for: model
 
-Attribute._РежимРаботы.Name=_ModeWork
+Attribute._РежимРаботы.Name=_WorkMode
 Attribute.АутентификацияОС.Name=AuthenticationOS
 Attribute.АутентификацияСтандартная.Name=AuthenticationStandard
 Attribute.ЗащитаОтОпасныхДействий.Name=ProtectionFromDangerousActions
 Attribute.Идентификатор.Name=Identifier
-Attribute.ИдентификаторПользователяИБ.Name=IdentifierUserIB
+Attribute.ИдентификаторПользователяИБ.Name=IBUserIdentifier
 Attribute.Имя.Name=Name
 Attribute.Пароль.Name=Password
-Attribute.ПодтверждениеПароля.Name=ConfirmationPassword
-Attribute.ПоказыватьВСпискеВыбора.Name=ShowInListChoice
+Attribute.ПодтверждениеПароля.Name=PasswordConfirmation
+Attribute.ПоказыватьВСпискеВыбора.Name=ShowInChoiceList
 Attribute.ПолноеИмя.Name=FullName
 Attribute.ПользовательОС.Name=UserOS
-Attribute.РолиПользователя.Name=RoleUser
+Attribute.РолиПользователя.Name=UserRole
 Attribute.РолиПользователя.Имя.Name=Name
 Attribute.РолиПользователя.Пометка.Name=Mark
 Attribute.РолиПользователя.Представление.Name=Presentation

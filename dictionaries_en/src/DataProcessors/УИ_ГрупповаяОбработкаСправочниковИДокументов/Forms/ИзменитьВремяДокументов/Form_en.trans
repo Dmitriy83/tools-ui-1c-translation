@@ -1,7 +1,7 @@
 #Translations for: model
 
 Attribute.ВведенноеВремя.Name=EnteredTime
-Attribute.ВидИзмененияВремени.Name=KindChangeTime
+Attribute.ВидИзмененияВремени.Name=TimeChangeKind
 Attribute.НайденныеОбъекты.Name=FoundObjects
 Attribute.ОбъектОбработки.Name=ObjectProcessing
 Attribute.ОбъектПоиска.Name=ObjectSearch

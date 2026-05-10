@@ -1,16 +1,16 @@
 #Translations for: model
 
-Attribute.ВидДействияНадСуммой.Name=KindActionAboveAmount
+Attribute.ВидДействияНадСуммой.Name=AmountActionKind
 Attribute.НайденныеОбъекты.Name=FoundObjects
 Attribute.НайденныеОбъектыТЧ.Name=FoundObjectsTS
 Attribute.НайденныеОбъектыТЧ.Выбрать.Name=Select
 Attribute.НайденныеОбъектыТЧ.Объект.Name=Object
-Attribute.НайденныеОбъектыТЧ.Т_НомерСтроки.Name=T_NumberRow
+Attribute.НайденныеОбъектыТЧ.Т_НомерСтроки.Name=T_RowNumber
 Attribute.НайденныеОбъектыТЧ.Т_ТЧ.Name=T_TS
 Attribute.ОбрабатыватьТабличныеЧасти.Name=ProcessTabularPart
 Attribute.ОбъектОбработки.Name=ObjectProcessing
 Attribute.ОбъектПоиска.Name=ObjectSearch
-Attribute.ПараметрДействия.Name=ParameterAction
+Attribute.ПараметрДействия.Name=ActionParameter
 Attribute.Реквизиты.Name=Attributes
 Attribute.Реквизиты.Выбрать.Name=Select
 Attribute.Реквизиты.Значение.Name=Value

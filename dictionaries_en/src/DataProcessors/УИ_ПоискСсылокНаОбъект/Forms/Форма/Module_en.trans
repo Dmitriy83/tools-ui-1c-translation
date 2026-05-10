@@ -66,7 +66,7 @@ Method.ОткрытьОбъектТекущейСтроки.Var.ТекДанны
 Method.Подключаемый_ВыполнитьОбщуюКомандуИнструментов.Description=@skip-warning
 Method.Подключаемый_ВыполнитьОбщуюКомандуИнструментов.Name=Pluggable_ExecuteCommonCommandTools
 Method.Подключаемый_ВыполнитьОбщуюКомандуИнструментов.Param.Команда.Name=Command
-Method.ПоискДляОбъекта.String.ОбъектПоиска.Key=ObjectSearch
+Method.ПоискДляОбъекта.String.ОбъектПоиска.Key=SearchObject
 Method.ПоискДляОбъекта.Var.ПараметрыФормы.Name=ParametersForm
 Method.ПоискДляОбъекта.Var.ТекДанные.Name=CurData
 Method.ПредставлениеНайденногоОбъекта.Name=PresentationFoundObject
@@ -77,7 +77,7 @@ Method.ПредставлениеНайденногоОбъекта.Var.Изме
 Method.ПредставлениеНайденногоОбъекта.Var.Представление.Name=Presentation
 Method.ПриИзмененииИсходногоОбъекта.Comment.TODO\ Убрать\ это\ кривое\ решение\ проблемы.Description=TODO Remove this hacky workaround
 Method.ПриИзмененииИсходногоОбъекта.Name=OnChangeSourceObject
-Method.ПриСозданииНаСервере.String.ОбъектПоиска.Key=ObjectSearch
+Method.ПриСозданииНаСервере.String.ОбъектПоиска.Key=SearchObject
 Method.РедактироватьОбъект.Var.ТекДанные.Name=CurData
 Method.РезультатПоискаПриАктивизацииСтроки.Var.ВидимостьКомандыОткрытия.Name=VisibilityCommandOpening
 Method.РезультатПоискаПриАктивизацииСтроки.Var.ВидимостьКомандыПоиска.Name=VisibilityCommandSearch

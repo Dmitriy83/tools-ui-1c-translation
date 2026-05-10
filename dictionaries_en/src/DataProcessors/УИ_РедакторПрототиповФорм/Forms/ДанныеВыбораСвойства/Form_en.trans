@@ -1,9 +1,9 @@
 #Translations for: model
 
-Attribute.ДанныеВыбора.Name=DataChoice
+Attribute.ДанныеВыбора.Name=ChoiceData
 Attribute.Объект.Name=Object
 Command.ОтменитьИЗакрыть.Name=CancelAndClose
-Command.ПрименитьДанныеВыбора.Name=ApplyDataChoice
+Command.ПрименитьДанныеВыбора.Name=ApplyChoiceData
 Item.Группа1.Name=Group1
 Item.Группа2.Name=Group2
 Item.Группа3.Name=Group3

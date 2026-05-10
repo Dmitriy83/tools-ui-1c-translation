@@ -3,6 +3,6 @@
 Command.ПоискИУдалениеДублей.Name=SearchAndDeletionDuplicates
 Form.ОбластьПоискаДублей.Name=AreaSearchDuplicates
 Form.ПоискДублей.Name=SearchDuplicates
-Form.ПравилаОтбора.Name=RuleFilter
-Form.ПравилаПоиска.Name=RuleSearch
+Form.ПравилаОтбора.Name=FilterRules
+Form.ПравилаПоиска.Name=SearchRules
 Name=UI_SearchAndDeletionDuplicates

@@ -1,21 +1,21 @@
 #Translations for: model
 
-Command.НавигаторПоМетаданным.Name=NavigatorByMetadata
+Command.НавигаторПоМетаданным.Name=MetadataNavigator
 Form.Форма.Name=Form
 Form.ФормаБлокировкиСеансов.Name=FormLockSessions
-Form.ФормаВнешнийИсточникДанных.Name=FormExternalSourceData
-Form.ФормаВыбораМасштабаОтображения.Name=FormChoiceScaleDisplay
-Form.ФормаВыбораОбъекта.Name=FormChoiceObject
-Form.ФормаВыбораТипаОбъекта.Name=FormChoiceTypeObject
-Form.ФормаВыполнитьКод1С.Name=FormExecuteCode1With
-Form.ФормаЗапуска1С.Name=FormLaunch1With
-Form.ФормаОРазработке.Name=FormODevelopment
+Form.ФормаВнешнийИсточникДанных.Name=FormExternalDataSource
+Form.ФормаВыбораМасштабаОтображения.Name=FormDisplayScaleChoice
+Form.ФормаВыбораОбъекта.Name=FormObjectChoice
+Form.ФормаВыбораТипаОбъекта.Name=FormObjectTypeChoice
+Form.ФормаВыполнитьКод1С.Name=FormExecuteCode1C
+Form.ФормаЗапуска1С.Name=FormLaunch1C
+Form.ФормаОРазработке.Name=FormAboutDevelopment
 Form.ФормаОтбораПоПодсистемам.Name=FormFilterBySubsystems
-Form.ФормаОтображенияХЗ.Name=FormDisplayKhZ
+Form.ФормаОтображенияХЗ.Name=FormValueStorageDisplay
 Form.ФормаПользовательИБ.Name=FormUserIB
 Form.ФормаСвойств.Name=FormProperties
-Form.ФормаСпецТаблицыСХ.Name=FormSpecialTableSS
-Form.ФормаСпискаОбъектов.Name=FormListObjects
+Form.ФормаСпецТаблицыСХ.Name=FormSpecialSSTable
+Form.ФормаСпискаОбъектов.Name=FormObjectList
 Form.ФормаСтарта.Name=FormStart
 Name=UI_NavigatorByMetadata
-Template.МакетСервис.Name=TemplateService
+Template.МакетСервис.Name=ServiceTemplate

@@ -1,22 +1,22 @@
 #Translations for: model
 
-Method.ЗаголовокНастроекПроксиПоПараметрам.Name=HeaderSettingsProxyByParameters
-Method.ЗаголовокНастроекПроксиПоПараметрам.Var.ЗаголовокГруппыПрокси.Name=HeaderGroupProxy
+Method.ЗаголовокНастроекПроксиПоПараметрам.Name=ProxySettingsByParametersHeader
+Method.ЗаголовокНастроекПроксиПоПараметрам.Var.ЗаголовокГруппыПрокси.Name=ProxyGroupHeader
 Method.ЗаголовокНастроекПроксиПоПараметрам.Var.ЗаголовокГруппыПрокси.String.Word.Аутентификация.Key=Authentication
 Method.ЗаголовокНастроекПроксиПоПараметрам.Var.ЗаголовокГруппыПрокси.String.Word.Не.Key=Not
 Method.ЗаголовокНастроекПроксиПоПараметрам.Var.ЗаголовокГруппыПрокси.String.Word.ОС.Key=OS
 Method.ЗаголовокНастроекПроксиПоПараметрам.Var.ЗаголовокГруппыПрокси.String.Word.используется.Key=used
-Method.ЗаголовокНастроекПроксиПоПараметрам.Var.ПрефиксЗаголовка.Name=PrefixHeader
+Method.ЗаголовокНастроекПроксиПоПараметрам.Var.ПрефиксЗаголовка.Name=HeaderPrefix
 Method.ПриОткрытии.String.БезТела.Key=WithoutBody
 Method.ПриОткрытии.String.ДвоичныеДанные.Key=BinaryData
 Method.ПриОткрытии.String.МультипартФорм.Key=MultipartForms
 Method.ПриОткрытии.Var.ТекСтраница.Name=CurPage
-Method.ПриОткрытии.Var.ТекСтрокаЗапроса.Name=CurStringQuery
-Method.ПриОткрытии.Var.ТекСтрокаИстории.Name=CurStringHistory
+Method.ПриОткрытии.Var.ТекСтрокаЗапроса.Name=CurQueryString
+Method.ПриОткрытии.Var.ТекСтрокаИстории.Name=CurHistoryString
 Method.ПриСозданииНаСервере.Comment.@skip-check\ unknown-form-parameter-access.Description=@skip-check unknown-form-parameter-access
 Method.СохранитьДвоичныеДанныеТелаЗапросаИзИстории.Var.ПараметрыСохранения.Name=ParametersSave
 Method.СохранитьТелоОтветаДвоичныеДанныеВФайл.Var.ПараметрыСохранения.Name=ParametersSave
 Region.ОбработчикиСобытийФормы.Comment.Код\ процедур\ и\ функций.Description=Procedure and function code
-Region.ОбработчикиСобытийФормы.Name=HandlersEventsForm
-Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.Name=HandlersCommandsForm
-Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Name=ServiceProcedureAndFunction
+Region.ОбработчикиСобытийФормы.Name=FormEventHandlers
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.Name=FormCommandsEventHandlers
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Name=Private

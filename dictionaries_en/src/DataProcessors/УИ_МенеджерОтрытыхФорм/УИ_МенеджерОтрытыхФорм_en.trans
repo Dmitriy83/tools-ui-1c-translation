@@ -1,14 +1,14 @@
 #Translations for: model
 
-Command.МенеджерОтрытыхФорм.Name=ManagerOpenForms
-Form.НастройкиОбработки.Name=SettingsProcessing
-Form.ОбщегоНазначения.Name=CommonDestination
-Form.ОткрытиеФормы.Name=OpeningForm
-Form.РедактированиеНастройкиИзХранилища.Name=EditingSettingsFromStorage
-Form.РедакторПроизвольныхЗначений.Name=EditorArbitraryValues
-Form.РедакторСтруктурыСоответствия.Name=EditorStructureMap
+Command.МенеджерОтрытыхФорм.Name=OpenFormsManager
+Form.НастройкиОбработки.Name=ProcessingSettings
+Form.ОбщегоНазначения.Name=GeneralPurpose
+Form.ОткрытиеФормы.Name=FormOpening
+Form.РедактированиеНастройкиИзХранилища.Name=StorageSettingsEditing
+Form.РедакторПроизвольныхЗначений.Name=ArbitraryValuesEditor
+Form.РедакторСтруктурыСоответствия.Name=MapStructureEditor
 Form.Форма.Name=Form
-Form.ФормаНастроекДинамическогоСписка.Name=FormSettingsDynamicList
-Form.ФормаНастроекКомпоновки.Name=FormSettingsDataComposition
-Form.ФормаРедакторXML.Name=FormEditorXML
-Name=UI_ManagerOpenForms
+Form.ФормаНастроекДинамическогоСписка.Name=DynamicListSettingsForm
+Form.ФормаНастроекКомпоновки.Name=DataCompositionSettingsForm
+Form.ФормаРедакторXML.Name=XMLEditorForm
+Name=UI_OpenFormsManager

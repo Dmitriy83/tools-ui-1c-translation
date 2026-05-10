@@ -1,4 +1,4 @@
 #Translations for: model
 
-Region.ОбработчикиСобытийФормы.Name=HandlersEventsForm
-Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.Name=HandlersCommandsForm
+Region.ОбработчикиСобытийФормы.Name=FormEventHandlers
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.Name=FormCommandsEventHandlers

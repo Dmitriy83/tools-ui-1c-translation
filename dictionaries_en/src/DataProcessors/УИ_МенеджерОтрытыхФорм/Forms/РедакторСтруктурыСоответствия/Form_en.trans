@@ -3,7 +3,7 @@
 Attribute.РедактируемоеЗначение.Name=EditableValue
 Attribute.РедактируемоеЗначение.Значение.Name=Value
 Attribute.РедактируемоеЗначение.Ключ.Name=Key
-Attribute.РедактируемоеЗначение.ТипКоллекции.Name=TypeCollection
+Attribute.РедактируемоеЗначение.ТипКоллекции.Name=CollectionType
 Command.ПрименитьИзменения.Name=ApplyChange
 Parameter.Заголовок.Name=Header
 Parameter.РедактируемоеЗначение.Name=EditableValue

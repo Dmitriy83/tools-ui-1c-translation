@@ -3,5 +3,5 @@
 Attribute.Значение.Name=Value
 Attribute.Объект.Name=Object
 Command.ОтменитьИЗакрыть.Name=CancelAndClose
-Command.ПрименитьСписокВыбора.Name=ApplyListChoice
+Command.ПрименитьСписокВыбора.Name=ApplyChoiceList
 Item.Группа3.Name=Group3

@@ -1,6 +1,6 @@
 #Translations for: model
 
-Attribute.ИмяМетода.Name=NameMethod
+Attribute.ИмяМетода.Name=MethodName
 Attribute.Ключ.Name=Key
 Attribute.Наименование.Name=Description
 Attribute.Объект.Name=Object

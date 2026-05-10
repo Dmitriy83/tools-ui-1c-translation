@@ -2,17 +2,17 @@
 
 Attribute.ДополнительныеСвойства.Name=AdditionalProperty
 Attribute.ЗамещатьСуществующиеЗаписи.Name=ReplaceExistingRecord
-Attribute.ИмяВидаРегистра.Name=NameKindRegister
+Attribute.ИмяВидаРегистра.Name=KindRegisterName
 Attribute.НеСоздаватьНовыхЭлементов.Name=NotCreateNewItems
 Attribute.ПерваяСтрокаДанныхТабличногоДокумента.Name=FirstStringDataTabularDocument
 Attribute.ПередЗаписьюОбъекта.Name=BeforeRecordObject
 Attribute.ПослеДобавленияСтроки.Name=AfterAdditionRow
 Attribute.ПриЗаписиОбъекта.Name=OnRecordObject
-Attribute.РежимЗагрузки.Name=ModeLoad
+Attribute.РежимЗагрузки.Name=LoadMode
 Attribute.РучнаяНумерацияКолонокТабличногоДокумента.Name=ManualNumberingColumnsTabularDocument
 Attribute.СсылкаИсточника.Name=RefSource
 Attribute.ТабличнаяЧастьИсточника.Name=TabularPartSource
-Attribute.ТипОбъектаСправочника.Name=TypeObjectCatalog
+Attribute.ТипОбъектаСправочника.Name=CatalogObjectType
 Command.ЗагрузкаДанныхИзТабличногоДокумента.Name=LoadDataFromTabularDocument
 Comment=Rewrites the processing almost from scratch, with significant code reuse from the standard processing for the thick client
 Form.Форма.Name=Form

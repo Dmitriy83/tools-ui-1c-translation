@@ -18,6 +18,6 @@ Method.ПриСозданииНаСервере.Var._Сайт.String.Word.www.Ke
 Method.ПриСозданииНаСервере.Var.Элем.Name=Item
 Method.вВыполнитьПереходURL.Name=inExecuteTransitionURL
 Method.вВыполнитьПереходURL.Param.СтрокаURL.Name=StringURL
-Method.вПустойОбработчикОповещения.Name=inEmptyHandlerNotification
+Method.вПустойОбработчикОповещения.Name=inEmptyNotificationHandler
 Method.вПустойОбработчикОповещения.Param.ДопПарам.Name=AdditionalParam
-Method.вПустойОбработчикОповещения.Param.КодВозврата.Name=CodeReturn
+Method.вПустойОбработчикОповещения.Param.КодВозврата.Name=ReturnCode

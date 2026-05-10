@@ -1,11 +1,11 @@
 #Translations for: model
 
-Attribute.КолонкиСтроки.Name=ColumnRow
-Attribute.НадписьТекстВыражения.Name=LabelTextExpression
+Attribute.КолонкиСтроки.Name=RowColumns
+Attribute.НадписьТекстВыражения.Name=ExpressionTextLabel
 Attribute.Объект.Name=Object
-Attribute.ПолеТекстовогоДокумента.Name=FieldTextDocument
-Attribute.ТекстВыражения.Name=TextExpression
-Attribute.ТипРезультата.Name=TypeResult
+Attribute.ПолеТекстовогоДокумента.Name=TextDocumentField
+Attribute.ТекстВыражения.Name=ExpressionText
+Attribute.ТипРезультата.Name=ResultType
 Command.ОК.Handler.Name=MainActionFormOK
 Command.ОК.Name=OK
 Item.ГруппаКоманды.Name=GroupCommand

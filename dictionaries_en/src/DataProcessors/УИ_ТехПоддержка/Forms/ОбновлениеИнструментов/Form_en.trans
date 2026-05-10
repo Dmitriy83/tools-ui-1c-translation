@@ -1,15 +1,15 @@
 #Translations for: model
 
-Attribute.URLАктуальногоРелиза.Name=URLCurrentRelease
+Attribute.URLАктуальногоРелиза.Name=CurrentReleaseURL
 Attribute.АктуальнаяВерсия.Name=CurrentVersion
-Attribute.ВариантПоставки.Name=VariantDelivery
-Attribute.НеобходимостьОбновления.Name=NecessityUpdate
-Attribute.ОбновлениеЧерезСкачиваниеФайлаПоставки.Name=UpdateThroughDownloadFileDelivery
-Attribute.ОписаниеИзменений.Name=DescriptionChanges
-Attribute.ПолеИзменений.Name=FieldChanges
+Attribute.ВариантПоставки.Name=DeliveryVariant
+Attribute.НеобходимостьОбновления.Name=UpdateNecessity
+Attribute.ОбновлениеЧерезСкачиваниеФайлаПоставки.Name=UpdateThroughDownloadDeliveryFile
+Attribute.ОписаниеИзменений.Name=ChangesDescription
+Attribute.ПолеИзменений.Name=ChangesField
 Attribute.ТекущаяВерсия.Name=CurrentVersion
 Command.Обновить.Name=Update
 Item.Группа1РасширеннаяПодсказка.Name=Group1ExtendedTooltip
-Item.ГруппаСравненияВерсий.Name=GroupComparisonVersions
+Item.ГруппаСравненияВерсий.Name=GroupVersionsComparison
 Item.ПолеКонтекстноеМеню.Name=FieldContextMenu
 Item.ПолеРасширеннаяПодсказка.Name=FieldExtendedTooltip

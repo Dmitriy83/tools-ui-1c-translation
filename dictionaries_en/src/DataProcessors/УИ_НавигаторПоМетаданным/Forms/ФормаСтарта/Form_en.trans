@@ -1,6 +1,6 @@
 #Translations for: model
 
-Attribute._ВерсияПлатформы.Name=_VersionPlatform
+Attribute._ВерсияПлатформы.Name=_PlatformVersion
 Attribute._Сообщение.Name=_Message
 Attribute.Объект.Name=Object
 Attribute.ПутьКФормам.Name=PathToForms

@@ -1,6 +1,6 @@
 #Translations for: model
 
-Attribute._АдресаХранилищ.Name=_AddressStorages
+Attribute._АдресаХранилищ.Name=_StorageAddresses
 Attribute._ДанныеДляОтображения.Name=_DataForDisplay
 Attribute._ДеревоЗначений.Name=_TreeValues
 Attribute._ТаблицаЗначений.Name=_TableValues

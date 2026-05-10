@@ -2,8 +2,8 @@
 
 Attribute._Автор.Name=_Author
 Attribute._Версия.Name=_Version
-Attribute._ДатаВерсии.Name=_DateVersion
-Attribute._Наименование.Name=_Description
-Attribute._НомерВерсии.Name=_NumberVersion
+Attribute._ДатаВерсии.Name=_VersionDate
+Attribute._Наименование.Name=_Name
+Attribute._НомерВерсии.Name=_VersionNumber
 Attribute._Описание.Name=_Description
 Attribute._Сайт.Name=_Site

@@ -1,18 +1,18 @@
 #Translations for: model
 
-Command.РедакторПрототиповФорм.Name=EditorPrototypesForms
+Command.РедакторПрототиповФорм.Name=FormPrototypesEditor
 Comment=Horizontal prototype
-Form.ВводСпискаЗначений.Name=InputListValues
+Form.ВводСпискаЗначений.Name=InputValuesList
 Form.ВводСтроки.Name=InputRow
 Form.ВводЧисла.Name=InputNumber
-Form.ВыборКартинки.Name=ChoicePicture
-Form.ВыборФормы.Name=ChoiceForm
-Form.ДанныеВыбораСвойства.Name=DataChoiceProperty
-Form.МенеджерНаборовЗначений.Name=ManagerSetsValues
-Form.МенеджерПрототипов.Name=ManagerPrototypes
-Form.МенеджерФайлов_8_3_15.Name=ManagerFiles_8_3_15
-Form.МенеджерФайлов_8_3_6.Name=ManagerFiles_8_3_6
-Form.НастройкиИнструмента.Name=SettingsTool
+Form.ВыборКартинки.Name=PictureChoice
+Form.ВыборФормы.Name=FormChoice
+Form.ДанныеВыбораСвойства.Name=PropertyChoiceData
+Form.МенеджерНаборовЗначений.Name=ValueSetsManager
+Form.МенеджерПрототипов.Name=PrototypesManager
+Form.МенеджерФайлов_8_3_15.Name=FilesManager_8_3_15
+Form.МенеджерФайлов_8_3_6.Name=FilesManager_8_3_6
+Form.НастройкиИнструмента.Name=ToolSettings
 Form.Основная.Name=Primary
 Form.Прототип.Name=Prototype
 Name=UI_EditorPrototypesForms

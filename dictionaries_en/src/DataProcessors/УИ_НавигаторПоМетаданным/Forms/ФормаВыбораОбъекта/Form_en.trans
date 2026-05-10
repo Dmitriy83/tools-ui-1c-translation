@@ -1,6 +1,6 @@
 #Translations for: model
 
-Attribute._ПереченьРазделов.Name=_ListSections
+Attribute._ПереченьРазделов.Name=_SectionsList
 Attribute._ПоказыватьПеречисления.Name=_ShowEnum
 Attribute._ПоказыватьПростыеТипы.Name=_ShowSimpleTypes
 Attribute._ТипыДляКонсолиЗапросов.Name=_TypesForConsoleQueries

@@ -1,8 +1,8 @@
 #Translations for: model
 
 Description=Copyright (c) 2019, 1C-Soft LLC\nAll rights reserved. This program and the accompanying materials are provided\nunder the terms of the Attribution 4.0 International license (CC BY 4.0).\nThe license text is available at\:\nhttps\://creativecommons.org/licenses/by/4.0/legalcode\n
-Method.АдресНастроекКомпоновщикаОтбора.Name=AddressSettingsComposerFilter
-Method.ПриСозданииНаСервере.Var.АдресНастроекКомпоновщикаОтбора.Name=AddressSettingsComposerFilter
+Method.АдресНастроекКомпоновщикаОтбора.Name=FilterComposerSettingsAddress
+Method.ПриСозданииНаСервере.Var.АдресНастроекКомпоновщикаОтбора.Name=FilterComposerSettingsAddress
 Region.ОбработчикиСобытийФормы.Description=Expected parameters\:\nMainFormIdentifier              - UUID - identifier of the form whose storage is used\nfor exchange.\nCompositionSchemaAddress        - String - address of temporary storage of the composition schema\nwhose settings are edited.\nFilterComposerSettingsAddress   - String - address of temporary storage of the composer settings being edited.\nFilterAreaPresentation          - String - presentation used to build the header.\nReturned as the selection result\:\nUndefined - Edit cancelled.\nString    - Address of temporary storage of the new composer settings.
 Region.ОбработчикиСобытийФормы.Name=FormEventHandlers
 Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.Name=FormCommandsEventHandlers

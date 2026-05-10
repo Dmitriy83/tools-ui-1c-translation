@@ -1,7 +1,7 @@
 #Translations for: interface
 
 Row.0.Cell.0.Content=Name
-Row.0.Cell.1.Content=TypesValue
+Row.0.Cell.1.Content=ValueTypes
 Row.1.Cell.0.Content=Filter_FormClientApplication
 Row.1.Cell.1.Content=Boolean
 Row.10.Cell.0.Content=Filter_FieldForm_FieldIndicator
@@ -61,11 +61,11 @@ Row.34.Cell.1.Content=Boolean
 Row.35.Cell.0.Content=VariantFill
 Row.35.Cell.1.Content=String
 Row.36.Cell.0.Content=DataChoice
-Row.36.Cell.1.Content=ListValues
+Row.36.Cell.1.Content=ValuesList
 Row.37.Cell.0.Content=DataChoice_GroupColumns
-Row.37.Cell.1.Content=ListValues
+Row.37.Cell.1.Content=ValuesList
 Row.38.Cell.0.Content=DataChoice_Button
-Row.38.Cell.1.Content=ListValues
+Row.38.Cell.1.Content=ValuesList
 Row.4.Cell.0.Content=Filter_GroupForm_CommandPanel
 Row.4.Cell.1.Content=Boolean
 Row.5.Cell.0.Content=Filter_GroupForm_ContextMenu

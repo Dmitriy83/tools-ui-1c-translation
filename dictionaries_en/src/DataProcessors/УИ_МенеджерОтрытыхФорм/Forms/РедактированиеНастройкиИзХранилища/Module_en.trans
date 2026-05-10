@@ -2,7 +2,7 @@
 
 Description=@strict-types
 Method.ПроверитьВозможностьСохранения.Comment.@skip-check\ module-unused-local-variable.Description=@skip-check module-unused-local-variable
-Method.ПроверитьВозможностьСохранения.Name=CheckCapabilitySave
+Method.ПроверитьВозможностьСохранения.Name=CheckSaveCapability
 Method.ПроверитьВозможностьСохранения.Var.Настройки.Name=Settings
 Method.ПроверитьВозможностьСохранения.Var.Сообщение.Name=Message
 Method.ПроверитьВозможностьСохранения.Var.Сообщение.String.Word.Не.Key=Not
@@ -11,6 +11,6 @@ Method.ПроверитьВозможностьСохранения.Var.Сооб
 Method.ПроверитьВозможностьСохранения.Var.Сообщение.String.Word.обернуть.Key=wrap
 Method.ПроверитьВозможностьСохранения.Var.Сообщение.String.Word.строку.Key=string
 Method.ПроверитьВозможностьСохранения.Var.Сообщение.String.Word.удалось.Key=succeeded
-Region.ОбработчикиСобытийФормы.Name=HandlersEventsForm
-Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.Name=HandlersCommandsForm
-Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Name=ServiceProcedureAndFunction
+Region.ОбработчикиСобытийФормы.Name=FormEventHandlers
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.Name=FormCommandsEventHandlers
+Region.ОбработчикиСобытийФормы.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Name=Private

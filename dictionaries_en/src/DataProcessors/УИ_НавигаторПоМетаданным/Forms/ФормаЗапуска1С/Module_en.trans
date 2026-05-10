@@ -1,13 +1,13 @@
 #Translations for: model
 
 Method.ПриОткрытии.Var.БазаДанных.String.TEST.Key=TEST
-Method.ПриОткрытии.Var.Папка1С.Name=Folder1With
+Method.ПриОткрытии.Var.Папка1С.Name=Folder1C
 Method.ПриОткрытии.Var.Поз.Name=Pos
 Method.ПриОткрытии.Var.Сервер.String.Word.SRV.Key=SRV
 Method.ПриОткрытии.Var.Стартер1С.String.Word.1cestart.Key=
 Method.ПриОткрытии.Var.Стартер1С.String.Word.common.Key=common
 Method.ПриОткрытии.Var.Стартер1С.String.Word.exe.Key=exe
-Method.ПриОткрытии.Var.пРазделительПути.Name=pSeparatorPath
+Method.ПриОткрытии.Var.пРазделительПути.Name=pPathSeparator
 Method.Стартер1СНачалоВыбора.Var.Диалог.Name=Dialog
 Method.Стартер1СНачалоВыбора.Var.Диалог.String.Word.1cestart.Key=
 Method.Стартер1СНачалоВыбора.Var.Диалог.String.Word.1С.Key=
@@ -15,26 +15,26 @@ Method.Стартер1СНачалоВыбора.Var.Диалог.String.Word.ex
 Method.Стартер1СНачалоВыбора.Var.Диалог.String.Word.Стартер.Key=Starter
 Method.Стартер1СНачалоВыбора.Var.Диалог.String.Word.к.Key=k
 Method.Стартер1СНачалоВыбора.Var.Диалог.String.Word.стартеру.Key=starter
-Method.Стартер1СНачалоВыбораДалее.Name=Starter1WithStartChoiceNext
+Method.Стартер1СНачалоВыбораДалее.Name=Starter1CStartChoiceNext
 Method.Стартер1СНачалоВыбораДалее.Param.ВыбранныеФайлы.Name=SelectedFiles
 Method.Стартер1СНачалоВыбораДалее.Param.ДопПараметры.Name=AdditionalParameters
-Method.вКаталогФайла.Name=inDirectoryFile
-Method.вКаталогФайла.Param.ПолноеИмяФайла.Name=FullNameFile
+Method.вКаталогФайла.Name=inFileDirectory
+Method.вКаталогФайла.Param.ПолноеИмяФайла.Name=FileFullName
 Method.вКаталогФайла.Var.Поз.Name=Pos
-Method.вКаталогФайла.Var.пРазделительПути.Name=pSeparatorPath
+Method.вКаталогФайла.Var.пРазделительПути.Name=pPathSeparator
 Method.вПослеЗапускаПриложения.Comment.фиктивная\ процедура\ для\ совместимости\ разных\ версий\ платформы.Description=dummy procedure for compatibility with different platform versions
 Method.вПослеЗапускаПриложения.Name=inAfterLaunchApplication
 Method.вПослеЗапускаПриложения.Param.ДопПарам.Name=AdditionalParam
-Method.вПослеЗапускаПриложения.Param.КодВозврата.Name=CodeReturn
+Method.вПослеЗапускаПриложения.Param.КодВозврата.Name=ReturnCode
 Method.вСтрШаблон.Name=inStrTemplate
 Method.вСтрШаблон.Param.П1.Name=P1
 Method.вСтрШаблон.Param.П2.Name=P2
 Method.вСтрШаблон.Param.Шаблон.Name=Template
 Method.вСтрШаблон.Var.Результат.Name=Result
-Method.вСформироватьСтрокуКоманды.Name=inBuildStringCommand
+Method.вСформироватьСтрокуКоманды.Name=inBuildCommandString
 Method.вСформироватьСтрокуКоманды.String.Word.1С.Key=
 Method.вСформироватьСтрокуКоманды.String.Word.Не.Key=Not
-Method.вСформироватьСтрокуКоманды.String.Word.Стратер1С.Key=Starter1With
+Method.вСформироватьСтрокуКоманды.String.Word.Стратер1С.Key=Starter1C
 Method.вСформироватьСтрокуКоманды.String.Word.база.Key=database
 Method.вСформироватьСтрокуКоманды.String.Word.данных.Key=data
 Method.вСформироватьСтрокуКоманды.String.Word.задан.Key=set
@@ -42,7 +42,7 @@ Method.вСформироватьСтрокуКоманды.String.Word.зада
 Method.вСформироватьСтрокуКоманды.String.Word.на.Key=on
 Method.вСформироватьСтрокуКоманды.String.Word.приложений.Key=applications
 Method.вСформироватьСтрокуКоманды.String.Word.сервере.Key=server
-Method.вСформироватьСтрокуКоманды.Var.СтрокаЗапуска.Name=StringLaunch
+Method.вСформироватьСтрокуКоманды.Var.СтрокаЗапуска.Name=LaunchString
 Method.вСформироватьСтрокуКоманды.Var.СтрокаЗапуска.String.DESIGNER.Key=DESIGNER
 Method.вСформироватьСтрокуКоманды.Var.СтрокаЗапуска.String.ENTERPRISE.Key=ENTERPRISE
 Method.вСформироватьСтрокуКоманды.Var.СтрокаЗапуска.String.Word.ENTERPRISE.Key=ENTERPRISE
@@ -50,4 +50,4 @@ Method.вСформироватьСтрокуКоманды.Var.СтрокаЗа
 Method.вСформироватьСтрокуКоманды.Var.СтрокаЗапуска.String.Word.RunModeOrdinaryApplication.Key=RunModeOrdinaryApplication
 Method.вСформироватьСтрокуКоманды.Var.СтрокаЗапуска.String.Word.S.Key=S
 Region.ПоддержкаСтарыхВерсийПлатформы.Comment.Метод\ закомментирован\ для\ корректной\ сборки\ УИ\ инструментов\n&НаКлиентеНаСервереБезКонтекста\nФункция\ вСтрНайти(Строка,\ Подстрока,\ НаправлениеПоиска\ \=\ 1,\ Знач\ НачальнаяПозиция\ \=\ Неопределено,\ НомерВхождения\ \=\ 1)\nВозврат\ Найти(Строка,\ Подстрока);\nКонецФункции.Description=Method commented out for correct build of UI tools\n&AtClientAtServerNoContext\nFunction inStrFind(String, Substring, SearchDirection \= 1, Val StartPosition \= Undefined, OccurrenceNumber \= 1)\nReturn Find(String, Substring);\nEndFunction
-Region.ПоддержкаСтарыхВерсийПлатформы.Name=SupportOldVersionsPlatform
+Region.ПоддержкаСтарыхВерсийПлатформы.Name=SupportPlatformOldVersions
