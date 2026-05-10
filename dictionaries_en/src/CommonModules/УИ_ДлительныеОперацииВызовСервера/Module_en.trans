@@ -1,10 +1,10 @@
 #Translations for: model
 
-Method.ОперацииВыполнены.Name=OperationExecuted
+Method.ОперацииВыполнены.Name=OperationsCompleted
 Method.ОперацииВыполнены.Param.ЗаданияДляОтмены.Name=JobForCancel
 Method.ОперацииВыполнены.Param.ЗаданияДляПроверки.Name=JobForCheck
 Method.ОперацииВыполнены.String.Отменено.Key=Cancelled
 Method.ОперацииВыполнены.String.Статус.Key=Status
-Method.ОперацииВыполнены.Var.ИдентификаторЗадания.Name=IdentifierJob
+Method.ОперацииВыполнены.Var.ИдентификаторЗадания.Name=JobIdentifier
 Method.ОперацииВыполнены.Var.Результат.Name=Result
-Region.СлужебныеПроцедурыИФункции.Name=ServiceProcedureAndFunction
+Region.СлужебныеПроцедурыИФункции.Name=Private

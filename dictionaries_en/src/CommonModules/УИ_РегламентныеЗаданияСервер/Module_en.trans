@@ -1,8 +1,8 @@
 #Translations for: model
 
 Method.ВызватьИсключениеЕслиНетПраваАдминистрирования.Description=Raises an exception if the user does not have administration rights.
-Method.ВызватьИсключениеЕслиНетПраваАдминистрирования.Name=CallExceptionIfNoRightAdministration
-Method.ВызватьИсключениеЕслиНетПраваАдминистрирования.Var.ПроверятьПраваАдминистрированияСистемы.Name=CheckRightAdministrationSystem
+Method.ВызватьИсключениеЕслиНетПраваАдминистрирования.Name=RaiseExceptionIfNoAdministrationRight
+Method.ВызватьИсключениеЕслиНетПраваАдминистрирования.Var.ПроверятьПраваАдминистрированияСистемы.Name=CheckSystemAdministrationRight
 Method.ДобавитьЗадание.Comment.Если\ УИ_ОбщегоНазначения\.ДоступноИспользованиеРазделенныхДанных()\ Тогда\nОбластьДанных\ \=\ МодульРаботаВМоделиСервиса\.ЗначениеРазделителяСеанса();\nПараметрыЗадания\.Вставить("ОбластьДанных",\ ОбластьДанных);\nКонецЕсли;.Description=If UI_Common.UseSeparatedDataAvailable() Then\nDataArea \= ServiceModeModule.SessionSeparatorValue();\nJobParameters.Insert("DataArea", DataArea);\nEndIf;
 Method.ДобавитьЗадание.Comment.Если\ УИ_ОбщегоНазначения\.ПодсистемаСуществует("СтандартныеПодсистемы\.РаботаВМоделиСервиса\.ОчередьЗаданий")\ Тогда\nМодульРаботаВМоделиСервиса\ \=\ УИ_ОбщегоНазначения\.ОбщийМодуль("РаботаВМоделиСервиса");.Description=If UI_Common.SubsystemExists("StandardSubsystems.SaaS.JobsQueue") Then\nServiceModeModule \= UI_Common.CommonModule("WorkInServiceModel");
 Method.ДобавитьЗадание.Comment.Если\ УИ_ОбщегоНазначения\.РазделениеВключено()\ Тогда.Description=If UI_Common.SeparationEnabled() Then
@@ -17,16 +17,16 @@ Method.ДобавитьЗадание.Param.Параметры.Description=Param
 Method.ДобавитьЗадание.Param.Параметры.Name=Parameters
 Method.ДобавитьЗадание.Return.Description=Identifier\nof the added job.
 Method.ДобавитьЗадание.Var.Задание.Name=Job
-Method.ДобавитьЗадание.Var.МетаданныеЗадания.Name=MetadataJob
-Method.ДобавитьЗадание.Var.ПараметрыЗадания.Name=ParametersJob
-Method.ПолучитьОбъектРегламентногоЗадания.Name=GetObjectScheduledJob
-Method.ПолучитьОбъектРегламентногоЗадания.Param.УникальныйНомерЗадания.Name=UniqueNumberJob
+Method.ДобавитьЗадание.Var.МетаданныеЗадания.Name=JobMetadata
+Method.ДобавитьЗадание.Var.ПараметрыЗадания.Name=JobParameters
+Method.ПолучитьОбъектРегламентногоЗадания.Name=GetScheduledJobObject
+Method.ПолучитьОбъектРегламентногоЗадания.Param.УникальныйНомерЗадания.Name=UniqueJobNumber
 Method.ПолучитьОбъектРегламентногоЗадания.Var.ТекущееРегламентноеЗадание.Name=CurrentScheduledJob
-Method.ПолучитьОбъектРегламентногоЗадания.Var.УникальныйИдентификаторЗадания.Name=UniqueIdentifierJob
-Method.ПолучитьОбъектФоновогоЗадания.Name=GetObjectBackgroundJob
-Method.ПолучитьОбъектФоновогоЗадания.Param.УникальныйНомерЗадания.Name=UniqueNumberJob
+Method.ПолучитьОбъектРегламентногоЗадания.Var.УникальныйИдентификаторЗадания.Name=UniqueJobIdentifier
+Method.ПолучитьОбъектФоновогоЗадания.Name=GetBackgroundJobObject
+Method.ПолучитьОбъектФоновогоЗадания.Param.УникальныйНомерЗадания.Name=UniqueJobNumber
 Method.ПолучитьОбъектФоновогоЗадания.Var.ТекущееФоновоеЗадание.Name=CurrentBackgroundJob
-Method.ПолучитьОбъектФоновогоЗадания.Var.УникальныйИдентификаторЗадания.Name=UniqueIdentifierJob
+Method.ПолучитьОбъектФоновогоЗадания.Var.УникальныйИдентификаторЗадания.Name=UniqueJobIdentifier
 Method.ПолучитьРегламентноеЗадание.Description=Returns the ScheduledJob from the infobase.\nNot intended for use in SaaS mode.
 Method.ПолучитьРегламентноеЗадание.Name=GetScheduledJob
 Method.ПолучитьРегламентноеЗадание.Param.Идентификатор.Name=Identifier
@@ -37,7 +37,7 @@ Method.ПолучитьРегламентноеЗадание.Param.Иденти
 Method.ПолучитьРегламентноеЗадание.Return.Description=read from the database.
 Method.ПолучитьРегламентноеЗадание.Var.РегламентноеЗадание.Name=ScheduledJob
 Method.РасписаниеРегламентногоЗадания.Description=Returns the scheduled job schedule.\nBefore calling, the Administration right is required or SetPrivilegedMode must be set.\nNot intended for use in SaaS mode.
-Method.РасписаниеРегламентногоЗадания.Name=ScheduleScheduledJob
+Method.РасписаниеРегламентногоЗадания.Name=ScheduledJobSchedule
 Method.РасписаниеРегламентногоЗадания.Param.ВСтруктуре.Description=if True, the schedule will be converted\nto a structure that can be passed to the client.
 Method.РасписаниеРегламентногоЗадания.Param.ВСтруктуре.Name=InStructure
 Method.РасписаниеРегламентногоЗадания.Param.Идентификатор.Name=Identifier
@@ -48,7 +48,7 @@ Method.РасписаниеРегламентногоЗадания.Param.Иде
 Method.РасписаниеРегламентногоЗадания.Return.Description=structure contains the same properties as the schedule.
 Method.РасписаниеРегламентногоЗадания.Var.Задание.Name=Job
 Method.УстановитьРасписаниеРегламентногоЗадания.Description=Sets the scheduled job schedule.\nBefore calling, the Administration right is required or SetPrivilegedMode must be set.\nNot intended for use in SaaS mode.
-Method.УстановитьРасписаниеРегламентногоЗадания.Name=SetScheduleScheduledJob
+Method.УстановитьРасписаниеРегламентногоЗадания.Name=SetScheduledJobSchedule
 Method.УстановитьРасписаниеРегламентногоЗадания.Param.Идентификатор.Name=Identifier
 Method.УстановитьРасписаниеРегламентногоЗадания.Param.Идентификатор.Type.0.Description=metadata object of the scheduled job for searching\nthe predefined scheduled job.
 Method.УстановитьРасписаниеРегламентногоЗадания.Param.Идентификатор.Type.1.Description=scheduled job identifier.

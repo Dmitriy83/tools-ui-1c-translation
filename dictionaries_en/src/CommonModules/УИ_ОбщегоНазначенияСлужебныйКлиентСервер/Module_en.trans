@@ -1,12 +1,12 @@
 #Translations for: model
 
-Method.СообщениеПользователю.Name=MessageUser
-Method.СообщениеПользователю.Param.КлючДанных.Name=KeyData
+Method.СообщениеПользователю.Name=MessageToUser
+Method.СообщениеПользователю.Param.КлючДанных.Name=DataKey
 Method.СообщениеПользователю.Param.Отказ.Name=Cancel
 Method.СообщениеПользователю.Param.Поле.Name=Field
 Method.СообщениеПользователю.Param.ПутьКДанным.Name=PathToData
-Method.СообщениеПользователю.Param.ТекстСообщенияПользователю.Name=TextMessageUser
+Method.СообщениеПользователю.Param.ТекстСообщенияПользователю.Name=UserMessageText
 Method.СообщениеПользователю.Param.ЭтоОбъект.Name=ThisObject
 Method.СообщениеПользователю.Var.Сообщение.Name=Message
-Region.СлужебныеПроцедурыИФункции.Name=ServiceProcedureAndFunction
-Region.СлужебныеПроцедурыИФункции.ОповещениеПользователя.Name=NotificationUser
+Region.СлужебныеПроцедурыИФункции.Name=Private
+Region.СлужебныеПроцедурыИФункции.ОповещениеПользователя.Name=UserNotification
