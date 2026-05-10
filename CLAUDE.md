@@ -1,266 +1,214 @@
 # tools-ui-1c-translation
 
-Зависимый проект перевода EDT для расширения конфигурации **«Универсальные инструменты»** (`tools_ui_1c`) с русского на английский.
+Зависимый проект перевода EDT для расширения «Универсальные инструменты» (`УИ_`) с русского на английский.
 
 ## Контекст проекта
 
-**Источник:** [tools_ui_1c/src/Инструменты](https://github.com/tools-ui-1c/tools_ui_1c) — расширение конфигурации (CFE) на базе `ТестоваяДляРазработкиУИ`. Имя расширения внутри EDT — `Инструменты`, имя самой конфигурации-расширения — `УниверсальныеИнструменты`, префикс объектов — `УИ_`. Vendor: ООО «Центр прикладных разработок».
+**Источник:** `C:/git/tools_ui_1c/src/Инструменты` — расширение конфигурации (CFE, тип `Adopted`/`AddOn`) на базе `ТестоваяДляРазработкиУИ`. EDT-проект называется `Инструменты`. Префикс объектов — `УИ_`. Vendor: ООО «Центр прикладных разработок».
 
-**Состав, который нужно перевести:**
+**Состав для перевода:**
+- 40 общих модулей (CommonModules)
+- 42 обработки (DataProcessors)
+- 2 отчёта (Reports)
+- Справочники, общие команды, общие формы, общие шаблоны, HTTP-сервисы, роли, подсистемы
 
-- ~40 общих модулей (`УИ_ОбщегоНазначения`, `УИ_АлгоритмыСервер`, `УИ_РаботаСФормами`, ...)
-- ~20 обработок (`УИ_КонсольЗапросов`, `УИ_КонсольКода`, `УИ_НавигаторПоМетаданным`, ...)
-- 2 отчёта (`УИ_КоличествоОбъектовВБазе`, `УИ_КонсольОтчетов`)
-- Справочники, общие команды, общие формы, общие шаблоны, HTTP-сервисы, роли, подсистемы, картинки
+## Конфигурация EDT translation storages
 
-Расширение типа `Adopted`/`AddOn` — заимствует объекты базовой конфигурации; в зависимом проекте перевода XML-исходников нет, только словари.
+**ВАЖНО:** в EDT-настройках проекта `Инструменты` оставлены **ТОЛЬКО контекстные словари** (per-module `.lstr` / `.trans` файлы под `dictionaries_en/src/<Category>/<Module>/`).
 
-**Цель:** английский интерфейс и документация (`.lstr`+`.trans`) для всех объектов УИ_, плюс корректный перевод BSL-идентификаторов (`.dict`) с минимумом ручной правки после автогенерации EDT.
+- Общий словарь `common-camelcase_en.dict` **УДАЛЁН** и **НЕ используется** EDT при переводе.
+- `common_en.dict` остался, но в нём только display strings/литералы (Авто, Включая, …). Идентификаторы переводятся только через per-module `.Name=` записи.
 
-## Тип проекта — зависимый перевод EDT
+**Следствие:** все переводы идентификаторов BSL должны быть в `Module_en.trans` каждого модуля как explicit `.Name=` записи. Глобальный токен-словарь не подхватится.
 
-**Зависимый проект перевода (dependent translation project)** — отдельный EDT-проект, дающий переводы для родительской конфигурации/расширения. Сам не содержит метаданных, только словари. На один источник можно иметь несколько зависимых проектов (по одному на язык).
+## Текущее состояние перевода
 
-### Структура зависимого проекта
+Полный аудит: `python scripts/analysis/audit_status.py`. На момент последнего снапшота:
+
+| Категория | Файлов | .Name (cyr-valued) | .Word (cyr) | prose (cyr) |
+|---|---:|---:|---:|---:|
+| CommonModules | 128 | 13 256 (0) | 3 650 (0) | 3 364 (1) |
+| DataProcessors | 620 | 28 013 (0) | 4 372 (0) | 6 050 (**2 426**) |
+| Reports | 26 | 1 332 (**1 332**) | 95 (76) | 526 (517) |
+| Catalogs | 19 | 406 (**404**) | 90 (82) | 19 (16) |
+| CommonForms | 151 | 1 551 (**1 550**) | 145 (131) | 115 (86) |
+| CommonCommands | 6 | 4 (**4**) | 0 | 2 (2) |
+| HTTPServices | 3 | 36 (**30**) | 18 (5) | 0 |
+
+**Что сделано:**
+
+- **Все 40 CommonModules**: prose переведена агентами; `.Name=` идентификаторы заполнены (без кириллицы)
+- **5 пилотов CommonModules с Opus-ревизией `.Name`** (правильный compound order): `УИ_РедакторКодаСервер`, `УИ_РедакторКодаВызовСервера`, `УИ_ОбщегоНазначенияКлиентСервер`, `УИ_КоннекторHTTP`, `УИ_Paste1CAPI` (первая волна — изначально качественно), плюс `УИ_ОбщегоНазначения`, `УИ_РедакторКодаКлиент`, `УИ_СтроковыеФункцииКлиентСервер`, `УИ_АлгоритмыСервер`, `УИ_РаботаСФормами` (вторая волна — Opus retranslate)
+- **DataProcessors**: 73% prose переведено агентами (часть осталась после rate-limit), `.Name=` заполнены **алгоритмически с позиционной ошибкой** (`NameTable` вместо `TableName`)
+- common-camelcase_en.dict удалён
+- common_en.dict наполнен FROM_SOURCE_LANGUAGE из EDT (display literals)
+- В EDT уже выполнен `translate_configuration` → `Инструменты_Перевод` translated project существует с переведёнными BSL модулями
+
+**TODO** (в порядке приоритета):
+
+1. **Opus retranslate `.Name=` в 35 CommonModules** (кроме 10 уже сделанных) — фикс позиционных compound ordering ошибок
+2. **Opus retranslate `.Name=` в 42 DataProcessors** — фикс того же
+3. **Дотранслировать prose в DP** (2426 строк остались после rate-limit'а)
+4. **Перевести Reports/Catalogs/CommonForms/Commands/HTTPServices** — почти не тронуты, нужны и `.Name=` и prose
+5. После всего — `translate_configuration` в EDT, `cleanup_orphan_modules.py`, `check_translated.py`
+
+## Активный workflow: Opus retranslate per module
+
+**Задача:** для каждого модуля перевести значения `.Name=`, `.String.Word.X.Key=`, `.Description=`, `.NStr.X.Lines=`, `.Comment.X.Description=` в файлах `Module_en.trans` и `Module_en.lstr`.
+
+### Style guides (всегда читать перед работой)
+
+- [`prompts/MODULE_STYLE_GUIDE.md`](prompts/MODULE_STYLE_GUIDE.md) — общие правила перевода значений в `.lstr`/`.trans` per-module файлах
+- [`prompts/NAME_RETRANSLATE_GUIDE.md`](prompts/NAME_RETRANSLATE_GUIDE.md) — **критическое правило compound order**: русский родительный (`ИмяТаблицы` = «имя таблицы») в английском требует **обратного порядка слов** (`TableName`, не `NameTable`)
+
+### Базовые правила
+
+1. **Никогда не менять ключи** — модифицировать только значения (правую часть `=`)
+2. **Сохранять заголовок** `#Translations for: model` / `interface` и пустую строку после него
+3. **Сохранять плейсхолдеры** `%1`, `%2` (то же количество и порядок)
+4. **Java-properties escapes в значениях**: `\n` для перевода строки, `\:` для двоеточия, `\\` для backslash, `\=` для `=`
+5. **Источник истины — KEY**: для `.Name=` имя берётся из последнего сегмента ключа перед `.Name`. Текущее значение может быть позиционно-неправильным — игнорировать его, выводить из ключа.
+6. **Compound genitive reversal**: `ИмяX` → `XName`, `ТипX` → `XType`, `КодX` → `XCode`, `ТекстX` → `XText`, `ДатаX` → `XDate`, `НомерX` → `XNumber`, `АдресX` → `XAddress`, `РазмерX` → `XSize`, `ИндексX` → `XIndex`. Подробности и редкие случаи — в [NAME_RETRANSLATE_GUIDE.md](prompts/NAME_RETRANSLATE_GUIDE.md).
+7. **Verb + compound сохраняет порядок верба**: `ПолучитьИмяФайла` → `GetFileName` (не GetNameFile)
+8. **SSL canonical regions**: `ПрограммныйИнтерфейс` → `Public`, `СлужебныйПрограммныйИнтерфейс` → `Internal`, `СлужебныеПроцедурыИФункции` → `Private`, `ОбработчикиСобытий` → `EventHandlers`
+9. **Project namespace**: `УИ_` → `UI_`
+10. **Платформенные исключения** (positional translation даёт неверный английский): `КодСостояния=StatusCode`, `ПереносСтрок=NewLines`, `СимволыОтступа=PaddingSymbols`, `АдресРесурса=ResourceAddress`, `ИспользоватьАутентификациюОС=UseOSAuthentication`, `СтрНачинаетсяС=StrStartWith`
+
+### Workflow для одного модуля
+
+1. **Получить worklist**: `python scripts/analysis/extract_untranslated.py <путь к module_en.trans или .lstr>` — выдаст `untranslated.txt` и `glossary.txt`. ИЛИ запустить аудит: `python scripts/analysis/audit_status.py`.
+2. **Запустить Opus-агент** на модуле:
+   - Subagent_type: `general-purpose`
+   - Model: `opus`
+   - В промпте дать: путь к `prompts/NAME_RETRANSLATE_GUIDE.md`, путь к `Module_en.trans` модуля, ссылку на референс уже-переведённого модуля (например `dictionaries_en/src/CommonModules/УИ_ОбщегоНазначенияКлиентСервер/Module_en.trans` — pilot первой волны, качественный)
+3. **Если файл большой (>800 строк)** — chunk на 2-3 части (по 400-700 строк), один агент на чанк, потом склеить
+4. **Агент работает in-place** (Edit) или пишет в `_done.txt` для чанков
+5. **Верификация**: после агента — `grep -E "=Name[A-Z]|=Type[A-Z]|=Code[A-Z]|=Text[A-Z]|=Date[A-Z]" <file>` — должно вернуть 0 (или только legitimate compounds типа `TypeDescription` ← `ОписаниеТипа`)
+6. **Cyr-residual check**: `python scripts/analysis/audit_status.py` — `.Name (cyr)` для модуля должно быть 0
+
+### После пакета модулей
+
+1. `git commit` промежуточных изменений в репе перевода
+2. В EDT GUI или через MCP: `mcp__edt-mcp__translate_configuration` на `Инструменты` для `["en"]`
+3. В EDT: `python scripts/pipeline/cleanup_orphan_modules.py` (удалит orphan-папки от переименований модулей)
+4. Спот-чек: открыть `Инструменты_Перевод/src/CommonModules/<новое-имя>/Module.bsl`, убедиться что идентификаторы читаются естественно
+5. `python scripts/pipeline/check_translated.py --skip-ru-mirrors` — финальный сканер кириллицы по translated_project
+
+## Структура зависимого проекта
 
 ```
 dictionaries_en/
 ├─ DT-INF/DEPENDENT.PMF         # Parent-Project: Инструменты
 ├─ .project                     # EDT-дескриптор с dependentProjectNature
 └─ src/
-   ├─ Configuration/
-   │  ├─ Configuration_en.lstr  # синонимы корня конфигурации
-   │  └─ Configuration_en.trans # описание/vendor корня
-   ├─ CommonModules/<Имя>/
-   │  ├─ <Имя>_en.lstr          # синоним модуля
-   │  ├─ Module_en.lstr         # NStr-строки из BSL
-   │  └─ Module_en.trans        # описания методов/параметров/возврата
-   ├─ DataProcessors/<Имя>/...  # тот же паттерн
+   ├─ Configuration/            # синонимы и описание корня конфигурации
+   ├─ CommonModules/<Имя>/      # Module_en.trans + Module_en.lstr + <Имя>_en.lstr (синоним) + <Имя>_en.trans (Name)
+   ├─ DataProcessors/<Имя>/...  # тот же паттерн + ObjectModule/CommandModule/Forms/Templates
    ├─ Reports/<Имя>/...
    ├─ Catalogs/<Имя>/...
-   ├─ Languages/English/        # объект языка
-   ├─ common_en.dict            # пословный shared-словарь
-   └─ common-camelcase_en.dict  # CamelCase-составные идентификаторы
+   ├─ CommonForms/<Имя>/...
+   ├─ CommonCommands/<Имя>/...
+   ├─ HTTPServices/<Имя>/...
+   ├─ Roles/<Имя>/...
+   ├─ Subsystems/<Имя>/...
+   ├─ Languages/English/        # объект целевого языка
+   └─ common_en.dict            # display strings (Авто, Включая, etc.)
 ```
-
-Путь под `src/` точно повторяет состав исходного расширения. EDT генерирует пустые файлы со значениями = русским; задача — заполнить их английскими.
 
 ## Форматы файлов
 
-Все три формата используют синтаксис java-properties (`key=value`, `#comment`). Различаются только заголовком и тем, какие ключи в них появляются.
+Все используют синтаксис java-properties (`key=value`, `#comment`).
 
 ### `.lstr` — переводы интерфейса
-
-Заголовок: `#Translations for: interface`
-
-Покрывает строки интерфейса: синонимы объектов, имена реквизитов/табличных частей, заголовки элементов формы, заголовки команд (кнопок), значения перечислений, локализуемые строки `NStr()` из BSL.
+Заголовок: `#Translations for: interface`. Покрывает: синонимы объектов, имена реквизитов/табличных частей, заголовки команд (кнопок), значения перечислений, локализуемые `NStr()` строки.
 
 ```properties
 #Translations for: interface
 
 Synonym=Universal tools
-Attribute.QueryText.Synonym=Query text
 Method.КакИсключение.Var.ТекстИсключения.NStr.HTTP\ %1\ %2\n%3.Lines=HTTP %1 %2\n%3
 ```
 
 ### `.trans` — переводы объектной модели
-
-Заголовок: `#Translations for: model`
-
-Покрывает документацию для синтакс-помощника и автодополнения: описания объектов/методов, параметров, возвращаемого значения, переводы инлайн-комментариев в коде.
+Заголовок: `#Translations for: model`. Покрывает: описания методов/параметров/возврата для синтакс-помощника, **explicit `.Name=` для перевода идентификаторов BSL**, переводы инлайн-комментариев.
 
 ```properties
 #Translations for: model
 
-Description=Universal tools — debugging/admin/development helpers
-Vendor=Center for Applied Development LLC
 Method.ПолучитьЗначение.Description=Returns a value by key
+Method.ПолучитьЗначение.Name=GetValue
 Method.ПолучитьЗначение.Param.Ключ.Description=Key of the value to return
+Method.ПолучитьЗначение.Param.Ключ.Name=Key
 Method.ПолучитьЗначение.Return.Description=Stored value or undefined.
 ```
 
-### `.dict` — общие словари
+### `.dict` — общие словари (только common_en.dict сейчас)
+Заголовок: `#Translations for: common`. Display strings.
 
-Заголовок: `#Translations for: common` или `#Translations for: common-camelcase`
+## Правила экранирования
 
-Проектный словарь токенов/идентификаторов, переиспользуемый между файлами.
-
-```properties
-#Translations for: common
-
-OK=OK
-Имя=Name
-```
-
-## Соглашения именования
-
-- Интерфейс: `<Имя>_en.lstr`
-- Объектная модель: `<Имя>_en.trans`
-- Общие словари: `common_en.dict`, `common-camelcase_en.dict`
-
-`en` — целевой язык (для нашего проекта — единственный). Для одного исходного объекта `.lstr` и `.trans` сосуществуют рядом, когда нужны оба.
-
-## Правила экранирования (`.lstr`, `.trans`, `.dict`)
-
-Соответствуют java-properties:
-
-**В ключах:**
-- Пробел: `\ ` (backslash-space)
-- Двоеточие: `\:`
-- Знак равенства: `\=`
-
-**В значениях:**
-- Перенос строки: `\n`
-- Двоеточие как литерал: `\:`
-- Backslash: `\\`
-- Пробелы и большинство символов: без экранирования
-
-**Плейсхолдеры** `%1`, `%2`, ... сохраняются как есть в переводе (то же количество, тот же порядок там, где грамматика позволяет).
+**В ключах:** пробел `\ `, двоеточие `\:`, равно `\=`.
+**В значениях:** перенос строки `\n`, литеральное двоеточие `\:`, backslash `\\`.
+**Плейсхолдеры** `%1`, `%2` — без экранирования, сохранять количество/порядок.
 
 ## Паттерны ключей
 
-### `.lstr` (интерфейс)
+### `.lstr` (interface)
 
 | Префикс ключа | Значение |
-|---------------|----------|
+|---|---|
 | `Synonym` | Имя объекта в интерфейсе |
 | `Comment` | Комментарий объекта |
 | `Attribute.<Имя>.Synonym` | Имя реквизита |
 | `Attribute.<Имя>.Title` | Заголовок реквизита формы |
-| `Attribute.<Имя>.InputHint` | Подсказка ввода |
-| `TabularSection.<Имя>.Synonym` | Имя табличной части |
 | `Command.<Имя>.Title` | Заголовок команды формы |
-| `Item.<Имя>.Title` | Заголовок элемента формы (группа/декорация) |
+| `Item.<Имя>.Title` | Заголовок элемента формы |
 | `Form.<Имя>.Synonym` | Имя формы |
-| `ObjectPresentation` | Представление объекта |
-| `ListPresentation` | Представление списка |
 | `EnumValue.<Имя>.Synonym` | Имя значения перечисления |
-| `Language.<Имя>.Synonym` | Имя языка |
 | `Method.<Имя>.NStr.<EscKey>.Lines` | Локализуемая строка из BSL |
-| `Method.<Имя>.Var.<Var>.NStr.<EscKey>.Lines` | NStr внутри переменной метода |
 
-### `.trans` (объектная модель / документация)
+### `.trans` (model / documentation)
 
 | Префикс ключа | Значение |
-|---------------|----------|
-| `Description` | Описание объекта (корень/конфигурация/модуль) |
-| `Vendor` | Vendor конфигурации |
-| `Method.<Имя>.Description` | Описание метода (синтакс-помощник) |
-| `Method.<Имя>.Param.<Имя>.Description` | Описание параметра |
+|---|---|
+| `Description` | Описание объекта (модуля) |
+| `Method.<Имя>.Description` | Описание метода |
+| `Method.<Имя>.Name` | **Имя метода в английском (PascalCase)** |
+| `Method.<Имя>.Param.<P>.Description` | Описание параметра |
+| `Method.<Имя>.Param.<P>.Name` | **Имя параметра в английском** |
+| `Method.<Имя>.Var.<V>.Name` | Имя локальной переменной |
 | `Method.<Имя>.Return.Description` | Описание возвращаемого значения |
-| `Method.<Имя>.Return.<Поле>.Description` | Поле структуры/объекта в возврате |
-| `Method.<Имя>.Param.<Имя>.<Поле>.Description` | Поле параметра-структуры |
-| `Method.<Имя>.Param.<Имя>.Type.<Idx>.Description` | Описание перегрузки по типу |
+| `Method.<Имя>.String.Word.<rusword>.Key` | Перевод одного слова в строковых литералах |
 | `Method.<Имя>.Comment.<EscKey>.Description` | Перевод инлайн-комментария |
-| `Region.<Path>.Comment.<EscKey>.Description` | Комментарий области |
+| `Region.<Path>.Name` | **Каноничное имя региона** (Public/Internal/Private/...) |
 
 ## DT-INF/DEPENDENT.PMF
-
-Манифест, привязывающий зависимый проект к источнику:
 
 ```
 Manifest-Version: 1.0
 Parent-Project: Инструменты
 ```
 
-`Parent-Project` должен совпадать с именем EDT-проекта источника (см. `src/Инструменты/.project` → `<name>Инструменты</name>`).
+`Parent-Project` совпадает с именем EDT-проекта источника.
 
-## Процесс перевода
+## Скрипты
 
-1. Исходные строки появляются в метаданных (`Synonym`, `Description`, ...) или в BSL (`NStr()`-вызовы, комментарии)
-2. EDT LanguageTool извлекает ключи в `.lstr` / `.trans` / `.dict` файлы (значения = русским)
-3. Переводчик заполняет английские значения
-4. На пересборке EDT `dependentTranslationBuilder` компилирует словарь в развёрнутый перевод
-5. В runtime 1С берёт строки из целевого языкового словаря, когда локаль пользователя совпадает
+- [scripts/analysis/audit_status.py](scripts/analysis/audit_status.py) — текущий статус по всем категориям (.Name/.Word/prose, % cyr-valued)
+- [scripts/analysis/extract_untranslated.py](scripts/analysis/extract_untranslated.py) — `<file>` → glossary.txt + untranslated.txt для одного файла
+- [scripts/analysis/extract_all_untranslated.py](scripts/analysis/extract_all_untranslated.py) — рекурсивно по всему dictionaries_en/src/
+- [scripts/pipeline/cleanup_orphan_modules.py](scripts/pipeline/cleanup_orphan_modules.py) — удалить orphan-папки в translated_project после переименований
+- [scripts/pipeline/check_translated.py](scripts/pipeline/check_translated.py) — финальный сканер кириллицы (CODE/DOC) в translated_project
+- [scripts/pipeline/postbuild_patch.py](scripts/pipeline/postbuild_patch.py) — фиксы остаточных багов EDT (StrStartWith, поля платформы)
+- [scripts/migration/fix_*.py](scripts/migration/) — точечные фиксы dict-файлов (regions, str_builtins, platform_fields)
 
-### Состояния перевода
+`apply_camelcase.py`, `apply_translations.py`, `apply_small.py`, `camelcase_token_tr.py`, `camelcase_tokens.py`, `find_missing_dict_keys.py`, `proper_split.py`, `sort_dict.py` — **legacy от old token-dict workflow, не используются в текущем подходе**.
 
-- **Translated** — значение на английском
-- **Source fallback** — значение всё ещё на русском
-- **Missing key** — ключ есть в источнике, в целевом словаре отсутствует
+## EDT LanguageTool quirks (накопленные)
 
-## Правила перевода
+### Каноничные имена SSL/БСП регионов
 
-1. **Никогда не менять ключи** — модифицировать только значения (правую часть `=`)
-2. **Сохранить заголовок** — первая строка `#Translations for: interface` / `model` / `common`
-3. **Сохранить пустую строку** между заголовком и первой записью
-4. **Сохранять плейсхолдеры** — `%1`, `%2` и т.д. остаются (то же количество и порядок, когда грамматика позволяет)
-5. **Сохранять экранирование в ключах** — `\ `, `\:`, `\=` в ключах — часть ключа
-6. **Применять экранирование в значениях** — `\n` для переноса, `\:` для литерального двоеточия, `\\` для backslash
-7. **Совпадение структуры между языками** — соответствующие `_<lang1>` / `_<lang2>` файлы должны иметь одинаковый набор ключей (одни и те же строки, в том же порядке) для одного исходного файла
-8. **Совпадение структуры между форматами** — `.lstr` и `.trans` независимы и покрывают разные ключи, не путать
-9. **Технические термины не переводятся** — бренды (1С, OpenAI), протоколы (HTTP, JSON, TLS, XML), идентификаторы и ссылки на код
-10. **Кодировка UTF-8**
-11. **Окончания строк** — сохранять существующие, не смешивать CRLF/LF
-
-## Тулинг — pipeline перевода
-
-Все скрипты — в [scripts/](scripts/) под тремя подкаталогами:
-
-- [scripts/pipeline/](scripts/pipeline/) — запускаются на каждой пересборке (`cleanup_orphan_modules`, `check_module_header_drift`, `check_translated`, `postbuild_patch`)
-- [scripts/analysis/](scripts/analysis/) — диагностика / одноразовый анализ (`extract_untranslated`, `extract_all_untranslated`, `camelcase_tokens`, `find_missing_dict_keys`, `find_str_ids`)
-- [scripts/migration/](scripts/migration/) — гигиена словарей и применение наработанных таблиц (`apply_translations`, `apply_camelcase`, `apply_small`, `sort_dict`, `proper_split`, `fix_regions`, `fix_case`, `fix_camelcase`, `fix_str_builtins`, `fix_platform_fields`)
-
-Запуск: `python scripts/<group>/<name>.py` из корня репы. Перед использованием отредактируй константы `PROJ` / пути в начале нужных скриптов под свою машину (по умолчанию они указывают на типичные пути EDT-workspace разработчика — `C:/Users/.../1cedtstart/projects/Tools UI 1C/`).
-
-См. [POSTBUILD_PATCHER.md](POSTBUILD_PATCHER.md) для детального описания post-build шага.
-
-### Фазы pipeline (на новый файл с нуля)
-
-**Phase A — bootstrap (EDT)**: импортировать в EDT исходный проект `Инструменты` и зависимый проект `dictionaries_en`; запустить `translate_configuration` (через MCP-tool или GUI). EDT сгенерит `.lstr` / `.trans` / `.dict` файлы со значениями = русским placeholder'ом.
-
-**Phase B — извлечь worklist**: `extract_all_untranslated.py` → список файлов и сколько в каждом ещё кириллицы.
-
-**Phase C — переводить (LLM/вручную)**:
-- На уровне отдельного файла: `extract_untranslated.py <файл>` → `untranslated.txt` + `glossary.txt` (для контекста). Заполнить TR в Python-скрипте, применить `apply_translations.py` или собрать `translations_small.py` и запустить `apply_small.py` для пакетной обработки нескольких файлов.
-- На уровне `common-camelcase_en.dict`: `camelcase_tokens.py` извлекает уникальные кириллические токены → заполнить `camelcase_token_tr.py` → `apply_camelcase.py`.
-
-**Phase D — гигиена словарей**:
-- `sort_dict.py` — алфавитная сортировка (EDT может игнорировать несортированные записи).
-- `proper_split.py` — однословные идентификаторы (`Имя`) переносятся в `common_en.dict`, не в `common-camelcase_en.dict`.
-- `fix_regions.py` — каноничные английские имена SSL-областей.
-- `fix_case.py` — нормализация PascalCase=lowercase легаси-записей.
-- `fix_camelcase.py` — case-нормализация HTTP-методов и добавление недостающих идентификаторов.
-- `fix_str_builtins.py` — оверрайд `СтрНачинаетсяС=StrStartWith`.
-- `fix_platform_fields.py` — оверрайд платформенных полей с обратным порядком слов (`КодСостояния=StatusCode` и т.п.).
-
-**Phase E — пересборка в EDT** (LanguageTool заново соберёт переведённый проект из словарей).
-
-**Phase F — пост-билд (после каждой пересборки EDT)**:
-- `cleanup_orphan_modules.py` — удалить папки модулей без `.mdo` (остатки переименований словаря).
-- `check_module_header_drift.py` — детект дрейфа литералов (год/версия) в module-header (только если PAIRS заполнен).
-- `postbuild_patch.py` — strange residuals, см. [POSTBUILD_PATCHER.md](POSTBUILD_PATCHER.md).
-- `check_translated.py` — финальный сканер кириллицы по всему переведённому проекту, разделяя CODE и DOC.
-
-CODE issues должны быть = 0 перед закрытием итерации; DOC issues могут оставаться, если генератор `.trans` пропустил sub-field-ключи.
-
-## Особенности EDT LanguageTool (накопленные)
-
-Эти грабли вылавливались на проекте HTTPConnector. Применимы и здесь.
-
-### Классификация словарей
-
-`.settings/translation_storages.yml` исходного проекта определяет несколько хранилищ перевода. Ключевые для нас:
-
-- **`common-camelcase_en.dict`** — `feature_filter: camelcase: ONLY, model: ONLY` — **только CamelCase-идентификаторы** (составные: `ПолучитьЗначение`, `НоваяCookie`).
-- **`common_en.dict`** — `feature_filter: camelcase: NONE, model: ONLY` — **только не-CamelCase** (одно слово: `Имя`, `Данные`).
-
-**Следствие:** однословный идентификатор `Имя=Name` в `common-camelcase_en.dict` будет EDT'ом ПРОИГНОРИРОВАН. Перенести в `common_en.dict` (через `proper_split.py`).
-
-### Сортировка важна
-
-EDT может игнорировать записи, идущие после пустой строки или вне алфавитного порядка. `sort_dict.py` лечит.
-
-### Нормализация регистра значений
-
-Легаси-словари из старых проектов иногда содержат lowercase-значения для PascalCase-ключей (`Cookie=cookie`, `Put=put`). EDT применит их как идентификаторы, и BSL-валидатор выдаст «имя переменной должно начинаться с заглавной». Нормализуй (`fix_case.py`).
-
-### Стандартные имена областей (SSL/БСП)
-
-EDT ожидает каноничные английские имена областей по SSL-стандарту:
-
-| Русский | Английский (каноничный) |
-|---------|-------------------------|
+| Русский | Каноничный английский |
+|---|---|
 | `ПрограммныйИнтерфейс` | `Public` |
 | `СлужебныйПрограммныйИнтерфейс` | `Internal` |
 | `СлужебныеПроцедурыИФункции` | `Private` |
@@ -269,47 +217,44 @@ EDT ожидает каноничные английские имена обла
 | `ОбработчикиСобытийЭлементовШапкиФормы` | `FormHeaderItemsEventHandlers` |
 | `ОбработчикиКомандФормы` | `FormCommandsEventHandlers` |
 
-Если область переводится не каноничным именем (типа `ProgramInterface` или `HandlersEvents`), EDT для каждого метода в области выдаёт «method should be placed in standard region Public/Internal/Private».
-
-### Пробелы генератора `.trans`
-
-Для некоторых методов генератор словаря EDT создаёт только `Method.X.Description` и `Method.X.Return.Description`, пропуская per-field ключи для подполей возвращаемой структуры. Для аналогичных методов с похожим doc-форматом он генерит 15+ ключей. Workaround: добавить недостающие ключи (`Method.X.Return.<Field>.Description` и т.п.) вручную — EDT учтёт их на пересборке.
-
-**Триггер для генератора генерить per-field ключи**: заголовочная строка описания возвращаемой структуры в BSL doc-комментарии не должна повторяться где-то ещё в блоке. Дублирование `// Возвращаемое значение:` (например, во вложенном callback'е) ломает генератор. Workaround на уровне исходника: переименовать дубль (например, в `// Возвращает значение:`).
-
-### Переведённый проект содержит и исходник, и перевод
-
-`Инструменты_translated_project/src/` содержит И английские модули (вывод перевода), И копии русских модулей (зеркало источника). Когда обрабатываешь переведённый проект, ограничивай scope путями БЕЗ кириллицы — см. фильтр `has_cyrillic_path` в `postbuild_patch.py` / `check_translated.py`.
+Если регион переводится не каноничным именем — EDT для каждого метода в нём выдаст «method should be placed in standard region Public/Internal/Private».
 
 ### EDT платформенный словарь содержит неверные английские алиасы для некоторых встроенных функций
 
-Для отдельных встроенных платформы EDT мапит русское имя на ДРУГОЙ английский идентификатор, чем настоящий алиас платформы:
-
 | Русский | EDT мапит (неверно) | Реальное имя в платформе |
-|---------|---------------------|---------------------------|
+|---|---|---|
 | `СтрНачинаетсяС` | `StrStartsWith` | `StrStartWith` (без "s" в "Start") |
 
-Compile-time-валидация EDT проходит (он доверяет своему маппингу). В **runtime** ошибка падает с *«Procedure or function with the specified name is not defined»*. NB: `СтрЗаканчиваетсяНа` → `StrEndsWith` ПРАВИЛЬНО (с "s") — паттерн несимметричный.
+В runtime неверная форма падает с *«Procedure or function with the specified name is not defined»*. NB: `СтрЗаканчиваетсяНа` → `StrEndsWith` ПРАВИЛЬНО (с "s") — паттерн несимметричный. Фикс через explicit override в per-module `.trans` или через `postbuild_patch.py`.
 
-Фикс: оверрайд маппинга в пользовательском словаре — добавить `СтрНачинаетсяС=StrStartWith` в `common-camelcase_en.dict`. Пользовательские словари (приоритет ~3) перебивают платформенный контекст (приоритет 7). См. `fix_str_builtins.py`. Plus safety-net в `postbuild_patch.py`.
+### Платформенные поля с неестественным позиционным переводом
 
-### Camelcase-словарь переводит содержимое строковых литералов (а не только идентификаторы)
+| Русский (positional) | Реальное в платформе |
+|---|---|
+| `КодСостояния` (CodeStatus) | `StatusCode` |
+| `ПереносСтрок` (BreakLines) | `NewLines` |
+| `СимволыОтступа` (SymbolsIndent) | `PaddingSymbols` |
+| `АдресРесурса` (AddressResource) | `ResourceAddress` |
+| `ИспользоватьАутентификациюОС` (UseAuthenticationOS) | `UseOSAuthentication` |
 
-EDT токенизирует **содержимое строковых литералов** через `common-camelcase_en.dict` и применяет токен-уровневые замены. Литералы вроде `"Секретный ключ"` становятся `"Secret key"`. Это ломает тесты, сравнивающие **байты** (HMAC, хеш, URL-encoded), потому что закодированные байты литерала меняются.
+При работе с этими идентификаторами в `.Name=` переводе использовать реальное платформенное имя.
 
-Удаление токен-уровневых записей не решение — те же токены нужны для перевода легитимных идентификаторов-композитов.
+### Translated project содержит и исходник, и перевод
 
-Фикс: phase 2 в `postbuild_patch.py` делает построчный diff с RU-исходником и **возвращает** non-identifier-like литералы обратно в русский. Identifier-like литералы (имена процедур для `Execute`, списки ключей структур типа `"Имя, Значение"`) оставляет переведёнными, чтобы runtime-лукапы продолжали работать. Конфигурируется через `LITERAL_RESTORE_PAIRS` — список `(ru_path, en_path)` для каждого модуля, где есть тестовые данные в литералах.
+`Инструменты_Перевод/src/` содержит И английские модули (вывод перевода), И копии русских модулей (зеркало источника). При обработке translated_project ограничивать scope путями БЕЗ кириллицы (см. фильтр `has_cyrillic_path` в `postbuild_patch.py` / `check_translated.py`).
 
-## Применение к новому модулю/файлу
+### Camelcase-словарь ранее токенизировал содержимое строковых литералов
 
-1. **Bootstrap (EDT)**. После импорта EDT при первой сборке dependentTranslationBuilder создаст файлы `<Object>_en.lstr` / `Module_en.trans` / `Form_en.lstr` со значениями = русскими.
-2. **`extract_untranslated.py <файл>`** — получить worklist.
-3. **Перевести** ключи (LLM или вручную) в Python-таблицу `TR = {key: english}`. Применить `apply_translations.py` или собрать в `translations_small.py` для пакетной обработки.
-4. **Пересборка в EDT.**
-5. **`cleanup_orphan_modules.py`** — выкинуть мусор после переименований словаря.
-6. **`postbuild_patch.py`** — поправить остатки.
-7. **`check_translated.py`** — отчёт CODE+DOC по всему проекту.
-8. Итерации 4–7 пока CODE issues = 0.
+Эта проблема была актуальна для HTTPConnector, где использовался `common-camelcase_en.dict`. У нас этот словарь удалён, поэтому токенизация литералов EDT не выполняется. См. [POSTBUILD_PATCHER.md](POSTBUILD_PATCHER.md) — описание режимов когда patcher нужен (большая часть для нашего проекта неактуальна).
 
-Если тест падает с `Object field not found (...)` или `Procedure or function with the specified name is not defined (...)`, корень — ещё один неверный платформенный маппинг EDT. Проверь правильное имя через `get_platform_documentation` MCP-tool или 1С-доки, добавь оверрайд в `fix_platform_fields.py` / `fix_str_builtins.py` И пару в `REPLACEMENTS` в `postbuild_patch.py`.
+## Координация работы между несколькими агентами / разработчиками
+
+Если работаешь параллельно с другим разработчиком/агентом:
+
+1. **Каждый берёт непересекающийся набор модулей** (категория или конкретные модули). Зафиксировать в чате/issue/git branch name.
+2. **Работа в feature branches** — `git checkout -b retranslate/<category-or-module>`
+3. **Перед началом работы**: `git fetch && git pull origin master`
+4. **Регулярные коммиты по модулям** — после каждого пере-переведённого модуля делать commit с понятным сообщением (`Opus retranslate: УИ_АлгоритмыКлиент Module_en.trans`).
+5. **Push в свою ветку**: `git push origin <branch>`
+6. **Merge** через PR в master, после ревью спот-чек на pilot-модуле.
+7. **Не запускать `translate_configuration` в EDT** во время чужой работы — он перепишет `Инструменты_Перевод/`. Координировать.
