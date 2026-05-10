@@ -1,6 +1,6 @@
 #Translations for: interface
 
-Command.КоличествоОбъектовВБазе.Synonym=Количество объектов в базе [УИ]
-Form.ФормаОтчета.Synonym=Форма отчета
-Synonym=Количество объектов в базе [УИ]
-Template.ОсновнаяСхемаКомпоновкиДанных.Synonym=Основная схема компоновки данных
+Command.КоличествоОбъектовВБазе.Synonym=Database object count [UI]
+Form.ФормаОтчета.Synonym=Report form
+Synonym=Database object count [UI]
+Template.ОсновнаяСхемаКомпоновкиДанных.Synonym=Main data composition schema

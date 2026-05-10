@@ -1,8 +1,8 @@
 #Translations for: model
 
-Attribute.ВозвратХранилищаДляКонтейнераЗначения.Name=ВозвратХранилищаДляКонтейнераЗначения
-Attribute.Значение.Name=Значение
-Attribute.ЗначениеКонтейнер.Name=ЗначениеКонтейнер
-Attribute.ЗначениеТипЗначения.Name=ЗначениеТипЗначения
-Attribute.ЗначениеТипЗначенияПредставление.Name=ЗначениеТипЗначенияПредставление
-Command.Применить.Name=Применить
+Attribute.ВозвратХранилищаДляКонтейнераЗначения.Name=ReturnStorageForValueContainer
+Attribute.Значение.Name=Value
+Attribute.ЗначениеКонтейнер.Name=ValueContainer
+Attribute.ЗначениеТипЗначения.Name=ValueValueType
+Attribute.ЗначениеТипЗначенияПредставление.Name=ValueValueTypePresentation
+Command.Применить.Name=Apply

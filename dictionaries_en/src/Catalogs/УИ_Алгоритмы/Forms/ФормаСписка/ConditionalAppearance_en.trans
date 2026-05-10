@@ -1,6 +1,7 @@
 #Translations for: model
 
-Items.0.Filter.Items.0.Left.Value=Список.ЭтоГруппа
-Items.0.Selection.Items.0.Field.Value=НаКлиенте
-Items.0.Selection.Items.1.Field.Value=Кэшировать
-Items.0.Selection.Items.2.Field.Value=РегламентноеЗадание
+ConditionalAppearance.Items.0.Filter.Items.0.Left.Value=Description
+ConditionalAppearance.Items.0.Filter.Items.0.Right.0.Value=37583
+ConditionalAppearance.Items.1.Filter.Items.0.Left.Value=Description
+ConditionalAppearance.Items.1.Filter.Items.0.Right.0.Value=_37583
+ConditionalAppearance.Items.2.Filter.Items.0.Left.Value=OnClient

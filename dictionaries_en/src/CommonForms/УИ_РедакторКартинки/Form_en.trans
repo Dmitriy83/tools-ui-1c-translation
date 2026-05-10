@@ -1,16 +1,16 @@
 #Translations for: model
 
-Attribute.АдресДвоичныхДанныхКартинки.Name=АдресДвоичныхДанныхКартинки
-Attribute.Вид.Name=Вид
-Attribute.ВозвратХранилищаДляКонтейнераЗначения.Name=ВозвратХранилищаДляКонтейнераЗначения
-Attribute.Размер.Name=Размер
-Command.ЗагрузитьИзФайла.Name=ЗагрузитьИзФайла
-Command.Очистить.Name=Очистить
-Command.Применить.Name=Применить
-Command.СохранитьВФайл.Name=СохранитьВФайл
-Item.ГруппаКнопкиДляКартинки.Name=ГруппаКнопкиДляКартинки
-Item.ГруппаКнопкиЛево.Name=ГруппаКнопкиЛево
-Item.ГруппаКнопкиПраво.Name=ГруппаКнопкиПраво
-Item.ГруппаШапка.Name=ГруппаШапка
-Item.ГруппаШапкаЛево.Name=ГруппаШапкаЛево
-Item.ГруппаШапкаПраво.Name=ГруппаШапкаПраво
+Attribute.АдресДвоичныхДанныхКартинки.Name=PictureBinaryDataAddress
+Attribute.Вид.Name=Kind
+Attribute.ВозвратХранилищаДляКонтейнераЗначения.Name=ReturnStorageForValueContainer
+Attribute.Размер.Name=Size
+Command.ЗагрузитьИзФайла.Name=LoadFromFile
+Command.Очистить.Name=Clear
+Command.Применить.Name=Apply
+Command.СохранитьВФайл.Name=SaveToFile
+Item.ГруппаКнопкиДляКартинки.Name=GroupButtonsForPicture
+Item.ГруппаКнопкиЛево.Name=GroupButtonsLeft
+Item.ГруппаКнопкиПраво.Name=GroupButtonsRight
+Item.ГруппаШапка.Name=GroupHeader
+Item.ГруппаШапкаЛево.Name=GroupHeaderLeft
+Item.ГруппаШапкаПраво.Name=GroupHeaderRight

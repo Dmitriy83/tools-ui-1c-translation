@@ -1,6 +1,6 @@
 #Translations for: model
 
-Command.КоличествоОбъектовВБазе.Name=КоличествоОбъектовВБазе
-Form.ФормаОтчета.Name=ФормаОтчета
-Name=УИ_КоличествоОбъектовВБазе
-Template.ОсновнаяСхемаКомпоновкиДанных.Name=ОсновнаяСхемаКомпоновкиДанных
+Command.КоличествоОбъектовВБазе.Name=DatabaseObjectCount
+Form.ФормаОтчета.Name=ReportForm
+Name=UI_DatabaseObjectCount
+Template.ОсновнаяСхемаКомпоновкиДанных.Name=MainDataCompositionSchema

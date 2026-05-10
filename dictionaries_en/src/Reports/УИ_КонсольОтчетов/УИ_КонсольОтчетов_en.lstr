@@ -1,8 +1,8 @@
 #Translations for: interface
 
-Command.КонсольОтчетов.Synonym=Консоль отчетов [УИ]
-Form.Форма.Synonym=Форма
-Form.ФормаВарианта.Synonym=Форма варианта
-Form.ФормаРасшифровки.Synonym=Форма расшифровки
-Synonym=Консоль отчетов [УИ]
-Template.ОсновнаяСхемаКомпоновкиДанных.Synonym=Основная схема компоновки данных
+Command.КонсольОтчетов.Synonym=Reports console [UI]
+Form.Форма.Synonym=Form
+Form.ФормаВарианта.Synonym=Variant form
+Form.ФормаРасшифровки.Synonym=Drill-down form
+Synonym=Reports console [UI]
+Template.ОсновнаяСхемаКомпоновкиДанных.Synonym=Main data composition schema

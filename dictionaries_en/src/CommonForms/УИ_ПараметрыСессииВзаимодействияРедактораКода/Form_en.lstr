@@ -1,10 +1,10 @@
 #Translations for: interface
 
-Attribute.URLВзаимодействия.Title=URL взаимодействия
-Attribute.ИдентификаторСессии.Title=Идентификатор сессии
-Attribute.ИмяПользователя.Title=Имя пользователя
-Command.Подключиться.Title=Подключиться
-Item.URLВзаимодействия.ToolTip=URL для подключения к сервису взаимодействия. Заполнять при использовании собственного сервиса
-Item.ИдентификаторСессии.Title=Подключиться к сессии
-Item.ИдентификаторСессии.ToolTip=Укажите идентификатор уже существующей сессии для подключения к ней или оставьте поле пустым для начала новой
-Item.ИмяПользователя.ToolTip=Имя для отображения. При отсутствии будет сгенерировано произвольное
+Attribute.URLВзаимодействия.Title=Interaction URL
+Attribute.ИдентификаторСессии.Title=Session identifier
+Attribute.ИмяПользователя.Title=User name
+Command.Подключиться.Title=Connect
+Item.URLВзаимодействия.ToolTip=URL for connecting to the interaction service. Fill in when using a custom service
+Item.ИдентификаторСессии.Title=Connect to session
+Item.ИдентификаторСессии.ToolTip=Enter the identifier of an existing session to connect to it, or leave blank to start a new one
+Item.ИмяПользователя.ToolTip=Display name. If not provided, a random name will be generated

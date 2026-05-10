@@ -1,7 +1,7 @@
 #Translations for: model
 
-Method.ОбработкаКоманды.Var.ПараметрыФормы.Name=ПараметрыФормы
-Region.ОбработчикиСобытий.Comment.Код\ процедур\ и\ функций.Description=Код процедур и функций
-Region.ОбработчикиСобытий.Name=ОбработчикиСобытий
-Region.ОбработчикиСобытий.СлужебныеПроцедурыИФункции.Comment.Код\ процедур\ и\ функций.Description=Код процедур и функций
-Region.ОбработчикиСобытий.СлужебныеПроцедурыИФункции.Name=СлужебныеПроцедурыИФункции
+Method.ОбработкаКоманды.Var.ПараметрыФормы.Name=FormParameters
+Region.ОбработчикиСобытий.Comment.Код\ процедур\ и\ функций.Description=Procedure and function code
+Region.ОбработчикиСобытий.Name=EventHandlers
+Region.ОбработчикиСобытий.СлужебныеПроцедурыИФункции.Comment.Код\ процедур\ и\ функций.Description=Procedure and function code
+Region.ОбработчикиСобытий.СлужебныеПроцедурыИФункции.Name=Private

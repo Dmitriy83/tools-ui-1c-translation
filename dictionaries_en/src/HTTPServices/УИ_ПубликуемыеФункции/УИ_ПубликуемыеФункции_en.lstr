@@ -1,10 +1,10 @@
 #Translations for: interface
 
-Synonym=Публикуемые функции
+Synonym=Published functions
 URLTemplate.Ping.Method.GET.Synonym=GET
 URLTemplate.Ping.Synonym=Ping
 URLTemplate.ВыполнениеАлгоритмов.Method.GET.Synonym=GET
 URLTemplate.ВыполнениеАлгоритмов.Method.POST.Synonym=POST
-URLTemplate.ВыполнениеАлгоритмов.Synonym=Выполнение алгоритмов
+URLTemplate.ВыполнениеАлгоритмов.Synonym=Algorithm execution
 URLTemplate.ПередачаДанных.Method.SendFileAndUpload.Synonym=Send file and upload
-URLTemplate.ПередачаДанных.Synonym=Передача данных
+URLTemplate.ПередачаДанных.Synonym=Data transfer

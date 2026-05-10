@@ -1,14 +1,14 @@
 #Translations for: interface
 
-DataSet.НаборДанных1.Field.ВидОбъекта.Title.Content=Вид объекта
-DataSet.НаборДанных1.Field.ИмяОбъекта.Title.Content=Имя объекта
-DataSet.НаборДанных1.Field.Количество.Title.Content=Количество объектов (записей)
-DataSet.НаборДанных1.Field.Организация.Title.Content=Организация
-DataSet.НаборДанных1.Field.Приоритет.Title.Content=Приоритет
-DataSet.НаборДанных1.Field.СинонимОбъекта.Title.Content=Синоним объекта
-Parameter.ВключитьПодчиненныеРегистратору.Title.Content=Включить подчиненные регистратору
-Parameter.КонецПериода.Title.Content=Конец периода
-Parameter.НачалоПериода.Title.Content=Начало периода
-Parameter.Период.Title.Content=Период
-Variant.КоличествоОбъектовВБазе.Presentation.Content=Основной
-Variant.КоличествоОбъектовВБазеУпрощенная.Presentation.Content=Простой (Без организаций)
+DataSet.НаборДанных1.Field.ВидОбъекта.Title.Content=Object kind
+DataSet.НаборДанных1.Field.ИмяОбъекта.Title.Content=Object name
+DataSet.НаборДанных1.Field.Количество.Title.Content=Object count (records)
+DataSet.НаборДанных1.Field.Организация.Title.Content=Organization
+DataSet.НаборДанных1.Field.Приоритет.Title.Content=Priority
+DataSet.НаборДанных1.Field.СинонимОбъекта.Title.Content=Object synonym
+Parameter.ВключитьПодчиненныеРегистратору.Title.Content=Include recorder-subordinate registers
+Parameter.КонецПериода.Title.Content=Period end
+Parameter.НачалоПериода.Title.Content=Period start
+Parameter.Период.Title.Content=Period
+Variant.КоличествоОбъектовВБазе.Presentation.Content=Main
+Variant.КоличествоОбъектовВБазеУпрощенная.Presentation.Content=Simple (without organizations)

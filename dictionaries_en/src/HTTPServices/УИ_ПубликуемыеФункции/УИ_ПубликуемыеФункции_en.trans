@@ -1,13 +1,13 @@
 #Translations for: model
 
-Name=УИ_ПубликуемыеФункции
+Name=UI_PublishedFunctions
 RootURL=tools-ui-1c
 URLTemplate.Ping.Name=Ping
 URLTemplate.Ping.Template=/ping
-URLTemplate.ВыполнениеАлгоритмов.Method.GET.Handler=ВыполнениеАлгоритмовРезультатВыполнения
-URLTemplate.ВыполнениеАлгоритмов.Method.POST.Handler=ВыполнениеАлгоритмовРезультатВыполнения
-URLTemplate.ВыполнениеАлгоритмов.Name=ВыполнениеАлгоритмов
+URLTemplate.ВыполнениеАлгоритмов.Method.GET.Handler=AlgorithmExecutionResult
+URLTemplate.ВыполнениеАлгоритмов.Method.POST.Handler=AlgorithmExecutionResult
+URLTemplate.ВыполнениеАлгоритмов.Name=AlgorithmExecution
 URLTemplate.ВыполнениеАлгоритмов.Template=/execute/{AlgWebID}
 URLTemplate.ПередачаДанных.Method.SendFileAndUpload.Name=SendFileAndUpload
-URLTemplate.ПередачаДанных.Name=ПередачаДанных
+URLTemplate.ПередачаДанных.Name=DataTransfer
 URLTemplate.ПередачаДанных.Template=/exchange

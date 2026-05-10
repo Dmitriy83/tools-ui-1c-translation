@@ -1,21 +1,21 @@
 #Translations for: interface
 
-Attribute.БезАвторегистрацииИзменений.Title=Без авторегистрации изменений
-Attribute.ДополнительныеСвойства.Title=Дополнительные свойства (устанавилваются перед записью объекта)
-Attribute.ДополнительныеСвойства.Значение.Title=Значение
-Attribute.ДополнительныеСвойства.Ключ.Title=Ключ
-Attribute.ЗаписьВРежимеЗагрузки.Title=Запись в режиме загрузки ( проверки отключены. ОбменДанными.Загрузка\=Истина)
-Attribute.ИспользоватьДопСвойства.Title=Использовать доп свойства
-Attribute.ИспользоватьПроцедуруПередЗаписью.Title=Выполнить процедуру перед записью или проведением объекта
-Attribute.ПолеАлгоритмаПередЗаписью.Title=Поле алгоритма перед записью
-Attribute.ПривилегированныйРежим.Title=Привилегированный режим
-Attribute.ПроцедураПередЗаписью.Title=Алгоритм на языке 1С, выполняется перед записью или проведением Объекта после установки ДополнительныхСвойств (обращение к объекту через переменную Объект)
-Attribute.ТипОбъекта.Title=Тип объекта
-Command.ВставитьУникальныйИдентификатор.Title=Вставить уникальный идентификатор...
-Command.ВставитьУникальныйИдентификатор.ToolTip=Вставить уникальный идентификатор...
-Command.Применить.Title=Применить
-Item.ГруппаДополнительныеСвойства.Title=Дополнительные свойства
-Item.ГруппаПроцедураПередЗаписью.Title=Процедура "Перед записью"
-Item.ГруппаСтраницыПараметровЗаписи.Title=Группа страницы параметров записи
-Item.ДекорацияДополнительныеСвойства.Title=Перечень свойств, которые будут установлены в Объект.ДополнительныеСвойства перед записью или проведением объекта
-Item.ПолеАлгоритмаПередЗаписью.Title=Алгоритм на языке 1С, выполняется перед записью или проведением Объекта после установки ДополнительныхСвойств (обращение к объекту через переменную Объект)
+Attribute.БезАвторегистрацииИзменений.Title=Without auto-registration of changes
+Attribute.ДополнительныеСвойства.Title=Additional properties (set before writing the object)
+Attribute.ДополнительныеСвойства.Значение.Title=Value
+Attribute.ДополнительныеСвойства.Ключ.Title=Key
+Attribute.ЗаписьВРежимеЗагрузки.Title=Write in import mode (checks disabled. DataExchange.Load\=True)
+Attribute.ИспользоватьДопСвойства.Title=Use additional properties
+Attribute.ИспользоватьПроцедуруПередЗаписью.Title=Execute procedure before writing or posting the object
+Attribute.ПолеАлгоритмаПередЗаписью.Title=Algorithm field before writing
+Attribute.ПривилегированныйРежим.Title=Privileged mode
+Attribute.ПроцедураПередЗаписью.Title=1C language algorithm executed before writing or posting the Object after setting AdditionalProperties (access the object via the Object variable)
+Attribute.ТипОбъекта.Title=Object type
+Command.ВставитьУникальныйИдентификатор.Title=Insert unique identifier...
+Command.ВставитьУникальныйИдентификатор.ToolTip=Insert unique identifier...
+Command.Применить.Title=Apply
+Item.ГруппаДополнительныеСвойства.Title=Additional properties
+Item.ГруппаПроцедураПередЗаписью.Title=Procedure "Before write"
+Item.ГруппаСтраницыПараметровЗаписи.Title=Write parameters pages group
+Item.ДекорацияДополнительныеСвойства.Title=List of properties to be set in Object.AdditionalProperties before writing or posting the object
+Item.ПолеАлгоритмаПередЗаписью.Title=1C language algorithm executed before writing or posting the Object after setting AdditionalProperties (access the object via the Object variable)
