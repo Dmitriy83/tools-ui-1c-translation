@@ -1,14 +1,14 @@
 #Translations for: model
 
-Attribute.БазаДанных.Name=DatabaseData
+Attribute.БазаДанных.Name=Database
 Attribute.ДопПараметры.Name=AdditionalParameters
 Attribute.Объект.Name=Object
-Attribute.РежимЗапуска.Name=ModeLaunch
+Attribute.РежимЗапуска.Name=LaunchMode
 Attribute.Сервер.Name=Server
-Attribute.Стартер1С.Name=Starter1With
-Attribute.СтрокаКоманды.Name=StringCommand
-Command.Запустить1С.Name=Start1With
-Command.СформироватьСтрокуКоманды.Name=BuildStringCommand
+Attribute.Стартер1С.Name=Starter1C
+Attribute.СтрокаКоманды.Name=CommandString
+Command.Запустить1С.Name=Start1C
+Command.СформироватьСтрокуКоманды.Name=BuildCommandString
 Item.Декорация1.Name=Decoration1
 Item.Декорация2.Name=Decoration2
-Item.ПараметрыЗапуска.Name=ParametersLaunch
+Item.ПараметрыЗапуска.Name=LaunchParameters

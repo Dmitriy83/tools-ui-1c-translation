@@ -1,7 +1,7 @@
 #Translations for: model
 
-Attribute.ВариантИспользованияКонсолиЗапросов.Name=VariantUseConsoleQueries
-Attribute.ИдентификаторКонсолиЗапросов.Name=IdentifierConsoleQueries
+Attribute.ВариантИспользованияКонсолиЗапросов.Name=QueryConsoleUseVariant
+Attribute.ИдентификаторКонсолиЗапросов.Name=QueryConsoleIdentifier
 Attribute.Объект.Name=Object
 Command.ПодтвердитьВыбор.Name=ConfirmChoice
 Item.АвторегистрацияДвижений.Name=AutoRegistrationRecords
@@ -17,8 +17,8 @@ Item.Группа8.Name=Group8
 Item.ГруппаБСП.Name=GroupSSL
 Item.Декорация1.Name=Decoration1
 Item.Декорация2.Name=Decoration2
-Item.НомераСообщенийРегистрации.Name=NumberMessagesRegistration
-Item.ОбработкаЗапросаВнешняя.Name=ProcessingQueryExternal
-Item.ОбработкаЗапросаПуть.Name=ProcessingQueryPath
+Item.НомераСообщенийРегистрации.Name=RegistrationMessageNumbers
+Item.ОбработкаЗапросаВнешняя.Name=ExternalQueryProcessing
+Item.ОбработкаЗапросаПуть.Name=QueryProcessingPath
 Item.ФормаОК.Name=FormOK
 Item.ФормаОтмена.Name=FormCancel

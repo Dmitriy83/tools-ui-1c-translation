@@ -1,5 +1,5 @@
 #Translations for: model
 
-Command.СтруктураХраненияБазыДанных.Name=StructureStorageDatabaseData
-Form.ФормаУправляемая.Name=FormManaged
-Name=UI_StructureStorageDatabaseData
+Command.СтруктураХраненияБазыДанных.Name=DatabaseStorageStructure
+Form.ФормаУправляемая.Name=ManagedForm
+Name=UI_DatabaseStorageStructure

@@ -1,22 +1,22 @@
 #Translations for: model
 
-Attribute.АдресБиблиотеки.Name=AddressLibrary
-Attribute.ИмяФайлаДанныхИнструмента.Name=NameFileDataTool
-Attribute.КаталогСохраненияБибилиотеки.Name=DirectorySaveLibrary
+Attribute.АдресБиблиотеки.Name=LibraryAddress
+Attribute.ИмяФайлаДанныхИнструмента.Name=ToolDataFileName
+Attribute.КаталогСохраненияБибилиотеки.Name=LibrarySaveDirectory
 Attribute.Объект.Name=Object
-Attribute.ПолеРедактораДерево.Name=FieldEditorTree
-Attribute.ПолеРедактораСтрока.Name=FieldEditorString
+Attribute.ПолеРедактораДерево.Name=EditorFieldTree
+Attribute.ПолеРедактораСтрока.Name=EditorFieldString
 Attribute.РедактируемаяСтрока.Name=EditableString
-Attribute.РежимРедактирования.Name=ModeEditing
+Attribute.РежимРедактирования.Name=EditingMode
 Command.ЗавершитьРедактирование.Name=FinishEditing
 Command.ЗакрытьИнструмент.Name=CloseTool
 Command.НовыйФайл.Name=NewFile
 Command.ОткрытьФайл.Name=OpenFile
-Command.СкопироватьИзДереваВСтроку.Name=CopyFromTreeInString
-Command.СкопироватьИзСтрокиВДерево.Name=CopyFromRowInTree
+Command.СкопироватьИзДереваВСтроку.Name=CopyFromTreeToString
+Command.СкопироватьИзСтрокиВДерево.Name=CopyFromStringToTree
 Command.СохранитьФайл.Name=SaveFile
 Command.СохранитьФайлКак.Name=SaveFileAs
-Item.ГруппаКомандыМеждуРедакторами.Name=GroupCommandBetweenEditors
+Item.ГруппаКомандыМеждуРедакторами.Name=GroupCommandsBetweenEditors
 Item.ГруппаОсновная.Name=GroupPrimary
 Item.ПолеРедактораДерево.Event.DocumentComplete.Name=FieldEditorDocumentGenerated
 Item.ФормаГруппаФайл.Name=FormGroupFile

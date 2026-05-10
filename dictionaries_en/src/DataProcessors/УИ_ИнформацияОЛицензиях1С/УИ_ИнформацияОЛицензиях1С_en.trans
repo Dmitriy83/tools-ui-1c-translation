@@ -1,22 +1,22 @@
 #Translations for: model
 
-Command.ИнформацияОЛицензиях1С.Name=InformationOLicenses1With
+Command.ИнформацияОЛицензиях1С.Name=InformationAbout1CLicenses
 Form.Форма.Name=Form
-Form.ФормаАктивацииЛицензии.Name=FormActivationLicense
-Name=UI_InformationOLicenses1With
+Form.ФормаАктивацииЛицензии.Name=LicenseActivationForm
+Name=UI_InformationAbout1CLicenses
 TabularSection.СписокЛицензий.Attribute.EMail.Name=EMail
 TabularSection.СписокЛицензий.Attribute.Активна.Name=Active
 TabularSection.СписокЛицензий.Attribute.Город.Name=City
-TabularSection.СписокЛицензий.Attribute.ДатаАктивации.Name=DateActivation
+TabularSection.СписокЛицензий.Attribute.ДатаАктивации.Name=ActivationDate
 TabularSection.СписокЛицензий.Attribute.Дом.Name=Home
 TabularSection.СписокЛицензий.Attribute.Имя.Name=Name
-TabularSection.СписокЛицензий.Attribute.ИмяФайлаЛицензии.Name=NameFileLicense
+TabularSection.СписокЛицензий.Attribute.ИмяФайлаЛицензии.Name=LicenseFileName
 TabularSection.СписокЛицензий.Attribute.Индекс.Name=Index
 TabularSection.СписокЛицензий.Attribute.Квартира.Name=Apartment
-TabularSection.СписокЛицензий.Attribute.КодПродукта.Name=CodeProduct
-TabularSection.СписокЛицензий.Attribute.КоличествоЛицензий.Name=CountLicenses
+TabularSection.СписокЛицензий.Attribute.КодПродукта.Name=ProductCode
+TabularSection.СписокЛицензий.Attribute.КоличествоЛицензий.Name=LicensesCount
 TabularSection.СписокЛицензий.Attribute.Компания.Name=Company
-TabularSection.СписокЛицензий.Attribute.НомерЛицензии.Name=NumberLicense
+TabularSection.СписокЛицензий.Attribute.НомерЛицензии.Name=LicenseNumber
 TabularSection.СписокЛицензий.Attribute.Описание.Name=Description
 TabularSection.СписокЛицензий.Attribute.Отчество.Name=MiddleName
 TabularSection.СписокЛицензий.Attribute.ПинКод.Name=PinCode
@@ -29,4 +29,4 @@ TabularSection.СписокЛицензий.Attribute.Строение.Name=Stru
 TabularSection.СписокЛицензий.Attribute.ТекстоваяИнформация.Name=TextInformation
 TabularSection.СписокЛицензий.Attribute.Улица.Name=Street
 TabularSection.СписокЛицензий.Attribute.Фамилия.Name=LastName
-TabularSection.СписокЛицензий.Name=ListLicenses
+TabularSection.СписокЛицензий.Name=LicenseList

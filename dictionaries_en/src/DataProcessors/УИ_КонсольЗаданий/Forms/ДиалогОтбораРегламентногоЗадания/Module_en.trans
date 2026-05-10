@@ -3,5 +3,5 @@
 Method.ОК.Var.Отбор.Name=Filter
 Method.ПриСозданииНаСервере.Var.Метаданное.Name=Metadata
 Method.ПриСозданииНаСервере.Var.Свойство.Name=Property
-Region.ОбработчикиСобытийФормы.Name=HandlersEventsForm
-Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовФормы.Name=HandlersEventsItemsForm
+Region.ОбработчикиСобытийФормы.Name=FormEventHandlers
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовФормы.Name=EventHandlers

@@ -4,7 +4,7 @@ Method.ВидыКонтейнераЗначения.Comment.Доступен\ т
 Method.ВидыКонтейнераЗначения.Name=ValueContainerKinds
 Method.ВидыКонтейнераЗначения.String.ВычислитьВыражение.Key=CalculateExpression
 Method.ВидыКонтейнераЗначения.String.ВычислитьПоРодительскойСтроке.Key=CalculateByParentString
-Method.ВидыКонтейнераЗначения.String.ХранилищеДанныхФормы.Key=StorageDataForm
+Method.ВидыКонтейнераЗначения.String.ХранилищеДанныхФормы.Key=FormDataStorage
 Method.ВидыКонтейнераЗначения.Var.Виды.Name=Kinds
 Method.ВыражениеПриИзмененииНаСервере.Name=ExpressionOnChangeOnServer
 Method.ВычислитьВыражение.Comment.@skip-check\ server-execution-safe-mode.Description=@skip-check server-execution-safe-mode
@@ -14,7 +14,7 @@ Method.ВычислитьВыражение.Param.Форма.Name=Form
 Method.ВычислитьВыражение.Var.Значение.Name=Value
 Method.ДеревоЗначенияВыбор.String.Word.обработке.Key=processing
 Method.ДеревоЗначенияВыбор.String.Word.при.Key=on
-Method.ДеревоЗначенияВыбор.String.ДеревоЗначенияЗначениеЕстьОшибка.Key=TreeValueValueHasError
+Method.ДеревоЗначенияВыбор.String.ДеревоЗначенияЗначениеЕстьОшибка.Key=ValueTreeValueHasError
 Method.ДеревоЗначенияВыбор.Var.ДанныеСтроки.Name=RowData
 Method.ДеревоЗначенияПередРазворачиванием.Var.СтрокаДерева.Name=StringTree
 Method.ЗаполнитьПотомковСтроки.Name=FillRowDescendants
@@ -52,7 +52,7 @@ Method.ПоказатьЗначениеВОтдельномОкне.Var.Стро
 Method.ПоказатьЗначениеВОтдельномОкне.Var.ТекущиеДанные.Name=CurrentData
 Method.ПоказатьЗначениеВОтдельномОкне.Var.ХранилищеДляПараметровФормы.Name=StorageForParametersForm
 Method.ПриСозданииНаСервере.Comment.@skip-check\ unknown-form-parameter-access.Description=@skip-check unknown-form-parameter-access
-Method.ПриСозданииНаСервере.String.КонтейнерЗначения.Key=ContainerValue
+Method.ПриСозданииНаСервере.String.КонтейнерЗначения.Key=ValueContainer
 Method.ПриСозданииНаСервере.Var.ЗначениеКонтейнера.Name=ValueContainer
 Method.УстановитьЗначениеВСтрокуДерева.Comment.СтрокаДерева\.ЗначениеТипЗначенияПредставление\ \=\ "Ошибка\ установки\ значения";\nСтрокаДерева\.ЗначениеПредставление\ \=\ "Не\ удалось\ установить\ вычисленное\ значение\ в\ реквизит\ формы\.";.Description=TreeRow.ValueValueTypePresentation \= "Error setting value";\nTreeRow.ValuePresentation \= "Failed to set the calculated value into the form attribute.";
 Method.УстановитьЗначениеВСтрокуДерева.Name=SetValueInTreeString
@@ -75,7 +75,7 @@ Method.УстановитьЗначениеКорневойСтроки.Param.Ф
 Method.УстановитьЗначениеКорневойСтроки.Var.КорневаяСтрока.Name=RootRow
 Method.УстановитьЗначениеКорневойСтроки.Var.ЭлементыДерева.Name=TreeItems
 Method.УстановитьУсловноеОформлениеДерева.Name=SetTreeConditionalAppearance
-Method.УстановитьУсловноеОформлениеДерева.String.ДеревоЗначения.Key=TreeValue
+Method.УстановитьУсловноеОформлениеДерева.String.ДеревоЗначения.Key=ValueTree
 Region.ОписаниеПеременных.Name=VariablesDescription
 Region.ОписаниеПеременных.ОбработчикиСобытийФормы.Name=FormEventHandlers
 Region.ОписаниеПеременных.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.Name=FormHeaderItemsEventHandlers

@@ -1,6 +1,6 @@
 #Translations for: model
 
-Attribute.АдресНастроек.Name=AddressSettings
+Attribute.АдресНастроек.Name=SettingsAddress
 Attribute.ОбластиПоискаДублей.Name=AreaSearchDuplicates
 Attribute.ОбластьПоУмолчанию.Name=AreaByDefault
 Attribute.Объект.Name=Object

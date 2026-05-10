@@ -3,7 +3,7 @@
 Attribute.НайденныеОбъекты.Name=FoundObjects
 Attribute.НайденныеОбъекты.Выбрать.Name=Select
 Attribute.НайденныеОбъекты.Объект.Name=Object
-Attribute.НайденныеОбъекты.Т_НомерСтроки.Name=T_NumberRow
+Attribute.НайденныеОбъекты.Т_НомерСтроки.Name=T_RowNumber
 Attribute.НайденныеОбъекты.Т_ТЧ.Name=T_TS
 Attribute.ОбрабатыватьТабличныеЧасти.Name=ProcessTabularPart
 Attribute.ОбъектОбработки.Name=ObjectProcessing

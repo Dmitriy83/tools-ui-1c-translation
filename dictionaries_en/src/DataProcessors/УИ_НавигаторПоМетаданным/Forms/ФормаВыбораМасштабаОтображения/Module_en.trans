@@ -1,13 +1,13 @@
 #Translations for: model
 
-Method.ПриСозданииНаСервере.Var.СписокЗначений.Name=ListValues
+Method.ПриСозданииНаСервере.Var.СписокЗначений.Name=ValuesList
 Method.ПриСозданииНаСервере.Var.Элем.Name=Item
 Method.УстановитьМасштабОтображения.String.Word.Продолжить.Key=Continue
 Method.УстановитьМасштабОтображения.String.Word.будет.Key=will
 Method.УстановитьМасштабОтображения.String.Word.изменен.Key=modified
 Method.УстановитьМасштабОтображения.String.Word.отображения.Key=display
 Method.УстановитьМасштабОтображения.String.Word.форм.Key=forms
-Method.УстановитьМасштабОтображенияДалее.Name=SetScaleDisplayNext
+Method.УстановитьМасштабОтображенияДалее.Name=SetDisplayScaleNext
 Method.УстановитьМасштабОтображенияДалее.Param.ДопПараметры.Name=AdditionalParameters
 Method.УстановитьМасштабОтображенияДалее.Param.РезультатВопроса.Name=ResultQuestion
 Method.УстановитьМасштабОтображенияДалее.String.Word.1С.Key=
@@ -22,11 +22,11 @@ Method.УстановитьМасштабОтображенияДалее.String
 Method.УстановитьМасштабОтображенияДалее.String.Word.перезайти.Key=relogin
 Method.УстановитьМасштабОтображенияДалее.String.Word.силу.Key=force
 Method.УстановитьМасштабОтображенияДалее.String.Word.форм.Key=forms
-Method.УстановитьМасштабОтображенияНаСервере.Name=SetScaleDisplayOnServer
-Method.УстановитьМасштабОтображенияНаСервере.Param.ВариантОтображения.Name=VariantDisplay
-Method.УстановитьМасштабОтображенияНаСервере.Param.ИмяПользователя.Name=NameUser
-Method.УстановитьМасштабОтображенияНаСервере.String.НастройкиКлиентскогоПриложения.Key=SettingsClientApplication
+Method.УстановитьМасштабОтображенияНаСервере.Name=SetDisplayScaleOnServer
+Method.УстановитьМасштабОтображенияНаСервере.Param.ВариантОтображения.Name=DisplayVariant
+Method.УстановитьМасштабОтображенияНаСервере.Param.ИмяПользователя.Name=UserName
+Method.УстановитьМасштабОтображенияНаСервере.String.НастройкиКлиентскогоПриложения.Key=ClientApplicationSettings
 Method.УстановитьМасштабОтображенияНаСервере.String.Общее.Key=Common
 Method.УстановитьМасштабОтображенияНаСервере.Var.Настройка.Name=Setting
-Method.УстановитьМасштабОтображенияНаСервере.Var.Настройка.String.НастройкиКлиентскогоПриложения.Key=SettingsClientApplication
+Method.УстановитьМасштабОтображенияНаСервере.Var.Настройка.String.НастройкиКлиентскогоПриложения.Key=ClientApplicationSettings
 Method.УстановитьМасштабОтображенияНаСервере.Var.Настройка.String.Общее.Key=Common

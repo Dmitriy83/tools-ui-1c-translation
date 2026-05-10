@@ -1,6 +1,6 @@
 #Translations for: model
 
-Attribute._АдресаХранилищ.Name=_AddressStorages
+Attribute._АдресаХранилищ.Name=_StorageAddresses
 Attribute.ПутьКФормам.Name=PathToForms
 Attribute.Список.Name=List
 Attribute.Список.QueryText.Expr.ПолеА.Alias=FieldA

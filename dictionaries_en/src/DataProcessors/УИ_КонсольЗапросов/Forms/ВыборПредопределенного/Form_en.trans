@@ -1,16 +1,16 @@
 #Translations for: model
 
-Attribute.ДанныеФормы.Name=DataForm
-Attribute.ИмяОбъекта.Name=NameObject
+Attribute.ДанныеФормы.Name=FormData
+Attribute.ИмяОбъекта.Name=ObjectName
 Attribute.Объект.Name=Object
-Attribute.ТипОбъекта.Name=TypeObject
+Attribute.ТипОбъекта.Name=ObjectType
 Attribute.Элемент.Name=Item
 Command.КомандаВставитьЗНАЧЕНИЕ.Name=CommandPasteVALUE
 Command.КомандаВставитьИмя.Name=CommandPasteName
 Command.КомандаВставитьПустаяСсылка.Name=CommandPasteEmptyRef
 Command.КомандаВставитьССЫЛКА.Name=CommandPasteREFERENCE
-Item.ГруппаЗначений.Name=GroupValues
-Item.ГруппаКнопок.Name=GroupButtons
-Item.ГруппаНижняяПанель.Name=GroupBottomPanel
-Item.ГруппаОсновная.Name=GroupPrimary
+Item.ГруппаЗначений.Name=ValuesGroup
+Item.ГруппаКнопок.Name=ButtonsGroup
+Item.ГруппаНижняяПанель.Name=BottomPanelGroup
+Item.ГруппаОсновная.Name=PrimaryGroup
 Item.КнопкаЗакрыть.Name=ButtonClose

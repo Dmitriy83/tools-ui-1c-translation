@@ -3,7 +3,7 @@
 Attribute.НайденныеОбъекты.Name=FoundObjects
 Attribute.ОбъектОбработки.Name=ObjectProcessing
 Attribute.ОбъектПоиска.Name=ObjectSearch
-Attribute.ПометкаУдаления.Name=MarkDeletion
+Attribute.ПометкаУдаления.Name=DeletionMark
 Attribute.Родитель.Name=Parent
 Attribute.ТекущаяНастройка.Name=CurrentSetting
 Attribute.ТекущаяНастройкаПредставление.Name=CurrentSettingPresentation

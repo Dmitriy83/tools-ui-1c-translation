@@ -41,7 +41,7 @@ Method.ПоказатьЗначениеВОтдельномОкне.Var.Имя.N
 Method.ПоказатьЗначениеВОтдельномОкне.Var.ТекущиеДанные.Name=CurrentData
 Method.ПоказатьЗначениеВОтдельномОкне.Var.ХранилищеДляПараметровФормы.Name=StorageForParametersForm
 Method.ПриСозданииНаСервере.Comment.@skip-check\ unknown-form-parameter-access.Description=@skip-check unknown-form-parameter-access
-Method.ПриСозданииНаСервере.String.КонтейнерЗначения.Key=ContainerValue
+Method.ПриСозданииНаСервере.String.КонтейнерЗначения.Key=ValueContainer
 Method.ПриСозданииНаСервере.String.ТаблицаКоллекции.Key=TableCollection
 Method.ПрочитатьВходящийКонтейнерВДанныеФормы.Name=ReadIncomingContainerInDataForm
 Method.ПрочитатьВходящийКонтейнерВДанныеФормы.String.Word.Возможна.Key=Possible
@@ -56,7 +56,7 @@ Method.ТаблицаКоллекцииВыбор.String.Word.коллекции
 Method.ТаблицаКоллекцииВыбор.String.Word.обработке.Key=processing
 Method.ТаблицаКоллекцииВыбор.String.Word.при.Key=on
 Method.ТаблицаКоллекцииВыбор.String.Word.элемента.Key=item
-Method.ТаблицаКоллекцииВыбор.String.ТаблицаКоллекцииЗначениеЕстьОшибка.Key=TableCollectionValueHasError
+Method.ТаблицаКоллекцииВыбор.String.ТаблицаКоллекцииЗначениеЕстьОшибка.Key=CollectionTableValueHasError
 Method.ТаблицаКоллекцииВыбор.Var.ДанныеСтроки.Name=DataRow
 Method.УстановитьВозможностьДоступаКЭлементуКоллекцииПоИндексу.Comment.@skip-check\ module-unused-local-variable.Description=@skip-check module-unused-local-variable
 Method.УстановитьВозможностьДоступаКЭлементуКоллекцииПоИндексу.Comment.ВозможенДоступКЭлементуКоллекцииПоИндексу\ \=\ Истина;\nЕсли\ ВходящееЗначениеКонтейнер\.ОписаниеТипа\ <>\ Неопределено\ Тогда\nКонецЕсли;.Description=AccessToCollectionItemByIndexPossible \= True;\nIf IncomingValueContainer.TypeDescription <> Undefined Then\nEndIf;

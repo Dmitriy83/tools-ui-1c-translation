@@ -1,8 +1,8 @@
 #Translations for: model
 
-Attribute.КомпоновщикНастроек.Name=ComposerSettings
+Attribute.КомпоновщикНастроек.Name=SettingsComposer
 Command.ПрименитьНастройки.Name=ApplySettings
-Item.КомпоновщикНастроекПользовательскиеНастройки.Name=ComposerSettingsCustomSettings
+Item.КомпоновщикНастроекПользовательскиеНастройки.Name=SettingsComposerCustomSettings
 Item.НастройкиОтбор.Name=SettingsFilter
 Item.ОбычныеНастройки.Name=RegularSettings
 Item.ПользовательскиеНастройки.Name=CustomSettings

@@ -1,7 +1,7 @@
 #Translations for: model
 
 Attribute._ВыгружатьДанныеБезИспользованияФайла.Name=_ExportDataWithoutUseFile
-Attribute._ИмяФайла.Name=_NameFile
+Attribute._ИмяФайла.Name=_FileName
 Attribute._ПутьКФайлуXML.Name=_PathToFileXML
 Attribute._Режим.Name=_Mode
 Attribute.Объект.Name=Object

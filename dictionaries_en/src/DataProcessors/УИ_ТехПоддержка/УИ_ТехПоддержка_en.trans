@@ -2,8 +2,8 @@
 
 Command.ВопросРазработчику.Name=QuestionDeveloper
 Command.ИнформацияДляТехподдержки.Name=InformationForSupport
-Command.ПроверитьНеобходимостьОбновления.Name=CheckNecessityUpdate
+Command.ПроверитьНеобходимостьОбновления.Name=CheckUpdateNecessity
 Command.СтраницаРазработки.Name=PageDevelopment
-Form.ОбновлениеИнструментов.Name=UpdateTools
-Form.СписокЗадач.Name=ListTasks
+Form.ОбновлениеИнструментов.Name=ToolsUpdate
+Form.СписокЗадач.Name=TaskList
 Name=UI_TechSupport

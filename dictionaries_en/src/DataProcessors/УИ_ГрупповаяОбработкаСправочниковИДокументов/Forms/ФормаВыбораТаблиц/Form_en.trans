@@ -1,13 +1,13 @@
 #Translations for: model
 
-Attribute.ДеревоТаблиц.Name=TreeTables
-Attribute.ДеревоТаблиц.ИмяТаблицы.Name=NameTable
+Attribute.ДеревоТаблиц.Name=TablesTree
+Attribute.ДеревоТаблиц.ИмяТаблицы.Name=TableName
 Attribute.ДеревоТаблиц.Пометка.Name=Mark
-Attribute.ДеревоТаблиц.ПредставлениеТаблицы.Name=PresentationTable
+Attribute.ДеревоТаблиц.ПредставлениеТаблицы.Name=TablePresentation
 Attribute.ОбрабатыватьТабличныеЧасти.Name=ProcessTabularPart
 Attribute.Объект.Name=Object
-Attribute.СписокВыбранных.Name=ListSelected
-Attribute.ТипОбъекта.Name=TypeObject
+Attribute.СписокВыбранных.Name=SelectedList
+Attribute.ТипОбъекта.Name=ObjectType
 Command.Выбрать.Name=Select
 Command.СнятьПометки.Name=RemoveMark
 Command.УстановитьПометки.Name=SetMark

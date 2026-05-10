@@ -1,24 +1,24 @@
 #Translations for: model
 
 Attribute.БезРоли.Name=WithoutRole
-Attribute.ВыражениеВидаСчета.Name=ExpressionKindAccount
-Attribute.ГруппаОстатка.Name=GroupBalance
-Attribute.ИгнорироватьЗначенияNULL.Name=IgnoreValueNULL
+Attribute.ВыражениеВидаСчета.Name=AccountKindExpression
+Attribute.ГруппаОстатка.Name=BalanceGroup
+Attribute.ИгнорироватьЗначенияNULL.Name=IgnoreNULLValues
 Attribute.Измерение.Name=Dimension
-Attribute.НомерПериода.Name=NumberPeriod
+Attribute.НомерПериода.Name=PeriodNumber
 Attribute.Обязательное.Name=Required
 Attribute.Остаток.Name=Remainder
 Attribute.Период.Name=Period
 Attribute.ПериодДополнительный.Name=PeriodAdditional
-Attribute.ПолеСчета.Name=FieldAccount
+Attribute.ПолеСчета.Name=AccountField
 Attribute.РодительскоеИзмерение.Name=ParentDimension
 Attribute.Счет.Name=Account
-Attribute.ТипБухгалтерскогоОстатка.Name=TypeAccountingBalance
-Attribute.ТипОстатка.Name=TypeBalance
+Attribute.ТипБухгалтерскогоОстатка.Name=AccountingBalanceType
+Attribute.ТипОстатка.Name=BalanceType
 Command.Применить.Name=Apply
-Item.ГруппаИзмерение.Name=GroupDimension
-Item.ГруппаОстатки.Name=GroupBalances
-Item.ГруппаПараметрыОстатков.Name=GroupParametersBalances
+Item.ГруппаИзмерение.Name=DimensionGroup
+Item.ГруппаОстатки.Name=BalancesGroup
+Item.ГруппаПараметрыОстатков.Name=BalanceParametersGroup
 Item.ГруппаПараметрыПериода.Name=GroupParametersPeriod
 Item.ГруппаПериод.Name=GroupPeriod
 Item.ГруппаСчет.Name=GroupAccount

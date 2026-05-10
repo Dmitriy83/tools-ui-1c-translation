@@ -1,19 +1,19 @@
 #Translations for: model
 
-Attribute.ВсеВидыСравненияПравилПоиска.Name=AllKindsComparisonRulesSearch
+Attribute.ВсеВидыСравненияПравилПоиска.Name=AllSearchRulesComparisonKinds
 Attribute.ОбластьПоискаДублей.Name=AreaSearchDuplicates
 Attribute.Объект.Name=Object
-Attribute.ОписаниеПрикладныхПравил.Name=DescriptionAppliedRules
-Attribute.ПравилаПоиска.Name=RuleSearch
-Attribute.ПравилаПоиска.ВариантыСравнения.Name=VariantsComparison
+Attribute.ОписаниеПрикладныхПравил.Name=AppliedRulesDescription
+Attribute.ПравилаПоиска.Name=SearchRules
+Attribute.ПравилаПоиска.ВариантыСравнения.Name=ComparisonVariants
 Attribute.ПравилаПоиска.Использовать.Name=Use
 Attribute.ПравилаПоиска.Правило.Name=Rule
-Attribute.ПравилаПоиска.ПредставлениеРеквизита.Name=PresentationAttribute
+Attribute.ПравилаПоиска.ПредставлениеРеквизита.Name=AttributePresentation
 Attribute.ПравилаПоиска.Реквизит.Name=Attribute
 Attribute.УчитыватьПрикладныеПравила.Name=ConsiderAppliedRule
 Attribute.ЦветНедоступныеДанные.Name=ColorUnavailableData
 Command.ЗавершитьРедактирование.Name=FinishEditing
 Item.ГруппаПрикладныхОграничений.Name=GroupAppliedRestrictions
-Item.ПравилаПоискаВидСравнения.Name=RuleSearchKindComparison
-Item.ПравилаПоискаГруппа1.Name=RuleSearchGroup1
+Item.ПравилаПоискаВидСравнения.Name=SearchRuleComparisonKind
+Item.ПравилаПоискаГруппа1.Name=SearchRuleGroup1
 Item.ФормаГруппаСправка.Name=FormGroupHelp

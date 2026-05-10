@@ -3,7 +3,7 @@
 Description=@strict-types
 Method.ВспомогательныеЗначения.Description=Auxiliary values.
 Method.ВспомогательныеЗначения.Name=AuxiliaryValue
-Method.ПолныйПутьКФормеОбработки.Name=FullPathToFormProcessing
-Method.ПолныйПутьКФормеОбработки.Param.ИмяФормыОбработки.Name=NameFormProcessing
+Method.ПолныйПутьКФормеОбработки.Name=FullPathToProcessingForm
+Method.ПолныйПутьКФормеОбработки.Param.ИмяФормыОбработки.Name=ProcessingFormName
 Region.ОбработчикиСобытийФормы.Name=FormEventHandlers
 Region.ОбработчикиСобытийФормы.СлужебныеПроцедурыИФункции.Name=Private

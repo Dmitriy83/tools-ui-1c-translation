@@ -1,12 +1,12 @@
 #Translations for: model
 
-Attribute.ВспомогательныеДанныеИнструмента.Name=AuxiliaryDataTool
-Attribute.ПараметрыРаботыИнструмента.Name=ParametersWorkTool
+Attribute.ВспомогательныеДанныеИнструмента.Name=ToolAuxiliaryData
+Attribute.ПараметрыРаботыИнструмента.Name=ToolWorkParameters
 Attribute.Реквизит1.Name=Attribute1
 Attribute.Реквизит2.Name=Attribute2
 Command.Команда_Применить.Name=Command_Apply
 Item.ФормаИзменитьФорму.Name=FormChangeForm
 Parameter.ДополнительныеПараметры.Name=AdditionalParameters
 Parameter.ОбщиеПараметры.Name=CommonParameters
-Parameter.ОписанияЗначений.Name=DescriptionValues
+Parameter.ОписанияЗначений.Name=ValuesDescription
 Parameter.ПроизвольныеЗначения.Name=ArbitraryValue

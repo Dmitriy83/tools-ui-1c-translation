@@ -3,7 +3,7 @@
 Attribute.ИспользоватьПриОткрытии.Name=UseOnOpening
 Attribute.Объект.Name=Object
 Attribute.СоздавалиНовуюСтроку.Name=CreatedNewString
-Attribute.СписокНастроек.Name=ListSettings
+Attribute.СписокНастроек.Name=SettingsList
 Attribute.СписокНастроек.Значение.Name=Value
 Attribute.СписокНастроек.Пометка.Name=Mark
 Attribute.СписокНастроек.Представление.Name=Presentation

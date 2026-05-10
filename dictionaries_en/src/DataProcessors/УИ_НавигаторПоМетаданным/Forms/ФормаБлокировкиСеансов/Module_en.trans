@@ -1,4 +1,4 @@
 #Translations for: model
 
-Method.вПолучитьБлокировкуСеансов.Name=inGetLockSessions
-Method.вУстановитьБлокировкуСеансовНаСервере.Name=inSetLockSessionsOnServer
+Method.вПолучитьБлокировкуСеансов.Name=inGetSessionsLock
+Method.вУстановитьБлокировкуСеансовНаСервере.Name=inSetSessionsLockOnServer
