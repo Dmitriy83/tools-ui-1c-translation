@@ -31,7 +31,7 @@ Method.ЗапросВалидностиЛицезнии.Var.СтруктураО
 Method.ЗапросВалидностиЛицезнии.Var.СтруктураОтвета.String.Активна.Key=Active
 Method.ЗапросВалидностиЛицезнии.Var.СтруктураОтвета.String.ТекстоваяИнформация.Key=TextInformation
 Method.ЗапросВалидностиЛицезнии.Var.Текст.Name=Text
-Method.ЗапросВалидностиЛицезнии.Var.ТекстCMD.Name=TextCMD
+Method.ЗапросВалидностиЛицезнии.Var.ТекстCMD.Name=CMDText
 Method.ЗапросВалидностиЛицезнии.Var.стр.Name=str
 Method.ЗапросИнформацииОЛицезнии.Name=QueryLicenseInformation
 Method.ЗапросИнформацииОЛицезнии.Param.ИмяЛицензии.Name=LicenseName
@@ -108,7 +108,7 @@ Method.ЗапросИнформацииОЛицезнии.Var.Структура
 Method.ЗапросИнформацииОЛицезнии.Var.СтруктураОтвета.String.ТекстоваяИнформация.Key=TextInformation
 Method.ЗапросИнформацииОЛицезнии.Var.СтруктураОтвета.String.Улица.Key=Street
 Method.ЗапросИнформацииОЛицезнии.Var.Текст.Name=Text
-Method.ЗапросИнформацииОЛицезнии.Var.ТекстCMD.Name=TextCMD
+Method.ЗапросИнформацииОЛицезнии.Var.ТекстCMD.Name=CMDText
 Method.ЗапросИнформацииОЛицезнии.Var.мСтр.Name=mStr
 Method.ЗапросИнформацииОЛицезнии.Var.стр.Name=str
 Method.ЗапросИнформацииОЛицезнии.Var.тСтр.Name=tStr
@@ -184,7 +184,7 @@ Method.ПовторнаяАктивацияЛицензииНаСервере.Va
 Method.ПовторнаяАктивацияЛицензииНаСервере.Var.СтруктураПараметров.String.ТекстоваяИнформация.Key=TextInformation
 Method.ПовторнаяАктивацияЛицензииНаСервере.Var.СтруктураПараметров.String.Улица.Key=Street
 Method.ПовторнаяАктивацияЛицензииНаСервере.Var.Текст.Name=Text
-Method.ПовторнаяАктивацияЛицензииНаСервере.Var.ТекстCMD.Name=TextCMD
+Method.ПовторнаяАктивацияЛицензииНаСервере.Var.ТекстCMD.Name=CMDText
 Method.ПовторнаяАктивацияЛицензииНаСервере.Var.стр.Name=str
 Method.Подключаемый_ВыполнитьОбщуюКомандуИнструментов.Description=@skip-warning
 Method.Подключаемый_ВыполнитьОбщуюКомандуИнструментов.Name=Pluggable_ExecuteCommonCommandTools
@@ -223,7 +223,7 @@ Method.ПолучитьСписокЛицензийНаСервере.Var.Поз
 Method.ПолучитьСписокЛицензийНаСервере.Var.ПозицияИмениФайла.String.Word.file.Key=file
 Method.ПолучитьСписокЛицензийНаСервере.Var.ПозицияИмениФайла.String.Word.name.Key=name
 Method.ПолучитьСписокЛицензийНаСервере.Var.Текст.Name=Text
-Method.ПолучитьСписокЛицензийНаСервере.Var.ТекстCMD.Name=TextCMD
+Method.ПолучитьСписокЛицензийНаСервере.Var.ТекстCMD.Name=CMDText
 Method.ПолучитьСписокЛицензийНаСервере.Var.мПинЛицензия.Name=mPinLicense
 Method.ПолучитьСписокЛицензийНаСервере.Var.нСтр.Name=nStr
 Method.ПолучитьСписокЛицензийНаСервере.Var.стр.Name=str
@@ -286,5 +286,5 @@ Method.УдалитьЛицензиюНаСервере.Var.ИмяВременн
 Method.УдалитьЛицензиюНаСервере.Var.ИмяВременногоФайлаCMD.Name=TemporaryFileNameCMD
 Method.УдалитьЛицензиюНаСервере.Var.ИмяВременногоФайлаCMD.String.cmd.Key=cmd
 Method.УдалитьЛицензиюНаСервере.Var.Текст.Name=Text
-Method.УдалитьЛицензиюНаСервере.Var.ТекстCMD.Name=TextCMD
+Method.УдалитьЛицензиюНаСервере.Var.ТекстCMD.Name=CMDText
 Method.УдалитьЛицензиюНаСервере.Var.стр.Name=str

@@ -1,8 +1,8 @@
 #Translations for: model
 
-Attribute.АдресРезультатаЗапроса.Name=AddressResultQuery
+Attribute.АдресРезультатаЗапроса.Name=QueryResultAddress
 Attribute.ДоляОтображенияТяжелых.Name=ShareDisplayHeavy
-Attribute.ИндексРезультата.Name=IndexResult
+Attribute.ИндексРезультата.Name=ResultIndex
 Attribute.Объект.Name=Object
 Attribute.ОтображатьВТерминах1С.Name=DisplayInTerms1With
 Attribute.ПараметрыЗапроса.Name=ParametersQuery
@@ -25,9 +25,9 @@ Attribute.ПланПрочитан.Name=PlanRead
 Attribute.ПланТекстовый.Name=PlanText
 Attribute.ПланТекстовый1С.Name=PlanText1With
 Attribute.Событие.Name=Event
-Attribute.ТекстЗапроса.Name=TextQuery
-Attribute.ТекстЗапросаВТерминах1С.Name=TextQueryInTerms1With
-Attribute.ТекстСобытияЖурнала.Name=TextEventLog
+Attribute.ТекстЗапроса.Name=QueryText
+Attribute.ТекстЗапросаВТерминах1С.Name=QueryTextInTerms1With
+Attribute.ТекстСобытияЖурнала.Name=EventLogText
 Attribute.ТекущийОператор.Name=CurrentOperator
 Command.Обновить.Handler.Name=Command_Update
 Command.Обновить.Name=Update

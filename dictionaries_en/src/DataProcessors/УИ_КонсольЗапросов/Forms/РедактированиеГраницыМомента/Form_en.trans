@@ -1,7 +1,7 @@
 #Translations for: model
 
 Attribute.ВидГраницы.Name=KindBorder
-Attribute.ДатаМомента.Name=DateMoment
+Attribute.ДатаМомента.Name=MomentDate
 Attribute.Значение.Name=Value
 Attribute.ЗначениеГраницы.Name=ValueBorder
 Attribute.Объект.Name=Object

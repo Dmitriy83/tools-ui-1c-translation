@@ -1,10 +1,10 @@
 #Translations for: model
 
-Attribute.ИмяЗапроса.Name=NameQuery
+Attribute.ИмяЗапроса.Name=QueryName
 Attribute.Объект.Name=Object
 Attribute.ПараметрыЗапроса.Name=ParametersQuery
 Attribute.Текст.Name=Text
-Attribute.ТекстЗапроса.Name=TextQuery
+Attribute.ТекстЗапроса.Name=QueryText
 Attribute.УИ_МетодИсполненияКода.Name=UI_MethodExecutionCode
 Attribute.УИ_ТекстАлгоритма.Name=UI_TextAlgorithm
 Attribute.УстановитьЗначенияПараметров.Name=SetValueParameters

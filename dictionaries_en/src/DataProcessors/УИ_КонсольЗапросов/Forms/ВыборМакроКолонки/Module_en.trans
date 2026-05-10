@@ -2,7 +2,7 @@
 
 Method.ПриСозданииНаСервере.Var.ВидКолонки.String.УИД.Key=UID
 Method.СформироватьТекстВставки.Name=BuildTextInsertion
-Method.СформироватьТекстВставки.String.ДатаСоздания.Key=DateCreation
+Method.СформироватьТекстВставки.String.ДатаСоздания.Key=CreationDate
 Method.СформироватьТекстВставки.String.УИД.Key=UID
 Method.СформироватьТекстВставки.Var.ТекстВставки.String.Word.__ДатаСоздания_.Key=__DateCreation_
 Method.СформироватьТекстВставки.Var.ТекстВставки.String.Word.__УИД_.Key=__UID_
