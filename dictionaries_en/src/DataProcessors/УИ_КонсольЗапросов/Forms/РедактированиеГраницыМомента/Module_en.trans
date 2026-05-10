@@ -12,4 +12,4 @@ Method.ПолучитьПредставлениеМомента.Comment.Дубл
 Method.ПолучитьПредставлениеМомента.Name=GetPresentationMoment
 Method.ПриСозданииНаСервере.Var.Заголовок.String.Word.Момент.Key=Moment
 Method.ПриСозданииНаСервере.Var.Заголовок.String.Word.времени.Key=time
-Method.СсылкаМоментаПриИзменении.Var.ДатаСсылки.Name=DateRef
+Method.СсылкаМоментаПриИзменении.Var.ДатаСсылки.Name=RefDate

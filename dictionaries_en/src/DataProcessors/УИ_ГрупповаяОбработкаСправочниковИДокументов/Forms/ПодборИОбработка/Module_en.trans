@@ -192,7 +192,7 @@ Method.ИнициализацияЗапроса.Var.ТекстЗапросаОб
 Method.ИнициализацияЗапроса.Var.ТекстЗапросаОкончание.Name=QueryTextEnd
 Method.ИнициализацияЗапроса.Var.ЭлементМассива.Name=ItemArray
 Method.ИнициализацияЗапроса.Var.мСформированныйРежим.String.ДанныеОтобраны.Key=DataSelected
-Method.ИнициализацияЗапроса.Var.мСформированныйРежим.String.ИмяВидаОдногоТипа.Key=NameKindOneType
+Method.ИнициализацияЗапроса.Var.мСформированныйРежим.String.ИмяВидаОдногоТипа.Key=OneTypeKindName
 Method.ИнициализацияЗапроса.Var.мСформированныйРежим.String.ОтображаемыеКолонки.Key=DisplayedColumn
 Method.ИнициализацияЗапроса.Var.мСформированныйРежим.String.ПредопределенныеРеквизиты.Key=PredefinedAttributes
 Method.ИнициализацияЗапроса.Var.мСформированныйРежим.String.СписокПредставлений.Key=PresentationsList
@@ -311,7 +311,7 @@ Method.ПриСозданииНаСервере.Var.ВКонфигурацииЕ
 Method.ПриСозданииНаСервере.Var.Документ.Name=Document
 Method.ПриСозданииНаСервере.Var.ИмяДокумента.Name=DocumentName
 Method.ПриСозданииНаСервере.Var.ИмяСправочника.Name=CatalogName
-Method.ПриСозданииНаСервере.Var.СписокВыбора.Name=ListChoice
+Method.ПриСозданииНаСервере.Var.СписокВыбора.Name=ChoiceList
 Method.ПриСозданииНаСервере.Var.Справочник.Name=Catalog
 Method.ПроверитьДоступностьОбработки.Name=CheckAccessProcessing
 Method.ПроверитьДоступностьОбработки.Var.ИндексСтроки.Name=RowIndex

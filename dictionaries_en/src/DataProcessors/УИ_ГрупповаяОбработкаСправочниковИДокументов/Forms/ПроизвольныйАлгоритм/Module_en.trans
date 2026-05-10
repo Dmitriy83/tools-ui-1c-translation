@@ -53,7 +53,7 @@ Method.ОбработатьОбъект.Param.Description=Object                
 Method.ОбработатьОбъект.Param.ПорядковыйНомерОбъекта.Description=ordinal number of the object being processed.
 Method.ОбработатьОбъект.Param.ПорядковыйНомерОбъекта.Name=ObjectOrdinalNumber
 Method.ОбработатьОбъект.Param.Ссылка.Name=Ref
-Method.ОбработатьОбъект.Param.ТекстАлгоритма.Name=TextAlgorithm
+Method.ОбработатьОбъект.Param.ТекстАлгоритма.Name=AlgorithmText
 Method.ОбработатьОбъект.Var.Объект.Name=Object
 Method.ОбработатьОбъект.Var.СтрокаТЧ.Name=StringTS
 Method.Подключаемый_ПолеРедактораДокументСформирован.Description=@skip-warning
@@ -142,6 +142,6 @@ Method.УстановитьИмяНастройки.Param.ИмяНастройк
 Method.УстановитьИмяНастройки.Param.ИмяНастройки.Name=SettingName
 Var.УИ_РедакторКодаКлиентскиеДанные.Name=UI_EditorCodeClientData
 Var.мНастройка.Name=mSetting
-Var.мНастройка.String.ТекстПроизвольногоАлгоритма.Key=TextArbitraryAlgorithm
+Var.мНастройка.String.ТекстПроизвольногоАлгоритма.Key=ArbitraryAlgorithmText
 Var.мТипыОбрабатываемыхОбъектов.Description=Types of objects for which the data processor can be used.\nFor all by default.
 Var.мТипыОбрабатываемыхОбъектов.Name=mTypesProcessedObjects

@@ -17,7 +17,7 @@ Method.КомандаНайтиНаСервере.Param.СтрокаУникал
 Method.КомандаНайтиНаСервере.Var.Выборка.Name=Selection
 Method.КомандаНайтиНаСервере.Var.ЗапросПоиска.Name=QuerySearch
 Method.КомандаНайтиНаСервере.Var.Менеджер.Name=Manager
-Method.КомандаНайтиНаСервере.Var.ТекстЗапроса.Name=TextQuery
+Method.КомандаНайтиНаСервере.Var.ТекстЗапроса.Name=QueryText
 Method.КомандаНайтиНаСервере.Var.маЗапросПоиска.Name=maQuerySearch
 Method.КомандаОК.Var.ВозвращаемоеЗначение.Name=ReturnedValue
 Method.КомандаОК.Var.Значение.Name=Value
