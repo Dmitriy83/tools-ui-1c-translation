@@ -220,7 +220,7 @@ Method.МестаИспользованияСсылок.Param.НаборСсыл
 Method.НаименованиеПодсистемы.Description=Представление подсистемы. Используется при записи в журнал регистрации и в других местах.
 Method.НаименованиеПодсистемы.Name=SubsystemDescription
 Method.НаименованиеПодсистемы.Param.ДляПользователя.Name=ForUser
-Method.НаименованиеПодсистемы.Var.КодЯзыка.Name=CodeLanguage
+Method.НаименованиеПодсистемы.Var.КодЯзыка.Name=LanguageCode
 Method.ОбъектВТаблицуЗначений.Description=Преобразуем объект в таблицу для помещения в запрос.
 Method.ОбъектВТаблицуЗначений.Name=ObjectInTableValues
 Method.ОбъектВТаблицуЗначений.Param.ОбъектДанных.Name=ObjectData

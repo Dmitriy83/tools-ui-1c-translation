@@ -1,6 +1,6 @@
 #Translations for: interface
 
-Command.КоличествоОбъектовВБазе.Synonym=Database object count [UI]
+Command.КоличествоОбъектовВБазе.Synonym=Object count in database [UI]
 Form.ФормаОтчета.Synonym=Report form
-Synonym=Database object count [UI]
+Synonym=Object count in database [UI]
 Template.ОсновнаяСхемаКомпоновкиДанных.Synonym=Main data composition schema
