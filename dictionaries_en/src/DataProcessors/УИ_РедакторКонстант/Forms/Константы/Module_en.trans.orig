@@ -1,0 +1,79 @@
+#Translations for: model
+
+Method.ЕстьИзмененныеКонстанты.Name=HasModifiedConstants
+Method.ЕстьИзмененныеКонстанты.Var.ЕстьИзменения.Name=HasChange
+Method.ЕстьИзмененныеКонстанты.Var.СтрокаКонстанты.Name=ConstantString
+Method.ЗаписатьНаСервере.Name=WriteOnServer
+Method.ЗаписатьНаСервере.Var.ВсеУспешно.Name=AllSuccessfully
+Method.ЗаписатьНаСервере.Var.МенеджерКонстанты.Name=ConstantManager
+Method.ЗаписатьНаСервере.Var.СтрокаКонстанты.Name=ConstantString
+Method.ЗаполнитьТаблицуКонстант.Comment.Заполним\ функциональные\ опции\ констант.Description=Fill the functional options of constants
+Method.ЗаполнитьТаблицуКонстант.Name=FillConstantsTable
+Method.ЗаполнитьТаблицуКонстант.Var.Константа.Name=Constant
+Method.ЗаполнитьТаблицуКонстант.Var.НайденныеСтроки.Name=FoundRows
+Method.ЗаполнитьТаблицуКонстант.Var.НоваяСтрока.Name=NewRow
+Method.ЗаполнитьТаблицуКонстант.Var.СтруктураПоиска.Name=SearchStructure
+Method.ЗаполнитьТаблицуКонстант.Var.ФОпция.Name=FOption
+Method.КонстантаПриИзменении.Name=ConstantOnChange
+Method.КонстантаПриИзменении.Param.СтрокаКонстанты.Name=ConstantString
+Method.ОбработатьПоискКонстант.Name=ProcessSearchConstants
+Method.ОбработатьПоискКонстант.String.Найдено.Key=Found
+Method.ОбработатьПоискКонстант.Var.ОтборСтрок.Name=FilterRows
+Method.ОбработатьПоискКонстант.Var.Поиск.Name=Search
+Method.ОбработатьПоискКонстант.Var.ТекСтрокаКонстанты.Name=CurConstantString
+Method.Перечитать.String.Word.Есть.Key=Has
+Method.Перечитать.String.Word.Произвести.Key=Perform
+Method.Перечитать.String.Word.запись.Key=record
+Method.Перечитать.String.Word.измененные.Key=changed
+Method.Перечитать.String.Word.перед.Key=before
+Method.Перечитать.String.Word.чтением.Key=reading
+Method.ПеречитатьЗаверешение.Name=RereadCompletion
+Method.ПеречитатьЗаверешение.Param.ДополнительныеПараметры.Name=AdditionalParameters
+Method.ПеречитатьЗаверешение.Param.Результат.Name=Result
+Method.Подключаемый_ВыполнитьОбщуюКомандуИнструментов.Name=Pluggable_ExecuteCommonCommandTools
+Method.Подключаемый_ВыполнитьОбщуюКомандуИнструментов.Param.Команда.Name=Command
+Method.Подключаемый_НастроитьПараметрыЗаписи.Description=@skip-warning
+Method.Подключаемый_НастроитьПараметрыЗаписи.Name=Pluggable_ConfigureRecordParameters
+Method.Подключаемый_НастроитьПараметрыЗаписи.Param.Команда.Name=Command
+Method.ПрочитатьКонстанты.Name=ReadConstants
+Method.ТаблицаКонстантЗначениеКонстантыНачалоВыбора.String.ТекСтрока.Key=CurString
+<<<<<<< HEAD
+Method.ТаблицаКонстантЗначениеКонстантыНачалоВыбора.Var.ПараметрыОбработчика.Name=ParametersHandler
+Method.ТаблицаКонстантЗначениеКонстантыНачалоВыбора.Var.ПараметрыОбработчика.String.ЗначениеКонстанты.Key=ConstantValue
+Method.ТаблицаКонстантЗначениеКонстантыНачалоВыбора.Var.ПараметрыОповещения.Name=ParametersNotification
+=======
+Method.ТаблицаКонстантЗначениеКонстантыНачалоВыбора.Var.ПараметрыОбработчика.Name=HandlerParameters
+Method.ТаблицаКонстантЗначениеКонстантыНачалоВыбора.Var.ПараметрыОбработчика.String.ЗначениеКонстанты.Key=ConstantValue
+Method.ТаблицаКонстантЗначениеКонстантыНачалоВыбора.Var.ПараметрыОповещения.Name=NotificationParameters
+>>>>>>> master
+Method.ТаблицаКонстантЗначениеКонстантыНачалоВыбора.Var.ТекДанные.Name=CurData
+Method.ТаблицаКонстантЗначениеКонстантыНачалоВыбораЗавершение.Name=TableConstantsConstantValueStartChoiceCompletion
+Method.ТаблицаКонстантЗначениеКонстантыНачалоВыбораЗавершение.Param.ДополнительныеПараметры.Name=AdditionalParameters
+Method.ТаблицаКонстантЗначениеКонстантыНачалоВыбораЗавершение.Param.Результат.Name=Result
+Method.ТаблицаКонстантЗначениеКонстантыНачалоВыбораЗавершение.Var.ТекДанные.Name=CurData
+<<<<<<< HEAD
+Method.ТаблицаКонстантЗначениеКонстантыОчистка.Var.ПараметрыОбработчика.Name=ParametersHandler
+=======
+Method.ТаблицаКонстантЗначениеКонстантыОчистка.Var.ПараметрыОбработчика.Name=HandlerParameters
+>>>>>>> master
+Method.ТаблицаКонстантЗначениеКонстантыОчистка.Var.ПараметрыОбработчика.String.ЗначениеКонстанты.Key=ConstantValue
+Method.ТаблицаКонстантЗначениеКонстантыОчистка.Var.ТекДанные.Name=CurData
+Method.ТаблицаКонстантЗначениеКонстантыПриИзменении.Var.ТекДанные.Name=CurData
+Method.УстановитьУсловноеОформлениеФормы.Comment.Выделять\ цветом\ измененные\ константы.Description=Highlight modified constants with color
+Method.УстановитьУсловноеОформлениеФормы.Name=SetConditionalAppearanceForm
+Method.УстановитьУсловноеОформлениеФормы.String.Изменено.Key=Changed
+<<<<<<< HEAD
+Method.УстановитьУсловноеОформлениеФормы.String.ТаблицаКонстант.Key=ConstantsTable
+Method.УстановитьУсловноеОформлениеФормы.Var.НовыйЭлементОформления.Name=NewItemAppearance
+=======
+Method.УстановитьУсловноеОформлениеФормы.String.ТаблицаКонстант.Key=TableConstants
+Method.УстановитьУсловноеОформлениеФормы.Var.НовыйЭлементОформления.Name=NewAppearanceItem
+>>>>>>> master
+Method.УстановитьУсловноеОформлениеФормы.Var.ОформляемоеПоле.Name=FormattedField
+Method.УстановитьУсловноеОформлениеФормы.Var.ОформляемоеПоле.String.ТаблицаКонстант.Key=ConstantsTable
+Region.ОбработчикиСобытийФормы.Name=FormEventHandlers
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.Name=FormHeaderItemsEventHandlers
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.ОбработчикиСобытийЭлементовТаблицыФормыТаблицаКонстант.Name=FormTableItemsEventHandlersTableConstants
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.ОбработчикиСобытийЭлементовТаблицыФормыТаблицаКонстант.ОбработчикиКомандФормы.Name=FormCommandsEventHandlers
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.ОбработчикиСобытийЭлементовТаблицыФормыТаблицаКонстант.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Comment.Заполним\ функциональные\ опции\ констант.Description=Fill the functional options of constants
+Region.ОбработчикиСобытийФормы.ОбработчикиСобытийЭлементовШапкиФормы.ОбработчикиСобытийЭлементовТаблицыФормыТаблицаКонстант.ОбработчикиКомандФормы.СлужебныеПроцедурыИФункции.Name=Private
